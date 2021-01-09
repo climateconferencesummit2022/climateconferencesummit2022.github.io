@@ -328,5 +328,9 @@ body{
 }
 
 .servicestable td{
+  padding: 10vh;
+}
+
+.servicestable tr{
   padding: 5vh;
 }

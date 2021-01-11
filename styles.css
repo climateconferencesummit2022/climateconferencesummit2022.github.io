@@ -394,15 +394,15 @@ body{
 
 .columns {
   float: left;
-  width: 30%;
+  width: 28%;
   padding: 25px;
-  
-  
+
 }
 
 .price {
   list-style-type: none;
   border: 1px solid #eee;
+  border-radius: 25px;
   margin: 0;
   padding: 0;
   -webkit-transition: 0.3s;
@@ -416,7 +416,7 @@ body{
 
 .price .header {
   background-color: white;
-  color: black;
+  color: #ffb638;
   
 
   font-weight: 700;
@@ -427,14 +427,20 @@ body{
 
 }
 
-.price li {
-  padding: 20px;
+.price .price-info {
+  padding-top: 50px;
   text-align: left;
+  margin-left:30px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #707070;
   
+  font-size: 15px;
+ 
 }
 
 .price .smallprice {
   border-bottom: 1px solid #eee; 
+  margin-left: 20px;
 }
 
 .mini {

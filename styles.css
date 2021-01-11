@@ -387,7 +387,7 @@ body{
 
 .pricing {
   box-sizing: border-box;
-  margin-left: 80px;
+  margin-left: 180px;
   font-family: 'Rubik', sans-serif;
   
 }
@@ -430,17 +430,17 @@ body{
 .price .price-info {
   padding-top: 50px;
   text-align: left;
-  margin-left:30px;
+  margin-left:45px;
   font-family: 'Noto Sans', sans-serif;
   color: #707070;
-  
   font-size: 15px;
  
 }
 
 .price .smallprice {
   border-bottom: 1px solid #eee; 
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-top:15px;
 }
 
 .mini {
@@ -455,11 +455,16 @@ body{
 }
 
 .button {
-  background-color: white;
+  background-color: #fff2de;
   border: none;
-  color: white;
-  padding: 10px 25px;
+  color: #ffb33d;
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 5px;
+  padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
+  margin-top:40px;
+  margin-bottom:30px;
+  margin-left:80px;
 }

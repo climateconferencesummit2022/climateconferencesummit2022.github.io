@@ -388,12 +388,13 @@ body{
 .pricing {
   box-sizing: border-box;
   margin-left: 80px;
+  font-family: 'Rubik', sans-serif;
   
 }
 
 .columns {
   float: left;
-  width: 32%;
+  width: 30%;
   padding: 25px;
   
   
@@ -416,21 +417,31 @@ body{
 .price .header {
   background-color: white;
   color: black;
-  font-size: 25px;
+  
+  font-size: 40px;
+  font-weight: 700;
   letter-spacing: 2px;
   font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.price li {
+.price .smallprice {
   border-bottom: 1px solid #eee;
   padding: 20px;
   text-align: center;
   
 }
 
+.mini {
+  font-size: 15px;
+  color:#c2c2c2;
+  
+}
 .price .grey {
-  background-color: white;
-  font-size: 20px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .button {

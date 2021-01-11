@@ -387,11 +387,11 @@ body{
 
 
 .rounded-lg {
-  border-radius: 1rem !important;
+  border-radius: 1rem;
 }
 
 .text-small {
-  font-size: 0.9rem !important;
+  font-size: 0.9rem;
 }
 
 .custom-separator {

@@ -418,19 +418,23 @@ body{
   background-color: white;
   color: black;
   
-  font-size: 40px;
+
   font-weight: 700;
   letter-spacing: 2px;
-  font-size: 15px;
-  text-align: center;
-  padding-top: 20px;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 25px;
+
+}
+
+.price li {
+  padding: 20px;
+  text-align: left;
+  
 }
 
 .price .smallprice {
-  border-bottom: 1px solid #eee;
-  padding: 20px;
-  text-align: center;
-  
+  border-bottom: 1px solid #eee; 
 }
 
 .mini {
@@ -439,9 +443,9 @@ body{
   
 }
 .price .grey {
-  font-size: 40px;
-  text-align: center;
-  margin-top: 20px;
+  font-size: 60px;
+  text-align: left;
+  margin-top: 10px;
 }
 
 .button {

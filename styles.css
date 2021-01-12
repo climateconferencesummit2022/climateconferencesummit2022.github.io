@@ -585,62 +585,67 @@ body{
       Accordion Content
 ================================================== */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #34495e;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
 
 .accordion {
-  max-width: 400px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  overflow: hidden;
-  font-family: "Quicksand", sans-serif;
-  background: #009578;
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
 }
-
-.accordion__label,
-.accordion__content {
-  padding: 14px 20px;
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
 }
-
-.accordion__label {
-  display: block;
-  color: #ffffff;
-  font-weight: 500;
-  cursor: pointer;
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
   position: relative;
-  transition: background 0.1s;
+  cursor: pointer;
 }
-
-.accordion__label:hover {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.accordion__label::after {
-  content: "";
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 20px;
-  width: 12px;
-  height: 6px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
-  background-size: contain;
-  transition: transform 0.4s;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
 }
 
-.accordion__content {
-  background: #ffffff;
-  line-height: 1.6;
-  font-size: 0.85em;
-  display: none;
-}
-
-.accordion__input {
-  display: none;
-}
-
-.accordion__input:checked ~ .accordion__content {
-  display: block;
-}
-
-.accordion__input:checked ~ .accordion__label::after {
-  transform: translateY(-50%) rotate(0.5turn);
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
 }

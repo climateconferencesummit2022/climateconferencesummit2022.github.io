@@ -7,10 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="styles.css">
 <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    
+    <script>
+const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+
+accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeader.addEventListener("click", event => {
+    
+    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+    
+    // const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+    // if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+    //   currentlyActiveAccordionItemHeader.classList.toggle("active");
+    //   currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    // }
+
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    }
+    else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+    
+  });
+});
+</script>
+    
+    
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
+  
+  
   <body>
     <nav class="navbar navbar-expand-lg nav-back fixed-top"
     id="mainNav">
@@ -362,6 +394,10 @@ information informatino information</p>
 </div>
  
 
+    
+    
+    
+    
     
   </body>
 

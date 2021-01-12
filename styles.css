@@ -589,12 +589,9 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin-top: 100px;
 }
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #34495e;
-  color: #fff;
-}
+
 h1 {
   text-align: center;
   margin: 2rem 0;
@@ -613,7 +610,7 @@ h1 {
   border-radius: 0.5rem;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
 }
-.accordion-item-header {
+.accordion-head{
   padding: 0.5rem 3rem 0.5rem 1rem;
   min-height: 3.5rem;
   line-height: 1.25rem;
@@ -623,21 +620,21 @@ h1 {
   position: relative;
   cursor: pointer;
 }
-.accordion-item-header::after {
+.accordion-head::after {
   content: "\002B";
   font-size: 2rem;
   position: absolute;
   right: 1rem;
 }
-.accordion-item-header.active::after {
+.accordionhead.active::after {
   content: "\2212";
 }
-.accordion-item-body {
+.accordion-body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-.accordion-item-body-content {
+.accordion-content {
   padding: 1rem;
   line-height: 1.5rem;
   border-top: 1px solid;

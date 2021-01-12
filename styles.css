@@ -662,7 +662,8 @@ h1 {
 
 #videoitem{
   background-color: #fcfcfc;
-  padding-top: 100px;
+  margin-left: 100px;
+ 
 }
 
 #video-blurb{
@@ -672,6 +673,7 @@ h1 {
 #video-blurb h2{
   font-family: 'Rubik', sans-serif;
   font-size: 40px;
+  font-weight: 600;
 }
 
 #video-blurb p{
@@ -679,6 +681,7 @@ h1 {
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 20px;
+  line-height:35px;
   font-family: 'Noto Sans', sans-serif;
 } 
 
@@ -690,14 +693,14 @@ h1 {
   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.25);
   width: 50%;
   max-width: 1000px;
-  margin: 50px;
+  margin: 25px;
 }
 
-#left2 img{
-  width: 60%;
-  margin-left: 1000px;
+#video-vid iframe{
+  
+  margin-right: 00px;
   position: relative; 
-  top: -400px;
+ 
   
 }
 
@@ -718,7 +721,7 @@ h1 {
 .video-table td h1 {
   font-family: 'Rubik', sans-serif;
   line-height: 1em;
-  color: #333333;
+  color: #eda318;
   font-size: 17px;
   letter-spacing: 1px;
 
@@ -726,7 +729,7 @@ h1 {
 
 
 .video-table img{
-  width: 80px;
+  width: 75px;
   margin-bottom:30px;
 }
 

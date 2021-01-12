@@ -662,8 +662,8 @@ h1 {
 
 #videoitem{
   background-color: #fcfcfc;
-  margin-left: 100px;
- 
+  margin-left: 120px;
+  margin-top: 15px;
 }
 
 #video-blurb{
@@ -690,7 +690,6 @@ h1 {
 .video-table{
   background: white;
   border-radius: 14px;
-  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.25);
   width: 50%;
   max-width: 1000px;
   margin: 25px;
@@ -698,8 +697,10 @@ h1 {
 
 #video-vid iframe{
   
-  margin-right: 00px;
+ 
   position: relative; 
+  margin-left: -250px;
+  margin-top: 40px;
  
   
 }

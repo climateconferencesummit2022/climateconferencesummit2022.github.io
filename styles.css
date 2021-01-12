@@ -270,7 +270,7 @@ body{
   padding-top: 15vh;
 }
 
-#authentictext #smallblurb{
+#authentictext .smallblurb{
   letter-spacing: .2em;
   color: #eda137;
 }

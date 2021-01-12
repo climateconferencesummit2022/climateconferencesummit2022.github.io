@@ -686,7 +686,11 @@ h1 {
 
 .video-table{
   background: white;
-  border-radius: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.25);
+  width: 50%;
+  max-width: 1000px;
+  margin: 50px;
 }
 
 #left2 img{
@@ -699,38 +703,13 @@ h1 {
 
 
 
-@media (max-width: 1200px) {
-  h2::before{
-    content: none;
-  }
-
-  #left2{
-    display: none;
-  }
-
-  #authentictext{
-    padding-top: 40px;
-    text-align: center;
-  }
-
-}
-
-.video-table {
-  border-collapse: collapse;
-  width: 720px;
-  font-size: 0.9em;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-
-}
-
 
 .video-table td {
   padding: 24px 15px;
   font-family: 'Noto Sans', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
-  font-size: 15px;
+  font-size: 14px;
   
 
 }
@@ -740,14 +719,14 @@ h1 {
   font-family: 'Rubik', sans-serif;
   line-height: 1em;
   color: #333333;
-  font-size: 22px;
+  font-size: 17px;
   letter-spacing: 1px;
 
 }
 
 
-#video-item img{
-  width:70px;
+.video-table img{
+  width: 80px;
   margin-bottom:30px;
 }
 

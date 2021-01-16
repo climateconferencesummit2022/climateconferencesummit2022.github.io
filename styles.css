@@ -747,8 +747,9 @@ h1 {
 .svghead #one {
     position: absolute;
     z-index: -1;
-    transform: rotate(180deg);
+    
   margin-top: 395px;
+  transform: scaleY(-1);
   
 }
 

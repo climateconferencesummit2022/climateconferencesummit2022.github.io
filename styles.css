@@ -748,14 +748,14 @@ h1 {
     position: absolute;
     z-index: -1;
     
-  margin-top: 395px;
+  margin-top: 345.4px;
   transform: scaleY(-1);
   
 }
 
 .svghead h2{
   position: absolute;
-  padding-top: 400px;
+  padding-top: 470px;
   z-index:10;
   color: white;
   font-family: 'Rubik', sans-serif;

@@ -744,9 +744,12 @@ h1 {
       SVG Content
 ================================================== */
 
-.svghead svg {
+.svghead #one {
     position: absolute;
     z-index: -1;
+    transform: rotate(180deg);
+  margin-top: 395px;
+  
 }
 
 .svghead h2{
@@ -757,4 +760,6 @@ h1 {
   font-family: 'Rubik', sans-serif;
   font-size:45px;
   text-shadow: 2px 2px 20px #000000;
+  margin: auto;
+  margin-left: 200px;
 }

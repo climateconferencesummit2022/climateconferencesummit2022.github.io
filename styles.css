@@ -737,3 +737,24 @@ h1 {
   margin-bottom:30px;
 }
 
+
+
+
+/* ==================================================
+      SVG Content
+================================================== */
+
+.svghead svg {
+    position: absolute;
+    z-index: -1;
+}
+
+.svghead h2{
+  position: absolute;
+  padding-top: 400px;
+  z-index:10;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size:45px;
+  text-shadow: 2px 2px 20px #000000;
+}

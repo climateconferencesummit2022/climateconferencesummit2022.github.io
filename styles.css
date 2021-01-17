@@ -744,6 +744,10 @@ h1 {
       SVG Content
 ================================================== */
 
+.svghead{
+  background-color: #fcfcfc;
+}
+
 .svghead #one {
     position: absolute;
     z-index: -1;
@@ -771,11 +775,17 @@ h1 {
       Testimonials
 ================================================== */
 
-.container {
+.testimonials{
+  margin-top: 500px;
+  background-color: #fcfcfc;
+}
+
+.testimonials .container {
   width: 80%;
   margin:20px auto;
+  borde-radius: 20px;
 }
-.carousel {
+.testimonials .carousel {
   border: 2px solid #416be4;
   height: 400px;
   overflow: hidden;
@@ -784,36 +794,37 @@ h1 {
   background: #fff;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.slider {
+
+.testimonials .slider {
   display: flex;
   height: 100%;
   width: 400%;
 }
-.slider section {
+.testimonials .slider section {
   flex-basis: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
   font-size: 20px;
 }
-.left, .right {
+.testimonials .left, .right {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
 }
-.arrow i {
+.testimonials .arrow i {
   font-size: 70px;
   -webkit-user-select: none;
   color: #416be4;
 }
-.left {
+.testimonials .left {
   left: 10px;
 }
-.right {
+.testimonials .right {
   right: 10px;
 }
-.control ul {
+.testimonials .control ul {
   list-style: none;
   display: flex;
   position: absolute;
@@ -823,7 +834,7 @@ h1 {
   padding: 0;
   transform: translate(-50%);
 }
-.control ul li {
+.testimonials .control ul li {
   width: 10px;
   height: 10px;
   background: #333;
@@ -832,6 +843,6 @@ h1 {
   margin: 10px;
   cursor: pointer;
 }
-.control ul li.selected {
+.testimonials .control ul li.selected {
   background: transparent;
 }

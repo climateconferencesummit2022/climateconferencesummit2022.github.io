@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="script.js"></script>
+   
 
     
    
@@ -384,10 +384,27 @@ information informatino information</p>
     
   <!--- Testimonials ---->
     
-    <div class="sectionfortestimonials">
-
-   
+    <div class="testimonials">
+<div class="container">
+  <div class="carousel">
+    <div class="slider">
+      <section>Content for panel 1</section>
+      <section>Content for panel 2</section>
+      <section>Content for panel 3</section>
+      <section>Content for panel 4</section>
     </div>
+    <div class="control">
+      
+      <ul>
+        <li class="selected"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</div>
+      
     
     
     
@@ -484,6 +501,42 @@ information informatino information</p>
   });
 });
   
+  
+  
+  
+  
+  const left = document.querySelector('.left');
+const right = document.querySelector('.right');
+
+const slider = document.querySelector('.slider');
+
+const indicatorParent = document.querySelector('.control ul'); 
+const indicators = document.querySelectorAll('.control li');
+index = 0;
+
+indicators.forEach((indicator, i) => {
+  indicator.addEventListener('click', () => {
+    document.querySelector('.control .selected').classList.remove('selected');
+    indicator.classList.add('selected');
+    slider.style.transform = 'translateX(' + (i) * -25 + '%)';  
+    index = i;
+    
+  });
+});
+
+left.addEventListener('click', function() {
+  index = (index > 0) ? index -1 : 0;
+  document.querySelector('.control .selected').classList.remove('selected');
+  indicatorParent.children[index].classList.add('selected');
+  slider.style.transform = 'translateX(' + (index) * -25 + '%)';
+});
+
+right.addEventListener('click', function() {
+  index = (index < 4 - 1) ? index+1 : 3;
+  document.querySelector('.control .selected').classList.remove('selected');
+  indicatorParent.children[index].classList.add('selected');
+  slider.style.transform = 'translateX(' + (index) * -25 + '%)';
+});
 
   
 </script>

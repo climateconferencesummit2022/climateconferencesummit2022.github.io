@@ -771,88 +771,67 @@ h1 {
       Testimonials
 ================================================== */
 
-
-.sectionfortestimonials{
-  padding-top: 500px;
+.container {
+  width: 80%;
+  margin:20px auto;
 }
-
-.sectionfortestimonials .testimonials {
+.carousel {
+  border: 2px solid #416be4;
+  height: 400px;
   overflow: hidden;
   position: relative;
-  max-height: 300px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
-
-.sectionfortestimonials .testimonials {
-  background: #161d25;
+.slider {
+  display: flex;
+  height: 100%;
+  width: 400%;
 }
-
-
-.sectionfortestimonials .one-slide,
-.testimonial,
-.message {
-  border: none !important;
-  outline: none !important;
+.slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
 }
-
-
-.sectionfortestimonials .icon-overlay {
+.left, .right {
   position: absolute;
-  opacity: 0.3;
-  right: 10%;
-  top: 0;
-  height: auto;
-  width: 100%;
-  max-width: 400px;
-}
-
-
-.sectionfortestimonials .carousel-controls .control {
-  position: absolute;
+  top: 50%;
   transform: translateY(-50%);
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  z-index: 1;
+  cursor: pointer;
 }
-
-
-.sectionfortestimonials .prev {
-  left: -2.25rem;
+.arrow i {
+  font-size: 70px;
+  -webkit-user-select: none;
+  color: #416be4;
 }
-
-
-.sectionfortestimonials .next {
-  right: -2.25rem;
+.left {
+  left: 10px;
 }
-
-@media screen and (max-width: 768px) {
-  .testimonials {
-    max-height: 700px;
-  }
-  .icon-overlay {
-    height: 300px;
-    top: calc(50% - 150px);
-  }
-  .carousel-controls .control {
-    width: 25px;
-    height: 25px;
-    top: inherit;
-  }
-  .prev {
-    left: 0;
-  }
-  .next {
-    right: 0;
-  }
-  .control i {
-    font-size: .7rem;
-  }
-  .testimonials .message {
-    font-size: 1rem;
-  }
-  .testimonials h2 {
-    font-size: 1.5rem;
-  }
+.right {
+  right: 10px;
+}
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+.control ul li {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.control ul li.selected {
+  background: transparent;
 }

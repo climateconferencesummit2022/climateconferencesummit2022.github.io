@@ -778,21 +778,28 @@ h1 {
 .testimonials{
   margin-top: 500px;
   background-color: #fcfcfc;
+  
 }
 
 .testimonials .container {
   width: 80%;
   margin:20px auto;
-  borde-radius: 20px;
+
 }
 .testimonials .carousel {
-  border: 2px solid #416be4;
+
   height: 400px;
   overflow: hidden;
   position: relative;
-  border-radius: 5px;
+  border-radius: 25px;
   background: #fff;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+ box-shadow:
+  0 2.8px 2.2px rgba(242,242,242,1),
+  0 6.7px 5.3px rgba(242,242,242,1),
+  0 12.5px 10px rgba(242,242,242,1),
+  0 22.3px 17.9px rgba(242,242,242,1),
+  0 41.8px 33.4px rgba(242,242,242,1),
+  0 100px 80px rgba(242,242,242,1);
 }
 
 .testimonials .slider {

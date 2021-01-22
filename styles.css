@@ -178,6 +178,11 @@ body{
     color: #fff;
   }
 
+#hero span {
+    color: #1bf7ce;
+}
+
+
   #hero h2 {
     color: #eee;
     margin-bottom: 40px;
@@ -209,6 +214,112 @@ body{
     text-decoration: none;
     color:#fff;
   }
+
+
+
+
+
+/* ==================================================
+      Testimonials
+================================================== */
+
+.testimonials{
+  padding-top: 100px;
+  background-color: #fcfcfc;
+  
+}
+
+.testimonials .container {
+  width: 80%;
+  margin: 20px auto;
+
+}
+.testimonials .carousel {
+
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 25px;
+  background: #fff;
+ box-shadow:
+  0 2.8px 2.2px rgba(242,242,242,1),
+  0 6.7px 5.3px rgba(242,242,242,1),
+  0 12.5px 10px rgba(242,242,242,1),
+  0 22.3px 17.9px rgba(242,242,242,1),
+  0 41.8px 33.4px rgba(242,242,242,1),
+  0 100px 80px rgba(242,242,242,1);
+}
+
+.testimonials .slider {
+  display: flex;
+  height: 100%;
+  width: 400%;
+}
+
+.testimonials .slider h2 {
+  width: 60%;
+  text-align: center;
+  color: #28498a;
+  font-family: 'Rubik', sans-serif;
+}
+
+.testimonials .slider p {
+  width: 100%;
+  text-align: center;
+  color: #28498a;
+  font-family: 'Rubik', sans-serif;
+}
+
+.testimonials .slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+.testimonials .left, .right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.testimonials .arrow i {
+  font-size: 70px;
+  -webkit-user-select: none;
+  color: #416be4;
+}
+.testimonials .left {
+  left: 10px;
+}
+.testimonials .right {
+  right: 10px;
+}
+.testimonials .control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+.testimonials .control ul li {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.testimonials .control ul li.selected {
+  background: transparent;
+}
+
+
+
+
 
   /* ==================================================
     Services Section
@@ -859,101 +970,3 @@ h1 {
 }
 
 
-
-/* ==================================================
-      Testimonials
-================================================== */
-
-.testimonials{
-  margin-top: 500px;
-  background-color: #fcfcfc;
-  
-}
-
-.testimonials .container {
-  width: 80%;
-  margin:20px auto;
-
-}
-.testimonials .carousel {
-
-  height: 400px;
-  overflow: hidden;
-  position: relative;
-  border-radius: 25px;
-  background: #fff;
- box-shadow:
-  0 2.8px 2.2px rgba(242,242,242,1),
-  0 6.7px 5.3px rgba(242,242,242,1),
-  0 12.5px 10px rgba(242,242,242,1),
-  0 22.3px 17.9px rgba(242,242,242,1),
-  0 41.8px 33.4px rgba(242,242,242,1),
-  0 100px 80px rgba(242,242,242,1);
-}
-
-.testimonials .slider {
-  display: flex;
-  height: 100%;
-  width: 400%;
-}
-
-.testimonials .slider h2 {
-  width: 60%;
-  text-align: center;
-  color: #28498a;
-  font-family: 'Rubik', sans-serif;
-}
-
-.testimonials .slider p {
-  width: 100%;
-  text-align: center;
-  color: #28498a;
-  font-family: 'Rubik', sans-serif;
-}
-
-.testimonials .slider section {
-  flex-basis: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-size: 20px;
-}
-.testimonials .left, .right {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-.testimonials .arrow i {
-  font-size: 70px;
-  -webkit-user-select: none;
-  color: #416be4;
-}
-.testimonials .left {
-  left: 10px;
-}
-.testimonials .right {
-  right: 10px;
-}
-.testimonials .control ul {
-  list-style: none;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin: 0;
-  padding: 0;
-  transform: translate(-50%);
-}
-.testimonials .control ul li {
-  width: 10px;
-  height: 10px;
-  background: #333;
-  border: 2px solid #333;
-  border-radius: 50px;
-  margin: 10px;
-  cursor: pointer;
-}
-.testimonials .control ul li.selected {
-  background: transparent;
-}

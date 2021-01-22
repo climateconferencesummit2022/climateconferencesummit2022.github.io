@@ -14,6 +14,7 @@ body{
 .topnav {
   overflow: hidden;
   background-color: #333;
+  
 }
 
 .topnav a {
@@ -27,10 +28,6 @@ body{
   font-size: 17px;
 }
 
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
 .topnav .icon {
   display: none;
@@ -41,7 +38,9 @@ body{
   font-family: 'Rubik', sans-serif;
   overflow: hidden;
 }
-
+.logo{
+  float: left;
+}
 .dropdown .dropbtn {
   font-size: 17px;    
   border: none;

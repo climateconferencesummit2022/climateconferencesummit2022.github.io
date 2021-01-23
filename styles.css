@@ -351,6 +351,127 @@ body{
 
 
 
+/* ==================================================
+      Services Details Section
+================================================== */
+
+#servicedetails{
+  background-color: #fcfcfc;
+  padding-top: 15vh;
+}
+
+#authentictext .smallblurb{
+  letter-spacing: .2em;
+  color: #eda137;
+}
+
+#authentictext{
+  display: block;
+  text-align: center;
+
+  grid-area: content;
+  padding-left: 30vh;
+  padding-right: 10vh;
+  text-align: left;
+  align-self: center;
+
+}
+
+
+
+#authentictext h2{
+  padding-bottom: 10px;
+  font-weight:600;
+  font-family: 'Rubik', sans-serif;
+}
+
+#authentictext p{
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2em;
+  color: #6e6d6d;
+
+}
+
+#left img{
+  width: 100%;
+  margin-left: 0px;
+  padding-right: 70px;
+}
+
+
+@media (max-width: 1200px) {
+  h2::before{
+    content: none;
+  }
+
+  #left{
+    display: none;
+  }
+
+  #authentictext{
+    padding-top: 40px;
+    text-align: center;
+  }
+
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin-left: 300px;
+  width: 300px;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+
+}
+
+
+.content-table td {
+  padding: 20px 15px;
+
+}
+
+
+.content-table2 {
+  border-collapse: collapse;
+  margin-left: 60px;
+  width: 300px;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+
+.content-table2 td {
+  padding: 20px 15px;
+
+}
+
+.content-table3 {
+  border-collapse: collapse;
+  margin-left: 60px;
+  width: 300px;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+
+.content-table3 td {
+  padding: 20px 15px;
+
+}
+
+#tables{
+  padding-top: 50px;
+  margin-left: 130px;
+  margin-right: 50px;
+}
+
+#tables img{
+  width:80px;
+}
+
 
 
   /* ==================================================
@@ -493,126 +614,6 @@ body{
 
     }
 
-
-/* ==================================================
-      Services Details Section
-================================================== */
-
-#servicedetails{
-  background-color: #fcfcfc;
-  padding-top: 15vh;
-}
-
-#authentictext .smallblurb{
-  letter-spacing: .2em;
-  color: #eda137;
-}
-
-#authentictext{
-  display: block;
-  text-align: center;
-
-  grid-area: content;
-  padding-left: 30vh;
-  padding-right: 10vh;
-  text-align: left;
-  align-self: center;
-
-}
-
-
-
-#authentictext h2{
-  padding-bottom: 10px;
-  font-weight:600;
-  font-family: 'Rubik', sans-serif;
-}
-
-#authentictext p{
-  font-family: 'Noto Sans', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-
-}
-
-#left img{
-  width: 100%;
-  margin-left: 0px;
-}
-
-
-@media (max-width: 1200px) {
-  h2::before{
-    content: none;
-  }
-
-  #left{
-    display: none;
-  }
-
-  #authentictext{
-    padding-top: 40px;
-    text-align: center;
-  }
-
-}
-
-.content-table {
-  border-collapse: collapse;
-  margin-left: 300px;
-  width: 300px;
-  font-size: 0.9em;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-
-}
-
-
-.content-table td {
-  padding: 20px 15px;
-
-}
-
-
-.content-table2 {
-  border-collapse: collapse;
-  margin-left: 60px;
-  width: 300px;
-  font-size: 0.9em;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-}
-
-
-.content-table2 td {
-  padding: 20px 15px;
-
-}
-
-.content-table3 {
-  border-collapse: collapse;
-  margin-left: 60px;
-  width: 300px;
-  font-size: 0.9em;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-}
-
-
-.content-table3 td {
-  padding: 20px 15px;
-
-}
-
-#tables{
-  padding-top: 50px;
-  margin-left: 130px;
-  margin-right: 50px;
-}
-
-#tables img{
-  width:80px;
-}
 
 
 /* ==================================================

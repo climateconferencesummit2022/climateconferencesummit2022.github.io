@@ -303,6 +303,7 @@ body{
 
 .content-table td {
   padding: 20px 15px;
+  
 
 }
 
@@ -461,4 +462,31 @@ body{
 
 #tables img{
   width:80px;
+}
+
+
+/* ==================================================
+      Video Info Section
+================================================== */
+
+.video-info{
+  align-items: center;
+  display: block;
+  text-align: center;
+}
+
+.video-info p{
+  width: 50%;
+   margin: auto;
+
+  padding: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2em;
+  color: #6e6d6d;
+}
+
+.video-info h1{
+   padding-bottom: 10px;
+  font-weight:600;
+  font-family: 'Rubik', sans-serif;
 }

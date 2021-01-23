@@ -237,7 +237,8 @@ body{
 
 #servicedetails{
   background-color: #fcfcfc;
-  padding-top: -300px;
+  margin-top: -70px;
+  padding-left: 2vh;
 }
 
 #authentictext .smallblurb{
@@ -250,7 +251,7 @@ body{
   text-align: center;
 
   grid-area: content;
-  padding-left: 30vh;
+  padding-left: 40vh;
   padding-right: 10vh;
   text-align: left;
   align-self: center;
@@ -269,6 +270,7 @@ body{
   font-family: 'Noto Sans', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
+  width: 70%;
 }
 
 
@@ -336,7 +338,7 @@ body{
 }
 
 #tables{
-  padding-top: 50px;
+  padding-top: 10px;
   margin-left: 130px;
   margin-right: 50px;
 }

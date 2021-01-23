@@ -27,6 +27,7 @@ body{
   padding: 14px 16px;
   font-family: 'Rubik', sans-serif;
   text-decoration: none;
+  
   font-size: 17px;
 }
 
@@ -132,14 +133,14 @@ body{
     background: url("https://www.heart.org/-/media/images/news/2020/may-2020/0504coronavirushospitalsafety_sc.jpg") center center;
     background-size: cover;
     position: relative;
+
   }
 
   #hero .container {
     padding-top: 80px;
   }
 
-
-.custom-shape-divider-bottom-1611373180 {
+.custom-shape-divider-bottom-1611374207 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -149,14 +150,14 @@ body{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1611373180 svg {
+.custom-shape-divider-bottom-1611374207 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 199px;
+    height: 259px;
 }
 
-.custom-shape-divider-bottom-1611373180 .shape-fill {
+.custom-shape-divider-bottom-1611374207 .shape-fill {
     fill: #FCFCFC;
 }
 

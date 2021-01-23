@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Rubik', sans-serif;
+  background-color: #fcfcfc;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -350,6 +351,114 @@ body{
 }
 
 
+
+/* ==================================================
+      Services Double Column Section
+================================================== */
+
+#doubleservices{
+  background-color: #fcfcfc;
+  margin-top: 400px;
+}
+
+#authentictext2 .smallblurb{
+  letter-spacing: .2em;
+  color: #eda137;
+}
+
+#authentictext2{
+  display: block;
+  text-align: center;
+
+  grid-area: content;
+  padding-left: 30vh;
+  padding-right: 10vh;
+  text-align: left;
+  align-self: center;
+
+}
+
+#authentictext2 h2{
+  padding-bottom: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  color: #333333;
+}
+
+#authentictext2 p{
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2em;
+  color: #6e6d6d;
+
+}
+
+#left2 img{
+  width: 60%;
+  margin-left: 1000px;
+  position: relative; 
+  top: -400px;
+  
+}
+
+
+
+@media (max-width: 1200px) {
+  h2::before{
+    content: none;
+  }
+
+  #left2{
+    display: none;
+  }
+
+  #authentictext{
+    padding-top: 40px;
+    text-align: center;
+  }
+
+}
+
+.content-table4 {
+  border-collapse: collapse;
+  width: 650px;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+
+}
+
+
+.content-table4 td {
+  padding: 24px 15px;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2em;
+  color: #6e6d6d;
+  font-size: 15px;
+  
+
+}
+
+
+.content-table4 td h1 {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1em;
+  color: #333333;
+  font-size: 22px;
+  letter-spacing: 1px;
+
+}
+
+
+#tablesinfo{
+  padding-top: 10px;
+  margin-left: -20px;
+
+}
+
+#tablesinfo img{
+  width:70px;
+  margin-bottom:30px;
+}
 
 /* ==================================================
       Services Details Section
@@ -705,113 +814,6 @@ body{
 }
 
 
-/* ==================================================
-      Services Double Column Section
-================================================== */
-
-#doubleservices{
-  background-color: #fcfcfc;
-  padding-top: 100px;
-}
-
-#authentictext2 .smallblurb{
-  letter-spacing: .2em;
-  color: #eda137;
-}
-
-#authentictext2{
-  display: block;
-  text-align: center;
-
-  grid-area: content;
-  padding-left: 30vh;
-  padding-right: 10vh;
-  text-align: left;
-  align-self: center;
-
-}
-
-#authentictext2 h2{
-  padding-bottom: 10px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 40px;
-  color: #333333;
-}
-
-#authentictext2 p{
-  font-family: 'Noto Sans', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-
-}
-
-#left2 img{
-  width: 60%;
-  margin-left: 1000px;
-  position: relative; 
-  top: -400px;
-  
-}
-
-
-
-@media (max-width: 1200px) {
-  h2::before{
-    content: none;
-  }
-
-  #left2{
-    display: none;
-  }
-
-  #authentictext{
-    padding-top: 40px;
-    text-align: center;
-  }
-
-}
-
-.content-table4 {
-  border-collapse: collapse;
-  width: 650px;
-  font-size: 0.9em;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-
-}
-
-
-.content-table4 td {
-  padding: 24px 15px;
-  font-family: 'Noto Sans', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-  font-size: 15px;
-  
-
-}
-
-
-.content-table4 td h1 {
-  font-family: 'Rubik', sans-serif;
-  line-height: 1em;
-  color: #333333;
-  font-size: 22px;
-  letter-spacing: 1px;
-
-}
-
-
-#tablesinfo{
-  padding-top: 10px;
-  margin-left: -20px;
-
-}
-
-#tablesinfo img{
-  width:70px;
-  margin-bottom:30px;
-}
 
 
 

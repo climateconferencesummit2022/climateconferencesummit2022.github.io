@@ -140,6 +140,12 @@ body{
     padding-top: 80px;
   }
 
+#hero img{
+  width: 50%;
+  z-index: 99;
+  margin-top: 100px;
+}
+
 .custom-shape-divider-bottom-1611374207 {
     position: absolute;
     bottom: 0;

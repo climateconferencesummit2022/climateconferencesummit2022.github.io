@@ -130,21 +130,21 @@ body{
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("https://www.heart.org/-/media/images/news/2020/may-2020/0504coronavirushospitalsafety_sc.jpg") center center;
+    background: url("https://i.pinimg.com/originals/c6/12/b2/c612b2bd31ebb6c57ecb2c3cab0a2bd6.jpg") center center;
     background-size: cover;
     position: relative;
 
   }
 
   #hero .container {
-    padding-top: 80px;
+    padding-top: 10px;
   }
 
 #hero img{
   width: 50%;
   z-index: 99;
   margin-top: 400px;
-  margin-top: 400px;
+  margin-right: 50px;
 }
 
 .custom-shape-divider-bottom-1611374207 {
@@ -170,7 +170,7 @@ body{
 
   #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+
     position: absolute;
     bottom: 0;
     top: 0;

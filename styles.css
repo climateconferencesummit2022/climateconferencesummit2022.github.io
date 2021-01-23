@@ -253,6 +253,13 @@ body{
       font-family: 'Rubik', sans-serif;
     }
 
+.test-btn:hover {
+    background: #3b92e3;
+    border: 2px solid #3b92e3;
+    text-decoration: none;
+    color: white;
+  }
+
 .testimonials .container {
   width: 80%;
   margin: 20px auto;

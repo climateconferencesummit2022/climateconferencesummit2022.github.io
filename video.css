@@ -140,11 +140,15 @@ body{
     padding-top: 10px;
   }
 
+#hero .video-head{
+  margin-bottom: 70px;
+  margin-left: 80px;
+}
 #hero img{
   width: 50%;
   z-index: 99;
-  margin-top: 400px;
-  margin-right: 50px;
+  margin-top: 450px;
+
 }
 
 .custom-shape-divider-bottom-1611374207 {

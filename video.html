@@ -21,11 +21,12 @@
   
   <body>
     
+    
  <nav>  
 <div class="topnav" id="myTopnav">
   <a href="#home">Contact</a>
-  <a href="#news">Blog</a>
-  <a href="#contact">Pricing</a>
+  <a href="blog.html">Blog</a>
+  <a href="pricing.html">Pricing</a>
   
   <div class="logo">
     
@@ -40,17 +41,29 @@
      
     <div class="dropdown-content">
       <a href="video.html">Video Service</a>
-      <a href="#">Scheduling</a>
-      <a href="#">Automatic Messaging</a>
-      <a href="#">Medical Record Database</a>
-      <a href="#">Direct Chat Line</a>
-      <a href="#">Access to Analytics</a>
+      <a href="schedule.html">Scheduling</a>
+      <a href="message.html">Automatic Messaging</a>
+      <a href="database.html">Medical Record Database</a>
+      <a href="chat.html">Direct Chat Line</a>
+      <a href="analytic.html">Access to Analytics</a>
     </div>
   </div> 
   <a href="#about">About</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 </nav>   
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+   
 
 <script>
 function myFunction() {

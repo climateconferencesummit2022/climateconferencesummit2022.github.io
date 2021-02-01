@@ -135,7 +135,7 @@ body{
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FScreen%20Shot%202021-01-30%20at%2010.27.18%20PM.png?v=1612067250930") center center;
+    background: url("https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2Funnamed.jpg?v=1612137489174") center center;
     background-size: cover;
     position: relative;
 
@@ -194,7 +194,7 @@ body{
     line-height: 56px;
     font-family: 'Rubik', sans-serif;
     font-weight: 200;
-    color: #fff;
+    color: #24262b;
   }
 
 #hero span {
@@ -203,7 +203,7 @@ body{
 
 
   #hero h2 {
-    color: #eee;
+    color: #24262b;
     margin-bottom: 40px;
     font-size: 15px;
     font-weight: 500;
@@ -223,8 +223,8 @@ body{
     border-radius: 50px;
     transition: 0.5s;
     margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #24262b;
+    color: #24262b;
   }
 
    .main-btn:hover {

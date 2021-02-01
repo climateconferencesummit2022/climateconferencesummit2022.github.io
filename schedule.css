@@ -142,7 +142,8 @@ body{
 
 #hero .video-head{
   padding-bottom: 70px;
-  margin-left: 80px;
+  margin-left: 650px;
+  text-align:right;
 }
 #hero img{
   width: 50%;

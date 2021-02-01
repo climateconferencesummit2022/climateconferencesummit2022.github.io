@@ -346,9 +346,10 @@ body{
   background-color: #fcfcfc;
 }
 
-h1 {
+h2 {
   text-align: center;
-  margin: 2rem 0;
+  margin: 5rem 0;
+  
   font-size: 2.5rem;
 }
 
@@ -372,7 +373,7 @@ h1 {
   display: flex;
   border-radius: 0.5rem;
   align-items: center;
-  background-color: #e6e1df;
+  background-color: #e6fff9;
   position: relative;
   cursor: pointer;
 }
@@ -380,9 +381,18 @@ h1 {
   content: "\002B";
   font-size: 2rem;
   position: absolute;
-  color: #e3e3e3;
+  color: #8debd5;
   right: 1rem;
 }
+
+.smallblurb{
+  letter-spacing: .2em;
+  color: #eda137;
+  left: 45%;
+  margin-bottom: 10px;
+  position: absolute;
+}
+
 .accordionhead.active::after {
   content: "\2212";
 }

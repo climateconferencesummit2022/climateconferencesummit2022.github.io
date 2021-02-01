@@ -142,13 +142,14 @@ body{
 
 #hero .video-head{
   padding-bottom: 70px;
-  margin-left: 650px;
+  margin-left: 40px;
   text-align:right;
 }
 #hero img{
-  width: 50%;
-  z-index: 99;
-  margin-top: 450px;
+  width: 25%;
+  margin-left: 50px;
+  z-index: 999;
+  margin-top: 280px;
 
 }
 

@@ -506,3 +506,8 @@ ul{
     width: 100%;
 }
 }
+
+#image-vid img{
+  width: 100%;
+  padding-top: 70px;
+}

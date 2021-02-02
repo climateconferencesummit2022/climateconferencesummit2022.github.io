@@ -129,7 +129,7 @@ body{
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background: url("https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FScreen%20Shot%202021-01-30%20at%2010.27.18%20PM.png?v=1612067250930") center center;
     background-size: cover;
     position: relative;

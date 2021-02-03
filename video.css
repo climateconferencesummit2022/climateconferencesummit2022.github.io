@@ -25,7 +25,7 @@ body{
   --container-color: #FFFFFF;
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Rubik', sans-serif;
   --biggest-font-size: 2.25rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -223,9 +223,15 @@ html{
 
 
 /*========== HOME ==========*/
+
+.home{
+  background-color: #fcfcfc;
+  
+}
 .home__container{
   height: calc(100vh - var(--header-height));
   align-content: center;
+  
 }
 
 .home__title{
@@ -492,7 +498,7 @@ html{
 
 #servicedetails{
   background-color: #fcfcfc;
-  margin-top: -70px;
+  margin-top: -40px;
   padding-left: 2vh;
 }
 
@@ -610,8 +616,14 @@ html{
 
 #servicedetails{
   background-color: #fcfcfc;
-  padding-top: 20px;
+  padding-top: -20px;
 }
+#left img{
+  width: 100%;
+  margin-left: 0px;
+  padding-right: 70px;
+}
+
 
 #authentictext .smallblurb{
   letter-spacing: .2em;
@@ -782,6 +794,8 @@ html{
 
     .services{
     	width:100%;
+      margin-top: -140px;
+      margin-bottom: -140px;
     	height: 100vh;
     	display: flex;
     	flex-direction: column;

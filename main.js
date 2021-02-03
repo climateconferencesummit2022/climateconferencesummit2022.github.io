@@ -1,6 +1,3 @@
-
-
-
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
     origin: 'top',
@@ -9,6 +6,6 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal(`.home__data, .home__img`, {
+sr.reveal(`.home__data, #maintitle, .home__img`, {
     interval: 200
 })

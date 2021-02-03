@@ -248,7 +248,6 @@ html{
   color: var(--title-color);
   font-family: 'Rubik', sans-serif;
   margin-bottom: var(--mb-4);
-
 }
 
 .home__img{
@@ -510,6 +509,10 @@ html{
   padding-left: 2vh;
 }
 
+#authentictext .smallblurb{
+  letter-spacing: .2em;
+  color: #eda137;
+}
 
 #authentictext{
   display: block;
@@ -1030,138 +1033,42 @@ ul{
 }
 
 
-
-
-/* ==================================================
-      Video Information Section
-================================================== */
-
-.videoinfo{
-  background-color: #fcfcfc;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-#videoitem{
-  background-color: #fcfcfc;
-  margin-left: 120px;
-  margin-top: 15px;
-}
-
-.video-blurb{
-  text-align: center;
-}
-
-.video-blurb h2{
-  font-family: 'Rubik', sans-serif;
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.video-blurb p{
-  font-size: 17px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 20px;
-  line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
-} 
-
-
-
-.video-table{
-  background: white;
-  
-  border-radius: 14px;
-
-  width: 50%;
-  max-width: 1000px;
-  margin: 25px;
-}
-
-#video-vid iframe{
-  
- 
-  position: relative; 
-  margin-left: -250px;
-  margin-top: 40px;
-  border-radius: 14px;
- 
-  
-}
-
-
-
-
-.video-table td {
-  padding: 24px 15px;
-  font-family: 'Noto Sans', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-  font-size: 14px;
-  
-
-}
-
-
-.video-table td h1 {
-  font-family: 'Rubik', sans-serif;
-  line-height: 1em;
-  color: #eda318;
-  font-size: 17px;
-  letter-spacing: 1px;
-
-}
-
-
-.video-table img{
-  width: 75px;
-  margin-bottom:30px;
-}
-
-
-
-
-
 /* ==================================================
       Accordion Content
 ================================================== */
 
 .accordion1 {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  padding-top: 40px;
-  background-color: #fcfcfc;
+  margin-top: 100px;
 }
 
-h2 {
+h1 {
   text-align: center;
-  margin: 5rem 0;
-  
+  margin: 2rem 0;
   font-size: 2.5rem;
 }
 
 .accordion {
   width: 50%;
   max-width: 1000px;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 .accordion-item {
   background-color: #fff;
   color: #111;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   border-radius: 0.5rem;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
 }
 .accordion-head{
-  padding: 1.5rem 5rem 1.5rem 1rem;
+  padding: 0.5rem 3rem 0.5rem 1rem;
   min-height: 3.5rem;
   line-height: 1.25rem;
   font-weight: bold;
   display: flex;
-  border-radius: 0.5rem;
   align-items: center;
-  background-color: #e6fff9;
   position: relative;
   cursor: pointer;
 }
@@ -1169,18 +1076,8 @@ h2 {
   content: "\002B";
   font-size: 2rem;
   position: absolute;
-  color: #8debd5;
   right: 1rem;
 }
-
-.smallblurb{
-  letter-spacing: .2em;
-  color: #eda137;
-  left: 45%;
-  margin-bottom: 10px;
-  position: absolute;
-}
-
 .accordionhead.active::after {
   content: "\2212";
 }
@@ -1192,7 +1089,8 @@ h2 {
 .accordion-content {
   padding: 1rem;
   line-height: 1.5rem;
-
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
 }
 
 @media(max-width:767px) {
@@ -1200,3 +1098,7 @@ h2 {
     font-size: 14px;
   }
 }
+
+
+
+

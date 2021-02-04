@@ -578,7 +578,12 @@ ul{
 
 
 
+    @media(max-width:1050px){
+      .columns{
+        
+      }
 
+    }
 
 
 

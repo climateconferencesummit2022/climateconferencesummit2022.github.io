@@ -576,8 +576,10 @@ ul{
 
     .services{
     	width:100%;
-    	height: 130vh;
+    	height: 180vh;
     	display: flex;
+      padding-top: 200px;
+      padding-bottom: 200px;
     	flex-direction: column;
       background-color: #fcfcfc;
     	justify-content: space-evenly;
@@ -585,6 +587,7 @@ ul{
     }
     .s-heading{
     	text-align:center;
+      padding-bottom: 150px;
     }
     .s-heading h1{
     	color: #333436;

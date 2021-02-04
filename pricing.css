@@ -494,8 +494,8 @@ ul{
 .header2{
   color: #ffb638;
   list-style-type: none;
-
-  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
   letter-spacing: 2px;
   font-size: 20px;
   text-align: left;
@@ -508,6 +508,7 @@ ul{
   list-style-type: none;
   text-align: left;
   margin-top: 10px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .price-info2{
@@ -530,11 +531,13 @@ ul{
 .price .smallprice {
   border-bottom: 1px solid #eee; 
   margin-left: 30px;
+  font-family: 'Rubik', sans-serif;
   margin-top:15px;
 }
 
 .mini2 {
   font-size: 15px;
+  font-family: 'Noto Sans', sans-serif;
   color:#c2c2c2;
   
 }
@@ -542,6 +545,7 @@ ul{
   font-size: 60px;
   text-align: left;
   margin-top: 10px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -650,6 +654,7 @@ ul{
     	border-radius: 20px;
     	border:.15em solid #3b92e3;
     	display: flex;
+      margin-left: 43%;
     	justify-content: center;
     	align-items: center;
     	color: #3b92e3;
@@ -698,10 +703,11 @@ ul{
     		height: auto;
     	}
     	.s-heading{
-    		margin: 15px;
+    		margin: 30px;
     	}
     	.s-box{
     		flex-grow: 1;
+        margin: 100px;
     	}
 
     }

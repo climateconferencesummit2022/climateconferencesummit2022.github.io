@@ -533,6 +533,30 @@ ul{
 
 }
 
+.header2{
+  color: #ffb638;
+  list-style-type: none;
+
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 25px;
+}
+
+
+.grey2{
+  font-size: 60px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.mini2 {
+  font-size: 15px;
+  color:#c2c2c2;
+  
+}
+
 .price .price-info {
   padding-top: 50px;
   text-align: left;

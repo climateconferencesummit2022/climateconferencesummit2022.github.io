@@ -1074,14 +1074,25 @@ ul{
   max-width: 1000px;
   margin: 25px;
 }
+#video-vid {
+  
+ 
+  position: relative; 
+  padding-bottom: 25% ;
+  height:0;
+
+  
+}
 
 #video-vid iframe{
   
  
-  position: relative; 
-  margin-left: 50%;
-  margin-top: 40px;
-  border-radius: 14px;
+  position: absolute; 
+  top: 0;
+  left 0;
+  
+  width:100%;
+  
   
   
  

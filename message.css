@@ -1135,7 +1135,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
       border-radius: 10px;
 
-  background-color:#fffaed;
+  
     margin: 50px auto;
     padding: 25px;
 }
@@ -1153,9 +1153,9 @@ h1 {
 
 .mytabs .tab {
     width: 100%;
-    padding: 20px;
-  
-    background: #fff;
+    padding: 40px;
+  margin-top: -20px;
+  background: #fff;
     border-radius: 10px;
     order: 1;
     display: none;
@@ -1172,4 +1172,22 @@ h1 {
 .mytabs input[type="radio"]:checked + label {
     background: #fff;
     cursor: pointer;
+}
+
+
+
+
+
+
+/* ==================================================
+      Tabs
+================================================== */
+
+.textinfo{
+  background-color: #fcfcfc;
+}
+
+.textinfo h2{
+  margin-left: 50%:
+    
 }

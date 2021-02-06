@@ -1045,7 +1045,7 @@ ul{
 }
 
 .video-blurb{
-  text-align: left;
+  text-align: center;
 }
 
 .video-blurb h2{
@@ -1056,10 +1056,10 @@ ul{
 
 .video-blurb p{
   font-size: 17px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 20px;
-  line-height:35px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1.5em;
+  line-height:2em;
   font-family: 'Noto Sans', sans-serif;
 } 
 
@@ -1079,7 +1079,7 @@ ul{
   
  
   position: relative; 
-  margin-left: -250px;
+  margin-left: auto;
   margin-top: 40px;
   border-radius: 14px;
  

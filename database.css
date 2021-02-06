@@ -225,7 +225,7 @@ html{
 /*========== HOME ==========*/
 
 .home{
-  background-color: #fcfcfc;
+  background-color: white;
   
 }
 .home__container{
@@ -1146,20 +1146,84 @@ ul{
 
 
 
-/* Start About Area */ 
 
-.site-main .about-area{
-    padding: 8rem 5rem;
+
+/* ==================================================
+      Tabs
+================================================== */
+
+
+
+.tabs {
+    background: #fcfcfc;
+    font-family: 'Rubik', sans-serif;
+}
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+  line-height: 36px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 25px;
 }
 
-.site-main .about-area .about-title h2 > span{
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    background: #fff5d9;
+    color:#ffc375;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 40px;
+  margin-top: -20px;
+  background: #fff;
+    border-radius: 10px;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
-    letter-spacing: 21px;
+  cursor: pointer;
 }
 
-.site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+    cursor: pointer;
 }
 
-/* End About Area */ 
+
+
+.custom-shape-divider-bottom-1612574898 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1612574898 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 125px;
+}
+
+.custom-shape-divider-bottom-1612574898 .shape-fill {
+    fill: #FCFCFC;
+}

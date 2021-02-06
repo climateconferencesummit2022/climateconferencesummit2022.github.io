@@ -743,13 +743,32 @@ html{
       Video Info Section
 ================================================== */
 
-.video-info{
+.videoinfo{
   align-items: center;
   display: block;
   text-align: center;
   background-color: #fcfcfc;
   padding-top: 150px;
+
 }
+
+.video-blurb h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
+}
+
+.video-blurb p{
+  font-size: 17px;
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
 
 .video-info p{
   width: 50%;
@@ -1041,7 +1060,7 @@ ul{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 h1 {
@@ -1078,9 +1097,7 @@ h1 {
   position: absolute;
   right: 1rem;
 }
-.accordionhead.active::after {
-  content: "\2212";
-}
+
 .accordion-body {
   max-height: 0;
   overflow: hidden;
@@ -1089,8 +1106,6 @@ h1 {
 .accordion-content {
   padding: 1rem;
   line-height: 1.5rem;
-  border-top: 1px solid;
-  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
 }
 
 @media(max-width:767px) {
@@ -1103,10 +1118,15 @@ h1 {
 
 
 
+/* ==================================================
+      Tabs
+================================================== */
 
-.dw {
-    background: #ccc;
-    font-family: 'Roboto', sans-serif;
+
+
+.tabs {
+    background: #fcfcfc;
+    font-family: 'Rubik', sans-serif;
 }
 .mytabs {
     display: flex;

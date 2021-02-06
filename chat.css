@@ -1252,3 +1252,51 @@ ul{
 .custom-shape-divider-bottom-1612574977 .shape-fill {
     fill: #FCFCFC;
 }
+
+
+
+/* ==================================================
+      Text Info
+================================================== */
+
+.textinfo{
+  background-color: #fcfcfc;
+  padding-top: 200px;
+}
+
+#lefttext h2{
+  margin-left: 20%;
+    
+}
+
+
+#lefttext p{
+  width: 70%;
+    
+}
+
+
+#lefttext h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
+}
+
+#lefttext p{
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+#rightimage{
+ text-align:center;
+}
+
+

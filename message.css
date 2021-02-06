@@ -1131,7 +1131,11 @@ h1 {
 .mytabs {
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
+    max-width: 1000px;
+    font-family: 'Rubik', sans-serif;
+      border-radius: 10px;
+
+  background-color:#fffaed;
     margin: 50px auto;
     padding: 25px;
 }
@@ -1140,14 +1144,19 @@ h1 {
 }
 .mytabs label {
     padding: 25px;
-    background: #e2e2e2;
+    background: #fff5d9;
+    color:#ffc375;
     font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .mytabs .tab {
     width: 100%;
     padding: 20px;
+  
     background: #fff;
+    border-radius: 10px;
     order: 1;
     display: none;
 }
@@ -1157,8 +1166,10 @@ h1 {
 
 .mytabs input[type='radio']:checked + label + .tab {
     display: block;
+  cursor: pointer;
 }
 
 .mytabs input[type="radio"]:checked + label {
     background: #fff;
+    cursor: pointer;
 }

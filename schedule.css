@@ -1079,9 +1079,11 @@ ul{
   
  
   position: relative; 
-  margin-left: auto;
+  margin-left: 50%;
   margin-top: 40px;
   border-radius: 14px;
+  
+  
  
   
 }

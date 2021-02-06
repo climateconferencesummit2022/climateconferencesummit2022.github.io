@@ -1133,12 +1133,12 @@ h1 {
     flex-wrap: wrap;
     max-width: 1000px;
     font-family: 'Rubik', sans-serif;
-      border-radius: 10px;
-
-  
-    margin: 50px auto;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 25px;
 }
+
 .mytabs input[type="radio"] {
     display: none;
 }
@@ -1185,9 +1185,40 @@ h1 {
 
 .textinfo{
   background-color: #fcfcfc;
+  padding-top: 90px;
 }
 
-.textinfo h2{
-  margin-left: 50%:
+#lefttext h2{
+  margin-left: 20%;
     
+}
+
+
+#lefttext p{
+  width: 70%;
+    
+}
+
+
+#lefttext h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
+}
+
+#lefttext p{
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+#rightimage{
+  margin-left: 50%;
 }

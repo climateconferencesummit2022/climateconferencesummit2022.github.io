@@ -989,6 +989,7 @@ h1 {
 
 .svghead{
   background-color: #fcfcfc;
+  
 }
 
 .svghead #one {
@@ -1001,7 +1002,7 @@ h1 {
 }
 
 .svghead h2{
-  position: absolute;
+  
   padding-top: 470px;
   z-index:10;
   color: white;
@@ -1010,6 +1011,7 @@ h1 {
   text-shadow: 2px 2px 20px #000000;
   margin: auto;
   margin-left: 200px;
+  text-align: center;
 }
 
 

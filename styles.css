@@ -298,6 +298,7 @@ body{
 .testimonials .slider h2 {
   width: 60%;
   text-align: center;
+  padding-bottom: 40px;
   color: #28498a;
   font-family: 'Rubik', sans-serif;
 }

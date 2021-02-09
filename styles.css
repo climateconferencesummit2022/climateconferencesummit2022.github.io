@@ -8,6 +8,11 @@ body{
   font-family: 'Rubik', sans-serif;
   background-color: #fcfcfc;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -232,6 +237,7 @@ body{
 .testimonials{
   padding-top: 100px;
   background-color: #fcfcfc;
+  margin-bottom: -5vw;
   
 }
 
@@ -365,7 +371,7 @@ body{
 
 #doubleservices{
   background-color: #fcfcfc;
-  margin-top: 400px;
+  padding-top: 200px;
 }
 
 #authentictext2 .smallblurb{
@@ -996,7 +1002,8 @@ h1 {
     position: absolute;
     z-index: -1;
     
-  margin-top: 341px;
+ 
+  margin-top: 15%;
   transform: scaleY(-1);
   
 }
@@ -1004,18 +1011,24 @@ h1 {
 .svghead h2{
   position: absolute;
   
-  padding-top: 470px;
+  padding-top: 32%;
   z-index:10;
   color: white;
   font-family: 'Rubik', sans-serif;
-  font-size:45px;
+  font-size:3vw;
   text-shadow: 2px 2px 20px #000000;
   margin: auto;
-  margin-left: 200px;
+  margin-left: 20%;
   
 }
 
 
+@media screen and (max-width: 1000px) {
+  .svghead {
+    display: none;
+  }
+  
+}
 
 
 

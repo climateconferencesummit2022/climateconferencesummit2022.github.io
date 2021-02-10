@@ -235,9 +235,9 @@ html {
 ================================================== */
 
 .testimonials{
-  padding-top: 20vh;
+  padding-top: 2vh;
   background-color: #28498a;
-  margin-bottom: -5vh;
+  padding-bottom: 20vh;
   
 }
 
@@ -246,7 +246,7 @@ html {
   
     }
     .test-heading h1{
-    	color: #333436;
+    	color: #fcfcfc;
     	font-size: 3rem;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
@@ -269,6 +269,7 @@ html {
     background: #3b92e3;
     border: 2px solid #3b92e3;
     text-decoration: none;
+  transition: all ease 0.3s;
     color: white;
   }
 
@@ -287,12 +288,12 @@ html {
   border-radius: 25px;
   background: #fff;
  box-shadow:
-  0 2.8px 2.2px rgba(242,242,242,1),
-  0 6.7px 5.3px rgba(242,242,242,1),
-  0 12.5px 10px rgba(242,242,242,1),
-  0 22.3px 17.9px rgba(242,242,242,1),
-  0 41.8px 33.4px rgba(242,242,242,1),
-  0 100px 80px rgba(242,242,242,1);
+  0 2.8px 2.2px rgba(35, 63, 120),
+  0 6.7px 5.3px rgba(35, 63, 120),
+  0 12.5px 10px rgba(35, 63, 120),
+  0 22.3px 17.9px rgba(35, 63, 120),
+  0 41.8px 33.4px rgba(35, 63, 120),
+  0 100px 80px rgba(35, 63, 120);
 }
 
 .testimonials .slider {
@@ -507,6 +508,7 @@ html {
     background: #3b92e3;
     border: 2px solid #3b92e3;
     text-decoration: none;
+  transition: all ease 0.3s;
     color: white;
   }
 
@@ -531,7 +533,7 @@ html {
 
 #servicedetails{
   background-color: #fcfcfc;
-
+  padding-bottom: 20vh;
 }
 
 #authentictext .smallblurb{
@@ -1311,9 +1313,9 @@ ul{
     padding: 8px 28px;
     border-radius: 50px;
     transition: 0.5s;
-    border: 2px solid black;
+    border: 2px solid #333436;
   background-color: white;
-    color: black;
+    color: #333436;
 
 }
 

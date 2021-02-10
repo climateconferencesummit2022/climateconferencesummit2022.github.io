@@ -237,7 +237,7 @@ html {
 .testimonials{
   padding-top: 2vh;
   background-color: #28498a;
-  padding-bottom: 20vh;
+  padding-bottom: 18vh;
   
 }
 
@@ -322,6 +322,10 @@ html {
   0 22.3px 17.9px rgba(35, 63, 120),
   0 41.8px 33.4px rgba(35, 63, 120),
   0 100px 80px rgba(35, 63, 120);
+}
+
+.carousel section{
+  padding-top: 50px;
 }
 
 .testimonials .slider {
@@ -515,7 +519,8 @@ html {
 .test2-heading{
     	text-align:center;
   background-color: #fcfcfc;
-  margin-top: -5vh;
+  margin-top: -3vh;
+  padding-top:5vh;
   
   
     }

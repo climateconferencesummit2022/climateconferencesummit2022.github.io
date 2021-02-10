@@ -487,7 +487,7 @@ html {
     	font-size: 3rem;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
-    	margin-top: .3vh;
+    	padding-top: .3vh;
       padding-bottom: 30px;
      
       
@@ -521,7 +521,11 @@ html {
       color: #6e6d6d;
     	text-align: center;
     }
-
+.smallblurb1{
+  letter-spacing: .2em;
+  color: #eda137;
+  text-align: center;
+}
 
 
 #servicedetails{
@@ -664,6 +668,7 @@ html {
     	font-size: 3rem;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
+      
     	margin-top: .3vh;
     }
     .s-heading p{
@@ -724,11 +729,10 @@ html {
     .s-btn{
     	width: 140px;
     	height: 40px;
+      text-align: center;
     	border-radius: 20px;
     	border:.15em solid #3b92e3;
     	display: flex;
-    	justify-content: center;
-    	align-items: center;
     	color: #3b92e3;
     	margin-top:10px;
       font-family: 'Rubik', sans-serif;
@@ -1377,9 +1381,7 @@ input[type="checkbox"]{
     	font-size: 3rem;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
-    	padding-top: .3vh;
-      padding-bottom: 4vh;
-      
+ 
     }
 
 

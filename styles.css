@@ -658,8 +658,8 @@ html {
     	width:100%;
     	height: 160vh;
     	display: flex;
-      padding-bottom: 50vh;
-      padding-top: 30vh;
+      padding-bottom: 15vh;
+      padding-top: 10vh;
     	flex-direction: column;
       background-color: #fcfcfc;
     	justify-content: space-evenly;
@@ -673,14 +673,14 @@ html {
     	font-size: 3rem;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
-      
     	margin-top: .3vh;
     }
     .s-heading p{
     	color: #333436;
     	font-size: 1rem;
       font-family: 'Rubik', sans-serif;
-    	margin-top: 2em;
+    	margin-bottom: 2em;
+      margin-top: 1em;
       margin-left: 20em;
       margin-right: 20em;
       line-height: 2em;
@@ -691,7 +691,7 @@ html {
     	width:100%;
     	display: flex;
     	justify-content: center;
-      padding-top: 40vh;
+     
     	align-items: center;
     }
     .s-box{
@@ -716,7 +716,6 @@ html {
     .s-box h1{
     	color: #333436;
     	font-size: 1.5rem;
-    	margin-bottom: 8px;
       text-align: left;
       font-family: 'Rubik', sans-serif;
 
@@ -727,8 +726,7 @@ html {
       font-family: 'Noto Sans', sans-serif;
       line-height: 2em;
       color: #6e6d6d;
-
-      margin-top: 1em;
+      margin-bottom: 2vh;
       font-size: .9em;
     }
 
@@ -1220,7 +1218,6 @@ ul{
   height: 370px;
   width: 95%;
   max-width: 850px;
-  margin: auto;
   border-radius: 25px;
   background: white;
   box-shadow: 0px 10px 50px rgba(240, 240, 240);
@@ -1421,4 +1418,29 @@ input[type="checkbox"]{
 
 .svgpart{
   background-color: #28498a;
+}
+
+
+
+
+
+.custom-shape-divider-top-1612921150 {
+    position: relative;
+    top: 0;
+  background-color: #fcfcfc;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1612921150 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1612921150 .shape-fill {
+    fill: #28498a;
 }

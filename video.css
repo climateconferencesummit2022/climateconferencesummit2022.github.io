@@ -1108,11 +1108,28 @@ ul{
    #authentictext2 p{
       font-size: 2em; 
    }
+  
 
 }
 
+@media (max-width: 300px) {
+  
+  .doubleservices{
+    padding-bottom: 500px;
+  }
+  
+
+}
+
+
+
+
 #left2 img{
-  width: 100%;
+  width: 60%;
+  margin-left: 1000px;
+  position: relative; 
+  top: -400px;
+  
 }
 
 

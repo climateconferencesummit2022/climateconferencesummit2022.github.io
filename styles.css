@@ -895,7 +895,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding-top: 30vh;
+  padding-top: -100vh;
   background-color: #fcfcfc;
 }
 
@@ -908,7 +908,7 @@ h1 {
 .accordion {
   width: 50%;
   max-width: 1000px;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 .accordion-item {
   background-color: #fff;
@@ -921,7 +921,7 @@ h1 {
   padding: 0.5rem 3rem 0.5rem 1rem;
   min-height: 3.5rem;
   line-height: 1.25rem;
-  font-weight: bold;
+ font-weight: 500;
   display: flex;
   align-items: center;
   position: relative;
@@ -1097,6 +1097,7 @@ h1 {
 .container{
 	max-width: 1170px;
 	margin:auto;
+  
 }
 .row{
 	display: flex;
@@ -1104,6 +1105,10 @@ h1 {
 }
 ul{
 	list-style: none;
+}
+
+.bottomfooter{
+  background-color: #fcfcfc;
 }
 .footer{
 	background-color: #24262b;
@@ -1204,6 +1209,7 @@ ul{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin-bottom: -40vh;
 }
 .blogcards{
   display: flex;
@@ -1288,7 +1294,7 @@ font-family: 'Noto Sans', sans-serif;
   display: block;
   color: #6e6d6d;
   margin-bottom: 15px;
-  
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 500
 }

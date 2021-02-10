@@ -676,7 +676,7 @@ html {
     	margin-top: .3vh;
     }
     .s-heading p{
-    	color: #333436;
+   
     	font-size: 1rem;
       font-family: 'Rubik', sans-serif;
     	margin-bottom: 2em;
@@ -1210,13 +1210,15 @@ ul{
   align-items: center;
   justify-content: center;
   height: 130vh;
-   font-family: 'Rubik', sans-serif;
+font-family: 'Noto Sans', sans-serif;
   background: #fcfcfc;
 }
 .blog-card{
   position: absolute;
-  height: 370px;
+  height: 390px;
+  margin-top: -25vh;
   width: 95%;
+  font-family: 'Noto Sans', sans-serif;
   max-width: 850px;
   border-radius: 25px;
   background: white;
@@ -1229,6 +1231,7 @@ ul{
   align-items: center;
   justify-content: center;
   padding: 0 25px;
+  font-family: 'Noto Sans', sans-serif;
 }
 #imgTap:checked ~ .inner-part {
   padding: 0;
@@ -1242,7 +1245,7 @@ ul{
   border-radius: 20px;
 }
 #imgTap:checked ~ .inner-part .img{
-  height: 370px;
+  height: 390px;
   width: 850px;
   z-index: 99;
   margin-top: 10px;
@@ -1268,6 +1271,7 @@ ul{
   margin-left: 50px;
   opacity: 0;
   transition: .6s;
+  font-family: 'Noto Sans', sans-serif;
 }
 #imgTap:checked ~ .inner-part .content{
   display: none;
@@ -1282,20 +1286,23 @@ ul{
 }
 .content span{
   display: block;
-  color: #7b7992;
+  color: #6e6d6d;
   margin-bottom: 15px;
+  
   font-size: 22px;
   font-weight: 500
 }
 .content .title{
   font-size: 30px;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
-  color: #0d0925;
+  color: #333436;
   margin-bottom: 20px;
 }
 .content .text{
   color: #4e4a67;
   font-size: 19px;
+  font-family: 'Noto Sans', sans-serif;
   margin-bottom: 30px;
   line-height: 1.5em;
   text-align: justify;
@@ -1382,6 +1389,7 @@ input[type="checkbox"]{
     .test1-heading h1{
     	color: #333436;
     	font-size: 3rem;
+      padding-bottom: .7em;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
  

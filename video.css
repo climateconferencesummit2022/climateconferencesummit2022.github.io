@@ -941,17 +941,25 @@ html{
 
 
 
+
+
 /* ==================================================
       Footer
 ================================================== */
-.bottomfooter{
-  background-color: #fcfcfc;
-}
+
 .container{
 	max-width: 1170px;
 	margin:auto;
-  
+
+
 }
+
+#s{
+  background-color: #fcfcfc;
+  margin-bottom: -1vh;
+}
+
+
 .row{
 	display: flex;
 	flex-wrap: wrap;
@@ -959,9 +967,13 @@ html{
 ul{
 	list-style: none;
 }
+
+.bottomfooter{
+  background-color: #fcfcfc;
+}
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
+  padding: 70px 0;
 }
 .footer-col{
    width: 25%;
@@ -1030,4 +1042,130 @@ ul{
   .footer-col{
     width: 100%;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================
+      Services Double Column Section
+================================================== */
+
+#doubleservices{
+  background-color: #fcfcfc;
+  padding-top: 0vh;
+}
+
+#authentictext2 .smallblurb{
+  letter-spacing: .2em;
+  color: #eda137;
+}
+
+#authentictext2{
+  display: block;
+  text-align: center;
+
+  grid-area: content;
+  padding-left: 30vh;
+  padding-right: 10vh;
+  text-align: left;
+  align-self: center;
+
+}
+
+#authentictext2 h2{
+  padding-bottom: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  color: #333333;
+}
+
+#authentictext2 p{
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2em;
+  color: #6e6d6d;
+
+}
+
+#left2 img{
+  width: 60%;
+  margin-left: 1000px;
+  position: relative; 
+  top: -400px;
+  
+}
+
+
+
+@media (max-width: 1200px) {
+  h2::before{
+    content: none;
+  }
+
+  #left2{
+    display: none;
+  }
+
+  #authentictext{
+    padding-top: 40px;
+    text-align: center;
+  }
+
+}
+
+.content-table4 {
+  border-collapse: collapse;
+  width: 650px;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+
+}
+
+
+.content-table4 td {
+  padding: 24px 15px;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2em;
+  color: #6e6d6d;
+  font-size: 15px;
+  
+
+}
+
+
+.content-table4 td h1 {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1em;
+  color: #333333;
+  font-size: 22px;
+  letter-spacing: 1px;
+
+}
+
+
+#tablesinfo{
+  padding-top: 2vh;
+  margin-left: -20px;
+
+}
+
+#tablesinfo img{
+  width:70px;
+  margin-bottom:30px;
 }

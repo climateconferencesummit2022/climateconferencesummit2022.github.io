@@ -1153,14 +1153,19 @@ ul{
   font-family: 'Noto Sans', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
-  font-size: 1em;
+  font-size: 17px;
   
 
 }
 
-.content-table4 tr{
-width: 20px;
+@media screen and (max-width: 700px) {
+  
+  #tablesinfo table{
+    width:80vw;
 }
+}
+
+
 .content-table4 td h1 {
   font-family: 'Rubik', sans-serif;
   line-height: 1em;

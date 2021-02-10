@@ -896,7 +896,8 @@ html {
   padding: 0;
   box-sizing: border-box;
   padding-top: -100vh;
-  background-color: #fcfcfc;
+  padding-bottom: 10vh;
+  background-color: #28498a;
 }
 
 h1 {
@@ -912,6 +913,7 @@ h1 {
 }
 .accordion-item {
   background-color: #fff;
+  z-index: 500;
   color: #111;
   margin: 1rem 0;
   border-radius: 0.5rem;
@@ -1112,7 +1114,7 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
+  padding: 70px 0;
 }
 .footer-col{
    width: 25%;
@@ -1200,7 +1202,7 @@ ul{
 
 
 /* ==================================================
-      Footer
+      Blog Cards
 ================================================== */
 
 
@@ -1389,7 +1391,7 @@ input[type="checkbox"]{
 
 .test1-heading{
     	text-align:center;
-  background-color: #fcfcfc;
+  
   
     }
     .test1-heading h1{
@@ -1457,4 +1459,29 @@ input[type="checkbox"]{
 
 .custom-shape-divider-top-1612921150 .shape-fill {
     fill: #28498a;
+}
+
+
+
+
+
+.custom-shape-divider-top-1612923488 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1612923488 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1612923488 .shape-fill {
+    fill: black;
 }

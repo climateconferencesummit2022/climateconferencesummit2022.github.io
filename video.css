@@ -1103,7 +1103,7 @@ ul{
 
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
   
    #authentictext2 p{
       font-size: 2em; 
@@ -1152,7 +1152,7 @@ ul{
   font-family: 'Noto Sans', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
-  font-size: 15px;
+  font-size: 2em;
   
 
 }
@@ -1162,7 +1162,7 @@ ul{
   font-family: 'Rubik', sans-serif;
   line-height: 1em;
   color: #333333;
-  font-size: 22px;
+  font-size: 2em;
   letter-spacing: 1px;
 
 }

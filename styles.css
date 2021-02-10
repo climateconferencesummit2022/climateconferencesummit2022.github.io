@@ -904,6 +904,7 @@ h1 {
   text-align: center;
   margin: 2rem 0;
   font-size: 2.5rem;
+
 }
 
 .accordion {
@@ -1211,7 +1212,7 @@ ul{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-bottom: -40vh;
+  margin-bottom: -50vh;
 }
 .blogcards{
   display: flex;
@@ -1389,12 +1390,13 @@ input[type="checkbox"]{
 
 
 
-.test1-heading{
+.test2-heading{
     	text-align:center;
+  background-color: #fcfcfc;
   
   
     }
-    .test1-heading h1{
+    .test2-heading h1{
     	color: #333436;
     	font-size: 3rem;
       padding-bottom: .7em;
@@ -1483,5 +1485,15 @@ input[type="checkbox"]{
 }
 
 .custom-shape-divider-top-1612923488 .shape-fill {
-    fill: black;
+    fill: #fcfcfc;
+}
+
+.faqsvg{
+  background-color:#28498a;
+  padding-bottom: 5vh;
+}
+
+#s{
+  background-color: #28498a;
+  margin-bottom: -1vh;
 }

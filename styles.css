@@ -1155,7 +1155,7 @@ ul{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
   background: #fcfcfc;
 }
 .blog-card{
@@ -1257,15 +1257,13 @@ ul{
     border-radius: 50px;
     transition: 0.5s;
     margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid black;
+    color: black;
+    background-color: white; 
 
 }
 
-
-
-
-   .content:hover {
+   .content button:hover {
     background: #11dbcf;
     border: 2px solid #11dbcf;
     text-decoration: none;
@@ -1295,6 +1293,8 @@ ul{
 .sliders .tap:hover{
   background: #cccccc;
 }
+
+
 .sliders .tap:before{
   position: absolute;
   content: '';
@@ -1302,12 +1302,13 @@ ul{
   left: 0;
   height: 100%;
   width: -100%;
-  background: linear-gradient(147deg,#f6b323 0%, #f23b26 74%);
+  background: linear-gradient(147deg,#002bdc88 0%, #32ded488 74%);
   border-radius: 10px;
   transform: scaleX(0);
   transition: transform .6s;
   transform-origin: left;
 }
+
 input[type="radio"],
 input[type="checkbox"]{
   display: none;
@@ -1318,3 +1319,6 @@ input[type="checkbox"]{
   transform: scaleX(1);
   width: 100%;
 }
+
+
+

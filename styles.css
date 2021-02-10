@@ -236,7 +236,7 @@ html {
 
 .testimonials{
   padding-top: 20vh;
-  background-color: #fcfcfc;
+  background-color: #28498a;
   margin-bottom: -5vh;
   
 }
@@ -489,7 +489,6 @@ html {
     	font-size: 3rem;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
-      padding-bottom: 30px;
      
       
     }
@@ -515,9 +514,8 @@ html {
     	color: #333436;
     	font-size: 1rem;
       font-family: 'Rubik', sans-serif;
-    	margin-top: 2em;
-      margin-left: 20em;
-      margin-right: 20em;
+    	margin-top: 1em;
+      margin-bottom: 2em;
       line-height: 2em;
       color: #6e6d6d;
     	text-align: center;
@@ -533,7 +531,7 @@ html {
 
 #servicedetails{
   background-color: #fcfcfc;
-  padding-top: 15vh;
+
 }
 
 #authentictext .smallblurb{
@@ -1391,3 +1389,34 @@ input[type="checkbox"]{
     }
 
 
+
+
+
+.custom-shape-divider-top-1612919939 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1612919939 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    padding-top: 5vh;
+
+
+}
+
+.custom-shape-divider-top-1612919939 .shape-fill {
+    fill: #fcfcfc;
+}
+
+
+.svgpart{
+  background-color: #28498a;
+}

@@ -463,7 +463,7 @@ html {
 
 
 #tablesinfo{
-  padding-top: 10px;
+  padding-top: 2vh;
   margin-left: -20px;
 
 }
@@ -476,6 +476,53 @@ html {
 /* ==================================================
       Services Details Section
 ================================================== */
+
+.test2-heading{
+    	text-align:center;
+  background-color: #fcfcfc;
+  
+    }
+    .test2-heading h1{
+    	color: #333436;
+    	font-size: 3rem;
+      font-family: 'Rubik', sans-serif;
+    	letter-spacing: 1px;
+    	margin-top: .3vh;
+      padding-bottom: 30px;
+     
+      
+    }
+
+    .test2-btn{
+    
+    	border-radius: 20px;
+      margin-bottom: .3vh;
+    	border:.15em solid #3b92e3;
+      padding: 10px 70px;
+    	color: #3b92e3;
+      font-family: 'Rubik', sans-serif;
+    }
+
+.test2-btn:hover {
+    background: #3b92e3;
+    border: 2px solid #3b92e3;
+    text-decoration: none;
+    color: white;
+  }
+
+.test2-heading p{
+    	color: #333436;
+    	font-size: 1rem;
+      font-family: 'Rubik', sans-serif;
+    	margin-top: 2em;
+      margin-left: 20em;
+      margin-right: 20em;
+      line-height: 2em;
+      color: #6e6d6d;
+    	text-align: center;
+    }
+
+
 
 #servicedetails{
   background-color: #fcfcfc;

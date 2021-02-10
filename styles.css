@@ -273,6 +273,34 @@ html {
     color: white;
   }
 
+
+
+   .test1-btn{
+    
+      
+    	border-radius: 20px;
+      margin-bottom: .3vh;
+    	border:.15em solid #3b92e3;
+      padding: 10px 70px;
+    	color: #3b92e3;
+     margin-left: 45%;
+   
+      font-family: 'Rubik', sans-serif;
+    }
+
+.test1-btn:hover {
+    background: #3b92e3;
+    border: 2px solid #3b92e3;
+    text-decoration: none;
+  transition: all ease 0.3s;
+    color: white;
+  }
+
+#btn{
+  padding-top:2em;
+  
+}
+
 .testimonials .container {
   width: 80%;
   
@@ -482,7 +510,7 @@ html {
     	text-align:center;
   background-color: #fcfcfc;
   margin-top: -5vh;
-  padding-top: 20vh;
+  
   
     }
 .test2-heading h1{
@@ -936,6 +964,8 @@ h1 {
   position: absolute;
   right: 1rem;
 }
+
+
 
 .accordion-body {
   max-height: 0;
@@ -1436,6 +1466,7 @@ input[type="checkbox"]{
 
 .svgpart{
   background-color: #28498a;
+  margin-top:-2vh;
 }
 
 

@@ -509,9 +509,12 @@ html{
   padding-left: 2vh;
 }
 
-#authentictext .smallblurb{
-  letter-spacing: .2em;
+#doubleservices .smallblurb{
+  letter-spacing: 3px;
   color: #eda137;
+  padding-left: 25vh;
+  font-family: 'Rubik', sans-serif;
+
 }
 
 #authentictext{
@@ -1089,7 +1092,7 @@ ul{
   text-align: center;
 
   grid-area: content;
-  padding-left: 170px;
+  padding-left: 12vw;
   text-align: left;
   align-self: center;
 
@@ -1097,10 +1100,12 @@ ul{
 
 #doubleservices h2{
   padding-bottom: 10px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 2em;
-  padding-left: 170px;
-  width: 1000px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.7em;
+  line-height: 1.7em;
+  padding-left: 12vw;
+  padding-right: 20vw;
+  width: 100vw;
   color: #333333;
 }
 

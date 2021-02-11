@@ -1269,6 +1269,8 @@ ul{
   padding: 0;
   box-sizing: border-box;
   margin-bottom: 40vh;
+  height: 50%;
+  width: 95%;
 }
 .blogcards{
   display: flex;
@@ -1277,12 +1279,13 @@ ul{
   margin-top: 310px;
 font-family: 'Noto Sans', sans-serif;
   background: #fcfcfc;
-  height: 80%;
+  height: 50%;
+  width: 95%;
 }
 .blog-card{
   position: absolute;
   width: 95%;
-  height: 80%;
+  height: 50%;
   font-family: 'Noto Sans', sans-serif;
   max-width: 850px;
   border-radius: 25px;
@@ -1293,11 +1296,11 @@ font-family: 'Noto Sans', sans-serif;
   position: absolute;
   display: flex;
   
-  height: 80%;
+  height: 0%;
   width: 95%;
-  align-items: center;
-  justify-content: center;
-  padding: 0 25px;
+  align-items: left;
+  justify-content: left;
+  
   font-family: 'Noto Sans', sans-serif;
 }
 #imgTap:checked ~ .inner-part {
@@ -1358,6 +1361,7 @@ font-family: 'Noto Sans', sans-serif;
   font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 500
+  
 }
 .content .title{
   font-size: 30px;

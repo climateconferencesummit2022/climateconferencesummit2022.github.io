@@ -649,18 +649,19 @@ html {
 
 .content-table2 {
   border-collapse: collapse;
-  text-align: center;
-  width: 25%;
+  align-items: center;
+  width: 30%;
+  height: 10%;
   font-size: 0.9em;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5% 5% 5% 50;
   
 }
 
 
 .content-table2 td {
   padding-top: 30px;
-  
-  text-align: center;
+  height: 10%;
+  text-align: left;
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
   line-height: 33px;

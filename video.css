@@ -225,7 +225,7 @@ html{
 /*========== HOME ==========*/
 
 .home{
-  background-color: #fcfcfc;
+  background-color: white;
   
 }
 .home__container{
@@ -1076,7 +1076,7 @@ ul{
 
 #doubleservices{
   background-color: #fcfcfc;
-  padding-top: 0vh;
+  padding-top: 8vh;
 }
 
 #authentictext2 .smallblurb{
@@ -1198,3 +1198,30 @@ ul{
   width:70px;
   margin-bottom:30px;
 }
+
+
+
+
+
+.custom-shape-divider-bottom-1612574977 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1612574977 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 137px;
+}
+
+.custom-shape-divider-bottom-1612574977 .shape-fill {
+    fill: #FCFCFC;
+}
+
+

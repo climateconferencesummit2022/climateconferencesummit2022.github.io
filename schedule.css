@@ -222,7 +222,6 @@ html{
 .home{
   background-color: white;
   
-  
 }
 .home__container{
   height: calc(100vh - var(--header-height));
@@ -244,7 +243,7 @@ html{
   color: var(--title-color);
   font-family: 'Rubik', sans-serif;
   margin-bottom: var(--mb-4);
-
+  margin-left: -120px;
 }
 
 .home__img{
@@ -494,6 +493,8 @@ html{
     text-decoration: none;
     color:#fff;
   }
+
+
 
 
 /* ==================================================

@@ -251,7 +251,7 @@ html {
     	font-size: 3rem;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
-      padding-bottom: 30px;
+      padding-bottom: 4vh;
       
       
     }
@@ -711,7 +711,7 @@ html {
     	width:100%;
     	height: 150%;
     	display: flex;
-      padding-bottom: 500px;
+      padding-bottom: 100vh;
       padding-top:10px;
       /*margin-top: -20%;*/
     	flex-direction: column;
@@ -1285,7 +1285,7 @@ font-family: 'Noto Sans', sans-serif;
 .blog-card{
   position: absolute;
   width: 95%;
-  height: 50%;
+  height: 80%;
   font-family: 'Noto Sans', sans-serif;
   max-width: 850px;
   border-radius: 25px;
@@ -1296,7 +1296,7 @@ font-family: 'Noto Sans', sans-serif;
   position: absolute;
   display: flex;
   
-  height: 0%;
+  height: 50%;
   width: 95%;
   align-items: left;
   justify-content: left;

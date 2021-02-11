@@ -711,7 +711,7 @@ html {
     	height: 160vh;
     	display: flex;
       padding-bottom: 15vh;
-      padding-top: 10vh;
+      margin-top: 20vh;
     	flex-direction: column;
       background-color: #fcfcfc;
     	justify-content: space-evenly;
@@ -753,7 +753,7 @@ html {
     	border-radius: 10px;
     	width:300px;
     	padding: 30px 35px;
-    	height: 530px;
+    	height: 450px;
     	box-sizing: border-box;
       background-color: white;
       border-radius: 30px 30px 30px 30px;
@@ -1551,4 +1551,8 @@ input[type="checkbox"]{
 #s{
   background-color: #28498a;
   margin-bottom: -1vh;
+}
+
+#services2nd{
+  margin-top: -540px; 
 }

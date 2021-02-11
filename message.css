@@ -1246,3 +1246,108 @@ h1 {
 #rightimage{
  text-align:center;
 }
+
+
+
+
+
+
+
+
+/* ==================================================
+      Video Information Section
+================================================== */
+
+.videoinfo{
+  background-color: #fcfcfc;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#videoitem{
+  background-color: #fcfcfc;
+  margin-left: 120px;
+  margin-right: -200px;
+  margin-top: 15px;
+}
+
+.video-blurb{
+  text-align: center;
+}
+
+.video-blurb h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.video-blurb p{
+  font-size: 17px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1.5em;
+  line-height:2em;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+
+.video-table{
+  background: white;
+  
+  border-radius: 14px;
+
+  width: 50%;
+  max-width: 1000px;
+  margin: 25px;
+}
+#video-vid {
+  
+ 
+  position: relative; 
+  padding-bottom: 25% ;
+  height:0;
+
+  
+}
+
+#video-vid iframe{
+  
+ 
+  top: 0;
+  left 0;
+  
+  width:100%;
+
+}
+
+
+
+
+.video-table td {
+  padding: 24px 15px;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2em;
+  color: #6e6d6d;
+  font-size: 14px;
+  
+
+}
+
+
+.video-table td h1 {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1em;
+  color: #eda318;
+  font-size: 17px;
+  letter-spacing: 1px;
+
+}
+
+
+.video-table img{
+  width: 75px;
+  margin-bottom:30px;
+}
+
+

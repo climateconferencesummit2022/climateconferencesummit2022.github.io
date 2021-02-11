@@ -1280,7 +1280,7 @@ font-family: 'Noto Sans', sans-serif;
 }
 .blog-card{
   position: absolute;
-  height: 390px;
+  
   margin-top: -25vh;
   width: 95%;
   height: 80%;
@@ -1293,7 +1293,9 @@ font-family: 'Noto Sans', sans-serif;
 .inner-part{
   position: absolute;
   display: flex;
-  height: 340px;
+  height: 130vh;
+  height: 80%;
+  width: 95%;
   align-items: center;
   justify-content: center;
   padding: 0 25px;

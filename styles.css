@@ -1268,20 +1268,19 @@ ul{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-bottom: -50vh;
+  margin-bottom: 40vh;
 }
 .blogcards{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 130vh;
+  margin-top: 310px;
 font-family: 'Noto Sans', sans-serif;
   background: #fcfcfc;
+  height: 80%;
 }
 .blog-card{
   position: absolute;
-  
-  margin-top: -25vh;
   width: 95%;
   height: 80%;
   font-family: 'Noto Sans', sans-serif;
@@ -1293,7 +1292,7 @@ font-family: 'Noto Sans', sans-serif;
 .inner-part{
   position: absolute;
   display: flex;
-  height: 130vh;
+  
   height: 80%;
   width: 95%;
   align-items: center;

@@ -1233,8 +1233,8 @@ ul{
 
 .textinfo{
   background-color: #fcfcfc;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  margin-top: -30px;
+  padding-bottom: 100px;
 }
 
 #lefttext h2{

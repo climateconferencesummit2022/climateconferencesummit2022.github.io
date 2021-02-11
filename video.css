@@ -801,7 +801,6 @@ html{
 
     .services{
     	width:100%;
-      margin-top: -20px;
       padding-bottom: 170px;
     	height: 100vh;
     	display: flex;
@@ -813,6 +812,15 @@ html{
     .s-heading{
     	text-align:center;
     }
+
+@media (max-width: 700px) {
+ 
+  .services{
+    padding-top: 100px;
+  }
+
+}
+
     .s-heading h1{
     	color: #333436;
     	font-size: 3rem;
@@ -1116,6 +1124,7 @@ ul{
 #left2 img{
   width: 60%;
   margin-left: 1000px;
+  padding-right: 50px;
   position: relative; 
   top: -400px;
   

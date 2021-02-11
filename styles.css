@@ -708,10 +708,11 @@ html {
 
     .services{
     	width:100%;
-    	height: 160vh;
+    	height: 200%;
     	display: flex;
-      padding-bottom: 15vh;
-      margin-top: 20vh;
+      padding-bottom: 100%
+      margin-top:30px;
+      /*margin-top: -20%;*/
     	flex-direction: column;
       background-color: #fcfcfc;
     	justify-content: space-evenly;

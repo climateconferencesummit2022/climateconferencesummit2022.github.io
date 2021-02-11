@@ -1283,6 +1283,7 @@ font-family: 'Noto Sans', sans-serif;
   height: 390px;
   margin-top: -25vh;
   width: 95%;
+  height: 80%;
   font-family: 'Noto Sans', sans-serif;
   max-width: 850px;
   border-radius: 25px;
@@ -1467,7 +1468,7 @@ input[type="checkbox"]{
 
 .custom-shape-divider-top-1612919939 {
     position: relative;
-    margin-top: -70vh;
+    margin-top: -75vh;
     left: 0;
     width: 100%;
     overflow: hidden;

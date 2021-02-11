@@ -621,12 +621,11 @@ ul{
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  background-color: #fcfcfc;
 }
 
 .C{
   min-height: 100vh;
-  background: url(background.jpg) no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -636,6 +635,9 @@ ul{
   width: 100%;
   display: flex;
   justify-content: center;
+    background-color: #fcfcfc;
+
+
   align-items: center;
 }
 
@@ -742,31 +744,21 @@ ul{
   }
 }
 
-/*css for alert messages*/
 
-.alert-success{
-  z-index: 1;
-  background: #D4EDDA;
-  font-size: 18px;
-  padding: 20px 40px;
-  min-width: 420px;
-  position: fixed;
-  right: 0;
-  top: 10px;
-  border-left: 8px solid #3AD66E;
-  border-radius: 4px;
-}
 
-.alert-error{
-  z-index: 1;
-  background: #FFF3CD;
-  font-size: 18px;
-  padding: 20px 40px;
-  min-width: 420px;
-  position: fixed;
-  right: 0;
-  top: 10px;
-  border-left: 8px solid #FFA502;
-  border-radius: 4px;
-}
-      
+.test2-heading{
+    	text-align:center;
+  background-color: #fcfcfc;
+  
+  
+    }
+    .test2-heading h1{
+    	color: #333436;
+    	font-size: 3rem;
+      padding-bottom: .7em;
+      font-family: 'Rubik', sans-serif;
+    	letter-spacing: 1px;
+ 
+    }
+
+

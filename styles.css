@@ -755,7 +755,7 @@ html {
     	border-radius: 10px;
     	width:300px;
     	padding: 30px 35px;
-    	height: 450px;
+    	height: 420px;
     	box-sizing: border-box;
       background-color: white;
       border-radius: 30px 30px 30px 30px;
@@ -1566,5 +1566,5 @@ input[type="checkbox"]{
 }
 
 #services2nd{
-  margin-top: -540px; 
+  margin-top: -750px; 
 }

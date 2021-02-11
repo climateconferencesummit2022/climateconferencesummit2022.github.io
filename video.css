@@ -801,7 +801,7 @@ html{
 
     .services{
     	width:100%;
-      margin-top: -30px;
+      margin-top: -20px;
       padding-bottom: 170px;
     	height: 100vh;
     	display: flex;
@@ -1111,17 +1111,6 @@ ul{
   
 
 }
-
-@media (max-width: 300px) {
-  
-  .doubleservices{
-    padding-bottom: 500px;
-  }
-  
-
-}
-
-
 
 
 #left2 img{

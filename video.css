@@ -1151,7 +1151,7 @@ ul{
 .content-table4 {
   border-collapse: collapse;
   width: 650px;
-  font-size: 0.9em;
+  font-size: 0.2em;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
 
@@ -1164,7 +1164,7 @@ ul{
   font-family: 'Noto Sans', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
-  font-size: 17px;
+  font-size: 15px;
   
 
 }
@@ -1181,7 +1181,7 @@ ul{
   font-family: 'Rubik', sans-serif;
   line-height: 1em;
   color: #333333;
-  font-size: 2em;
+  font-size: 1.5em;
   letter-spacing: 1px;
   
 
@@ -1223,5 +1223,57 @@ ul{
 .custom-shape-divider-bottom-1612574977 .shape-fill {
     fill: #FCFCFC;
 }
+
+
+
+
+/* ==================================================
+      Text Info
+================================================== */
+
+.textinfo{
+  background-color: #fcfcfc;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#lefttext h2{
+  margin-left: 20%;
+    
+}
+
+
+#lefttext p{
+  width: 70%;
+    
+}
+
+
+#lefttext h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
+}
+
+#lefttext p{
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+#rightimage{
+ text-align:center;
+}
+
+
+
+
 
 

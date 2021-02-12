@@ -1429,3 +1429,29 @@ h1 {
 
 
 
+
+ .blogpage{
+    width: 70%
+    margin-top: 50px;
+     font-family: 'Noto Sans', sans-serif;
+
+
+  }
+  
+    .blogpage h1{
+      font-family: 'Noto Sans', sans-serif;
+
+
+    }
+    
+    .blogpage h3{
+      font-family: 'Noto Sans', sans-serif;
+
+
+    }
+
+    .blogpage h4{
+      font-family: 'Noto Sans', sans-serif;
+
+
+    }

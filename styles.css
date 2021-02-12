@@ -10,9 +10,8 @@ body{
 }
 
 html {
-	scroll-behavior: smooth;
-}
-
+  scroll-behavior: smooth !important;
+ }
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -822,6 +821,7 @@ html {
     	background-color:#4a90e2;
     	border: 1px solid #4a90e2;
     	color:#FFFFFF;
+      text-decoration: none;
     	transition: all ease 0.3s;
     }
     .s-box:hover .bar{

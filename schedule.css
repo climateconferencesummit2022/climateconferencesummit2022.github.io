@@ -9,6 +9,11 @@ body{
   background-color: #fcfcfc;
 }
 
+html{
+
+  scroll-behavior: smooth !important;
+}
+
 
 
 /*===== VARIABLES CSS =====*/
@@ -790,7 +795,7 @@ html{
 
 .d{
   background-color: red;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 
@@ -1229,11 +1234,13 @@ h2 {
 
 .textinfo{
   background-color: #fcfcfc;
-  margin-top: -60px;
+  margin-top: -200px;
 }
 
 #lefttext h2{
- 
+  margin-left: 20%;
+  text-align: left;
+  
     
 }
 
@@ -1262,7 +1269,12 @@ h2 {
   font-family: 'Noto Sans', sans-serif;
 } 
 
+#lefttext{
+  
+  position: relative;
+  margin-top: 40px;
 
+}
 #rightimage{
  text-align:center;
 }

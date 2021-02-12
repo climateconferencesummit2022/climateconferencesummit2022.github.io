@@ -643,21 +643,19 @@ ul{
 
 .contact-info{
   color:#333436;
-  max-width: 500px;
+  text-align:center;
+  background-color: #fcfcfc;
+  margin-top: -150px;
   line-height: 65px;
    font-family: 'Rubik', sans-serif;
   padding-left: 50px;
   font-size: 25px;
 }
 
-.contact-info i{
-  margin-right: 20px;
-  font-size: 25px;
-}
 
 .contact-form{
   max-width: 700px;
-  margin-right: 50px;
+  margin-left: 1vw;
 }
 
 .contact-info, .contact-form{
@@ -738,7 +736,7 @@ ul{
     flex-direction: column;
   }
 
-  .contact-info, .contact-form{
+  .contact-form{
     margin: 30px 50px;
   }
 

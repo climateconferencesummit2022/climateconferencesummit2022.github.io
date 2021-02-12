@@ -794,8 +794,9 @@ html{
 
 
 .d{
-  background-color: red;
-  padding-bottom: 70px;
+  background-color: #fcfcfc;
+  margin-top: -60px;
+  padding-bottom: 350px;
 }
 
 

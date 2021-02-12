@@ -1484,3 +1484,62 @@ h2 {
 
 
 
+
+
+.surr{
+  background-color: #fcfcfc;
+   padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.blogpage{
+    width: 80%;
+   background-color: white;
+   padding-left: 5vw;
+   padding-top: 60px;
+   padding-bottom: 10px;
+   padding-right: 5vw;
+   margin-left: 10vw;
+   
+     font-family: 'Noto Sans', sans-serif;
+
+
+  }
+  
+    .blogpage h1{
+      font-family: 'Noto Sans', sans-serif;
+text-align: left;
+      padding-bottom: 20px;
+
+    }
+    
+    .blogpage h3{
+      font-family: 'Noto Sans', sans-serif;
+      padding-bottom: 20px;
+      font-size: 20px;
+      color: #2bcfc9;
+
+
+    }
+
+    .blogpage h4{
+      font-family: 'Noto Sans', sans-serif;
+      padding-bottom: 20px;
+      font-size: 15px;
+      color: #2bcfc9;
+      
+
+
+    }
+
+.blogpage p{
+      font-family: 'Noto Sans', sans-serif;
+      line-height: 35px;
+
+
+    }
+
+.leftside, .rightside{
+  height: 100vh;
+  width: 100%;
+}

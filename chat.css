@@ -235,16 +235,20 @@ html{
 .home__title{
   font-size: var(--biggest-font-size);
   color: #2bcfc9;
+  text-align: left;
   margin-bottom: var(--mb-1);
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
 }
 
 .home__subtitle{
-  font-size: var(--h1-font-size);
+  font-size: 20px;
   color: var(--title-color);
-  font-family: 'Rubik', sans-serif;
+ 
+   font-family: 'Noto Sans', sans-serif;
   margin-bottom: var(--mb-4);
+ line-height: 35px;
+  text-align: left;
 }
 
 .home__img{

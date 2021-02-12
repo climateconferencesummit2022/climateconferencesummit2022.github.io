@@ -986,6 +986,7 @@ html{
 ================================================== */
 .bottomfooter{
   background-color: #fcfcfc;
+  margin-top: -30px;
 }
 .container{
 	max-width: 1170px;
@@ -1442,11 +1443,13 @@ h1 {
   box-sizing: border-box;
   font-family: 'Rubik', sans-serif;
   padding-top: 200px;
+  padding-bottom: -30px;
+  background-color: #fcfcfc;
 }
 
 .mainblog  {
   margin: 2rem;
-  color: #333436;
+  
 }
 
 .wrapper {
@@ -1457,8 +1460,10 @@ h1 {
 
 .card {
   overflow: hidden;
+  box-shadow: 0 8px 12px 0 #f2f2f2;
   background: white;
-  border-radius: 0.5rem;
+  border: none;
+  border-radius: 0.9rem;
   position: relative;
   width: 350px;
   margin: 1rem;
@@ -1466,8 +1471,11 @@ h1 {
   cursor: pointer;
 }
 
+
+
 .card:hover {
   transform: scale(1.02);
+  
 
 }
 
@@ -1482,7 +1490,6 @@ h1 {
   font-size: 0.8rem;
   font-weight: bold;
   color: white;
-  background: red;
   padding: 0.5rem 1.3rem 0.5rem 1rem;
   text-transform: uppercase;
   position: absolute;
@@ -1503,21 +1510,23 @@ h1 {
 
 .card-body {
   margin: 15rem 1rem 1rem 1rem;
+
 }
 
 .hashtag {
   font-size: 0.9rem;
   font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
   color: #2bcfc9;
 }
 
 .blog-title {
-  line-height: 1.5rem;
+  line-height: 2rem;
   margin: 1rem 0 0.5rem;
 }
 
 .blog-description {
-  color: #2bcfc9;
+  color: #4b4e54;
   font-size: 0.9rem;
   padding-top: 20px;
   font-family: 'Noto Sans', sans-serif;

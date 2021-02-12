@@ -711,7 +711,7 @@ html {
     	width:100%;
     	
     	display: flex;
-      padding-bottom: 720px;
+      padding-bottom: 60%;
       padding-top:200px;
       /*margin-top: -20%;*/
       
@@ -1483,6 +1483,7 @@ input[type="checkbox"]{
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+  
   
   
 }

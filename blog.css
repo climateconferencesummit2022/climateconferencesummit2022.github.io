@@ -1429,3 +1429,94 @@ h1 {
 
 
 
+
+
+
+
+
+
+
+
+
+.blog {
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  padding-top: 200px;
+}
+
+.blog  {
+  margin: 2rem;
+  color: #333436;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  background: white;
+  border-radius: 0.5rem;
+  position: relative;
+  width: 350px;
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+
+}
+
+.banner-img {
+  position: absolute;
+  object-fit: cover;
+  height: 14rem;
+  width: 100%;
+}
+
+.tag {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background: red;
+  padding: 0.5rem 1.3rem 0.5rem 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  border-radius: 0 2rem 2rem 0;
+}
+
+.blog {
+  background: #fcfcfc;
+}
+
+.news {
+  background: #2bcfc9;
+}
+
+
+
+.card-body {
+  margin: 15rem 1rem 1rem 1rem;
+}
+
+.hashtag {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #2bcfc9;
+}
+
+.blog-title {
+  line-height: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.blog-description {
+  color: #2bcfc9;
+  font-size: 0.9rem;
+}

@@ -68,6 +68,7 @@ body{
   box-sizing: border-box;
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -501,7 +502,7 @@ html{
 
 #servicedetails{
   background-color: #fcfcfc;
-  padding-top: 80px;
+  margin-top: -40px;
   padding-left: 2vh;
 }
 
@@ -1223,83 +1224,3 @@ ul{
 .custom-shape-divider-bottom-1612574898 .shape-fill {
     fill: #FCFCFC;
 }
-
-
-
-
-
-.custom-shape-divider-bottom-1612574977 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1612574977 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 137px;
-}
-
-.custom-shape-divider-bottom-1612574977 .shape-fill {
-    fill: #FCFCFC;
-}
-
-
-
-/* ==================================================
-      Text Info
-================================================== */
-
-.textinfo{
-  background-color: #fcfcfc;
-  padding-top: 200px;
-}
-
-#lefttext h2{
-  margin-left: 20%;
-    
-}
-
-
-#lefttext p{
-  width: 70%;
-    
-}
-
-
-#lefttext h2{
-  font-family: 'Rubik', sans-serif;
-  font-size: 40px;
-  font-weight: 600;
- 
-}
-
-#lefttext p{
-  font-size: 17px;
-  margin-left: 20%;
-  margin-right: 300px;
-  justify-content:center;
-  padding-bottom: 50px;
-  margin-top: 20px;
-  line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
-} 
-
-
-#rightimage{
- text-align:center;
-}
-
-
-
-
-
-
-
-
-

@@ -1430,9 +1430,19 @@ h1 {
 
 
 
+.surr{
+  background-color: #fcfcfc;
+   padding-top: 120px;
+}
+
  .blogpage{
-    width: 70%
-    margin-top: 50px;
+    width: 60%;
+   background-color: white;
+   padding-left: 60px;
+   padding-top: 60px;
+   padding-right: 60px;
+   margin-left: 20%;
+   
      font-family: 'Noto Sans', sans-serif;
 
 
@@ -1440,18 +1450,32 @@ h1 {
   
     .blogpage h1{
       font-family: 'Noto Sans', sans-serif;
-
+text-align: left;
+      padding-bottom: 20px;
 
     }
     
     .blogpage h3{
       font-family: 'Noto Sans', sans-serif;
+      padding-bottom: 20px;
+      font-size: 20px;
 
 
     }
 
     .blogpage h4{
       font-family: 'Noto Sans', sans-serif;
+      padding-bottom: 20px;
+      font-size: 15px;
+      color: #2bcfc9;
+      
+
+
+    }
+
+.blogpage p{
+      font-family: 'Noto Sans', sans-serif;
+      line-height: 35px;
 
 
     }

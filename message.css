@@ -1313,7 +1313,7 @@ ul{
     flex-wrap: wrap;
     max-width: 1000px;
     font-family: 'Noto Sans', sans-serif;
-  line-height: 36px;
+  line-height: 40px;
     border-radius: 10px;
     margin-left: 20%;
     margin-right: 20%;
@@ -1356,5 +1356,5 @@ ul{
 }
 
 .tab{
-  height: 550px;
+  height: 40vw;
 }

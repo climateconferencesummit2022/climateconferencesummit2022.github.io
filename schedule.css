@@ -239,11 +239,13 @@ html{
 }
 
 .home__subtitle{
-  font-size: var(--h1-font-size);
+  font-size: 20px;
   color: var(--title-color);
-  font-family: 'Rubik', sans-serif;
+ 
+   font-family: 'Noto Sans', sans-serif;
   margin-bottom: var(--mb-4);
   margin-left: -120px;
+  text-align: left;
 }
 
 .home__img{
@@ -841,7 +843,7 @@ html{
     	border-radius: 10px;
     	width:300px;
     	padding: 30px 35px;
-    	height: 530px;
+    	height: 570px;
     	box-sizing: border-box;
       background-color: white;
       border-radius: 30px 30px 30px 30px;

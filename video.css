@@ -69,7 +69,6 @@ body{
 }
 
 
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -90,10 +89,10 @@ body{
   
   color: #4b4e54;
   text-align: center;
-  padding: 14px 16px;
+  padding: 17px 20px;
   font-family: 'Rubik', sans-serif;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   
 }
 
@@ -112,11 +111,11 @@ body{
   float: left;
 }
 .dropdown .dropbtn {
-  font-size: 17px;    
+  font-size: 18px;   
   border: none;
   outline: none;
   color: #4b4e54;
-  padding: 14px 16px;
+  padding: 17px 20px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -187,6 +186,7 @@ body{
     text-align: left;
   }
 }
+
 
 
 

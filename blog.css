@@ -223,7 +223,7 @@ html{
 /*========== HOME ==========*/
 
 .home{
-  background-color: #fcfcfc;
+  background-color: white;
   
 }
 .home__container{
@@ -497,6 +497,29 @@ html{
   }
 
 
+
+.custom-shape-divider-bottom-1612574261 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1612574261 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 117px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1612574261 .shape-fill {
+    fill: #FCFCFC;
+}
+
 /* ==================================================
       Services Details Section
 ================================================== */
@@ -741,13 +764,32 @@ html{
       Video Info Section
 ================================================== */
 
-.video-info{
+.videoinfo{
   align-items: center;
   display: block;
   text-align: center;
   background-color: #fcfcfc;
   padding-top: 150px;
+
 }
+
+.video-blurb h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
+}
+
+.video-blurb p{
+  font-size: 17px;
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
 
 .video-info p{
   width: 50%;
@@ -1031,137 +1073,359 @@ ul{
 }
 
 
+/* ==================================================
+      Accordion Content
+================================================== */
 
-
-
-/* blog */
-.blog{
-    background: #f9f9f9;
-    padding: 4.5rem 0;
+.accordion1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 50px;
 }
 
-.blog-content{
-    margin: 2rem 0;
-}
-.blog-img {
-    position: relative; 
-    border-radius: 25px;
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
 }
 
-.blog-img img{
-    border-radius: 25px 25px 0px 0px;
+.accordion {
+  width: 50%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion-head{
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-head::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
 }
 
 
-.blog-img span{
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background: var(--exDark);
-    color: #fff;
-    font-size: 1.4rem;
-    padding: 0.3rem 0.6rem;
-}
-.blog-text{
-    margin-bottom: 2.2rem;
-    background-color: white;
-  padding: 40px;
-  border-radius: 0px 0px 25px 25px;
-}
-.blog-text span{
-    font-weight: 300;
-    display: block;
-    color: orange;
-    padding-bottom: 0.5rem;
+
+
+
+/* ==================================================
+      Tabs
+================================================== */
+
+
+
+.tabs {
+    background: #fcfcfc;
     font-family: 'Rubik', sans-serif;
 }
-.blog-text h2{
-  
-    padding: 1rem 0;
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #434547;
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+  line-height: 36px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 25px;
 }
-.blog-text p{
-    font-weight: 300;
-    font-size: 1.1rem;
-    opacity: 0.9;
-  font-family: 'Noto Sans', sans-serif;
-    padding-bottom: 1.2rem;
+
+.mytabs input[type="radio"] {
+    display: none;
 }
-.blog-text a{
+.mytabs label {
+    padding: 25px;
+    background: #fff5d9;
+    color:#ffc375;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 40px;
+  margin-top: -20px;
+  background: #fff;
+    border-radius: 10px;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+  cursor: pointer;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ==================================================
+      Text Info
+================================================== */
+
+.textinfo{
+  background-color: #fcfcfc;
+  padding-top: 90px;
+}
+
+#lefttext h2{
+  margin-left: 20%;
     
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: var(--dark);
-    display: inline-block;
-    background: var(--dark);
-    color: #fff;
-    padding: 0.55rem 1.2rem;
-    transition: all 0.5s ease;
-  border-radius: 15px;
-}
-
-.blog-text a:hover{
-    background: var(--exDark);
 }
 
 
-/* Media Queries */
-@media screen and (min-width: 540px){
-    .navbar-nav a{
-        padding-right: 1.2rem;
-        padding-left: 1.2rem;
-    }
-    .banner-title{
-        font-size: 5rem;
-    }
-    .banner form{
-        margin-top: 1.4rem;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+#lefttext p{
+  width: 70%;
+    
 }
 
-@media screen and (min-width: 768px){
-    .navbar .container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .search-input{
-        padding: 0.8rem 0;
-    }
-    .design-content{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-    }
-    .design-item{
-        margin: 0;
-    }
-    .blog-content{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-    }
+
+#lefttext h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
 }
 
-@media screen and (min-width: 992px){
-    .blog-content{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .about-content{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 3rem;
-        align-items: center;
-    }
+#lefttext p{
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+#rightimage{
+ text-align:center;
 }
 
-@media screen and (min-width: 1200px){
-    .design-content{
-        grid-template-columns: repeat(3, 1fr);
-    }
+
+
+
+
+
+
+
+/* ==================================================
+      Video Information Section
+================================================== */
+
+.videoinfo{
+  background-color: #fcfcfc;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
+#videoitem{
+  background-color: #fcfcfc;
+  margin-left: 120px;
+  margin-right: -200px;
+  margin-top: 15px;
+}
+
+.video-blurb{
+  text-align: center;
+}
+
+.video-blurb h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.video-blurb p{
+  font-size: 17px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1.5em;
+  line-height:2em;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+
+.video-table{
+  background: white;
+  
+  border-radius: 14px;
+
+  width: 50%;
+  max-width: 1000px;
+  margin: 25px;
+}
+#video-vid {
+  
+ 
+  position: relative; 
+  padding-bottom: 25% ;
+  height:0;
+
+  
+}
+
+#video-vid iframe{
+  
+ 
+  top: 0;
+  left 0;
+  
+  width:100%;
+
+}
+
+
+
+
+.video-table td {
+  padding: 24px 15px;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2em;
+  color: #6e6d6d;
+  font-size: 14px;
+  
+
+}
+
+
+.video-table td h1 {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1em;
+  color: #eda318;
+  font-size: 17px;
+  letter-spacing: 1px;
+
+}
+
+
+.video-table img{
+  width: 75px;
+  margin-bottom:30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ==================================================
+      Text Info
+================================================== */
+
+.textinfo{
+  background-color: #fcfcfc;
+  padding-top: 200px;
+}
+
+#lefttext h2{
+  margin-left: 20%;
+    
+}
+
+
+#lefttext p{
+  width: 70%;
+    
+}
+
+
+#lefttext h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
+}
+
+#lefttext p{
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+#rightimage{
+ text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+.test2-heading{
+    	text-align:center;
+  background-color: #fcfcfc;
+  padding-top: 150px;
+  margin-bottom: -120px;
+  
+  
+    }
+    .test2-heading h1{
+    	color: #333436;
+    	font-size: 3rem;
+  
+      font-family: 'Rubik', sans-serif;
+    	letter-spacing: 1px;
+ 
+    }
+
+
+

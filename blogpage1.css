@@ -1433,15 +1433,17 @@ h1 {
 .surr{
   background-color: #fcfcfc;
    padding-top: 120px;
+  padding-bottom: 60px;
 }
 
  .blogpage{
-    width: 60%;
+    width: 80%;
    background-color: white;
-   padding-left: 60px;
+   padding-left: 5vw;
    padding-top: 60px;
-   padding-right: 60px;
-   margin-left: 20%;
+   padding-bottom: 10px;
+   padding-right: 5vw;
+   margin-left: 10vw;
    
      font-family: 'Noto Sans', sans-serif;
 
@@ -1459,6 +1461,7 @@ text-align: left;
       font-family: 'Noto Sans', sans-serif;
       padding-bottom: 20px;
       font-size: 20px;
+      color: #2bcfc9;
 
 
     }

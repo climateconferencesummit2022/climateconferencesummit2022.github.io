@@ -499,13 +499,36 @@ html{
   }
 
 
+
+.custom-shape-divider-bottom-1612574261 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1612574261 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 117px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1612574261 .shape-fill {
+    fill: #FCFCFC;
+}
+
 /* ==================================================
       Services Details Section
 ================================================== */
 
 #servicedetails{
   background-color: #fcfcfc;
-  padding-top: 80px;
+  margin-top: -40px;
   padding-left: 2vh;
 }
 
@@ -743,13 +766,32 @@ html{
       Video Info Section
 ================================================== */
 
-.video-info{
+.videoinfo{
   align-items: center;
   display: block;
   text-align: center;
   background-color: #fcfcfc;
   padding-top: 150px;
+
 }
+
+.video-blurb h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
+}
+
+.video-blurb p{
+  font-size: 17px;
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
 
 .video-info p{
   width: 50%;
@@ -1033,116 +1075,67 @@ ul{
 }
 
 
-
 /* ==================================================
-      Services Double Column Section
+      Accordion Content
 ================================================== */
 
-#doubleservices{
-  background-color: #fcfcfc;
-  padding-top: 80px;
+.accordion1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 50px;
 }
 
-#authentictext2 .smallblurb{
-  letter-spacing: .2em;
-  color: #eda137;
-}
-
-#authentictext2{
-  display: block;
+h1 {
   text-align: center;
-
-  grid-area: content;
-  padding-left: 30vh;
-  padding-right: 10vh;
-  text-align: left;
-  align-self: center;
-
+  margin: 2rem 0;
+  font-size: 2.5rem;
 }
 
-#authentictext2 h2{
-  padding-bottom: 10px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 40px;
-  color: #333333;
+.accordion {
+  width: 50%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion-head{
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-head::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
 }
 
-#authentictext2 p{
-  font-family: 'Noto Sans', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-
-}
-
-#left2 img{
-  width: 60%;
-  margin-left: 1000px;
-  position: relative; 
-  top: -400px;
-  
-}
-
-
-
-@media (max-width: 1200px) {
-  h2::before{
-    content: none;
-  }
-
-  #left2{
-    display: none;
-  }
-
-  #authentictext{
-    padding-top: 40px;
-    text-align: center;
-  }
-
-}
-
-.content-table4 {
-  border-collapse: collapse;
-  width: 650px;
-  font-size: 0.9em;
-  border-radius: 5px 5px 0 0;
+.accordion-body {
+  max-height: 0;
   overflow: hidden;
-
+  transition: max-height 0.2s ease-out;
+}
+.accordion-content {
+  padding: 1rem;
+  line-height: 1.5rem;
 }
 
-
-.content-table4 td {
-  padding: 24px 15px;
-  font-family: 'Noto Sans', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-  font-size: 15px;
-  
-
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
 }
-
-
-.content-table4 td h1 {
-  font-family: 'Rubik', sans-serif;
-  line-height: 1em;
-  color: #333333;
-  font-size: 22px;
-  letter-spacing: 1px;
-
-}
-
-
-#tablesinfo{
-  padding-top: 10px;
-  margin-left: -20px;
-
-}
-
-#tablesinfo img{
-  width:70px;
-  margin-bottom:30px;
-}
-
-
 
 
 
@@ -1207,51 +1200,6 @@ ul{
 
 
 
-.custom-shape-divider-bottom-1612574898 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1612574898 svg {
-    position: relative;
-    display: block;
-    width: calc(130% + 1.3px);
-    height: 125px;
-}
-
-.custom-shape-divider-bottom-1612574898 .shape-fill {
-    fill: #FCFCFC;
-}
-
-
-
-
-
-.custom-shape-divider-bottom-1612574977 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1612574977 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 137px;
-}
-
-.custom-shape-divider-bottom-1612574977 .shape-fill {
-    fill: #FCFCFC;
-}
 
 
 
@@ -1261,7 +1209,7 @@ ul{
 
 .textinfo{
   background-color: #fcfcfc;
-  padding-top: 200px;
+  padding-top: 90px;
 }
 
 #lefttext h2{
@@ -1298,5 +1246,109 @@ ul{
 #rightimage{
  text-align:center;
 }
+
+
+
+
+
+
+
+
+/* ==================================================
+      Video Information Section
+================================================== */
+
+.videoinfo{
+  background-color: #fcfcfc;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#videoitem{
+  background-color: #fcfcfc;
+  margin-left: 120px;
+  margin-right: -200px;
+  margin-top: 15px;
+}
+
+.video-blurb{
+  text-align: center;
+}
+
+.video-blurb h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.video-blurb p{
+  font-size: 17px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1.5em;
+  line-height:2em;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+
+.video-table{
+  background: white;
+  
+  border-radius: 14px;
+
+  width: 50%;
+  max-width: 1000px;
+  margin: 25px;
+}
+#video-vid {
+  
+ 
+  position: relative; 
+  padding-bottom: 25% ;
+  height:0;
+
+  
+}
+
+#video-vid iframe{
+  
+ 
+  top: 0;
+  left 0;
+  
+  width:100%;
+
+}
+
+
+
+
+.video-table td {
+  padding: 24px 15px;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2em;
+  color: #6e6d6d;
+  font-size: 14px;
+  
+
+}
+
+
+.video-table td h1 {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1em;
+  color: #eda318;
+  font-size: 17px;
+  letter-spacing: 1px;
+
+}
+
+
+.video-table img{
+  width: 75px;
+  margin-bottom:30px;
+}
+
 
 

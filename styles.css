@@ -709,11 +709,12 @@ html {
 
     .services{
     	width:100%;
-    	height: 150%;
+    	height: 100%;
     	display: flex;
-      padding-bottom: 100vh;
+  
       padding-top:10px;
       /*margin-top: -20%;*/
+      padding-bottom: -250vh;
     	flex-direction: column;
       background-color: #fcfcfc;
     	justify-content: space-evenly;
@@ -743,6 +744,8 @@ html {
     }
     .s-box-container{
     	width:100%;
+      height: 200%;
+      padding-bottom: 125vh;
     	display: flex;
     	justify-content: center;
      

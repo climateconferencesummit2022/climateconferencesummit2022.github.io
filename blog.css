@@ -1438,13 +1438,13 @@ h1 {
 
 
 
-.blog {
+.mainblog {
   box-sizing: border-box;
   font-family: 'Rubik', sans-serif;
   padding-top: 200px;
 }
 
-.blog  {
+.mainblog  {
   margin: 2rem;
   color: #333436;
 }
@@ -1492,7 +1492,7 @@ h1 {
 }
 
 .blog {
-  background: #fcfcfc;
+  background: #edab1c;
 }
 
 .news {
@@ -1519,4 +1519,6 @@ h1 {
 .blog-description {
   color: #2bcfc9;
   font-size: 0.9rem;
+  padding-top: 20px;
+  font-family: 'Noto Sans', sans-serif;
 }

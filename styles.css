@@ -711,10 +711,10 @@ html {
     	width:100%;
     	height: 100%;
     	display: flex;
-  
+      padding-bottom: 125vh;
       padding-top:10px;
       /*margin-top: -20%;*/
-      padding-bottom: -250vh;
+      
     	flex-direction: column;
       background-color: #fcfcfc;
     	justify-content: space-evenly;
@@ -745,7 +745,7 @@ html {
     .s-box-container{
     	width:100%;
       height: 200%;
-      padding-bottom: 125vh;
+      
     	display: flex;
     	justify-content: center;
      
@@ -756,9 +756,9 @@ html {
     	flex-direction: column;
 
     	border-radius: 10px;
-    	width:300px;
+    	width:100%;
     	padding: 30px 35px;
-    	height: 420px;
+    	
     	box-sizing: border-box;
       background-color: white;
       border-radius: 30px 30px 30px 30px;
@@ -1476,7 +1476,7 @@ input[type="checkbox"]{
 
 .custom-shape-divider-top-1612919939 {
     position: relative;
-    margin-top: -75vh;
+    margin-top: -110vh;
     left: 0;
     width: 100%;
     overflow: hidden;

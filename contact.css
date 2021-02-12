@@ -749,6 +749,7 @@ ul{
 .test2-heading{
     	text-align:center;
   background-color: #fcfcfc;
+  padding-top: 100px;
   
   
     }
@@ -762,3 +763,20 @@ ul{
     }
 
 
+  .test-btn{
+    
+    	border-radius: 20px;
+      margin-bottom: .3vh;
+    	border:.15em solid #3b92e3;
+      padding: 10px 70px;
+    	color: #3b92e3;
+      font-family: 'Rubik', sans-serif;
+    }
+
+.test-btn:hover {
+    background: #3b92e3;
+    border: 2px solid #3b92e3;
+    text-decoration: none;
+  transition: all ease 0.3s;
+    color: white;
+  }

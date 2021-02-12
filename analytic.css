@@ -1535,6 +1535,7 @@ text-align: left;
 .blogpage p{
       font-family: 'Noto Sans', sans-serif;
       line-height: 35px;
+  
 
 
     }
@@ -1542,6 +1543,7 @@ text-align: left;
 .leftside, .rightside{
   height: 50vh;
   width: 100%;
+  float: left;
 }
 
 @media screen and (min-width:768px){

@@ -244,7 +244,7 @@ html{
  
    font-family: 'Noto Sans', sans-serif;
   margin-bottom: var(--mb-4);
-  margin-left: -120px;
+ line-height: 35px;
   text-align: left;
 }
 
@@ -1233,7 +1233,7 @@ h2 {
 }
 
 #lefttext h2{
-  margin-left: 20%;
+ 
     
 }
 

@@ -712,7 +712,7 @@ html {
     	
     	display: flex;
       padding-bottom: 720px;
-      padding-top:10px;
+      padding-top:200px;
       /*margin-top: -20%;*/
       
     	flex-direction: column;
@@ -743,13 +743,12 @@ html {
     	text-align: center;
     }
     .s-box-container{
-    	width:80%;
-      height: 200%;
+    	width:90%;
+      height:150px;
       margin-left: 10vw;
       margin-right: 10vw;
     	display: flex;
     	justify-content: center;
-     
     	align-items: center;
     }
     .s-box{
@@ -759,7 +758,7 @@ html {
     	border-radius: 10px;
     	width:100%;
     	padding: 30px 35px;
-    	
+    	height: 350px;
     	box-sizing: border-box;
       background-color: white;
       border-radius: 30px 30px 30px 30px;
@@ -1571,6 +1570,6 @@ input[type="checkbox"]{
 }
 
 #services2nd{
-  margin-top: -750px; 
-  padding-bottom: 580px !important;
+  margin-top: -660px; 
+  padding-bottom: 600px !important;
 }

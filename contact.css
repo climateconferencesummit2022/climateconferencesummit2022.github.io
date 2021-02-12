@@ -617,8 +617,8 @@ ul{
 
 
 .C{
-  margin: 0;
-  padding-top: -50px;
+  
+  margin-top: -100px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background-color: #fcfcfc;
@@ -642,7 +642,7 @@ ul{
 }
 
 .contact-info{
-  color:#28498a;
+  color:#333436;
   max-width: 500px;
   line-height: 65px;
    font-family: 'Rubik', sans-serif;

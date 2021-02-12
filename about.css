@@ -69,7 +69,6 @@ body{
 }
 
 
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -90,10 +89,10 @@ body{
   
   color: #4b4e54;
   text-align: center;
-  padding: 14px 16px;
+  padding: 17px 20px;
   font-family: 'Rubik', sans-serif;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   
 }
 
@@ -112,11 +111,11 @@ body{
   float: left;
 }
 .dropdown .dropbtn {
-  font-size: 17px;    
+  font-size: 18px;   
   border: none;
   outline: none;
   color: #4b4e54;
-  padding: 14px 16px;
+  padding: 17px 20px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -187,7 +186,6 @@ body{
     text-align: left;
   }
 }
-
 
 
 
@@ -1357,78 +1355,76 @@ h1 {
 
 
 
-.about{
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans",sans-serif;
-    box-sizing: border-box;
+
+
+/* ==================================================
+      Text Info
+================================================== */
+
+.textinfo{
+  background-color: #fcfcfc;
+  padding-top: 200px;
 }
 
-.{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f1f1f1;
+#lefttext h2{
+  margin-left: 20%;
+    
 }
 
-.about-section{
-    background: url(pic.jpg) no-repeat left;
-    background-size: 55%;
-    background-color: #fdfdfd;
-    overflow: hidden;
-    padding: 100px 0;
+
+#lefttext p{
+  width: 70%;
+    
 }
 
-.inner-container{
-    width: 55%;
-    float: right;
-    background-color: #fdfdfd;
-    padding: 150px;
+
+#lefttext h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
 }
 
-.inner-container h1{
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
+#lefttext p{
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+#rightimage{
+ text-align:center;
 }
 
-.text{
-    font-size: 13px;
-    color: #545454;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
-}
 
-.skills{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-    font-size: 13px;
-}
 
-@media screen and (max-width:1200px){
-    .inner-container{
-        padding: 80px;
+
+
+
+
+
+
+
+.test2-heading{
+    	text-align:center;
+  background-color: #fcfcfc;
+  padding-top: 150px;
+  margin-bottom: -120px;
+  
+  
     }
-}
+    .test2-heading h1{
+    	color: #333436;
+    	font-size: 3rem;
+  
+      font-family: 'Rubik', sans-serif;
+    	letter-spacing: 1px;
+ 
+    }
 
-@media screen and (max-width:1000px){
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    .inner-container{
-        width: 100%;
-    }
-}
 
-@media screen and (max-width:600px){
-    .about-section{
-        padding: 0;
-    }
-    .inner-container{
-        padding: 60px;
-    }
-}

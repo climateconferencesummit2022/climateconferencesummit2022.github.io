@@ -241,6 +241,7 @@ html{
   margin-bottom: var(--mb-1);
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
+  text-align: left;
 }
 
 .home__subtitle{
@@ -1091,15 +1092,16 @@ ul{
 #authentictext2 .smallblurb{
   letter-spacing: .2em;
   color: #eda137;
+  
 }
 
 #authentictext2{
   display: block;
-  text-align: center;
+  text-align: left;
 
   grid-area: content;
   padding-left: 12vw;
-  text-align: left;
+ 
   align-self: center;
 
 }
@@ -1112,6 +1114,7 @@ ul{
   padding-left: 15%;
   padding-right: 20vw;
   width: 100vw;
+  text-align: center;
   color: #333333;
 }
 
@@ -1119,6 +1122,8 @@ ul{
   font-family: 'Noto Sans', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
+  padding-left: 15%;
+  text-align: left;
   font-size: 1em;
 
 }
@@ -1382,3 +1387,12 @@ h1 {
 
 
 
+.home__subtitle{
+  font-size: 20px;
+  color: var(--title-color);
+ 
+   font-family: 'Noto Sans', sans-serif;
+  margin-bottom: var(--mb-4);
+ line-height: 35px;
+  text-align: left;
+}

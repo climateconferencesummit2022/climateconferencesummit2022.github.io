@@ -1505,10 +1505,14 @@ input[type="checkbox"]{
   padding: 0;
   transition: .1s ease-in;
 }
+
+
+
 .inner-part .img{
   height: auto;
   width: 15vw;
   flex-shrink: 0;
+  padding-right: 50px;
   overflow: hidden;
   border-radius: 20px;
 }
@@ -1580,6 +1584,23 @@ input[type="checkbox"]{
   padding-bottom: 10px;
   line-height: 1.5em;
   text-align: justify;
+}
+
+@media only screen and (max-width: 1000px) {
+  .inner-part span{
+    color: red;
+    padding-top: 20px;  
+  }
+  
+  .inner-part .text{
+    color: red;
+    width: 50vw;
+  }
+  
+  .inner-part .img{
+  margin-right: 0px;
+  width: 30%;
+  }
 }
 .content button{
   display: inline-flex;

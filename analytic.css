@@ -934,6 +934,31 @@ h2 {
 }
 
 
+.content-table td h4{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+
+}
+
+
+
+
+#tables{
+  padding-top: 50px;
+  margin-left: 130px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+#tables img{
+  width:80px;
+}
+
+
+
+
+
 .content-table2 {
   border-collapse: collapse;
   align-items: center;
@@ -975,16 +1000,6 @@ h2 {
 .content-table3 td {
   padding: 20px 15px;
 
-}
-
-#tables{
-  padding-top: 50px;
-  margin-left: 130px;
-  margin-right: 50px;
-}
-
-#tables img{
-  width:80px;
 }
 
 
@@ -1395,4 +1410,82 @@ text-align: left;
 
 
 
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+
+.services-section{
+  background-size: cover;
+  padding: 60px 0;
+}
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.section-title{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.border{
+  width: 160px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box{
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.service-icon img{
+  display: inline-block;
+  height: 150px;
+
+}
+
+
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-desc{
+  font-size: 14px;
+}
+
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+}
 

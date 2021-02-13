@@ -1437,13 +1437,13 @@ h1 {
 
 
 .wrapper{
-  margin-top: 60px;
+  padding-top: 100px;
   text-align: center;
   background: #fcfcfc;
 }
 
 .wrapper h1{
- 
+ font-family: 'Rubik', sans-serif;
   font-size: 48px;
   color: #333436;
   margin-bottom: 25px;
@@ -1463,6 +1463,11 @@ h1 {
   padding: 20px 10px;
   margin-right: 20px;
   border-radius: 20px;
+}
+
+.our_team .team_member:hover{
+  transform: scale(1.05);
+  transition: 0.6s;
 }
 
 .our_team .team_member .member_img{
@@ -1486,6 +1491,7 @@ h1 {
   font-size: 18px;
   font-family: 'Rubik', sans-serif;
   line-height: 18px;
+  color: #333436;
   letter-spacing: 2px;
   margin: 15px 0 0px;
 }
@@ -1498,7 +1504,7 @@ h1 {
 .our_team .team_member p{
   margin-top: 20px;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 28px;
    font-family: 'Noto Sans', sans-serif;
   padding-left: 20px;
   padding-right: 20px;

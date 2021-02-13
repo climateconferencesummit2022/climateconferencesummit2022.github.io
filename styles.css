@@ -237,7 +237,7 @@ html {
   
   background-color: #28498a;
   padding-bottom: 18vh;
-  
+  margin-top: -45%;
   
   
 }
@@ -252,6 +252,7 @@ html {
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
       padding-bottom: 4vh;
+      padding-top: 10vh;
       
       
     }
@@ -316,13 +317,13 @@ html {
   position: relative;
   border-radius: 25px;
   background: #fff;
- box-shadow:
+ /*box-shadow:
   0 2.8px 2.2px rgba(35, 63, 120),
   0 6.7px 5.3px rgba(35, 63, 120),
   0 12.5px 10px rgba(35, 63, 120),
   0 22.3px 17.9px rgba(35, 63, 120),
   0 41.8px 33.4px rgba(35, 63, 120),
-  0 100px 80px rgba(35, 63, 120);
+  0 100px 80px rgba(35, 63, 120);*/
 }
 
 .carousel section{
@@ -562,19 +563,8 @@ html {
       line-height: 2em;
       color: #6e6d6d;
     	text-align: center;
-    }
-.test2-heading p1{
-    	color: #333436;
-    	font-size: 1rem;
-      font-family: 'Rubik', sans-serif;
-    	margin-top: 1em;
-      margin-bottom: 10vh;
-      line-height: 2em;
-      color: #6e6d6d;
-    	text-align: center;
-      padding-left: 100px;
-  padding-right: 100px;
-  
+  margin-left: 100px;
+    margin-right: 100px;
     }
 
 .smallblurb1{

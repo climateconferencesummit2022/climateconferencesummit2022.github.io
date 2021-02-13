@@ -1264,7 +1264,7 @@ h2 {
   margin-left: 20%;
   margin-right: 300px;
   justify-content:center;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
   margin-top: 20px;
   line-height:35px;
   font-family: 'Noto Sans', sans-serif;
@@ -1278,6 +1278,7 @@ h2 {
 }
 #rightimage{
  text-align:center;
+  padding-bottom: 15px;
 }
 
 

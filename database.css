@@ -1518,12 +1518,12 @@ text-align: left;
 
 .analytic{
   box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
-  width: 80%;
+  width: 85%;
    background-color: white;
    padding-left: 5vw;
    padding-top: 60px;
    padding-bottom: 10px;
-   padding-right: 5vw;
+   
    margin-left: 10vw;
    
      font-family: 'Noto Sans', sans-serif;
@@ -1532,6 +1532,8 @@ text-align: left;
 
 .burr{
   background-color: #fcfcfc;
+  padding-bottom: 80px;
+  padding-top: 40px;
 }
 
 .analytic .clear {
@@ -1555,6 +1557,9 @@ text-align: left;
     
 }
 
+#lefttext{
+  margin-right: 80px;
+}
 
 #lefttext p{
   width: 100%;
@@ -1585,10 +1590,7 @@ text-align: left;
 
 
 
-#righttext{
-  padding-left: 80px;
 
-}
 
 #2col{
   text-align:center;
@@ -1596,8 +1598,12 @@ text-align: left;
   align-content:center;
 }
 
+#righttext{
+  margin-right: 10px;
+}
+
 #righttext p{
-  width: 100%;
+  width: 87%;
     
 }
 

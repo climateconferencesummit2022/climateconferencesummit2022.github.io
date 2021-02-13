@@ -808,7 +808,7 @@ html{
     	width:100%;
       padding-top: 200px;
       padding-bottom: 170px;
-    	height: 100vh;
+    	
     	display: flex;
     	flex-direction: column;
       background-color: #fcfcfc;
@@ -845,6 +845,7 @@ html{
     .s-box{
     	display:flex;
     	flex-direction: column;
+      margin-top: 
 
     	border-radius: 10px;
     	width:300px;
@@ -1264,7 +1265,7 @@ h2 {
   margin-left: 20%;
   margin-right: 300px;
   justify-content:center;
-  padding-bottom: 15px;
+  margin-bottom: 20px;
   margin-top: 20px;
   line-height:35px;
   font-family: 'Noto Sans', sans-serif;
@@ -1278,7 +1279,7 @@ h2 {
 }
 #rightimage{
  text-align:center;
-  padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 

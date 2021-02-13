@@ -225,7 +225,7 @@ html{
 /*========== HOME ==========*/
 
 .home{
-  background-color: white;
+  background-color: #d4e5ff;
   
 }
 .home__container{
@@ -1229,13 +1229,15 @@ ul{
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+  
 }
 
 .custom-shape-divider-bottom-1612574977 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 137px;
+    height: 100px;
+  
 }
 
 .custom-shape-divider-bottom-1612574977 .shape-fill {

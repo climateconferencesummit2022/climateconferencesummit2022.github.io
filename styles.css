@@ -542,6 +542,7 @@ html {
       padding: 10px 70px;
     	color: #3b92e3;
       font-family: 'Rubik', sans-serif;
+      
     }
 
 .test2-btn:hover {
@@ -562,7 +563,19 @@ html {
       color: #6e6d6d;
     	text-align: center;
     }
-
+.test2-heading p1{
+    	color: #333436;
+    	font-size: 1rem;
+      font-family: 'Rubik', sans-serif;
+    	margin-top: 1em;
+      margin-bottom: 10vh;
+      line-height: 2em;
+      color: #6e6d6d;
+    	text-align: center;
+      padding-left: 100px;
+  padding-right: 100px;
+  
+    }
 
 .smallblurb1{
   letter-spacing: .2em;

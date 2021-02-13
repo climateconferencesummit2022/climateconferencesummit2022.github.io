@@ -1484,7 +1484,7 @@ input[type="checkbox"]{
 }
 .blog-card{
   position: absolute;
-  height: 370px;
+  height: 500px;
   width: 95%;
   max-width: 850px;
   margin: auto;
@@ -1497,16 +1497,17 @@ input[type="checkbox"]{
   display: flex;
   height: 360px;
   align-items: center;
+
   justify-content: center;
-  padding: 0 25px;
+  padding: 0 70px;
 }
 #imgTap:checked ~ .inner-part {
   padding: 0;
   transition: .1s ease-in;
 }
 .inner-part .img{
-  height: 260px;
-  width: 260px;
+  height: auto;
+  width: 15vw;
   flex-shrink: 0;
   overflow: hidden;
   border-radius: 20px;
@@ -1567,13 +1568,14 @@ input[type="checkbox"]{
 }
 .inner-part .text{
   display: inline-block;
-  width: 35vw;
+  width: 30vw;
   padding: 10px;
   word-break: break-all; /* optional */
   color: #4e4a67;
+  padding-left: 10px;
   font-size: 19px;
   font-family: 'Noto Sans', sans-serif;
-  margin-bottom: 30px;
+  padding-bottom: 10px;
   line-height: 1.5em;
   text-align: justify;
 }

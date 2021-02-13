@@ -744,7 +744,7 @@ html {
     }
     .s-box-container{
     	width:85%;
-      
+      margin-top: -200px;
       margin-left: 10vw;
       margin-right: 10vw;
     	display: flex;

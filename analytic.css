@@ -1444,6 +1444,8 @@ text-align: left;
 .services-container{
   display: flex;
   flex-wrap: wrap;
+  padding-top: 40px;
+  background-color: #fcfcfc;
   justify-content: center;
 }
 
@@ -1457,18 +1459,23 @@ text-align: left;
 
 .service-icon img{
   display: inline-block;
-  height: 150px;
+  height: 100px;
 
 }
 
 
 .service-title{
   font-size: 18px;
+  color: #333333;
+  font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 .service-desc{
   font-size: 14px;
+  color: #333333;
+  font-family: 'Noto Sans', sans-serif;
+  
 }
 
 @media screen and (max-width:960px) {

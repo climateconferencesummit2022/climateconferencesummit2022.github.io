@@ -775,13 +775,13 @@ h2 {
 }
 
 #lefttext h2{
-  margin-left: 20%;
+  margin-left: 0px;
     
 }
 
 
 #lefttext p{
-  width: 70%;
+  width: 100%;
     
 }
 
@@ -790,13 +790,14 @@ h2 {
   font-family: 'Rubik', sans-serif;
   font-size: 40px;
   font-weight: 600;
+  text-align:left;
  
 }
 
 #lefttext p{
   font-size: 17px;
-  margin-left: 20%;
-  margin-right: 300px;
+  margin-left: 0px;
+  color:#707070;
   justify-content:center;
   padding-bottom: 50px;
   margin-top: 20px;
@@ -804,6 +805,44 @@ h2 {
   font-family: 'Noto Sans', sans-serif;
 } 
 
+
+
+
+
+#righttext h2{
+  margin-left: 0px;
+    
+}
+
+
+#righttext p{
+  width: 100%;
+    
+}
+
+
+#righttext h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align:left;
+ 
+}
+
+#righttext p{
+  font-size: 17px;
+  margin-left: 0px;
+  color:#707070;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+#righttext{
+  margin-left: 20px;
+}
 
 #rightimage{
  text-align:center;
@@ -1573,4 +1612,9 @@ text-align: left;
 
 .burr{
   background-color: #fcfcfc;
+}
+
+.analytic .clear {
+    clear: both;background-color: red;
+
 }

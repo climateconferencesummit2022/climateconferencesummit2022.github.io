@@ -225,7 +225,7 @@ html{
 /*========== HOME ==========*/
 
 .home{
-  background-color: #d4e5ff;
+  background-color: white;
   
 }
 .home__container{
@@ -254,6 +254,7 @@ html{
 .home__img{
   width: 300px;
   justify-self: center;
+ 
 }
 
 /*========== BUTTONS ==========*/

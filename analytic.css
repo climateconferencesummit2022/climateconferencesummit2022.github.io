@@ -1546,9 +1546,31 @@ text-align: left;
   float: left;
 }
 
+.leftside h2, p{
+  display: block;
+}
+
 @media screen and (min-width:768px){
   .leftside, .rightside{
   height: 100vh;
   
 }
+}
+
+.analytic{
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+  width: 80%;
+   background-color: white;
+   padding-left: 5vw;
+   padding-top: 60px;
+   padding-bottom: 10px;
+   padding-right: 5vw;
+   margin-left: 10vw;
+   
+     font-family: 'Noto Sans', sans-serif;
+  
+}
+
+.burr{
+  background-color: #fcfcfc;
 }

@@ -711,7 +711,7 @@ html {
     	width:100%;
     	
     	display: flex;
-      padding-bottom: 60%;
+      padding-bottom: 800px;
       padding-top:200px;
       /*margin-top: -20%;*/
       
@@ -744,12 +744,13 @@ html {
     }
     .s-box-container{
     	width:85%;
-      height:150px;
+      height:250px;
       margin-left: 10vw;
       margin-right: 10vw;
     	display: flex;
     	justify-content: center;
     	align-items: center;
+      
     }
     .s-box{
     	display:flex;

@@ -860,6 +860,7 @@ h2 {
 #servicedetails{
   background-color: #fcfcfc;
   padding-bottom: 20vh;
+  
 }
 
 #authentictext .smallblurb{
@@ -936,9 +937,9 @@ h2 {
 
 .content-table2 {
   border-collapse: collapse;
-  align-items: center;
+  
   width: 30%;
-  height: 10%;
+  height: 100px;
   font-size: 0.9em;
   border-radius: 5% 5% 5% 5%;
   
@@ -954,9 +955,19 @@ h2 {
   line-height: 33px;
 
 }
+.content-table2 td {
+  padding-top: 30px;
+  height: 10%;
+  text-align: left;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  line-height: 33px;
+
+}
 
 .content-table2 td img{
   padding-right: 20px;
+ 
 
 }
 

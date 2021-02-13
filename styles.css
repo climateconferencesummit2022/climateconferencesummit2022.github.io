@@ -824,6 +824,7 @@ html {
       text-decoration: none;
     	transition: all ease 0.3s;
     }
+
     .s-box:hover .bar{
     	display: block;
     }
@@ -1589,33 +1590,49 @@ input[type="checkbox"]{
 @media only screen and (max-width: 1000px) {
   .inner-part span{
     color: red;
-    padding-top: 20px;  
+    padding-top: 80px;  
   }
   
   .inner-part .text{
     color: red;
     width: 50vw;
+    margin-top: -50px;
   }
   
   .inner-part .img{
-  margin-right: 0px;
+  margin-right: -5px;
   width: 30%;
   }
 }
-.content button{
+.content a{
   display: inline-flex;
-  padding: 15px 20px;
-  border: none;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #fff0e6;
-  font-weight: 600;
-  letter-spacing: 1px;
-  border-radius: 50px;
+ 
+
   cursor: pointer;
-  outline: none;
-  border: 1px solid #fd3535;
+  
+    	width: 140px;
+    	height: 40px;
+      text-align: center;
+    	border-radius: 20px;
+    	border:.15em solid #3b92e3;
+    	display: flex;
+      justify-content: center;
+      align-items: center;
+    	color: #3b92e3;
+    	margin-top:10px;
+      font-family: 'Rubik', sans-serif;
+  
 }
+
+  .content a:hover{
+    	background-color:#4a90e2;
+    	border: 1px solid #4a90e2;
+    	color:#FFFFFF;
+      text-decoration: none;
+    	transition: all ease 0.3s;
+    }
+
+
 
 .sliders{
   position: absolute;

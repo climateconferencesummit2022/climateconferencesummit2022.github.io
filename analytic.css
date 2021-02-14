@@ -226,7 +226,7 @@ html{
   
 }
 .home__container{
-  height: calc(600px - var(--header-height));
+  height: calc(500px - var(--header-height));
   align-content: center;
   font-family: 'Rubik', sans-serif;
   

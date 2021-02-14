@@ -1600,10 +1600,12 @@ text-align: left;
 
 #righttext{
   margin-right: 10px;
+  margin-left:10px;
+  
 }
 
 #righttext p{
-  width: 90;
+  width: 90%;
     
 }
 

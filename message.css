@@ -257,7 +257,7 @@ html{
     text-align: center;
     padding-bottom: 30px;
     margin-top: 100px;
-    padding-top: 30px;
+    padding-top: 90px;
  
   }
 
@@ -279,7 +279,7 @@ html{
     font-size: 20px;
   }
   
-  .custom-shape-divider-bottom-1612574455{
+  .custom-shape-divider-bottom-1612574898{
     display: none;
   }
 }
@@ -1237,7 +1237,7 @@ ul{
 
 
 .custom-shape-divider-bottom-1612574898 {
-    position: absolute;
+    position: relative;;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -1249,12 +1249,12 @@ ul{
 .custom-shape-divider-bottom-1612574898 svg {
     position: relative;
     display: block;
-    width: calc(130% + 1.3px);
-    height: 125px;
+    width: calc(116% + 1.3px);
+    height: 150px;
 }
 
 .custom-shape-divider-bottom-1612574898 .shape-fill {
-    fill: #FCFCFC;
+    fill: #2bcfc9;
 }
 
 

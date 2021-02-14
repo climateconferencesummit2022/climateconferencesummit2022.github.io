@@ -1301,7 +1301,7 @@ h1 {
   width: 60%;
   max-width: 1000px;
   margin: 25px;
-  margin-left: -5%;
+ 
 }
 #video-vid {
   
@@ -1320,6 +1320,9 @@ h1 {
     display: none;
   }
 
+  .video-table{
+     margin-left: -3%;
+  }
 }
 
 #video-vid iframe{

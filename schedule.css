@@ -241,6 +241,7 @@ html{
   margin-bottom: var(--mb-1);
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
+  margin-top: 50px;
 }
 
 .home__subtitle{
@@ -262,7 +263,7 @@ html{
     text-align: center;
     padding-bottom: 30px;
     margin-top: 100px;
-    
+    padding-top: 30px;
  
   }
 
@@ -274,7 +275,7 @@ html{
  
   }
   .home__container{
-    height: calc(100vh - var(--header-height));
+    height: calc(700px - var(--header-height));
   }
   
   .home__data .button{

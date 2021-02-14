@@ -304,9 +304,9 @@ html {
 }
 
 .testimonials .container {
-  width: 80%;
+  width: 90%;
   
-  margin: 20px auto;
+  margin: auto;
   padding-top: 40px;
 
 }
@@ -327,7 +327,7 @@ html {
 }
 
 .carousel section{
-  padding-top: 50px;
+  padding-top: .5%;
 }
 
 .testimonials .slider {
@@ -1589,7 +1589,7 @@ input[type="checkbox"]{
   padding-right: 20px;
   font-size: 19px;
   font-family: 'Noto Sans', sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   line-height: 1.5em;
   text-align: justify;
 }

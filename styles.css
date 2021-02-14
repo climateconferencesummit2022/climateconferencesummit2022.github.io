@@ -557,14 +557,16 @@ html {
 .test2-heading p{
     	color: #333436;
     	font-size: 1rem;
-      font-family: 'Rubik', sans-serif;
-    	margin-top: 1em;
+      font-family: 'Noto Sans', sans-serif;
+    	margin-top: .2em;
       margin-bottom: 2em;
       line-height: 2em;
+  width: 50vw;
+margin-left: 24%;
       color: #6e6d6d;
     	text-align: center;
-  margin-left: 100px;
-    margin-right: 100px;
+
+    
     }
 
 .smallblurb1{

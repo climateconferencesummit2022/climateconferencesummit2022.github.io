@@ -226,6 +226,13 @@ html{
 
 .home{
   background-color: white;
+ 
+  
+}
+
+.extra{
+  background-color: #fcfcfc;
+ height: 20vw;
   
 }
 .home__container{
@@ -1080,9 +1087,8 @@ ul{
 ================================================== */
 
 #doubleservices{
-  background-color: #fcfcfc;
-  padding-top: 20vh;
-  margin-top: 20vh;
+  background-color: red;
+  padding-top: 40vh;
   
 }
 @media(max-width: 15000px){
@@ -1231,6 +1237,7 @@ ul{
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+ 
   
 }
 

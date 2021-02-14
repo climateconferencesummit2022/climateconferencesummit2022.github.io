@@ -1635,9 +1635,23 @@ input[type="checkbox"]{
       align-items: center;
     	color: #3b92e3;
     	margin-top:10px;
+  margin-top:10px;
       font-family: 'Rubik', sans-serif;
   
 }
+
+
+@media screen and (max-width: 600px) {
+
+  .content a{
+    margin-bottom:-130px;
+  }
+  
+  .inner-part {
+    margin-left: -30px;
+  }
+}
+
 
   .content a:hover{
     	background-color:#4a90e2;

@@ -19,11 +19,21 @@ html {
 .topnav {
   overflow: hidden;
   background-color: #fafafa;
-   position: fixed; /* Set the navbar to fixed position */
+   position: fixed; 
  top:0;
   width: 100%;
   z-index: 1000;
   
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a{
+    float:left;
+  }
+  
+  .dropdown {
+    float:left;
+  }
 }
 
 .topnav a {

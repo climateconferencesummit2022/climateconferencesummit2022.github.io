@@ -246,9 +246,11 @@ html{
     padding-bottom: 30px;
  
   }
-  
-  .home__title .home__subtitle{
-    text-align: center;
+
+  .home__title, .home__subtitle{
+    justify-content: center;
+    padding-left:10%;
+
     
  
   }
@@ -1597,7 +1599,7 @@ text-align: left;
 #lefttext h2{
   font-family: 'Rubik', sans-serif;
   font-size: 40px;
-  font-weight: 600;
+
   text-align:left;
  
 }
@@ -1610,7 +1612,7 @@ text-align: left;
   padding-bottom: 50px;
   margin-top: 20px;
   line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
+   font-family: 'Noto Sans', sans-serif;
 } 
 
 

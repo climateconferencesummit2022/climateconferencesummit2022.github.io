@@ -241,10 +241,27 @@ html{
 }
 
 @media(max-width: 600px){
-  .home__title, .home__subtitle{
+  .home__title{
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
  
+  }
+  
+  .home__title .home__subtitle{
+    text-align: center;
+    
+ 
+  }
+  
+  .home__data .button{
+    
+      margin-left: 35%;
+  position: relative;
+    font-size: 20px;
+  }
+  
+  .custom-shape-divider-bottom-1612574455{
+    display: none;
   }
 }
 

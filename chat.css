@@ -1313,6 +1313,15 @@ h1 {
   
 }
 
+
+@media screen and (max-width: 900px) {
+
+  #video-vid {
+    display: none;
+  }
+
+}
+
 #video-vid iframe{
   
  

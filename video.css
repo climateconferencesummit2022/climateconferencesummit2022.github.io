@@ -226,19 +226,17 @@ html{
 
 .home{
   background-color: white;
-  margin-top: 8px;
   
 }
 .home__container{
-  height: 90v;
+  height: calc(100vh - var(--header-height));
   align-content: center;
   font-family: 'Rubik', sans-serif;
-  
   
 }
 
 .home__title{
-  font-size: 80px;
+  font-size: var(--biggest-font-size);
   color: #2bcfc9;
   margin-bottom: var(--mb-1);
   font-family: 'Rubik', sans-serif;
@@ -350,7 +348,7 @@ html{
   }
 
   .home__container{
-   
+    
     justify-items: center;
   }
 

@@ -1397,6 +1397,33 @@ h1 {
 } 
 
 
+
+#midtext h2{
+  margin-left: 25%;
+    
+}
+
+
+
+#midtext h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
+}
+
+#midtext p{
+  font-size: 17px;
+  margin-left: 25%;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  width: 60%;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
 #rightimage{
  text-align:center;
 }

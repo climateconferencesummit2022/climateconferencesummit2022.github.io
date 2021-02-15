@@ -127,7 +127,7 @@ nav{
   display: none;
   position: fixed;
   background-color: #f9f9f9;
-  min-width: 160px;
+  max-width: 300px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1000;
 }
@@ -228,7 +228,7 @@ html{
 
 .home{
   background-color: white;
- margin: 50px;
+ 
   
 }
 
@@ -261,6 +261,7 @@ html{
 .home__container{
   height: calc(500px - var(--header-height));
   align-content: center;
+  margin: 50px;
   font-family: 'Rubik', sans-serif;
   
 }
@@ -291,6 +292,17 @@ html{
   .home_title{
     text-align: center;
   }
+  
+  .home{
+    margin: 50px;
+  }
+  
+  .home__container{
+  
+ margin: 0px;
+}
+
+
 }
 .home__subtitle{
   font-size: var(--h1-font-size);
@@ -540,7 +552,7 @@ html{
 ================================================== */
 
 #servicedetails{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   margin-top: -40px;
   padding-left: 2vh;
 }
@@ -1110,10 +1122,12 @@ ul{
     height: calc(700px- var(--header-height));
   }
   
-  .home__data .button a{
+  .home__data a{
     
       text-align: center;
-    position: relative;
+    justify-content: center;
+    display: block;
+    margin: 30px;
     font-size: 20px;
   }
   

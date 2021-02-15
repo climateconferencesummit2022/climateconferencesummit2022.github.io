@@ -1199,6 +1199,12 @@ ul{
     padding: 25px;
 }
 
+@media screen and (max-width: 600px) {
+  .mytabs {
+    margin-left: 30%;
+  }
+}
+
 .mytabs input[type="radio"] {
     display: none;
 }
@@ -1350,8 +1356,8 @@ ul{
     font-family: 'Noto Sans', sans-serif;
     line-height: 40px;
     border-radius: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 2vw;
+
     padding: 25px;
 }
 
@@ -1378,7 +1384,7 @@ ul{
     display: none;
 }
 .mytabs .tab h2 {
-    font-size: 250%;
+    font-size: 220%;
   margin-bottom: 20px;
   font-family: 'Rubik', sans-serif;
   width: 95%;

@@ -26,6 +26,11 @@ html {
   
 }
 
+#bg-svg{
+  background-color: #28498a;
+  margin-bottom: -20px;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a{
     float:left;
@@ -1189,10 +1194,12 @@ ul{
 
 .bottomfooter{
   background-color: #fcfcfc;
+
+  
 }
 .footer{
 	background-color: #24262b;
-  padding: 70px 0;
+  padding: 70px 0;  
 }
 .footer-col{
    width: 25%;

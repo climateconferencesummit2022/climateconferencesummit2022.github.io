@@ -233,6 +233,16 @@ html{
   
 }
 
+.home__subtitle{
+  font-size: 20px;
+  color: var(--title-color);
+ 
+   font-family: 'Noto Sans', sans-serif;
+  margin-bottom: var(--mb-4);
+ line-height: 35px;
+  text-align: left;
+}
+
 /*========== BUTTONS ==========*/
 .button{
   display: inline-block;
@@ -305,12 +315,6 @@ html{
 
 
 }
-.home__subtitle{
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
-  font-family: 'Rubik', sans-serif;
-  margin-bottom: var(--mb-4);
-}
 
 .home__img{
   width: 300px;
@@ -319,22 +323,6 @@ html{
 }
 
 
-
-
-/*========== ABOUT ==========*/
-.about__data{
-  text-align: center;
-}
-
-.about__description{
-  margin-bottom: var(--mb-3);
-}
-
-.about__img{
-  width: 280px;
-  border-radius: .5rem;
-  justify-self: center;
-}
 
 
 /*========== MEDIA QUERIES ==========*/
@@ -1470,12 +1458,3 @@ h1 {
 
 
 
-.home__subtitle{
-  font-size: 20px;
-  color: var(--title-color);
- 
-   font-family: 'Noto Sans', sans-serif;
-  margin-bottom: var(--mb-4);
- line-height: 35px;
-  text-align: left;
-}

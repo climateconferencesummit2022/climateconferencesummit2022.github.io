@@ -86,6 +86,7 @@ html {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1000;
+  color: #4b4e54;
 }
 
 .dropdown-content a {
@@ -95,6 +96,7 @@ html {
   text-decoration: none;
   display: block;
   text-align: left;
+  color: #4b4e54;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
@@ -122,6 +124,8 @@ html {
     float: right;
     display: block;
   }
+  
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -130,6 +134,7 @@ html {
     position: absolute;
     right: 0;
     top: 0;
+    
   }
   .topnav.responsive a {
     float: none;
@@ -140,9 +145,10 @@ html {
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;
-    width: 100%;
+    width: 150%;
     text-align: left;
   }
+
 }
 
 

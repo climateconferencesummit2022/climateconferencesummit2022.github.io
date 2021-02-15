@@ -6,8 +6,9 @@
 
 body{
   font-family: 'Rubik', sans-serif;
-  background-color: #fcfcfc;
+  background-color: #fcfcfc;margin: 10px;
 }
+
 
 
 
@@ -217,6 +218,7 @@ body{
 
 html{
   scroll-behavior: smooth;
+  
 }
 
 
@@ -1424,7 +1426,9 @@ h1 {
 } 
 
 #midtext{
-  background-color:
+  background-color: #fcfcfc;
+  padding-top:200px;
+  position: relative;
 }
 
 #rightimage{

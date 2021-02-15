@@ -1257,12 +1257,7 @@ ul{
 
 /*========== MEDIA QUERIES ==========*/
 
-@media screen (max-width: 600px and min-width: px){
-  .home__container{
-    margin: 200px;
-  }
-}
-  
+
   
 @media screen and (min-width: 576px){
   .home__container,

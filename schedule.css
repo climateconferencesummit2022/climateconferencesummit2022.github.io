@@ -222,78 +222,19 @@ html{
 }
 
 
+
 /*========== HOME ==========*/
 
 .home{
   background-color: white;
-  
-}
-.home__container{
-  height: calc(600px - var(--header-height));
-  align-content: center;
-  font-family: 'Rubik', sans-serif;
-  
-}
-
-.home__title{
-  font-size: var(--biggest-font-size);
-  color: #2bcfc9;
-  margin-bottom: var(--mb-1);
-  font-family: 'Rubik', sans-serif;
-  font-weight: 600;
-  margin-top: 50px;
-}
-
-.home__subtitle{
-  font-size: 20px;
-  color: var(--title-color);
  
-   font-family: 'Noto Sans', sans-serif;
-  margin-bottom: var(--mb-4);
- line-height: 35px;
-  text-align: left;
-}
-
-.home__img{
-  width: 300px;
-  justify-self: center;
-}
-@media(max-width: 600px){
-  .home__title{
-    text-align: center;
-    padding-bottom: 30px;
-    margin-top: 100px;
-    padding-top: 30px;
- 
-  }
-
-  .home__title, .home__subtitle{
-    justify-content: center;
-    padding-left:10%;
-
-    
- 
-  }
-  .home__container{
-    height: calc(700px - var(--header-height));
-  }
   
-  .home__data .button{
-    
-      margin-left: 35%;
-  position: relative;
-    font-size: 20px;
-  }
-  
-  .custom-shape-divider-bottom-1612574455{
-    display: none;
-  }
 }
-
 
 /*========== BUTTONS ==========*/
 .button{
   display: inline-block;
+  
   background-color: #2bcfc9;
   color: #FFF;
   padding: .75rem 1rem;
@@ -302,11 +243,81 @@ html{
   transition: .3s;
 }
 
+
 .button:hover{
   background-color: #3aa6a2;
   text-decoration: none;
   color: #FFF;
 }
+
+
+
+.extra{
+  background-color: #f7f7f7;
+ height: 10vw;
+  
+}
+.home__container{
+  height: calc(500px - var(--header-height));
+  align-content: center;
+  margin: 50px;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+.home__title{
+  font-size: 20px;
+  color: #2bcfc9;
+  margin-bottom: var(--mb-1);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  text-align: left;
+ margin-top: 50px;
+}
+
+
+.home_title{
+  font-size: 3.3rem;
+  font-weight: 600;
+  color: var(--title-color);
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: var(--mb-4);
+   margin-top: 70px;
+  color: #2bcfc9;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px){
+  .home_title{
+    text-align: center;
+  }
+  
+  .home{
+    margin: 50px;
+  }
+  
+  .home__container{
+  
+ margin: 0px;
+}
+
+
+}
+.home__subtitle{
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: var(--mb-4);
+}
+
+.home__img{
+  width: 300px;
+  justify-self: center;
+ 
+}
+
+
+
 
 /*========== ABOUT ==========*/
 .about__data{
@@ -422,6 +433,9 @@ html{
     column-gap: 7rem;
   }
 }
+
+
+
 
 
 

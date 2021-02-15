@@ -75,6 +75,12 @@ body{
 nav{
   margin-bottom: 5vw;
 }
+
+@media(max-width: 600px){
+  nav{
+    margin-bottom: 20vw;
+  }
+}
 .topnav {
   overflow: hidden;
   background-color: #fafafa;
@@ -246,11 +252,14 @@ html{
 
   .home__title, .home__subtitle{
     justify-content: center;
-    padding-left:10%;
-
-    
- 
+   
   }
+  
+  .home__subtitle h2{
+    text-align: center;
+   
+  }
+  
   .home__container{
     height: calc(700px- var(--header-height));
   }
@@ -277,7 +286,7 @@ html{
  
    font-family: 'Noto Sans', sans-serif;
   margin-bottom: var(--mb-4);
- line-height: 35px;
+   line-height: 35px;
   text-align: left;
 }
 

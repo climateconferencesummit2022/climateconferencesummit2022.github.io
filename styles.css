@@ -145,7 +145,7 @@ html {
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;
-    width: 150%;
+    width: 100%;
     text-align: left;
   }
 

@@ -225,7 +225,14 @@ html{
 }
 
 
+
 /*========== HOME ==========*/
+
+.home{
+  background-color: white;
+ 
+  
+}
 
 
 
@@ -264,6 +271,7 @@ html{
 }
 
 
+
 .home__subtitle{
   font-size: 20px;
   color: var(--title-color);
@@ -272,12 +280,6 @@ html{
   margin-bottom: var(--mb-4);
  line-height: 35px;
   text-align: left;
-}
-
-.home{
-  background-color: white;
- 
-  
 }
 
 /*========== BUTTONS ==========*/
@@ -310,7 +312,18 @@ html{
   height: calc(500px - var(--header-height));
   align-content: center;
   margin: 50px;
+  font-family: 'Rubik', sans-serif;
   
+}
+
+.home__title{
+  font-size: 20px;
+  color: #2bcfc9;
+  margin-bottom: var(--mb-1);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  text-align: left;
+ margin-top: 50px;
 }
 
 
@@ -349,22 +362,6 @@ html{
 }
 
 
-
-
-/*========== ABOUT ==========*/
-.about__data{
-  text-align: center;
-}
-
-.about__description{
-  margin-bottom: var(--mb-3);
-}
-
-.about__img{
-  width: 280px;
-  border-radius: .5rem;
-  justify-self: center;
-}
 
 
 /*========== MEDIA QUERIES ==========*/

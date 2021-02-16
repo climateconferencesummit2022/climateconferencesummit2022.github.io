@@ -255,10 +255,6 @@ html{
    
   }
   
-  .home__subtitle h2{
-    text-align: center;
-   
-  }
   
   .home__container{
     height: calc(700px- var(--header-height));
@@ -337,7 +333,7 @@ html{
 
 .home_title{
   font-size: 3.3rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--title-color);
   font-family: 'Rubik', sans-serif;
   margin-bottom: var(--mb-4);
@@ -1231,22 +1227,6 @@ ul{
 }
 
 
-
-@media (max-width: 1200px) {
-  h2::before{
-    content: none;
-  }
-
-  #left2{
-    display: none;
-  }
-
-  #authentictext{
-    padding-top: 40px;
-    text-align: center;
-  }
-
-}
 
 .content-table4 {
   border-collapse: collapse;

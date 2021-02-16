@@ -494,7 +494,7 @@ html{
       Footer
 ================================================== */
 .bottomfooter{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
 }
 .container{
 	max-width: 1170px;
@@ -798,7 +798,7 @@ h2 {
 
 .test2-heading{
     	text-align:center;
-  background-color: #fcfcfc;
+
   margin-top: -3vh;
   padding-top:5vh;
   
@@ -1358,7 +1358,7 @@ text-align: left;
 ================================================== */
 
 .textinfo{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-top: 100px;
 }
 
@@ -1409,7 +1409,7 @@ text-align: left;
 
 .services-section{
   background-size: cover;
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding: 60px 0;
 }
 .inner-width{
@@ -1435,7 +1435,7 @@ text-align: left;
   display: flex;
   flex-wrap: wrap;
   padding-top: 40px;
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   justify-content: center;
 }
 

@@ -307,16 +307,16 @@ html{
   text-align: left;
 }
 
-/*========== BUTTONS ==========*/
 .button{
   display: inline-block;
   
   background-color: #2bcfc9;
   color: #FFF;
-  padding: .75rem 1rem;
+  padding: .9rem 1.5rem;
   border-radius: .5rem;
   font-family: 'Rubik', sans-serif;
   transition: .3s;
+  font-size: 1.2rem;
 }
 
 
@@ -325,7 +325,6 @@ html{
   text-decoration: none;
   color: #FFF;
 }
-
 
 
 .extra{

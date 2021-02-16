@@ -317,9 +317,6 @@ html{
 }
 
 @media screen and (min-width: 768px){
-  body{
-    margin: 0;
-  }
 
   .section{
     padding-top: 8rem;

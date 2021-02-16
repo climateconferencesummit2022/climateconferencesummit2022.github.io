@@ -73,12 +73,12 @@ body{
 # Navigation Menu
 --------------------------------------------------------------*/
 nav{
-  margin-bottom: 5vw;
+  margin-bottom: 8vw;
 }
 
 @media(max-width: 600px){
   nav{
-    margin-bottom: 20vw;
+    margin-bottom: 30vw;
   }
 }
 .topnav {
@@ -173,6 +173,7 @@ nav{
     float: right;
     display: block;
   }
+  
 
 }
 
@@ -194,6 +195,10 @@ nav{
     display: block;
     width: 100%;
     text-align: left;
+  }
+  
+  .topnav{
+    position: fixed;
   }
 }
 
@@ -277,12 +282,12 @@ html{
 
 
 .home__subtitle{
-  font-size: 20px;
+  font-size: 26px;
   color: var(--title-color);
  
    font-family: 'Noto Sans', sans-serif;
   margin-bottom: var(--mb-4);
-   line-height: 35px;
+   line-height: 39px;
   text-align: left;
 }
 
@@ -321,7 +326,7 @@ html{
 }
 
 .home__title{
-  font-size: 20px;
+  font-size: 26px;
   color: #2bcfc9;
   margin-bottom: var(--mb-1);
   font-family: 'Rubik', sans-serif;

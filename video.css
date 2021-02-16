@@ -347,8 +347,13 @@ html{
     text-align: center;
   }
   
+  .home__subtitle{
+    text-align: center;
+  }
+   
+  
   .home{
-    margin: 5vw;
+    margin: 10vw;
   }
   
   .home__container{
@@ -1357,6 +1362,11 @@ ul{
 }
 
 
+@media screen and (max-width: 600px){
+  #rightimage{
+    padding-bottom: 50px;
+  }
+}
 
 
 

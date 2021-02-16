@@ -73,14 +73,10 @@ body{
 # Navigation Menu
 --------------------------------------------------------------*/
 nav{
-  margin-bottom: 8vw;
+  margin-bottom: 100px;
 }
 
-@media(max-width: 600px){
-  nav{
-    margin-bottom: 30vw;
-  }
-}
+
 .topnav {
   overflow: hidden;
   background-color: #fafafa;
@@ -258,21 +254,13 @@ html{
 
   .home{
     padding-bottom: 80px;
-    padding-top: 3vw;
+    padding-top: 100px;
   }
   
   .home__container{
     height: calc(700px- var(--header-height));
   }
-  
-  .home__data a{
-    
-      text-align: center;
-    justify-content: center;
-    display: block;
-    margin: 30px;
-    font-size: 20px;
-  }
+
   
   .custom-shape-divider-bottom-1612574977{
     display: none;
@@ -300,12 +288,13 @@ html{
 .home__subtitle{
   font-size: 26px;
   color: var(--title-color);
- 
+
    font-family: 'Noto Sans', sans-serif;
   margin-bottom: var(--mb-4);
    line-height: 39px;
   text-align: left;
 }
+
 
 .button{
   display: inline-block;

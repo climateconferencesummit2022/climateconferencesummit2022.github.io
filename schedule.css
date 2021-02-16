@@ -265,14 +265,6 @@ html{
     height: calc(700px- var(--header-height));
   }
   
-  .home__data a{
-    
-      text-align: center;
-    justify-content: center;
-    display: block;
-    margin: 30px;
-    font-size: 20px;
-  }
   
   .custom-shape-divider-bottom-1612574977{
     display: none;

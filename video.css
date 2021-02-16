@@ -246,11 +246,6 @@ html{
     justify-content: center;
    
   }
-    .home__container{
-  
-    margin-left: 3vw;
-}
-
 
   .home{
     padding-bottom: 80px;
@@ -286,7 +281,7 @@ html{
 
 
 .home__subtitle{
-  font-size: 26px;
+  font-size: 20px;
   color: var(--title-color);
 
    font-family: 'Noto Sans', sans-serif;

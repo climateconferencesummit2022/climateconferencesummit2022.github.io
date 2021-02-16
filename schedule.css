@@ -73,14 +73,10 @@ body{
 # Navigation Menu
 --------------------------------------------------------------*/
 nav{
-  margin-bottom: 8vw;
+  margin-bottom: 100px;
 }
 
-@media(max-width: 600px){
-  nav{
-    margin-bottom: 30vw;
-  }
-}
+
 .topnav {
   overflow: hidden;
   background-color: #fafafa;
@@ -250,15 +246,10 @@ html{
     justify-content: center;
    
   }
-    .home__container{
-  
-    margin-left: 3vw;
-}
-
-
+    
   .home{
     padding-bottom: 80px;
-    padding-top: 3vw;
+    padding-top: 100px;
   }
   
   .home__container{
@@ -290,7 +281,7 @@ html{
 
 
 .home__subtitle{
-  font-size: 26px;
+  font-size: 20px;
   color: var(--title-color);
  
    font-family: 'Noto Sans', sans-serif;

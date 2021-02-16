@@ -257,7 +257,7 @@ html{
   }
   
   
-  .custom-shape-divider-bottom-1612574977{
+  .custom-shape-divider-bottom-1613503974{
     display: none;
   }
 
@@ -708,3 +708,22 @@ ul{
 
 
 
+.custom-shape-divider-bottom-1613503974 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1613503974 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1613503974 .shape-fill {
+    fill: #f0f0f0;
+}

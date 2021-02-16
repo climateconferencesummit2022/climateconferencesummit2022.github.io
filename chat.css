@@ -255,7 +255,7 @@ html{
   }
 
   
-  .sv{
+  .custom-shape-divider-bottom-1612574261{
     display: none;
   }
 
@@ -512,7 +512,7 @@ html{
 }
 
 .custom-shape-divider-bottom-1612574261 .shape-fill {
-    fill: #2bcfc9;
+    fill: #f0f0f0;
 }
 
 /* ==================================================
@@ -755,78 +755,6 @@ html{
 }
 
 
-/* ==================================================
-      Video Info Section
-================================================== */
-
-.videoinfo{
-  align-items: center;
-  display: block;
-  text-align: center;
-  background-color: #fcfcfc;
-  padding-top: 150px;
-
-}
-
-.video-blurb h2{
-  font-family: 'Rubik', sans-serif;
-  font-size: 40px;
-  font-weight: 600;
- 
-}
-
-.video-blurb p{
-  font-size: 17px;
-  margin-left: 300px;
-  margin-right: 300px;
-  justify-content:center;
-  padding-bottom: 50px;
-  margin-top: 20px;
-  line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
-} 
-
-.video-info p{
-  width: 50%;
-   margin: auto;
-
-  padding: 10px;
-  font-family: 'Noto Sans', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-}
-
-.video-info h1{
-   padding-bottom: 10px;
-  font-weight:600;
-  color: #c42ed1;
-  font-family: 'Rubik', sans-serif;
-}
-
-.second-btn {
-   font-family: 'Rubik', sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px;
-    border: 2px solid #11dbcf;
-    color: #11dbcf;
-  }
-
-   .second-btn:hover {
-    background: #11dbcf;
-    border: 2px solid #11dbcf;
-    text-decoration: none;
-    color:#fff;
-  }
-
-
-
 
 
 
@@ -980,7 +908,7 @@ html{
       Footer
 ================================================== */
 .bottomfooter{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
 }
 .container{
 	max-width: 1170px;
@@ -1252,13 +1180,13 @@ h1 {
 ================================================== */
 
 .videoinfo{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 #videoitem{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   margin-left: 120px;
   margin-right: -200px;
   margin-top: 15px;
@@ -1334,11 +1262,14 @@ h1 {
   padding: 24px 15px;
   font-family: 'Noto Sans', sans-serif;
   line-height: 2em;
-  color: #6e6d6d;
+  color: red;
   font-size: 14px;
   
 
 }
+
+
+
 
 
 .video-table td h1 {

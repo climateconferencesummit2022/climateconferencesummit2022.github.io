@@ -69,12 +69,15 @@ body{
 }
 
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 nav{
   margin-bottom: 100px;
 }
+
+
 .topnav {
   overflow: hidden;
   background-color: #fafafa;
@@ -163,14 +166,19 @@ nav{
   .logo {
     display: none;
   }
+  
+
   .topnav a.icon {
     float: right;
     display: block;
   }
+  
+
 }
 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: fixed;}
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -188,7 +196,12 @@ nav{
     width: 100%;
     text-align: left;
   }
+  
+  .topnav{
+    position: fixed;
+  }
 }
+
 
 
 
@@ -1044,7 +1057,7 @@ ul{
 }
 
 .custom-shape-divider-bottom-1612574898 .shape-fill {
-    fill: #2bcfc9;
+    fill: #f0f0f0;
 }
 
 
@@ -1152,7 +1165,7 @@ ul{
   }
 
   
-  .custom-shape-divider-bottom-1612574977{
+  .custom-shape-divider-bottom-1612574898{
     display: none;
   }
 

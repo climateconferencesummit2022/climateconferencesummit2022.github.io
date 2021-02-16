@@ -1195,7 +1195,7 @@ ul{
 }
 
 .bottomfooter{
-  background-color: #fcfcfc;
+  background-color: #28498a;
 
   
 }
@@ -1600,7 +1600,7 @@ input[type="checkbox"]{
 }
 .inner-part .text{
   display: inline-block;
-  width: 50vw;
+  width: auto;
   padding: 10px;
   word-break: break-all; /* optional */
   color: #4e4a67;

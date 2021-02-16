@@ -169,6 +169,8 @@ nav{
   .logo {
     display: none;
   }
+  
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -177,8 +179,9 @@ nav{
 
 }
 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: fixed;}
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;

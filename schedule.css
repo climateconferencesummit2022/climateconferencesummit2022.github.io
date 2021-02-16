@@ -69,11 +69,19 @@ body{
 }
 
 
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 nav{
-  margin-bottom: 5vw;
+  margin-bottom: 8vw;
+}
+
+@media(max-width: 600px){
+  nav{
+    margin-bottom: 30vw;
+  }
 }
 .topnav {
   overflow: hidden;

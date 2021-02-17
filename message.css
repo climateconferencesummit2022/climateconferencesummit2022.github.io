@@ -1005,7 +1005,7 @@ ul{
 }
 
 #lefttext h2{
-  margin-left: 20%;
+  margin-left: 15%;
   text-align: left;
   
     
@@ -1027,7 +1027,7 @@ ul{
 
 #lefttext p{
   font-size: 17px;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-right: 300px;
   justify-content:center;
   padding-bottom: 50px;
@@ -1239,16 +1239,20 @@ ul{
   padding-top: 50px;
   padding-bottom: 50px;
   
+  
 }
 .mytabs {
-    display: flex;
+  display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
- 
+
+  margin-left: auto;
+  margin-right: auto;
+   
     font-family: 'Noto Sans', sans-serif;
     line-height: 40px;
     border-radius: 10px;
-    margin-left: 2vw;
+
 
     padding: 25px;
 }
@@ -1285,6 +1289,7 @@ ul{
 
 .tab{
   height: auto;
+  
 }
 
 

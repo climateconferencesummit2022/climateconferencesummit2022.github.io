@@ -1522,7 +1522,7 @@ input[type="checkbox"]{
 .inner-part{
   position: absolute;
   display: flex;
-  height: 360px;
+  height: auto;
   align-items: center;
 
   justify-content: center;

@@ -971,74 +971,6 @@ ul{
 
 
 
-
-/* ==================================================
-      Tabs
-================================================== */
-
-
-
-.tabs {
-    background: #f0f0f0;
-    font-family: 'Rubik', sans-serif;
-}
-.mytabs {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 36px;
-    border-radius: 10px;
-    padding: 25px;
-}
-
-
-
-@media screen and (max-width: 600px) {
-  .mytabs {
-    margin-left: 30%;
-  }
-}
-
-.mytabs input[type="radio"] {
-    display: none;
-}
-.mytabs label {
-    padding: 25px;
-    background: #fff5d9;
-    color:#ffc375;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.mytabs .tab {
-    width: 100%;
-    padding: 5vw;
-  margin-top: -20px;
-  background: #fff;
-    border-radius: 10px;
-    order: 1;
-    display: none;
-}
-.mytabs .tab h2 {
-    font-size: 3em;
-}
-
-.mytabs input[type='radio']:checked + label + .tab {
-    display: block;
-  cursor: pointer;
-}
-
-.mytabs input[type="radio"]:checked + label {
-    background: #fff;
-    cursor: pointer;
-}
-
-
-
-
-
 .custom-shape-divider-bottom-1612574898 {
     position: relative;;
     bottom: 0;
@@ -1291,3 +1223,88 @@ ul{
 
 
 
+
+
+
+
+/* ==================================================
+      Tabs
+================================================== */
+
+
+
+.tabs {
+    background: #f0f0f0;
+    font-family: 'Rubik', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+ 
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 40px;
+    border-radius: 10px;
+    margin-left: 2vw;
+
+    padding: 25px;
+}
+
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    background: #fff5d9;
+    color:#ffc375;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.mytabs .tab h2 {
+    font-size: 220%;
+  margin-bottom: 20px;
+  font-family: 'Rubik', sans-serif;
+  width: 95%;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+  cursor: pointer;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+    cursor: pointer;
+}
+
+.tab{
+  height: auto;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  /*.mytabs {
+    margin-left: 30%;
+  }*/
+}
+
+
+
+.mytabs .tab {
+    width: 100%;
+    padding: 5vw;
+  margin-top: -20px;
+  background: #fff;
+  
+    border-radius: 10px;
+    order: 1;
+    display: none;
+}

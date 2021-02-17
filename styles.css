@@ -874,6 +874,11 @@ margin-left: 24%;
     	}
 
     }
+@media(max-width: 2000px){
+  .s-box{
+    height: 480px;
+}
+}
 
 
 

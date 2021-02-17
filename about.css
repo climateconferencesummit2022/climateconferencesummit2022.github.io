@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Rubik', sans-serif;
-  background-color: #fcfcfc;margin: 10px;
+  background-color: #f0f0f0;margin: 10px;
 }
 
 
@@ -450,7 +450,7 @@ html{
 }
 
 .custom-shape-divider-bottom-1611382091 .shape-fill {
-    fill: #FCFCFC;
+    fill: #f0f0f0;
 }
   #hero:before {
     content: "";
@@ -1375,7 +1375,7 @@ h1 {
 ================================================== */
 
 .textinfo{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-top: 200px;
 }
 
@@ -1440,7 +1440,7 @@ h1 {
 } 
 
 #midtext{
-  background-color: #fcfcfc;
+  background-color: ##f0f0f0;
   padding-top:100px;
   margin-bottom: -60px;
   position: relative;
@@ -1461,7 +1461,7 @@ h1 {
 
 .test2-heading{
     	text-align:center;
-  background-color: #fcfcfc;
+  background-color: ##f0f0f0;
   padding-top: 150px;
   margin-bottom: -120px;
   
@@ -1485,7 +1485,7 @@ h1 {
 .wrapper{
   padding-top: 100px;
   text-align: center;
-  background: #fcfcfc;
+  background: ##f0f0f0;
 }
 
 .wrapper h1{

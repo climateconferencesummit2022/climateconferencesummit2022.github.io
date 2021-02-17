@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Rubik', sans-serif;
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
 }
 
 html {
@@ -182,7 +182,7 @@ html {
 }
 
 .custom-shape-divider-bottom-1609721473 .shape-fill {
-    fill: #fcfcfc;
+    fill: #f0f0f0;
 }
 
   #hero:before {
@@ -264,7 +264,7 @@ html {
   
     }
     .test-heading h1{
-    	color: #fcfcfc;
+    	color: #f0f0f0;
     	font-size: 3rem;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
@@ -428,7 +428,7 @@ html {
 ================================================== */
 
 #doubleservices{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-top: 8vh;
 }
 
@@ -537,7 +537,7 @@ html {
 
 .test2-heading{
     	text-align:center;
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   margin-top: -3vh;
   padding-top:5vh;
   
@@ -594,7 +594,7 @@ margin-left: 24%;
 
 
 #servicedetails{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-bottom: 20vh;
 }
 
@@ -738,7 +738,7 @@ margin-left: 24%;
       /*margin-top: -20%;*/
       
     	flex-direction: column;
-      background-color: #fcfcfc;
+      background-color: #f0f0f0;
     	justify-content: space-evenly;
     	align-items: center;
     }
@@ -1051,13 +1051,13 @@ h1 {
 ================================================== */
 
 .videoinfo{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 #videoitem{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   margin-left: 120px;
   margin-top: 15px;
 }
@@ -1141,7 +1141,7 @@ h1 {
 ================================================== */
 
 .svghead{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   
 }
 
@@ -1505,7 +1505,7 @@ input[type="checkbox"]{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
 }
 .blogs{
   display: flex;
@@ -1740,7 +1740,7 @@ input[type="checkbox"]{
 
 .test2-heading{
     	text-align:center;
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   
   
     }
@@ -1781,7 +1781,7 @@ input[type="checkbox"]{
 }
 
 .custom-shape-divider-top-1612919939 .shape-fill {
-    fill: #fcfcfc;
+    fill: #f0f0f0;
   
 }
 
@@ -1798,7 +1798,7 @@ input[type="checkbox"]{
 .custom-shape-divider-top-1612921150 {
     position: relative;
     top: 0;
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -1839,7 +1839,7 @@ input[type="checkbox"]{
 }
 
 .custom-shape-divider-top-1612923488 .shape-fill {
-    fill: #fcfcfc;
+    fill: #f0f0f0;
 }
 
 .faqsvg{

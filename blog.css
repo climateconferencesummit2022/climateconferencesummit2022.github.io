@@ -21,8 +21,8 @@ body{
   --title-color: #393939;
   --text-color: #707070;
   --text-color-light: #A6A6A6;
-  --body-color: #FBFEFD;
-  --container-color: #FFFFFF;
+  --body-color:  #f0f0f0;
+  --container-color:  #f0f0f0;
 
   /*========== Font and typography ==========*/
   --body-font: 'Rubik', sans-serif;
@@ -1457,10 +1457,7 @@ h1 {
   background-color: #f0f0f0;
 }
 
-.mainblog  {
-  margin: 2rem;
-  
-}
+
 
 .wrapper {
   display: flex;
@@ -1471,7 +1468,7 @@ h1 {
 .card {
   overflow: hidden;
   box-shadow: 0 8px 12px 0 #f2f2f2;
-  background: white;
+  background: #f0f0f0;
   border: none;
   border-radius: 0.9rem;
   position: relative;

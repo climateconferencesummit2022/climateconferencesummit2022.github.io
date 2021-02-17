@@ -530,7 +530,7 @@ html{
 }
 
 .custom-shape-divider-bottom-1612574261 .shape-fill {
-    fill: #FCFCFC;
+    fill: #f0f0f0;
 }
 
 /* ==================================================
@@ -538,7 +538,7 @@ html{
 ================================================== */
 
 #servicedetails{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   margin-top: -40px;
   padding-left: 2vh;
 }
@@ -656,7 +656,7 @@ html{
 ================================================== */
 
 #servicedetails{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-top: -20px;
 }
 #left img{
@@ -781,7 +781,7 @@ html{
   align-items: center;
   display: block;
   text-align: center;
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-top: 150px;
 
 }
@@ -859,7 +859,7 @@ html{
     	height: 100vh;
     	display: flex;
     	flex-direction: column;
-      background-color: #fcfcfc;
+      background-color: #f0f0f0;
     	justify-content: space-evenly;
     	align-items: center;
     }
@@ -998,7 +998,7 @@ html{
       Footer
 ================================================== */
 .bottomfooter{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
 }
 .container{
 	max-width: 1170px;
@@ -1159,7 +1159,7 @@ h1 {
 
 
 .tabs {
-    background: #fcfcfc;
+    background: #f0f0f0;
     font-family: 'Rubik', sans-serif;
 }
 .mytabs {
@@ -1219,7 +1219,7 @@ h1 {
 ================================================== */
 
 .textinfo{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-top: 90px;
   margin-bottom: -40px;
 }
@@ -1270,13 +1270,13 @@ h1 {
 ================================================== */
 
 .videoinfo{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 #videoitem{
-  background-color: #fcfcfc;
+  background-color:#f0f0f0;
   margin-left: 120px;
   margin-right: -200px;
   margin-top: 15px;
@@ -1440,7 +1440,7 @@ h1 {
 } 
 
 #midtext{
-  background-color: ##f0f0f0;
+  background-color: #f0f0f0;
   padding-top:100px;
   margin-bottom: -60px;
   position: relative;
@@ -1461,7 +1461,7 @@ h1 {
 
 .test2-heading{
     	text-align:center;
-  background-color: ##f0f0f0;
+  background-color: #f0f0f0;
   padding-top: 150px;
   margin-bottom: -120px;
   
@@ -1485,7 +1485,7 @@ h1 {
 .wrapper{
   padding-top: 100px;
   text-align: center;
-  background: ##f0f0f0;
+  background: #f0f0f0;
 }
 
 .wrapper h1{

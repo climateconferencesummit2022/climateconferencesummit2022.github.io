@@ -789,9 +789,9 @@ margin-left: 24%;
     	position: relative;
     }
     .s-box img{
-    	height: 120px;
-      width: 80px;
-      padding-bottom: 10px;
+    	height: 95px;
+      width: 100px;
+      margin-bottom: 30px;
     }
     .s-box h1{
     	color: #333436;
@@ -1504,7 +1504,7 @@ input[type="checkbox"]{
 .blogs{
   margin: 0;
   padding: 0;
-  margin-top: -80px;
+  margin-top: -20px;
   box-sizing: border-box;
   background-color: #f0f0f0;
 }

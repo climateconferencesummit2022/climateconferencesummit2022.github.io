@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Rubik', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
 }
 
 
@@ -246,7 +246,7 @@ html{
     justify-content: center;
    
   }
-    
+
   .home{
     padding-bottom: 80px;
     padding-top: 100px;
@@ -255,7 +255,7 @@ html{
   .home__container{
     height: calc(700px- var(--header-height));
   }
-  
+
   
   .custom-shape-divider-bottom-1613503974{
     display: none;
@@ -283,12 +283,13 @@ html{
 .home__subtitle{
   font-size: 20px;
   color: var(--title-color);
- 
+
    font-family: 'Noto Sans', sans-serif;
   margin-bottom: var(--mb-4);
    line-height: 39px;
   text-align: left;
 }
+
 
 .button{
   display: inline-block;
@@ -310,17 +311,16 @@ html{
 }
 
 
-
 .extra{
-  background-color: #f0f0f0;
-  margin-top: 140px;
- height: 5vw;
+  background-color: #f7f7f7;
+ height: 10vw;
   
 }
 .home__container{
-  height: calc(500px - var(--header-height));
+  height: calc(600px - var(--header-height));
   align-content: center;
-  margin: 50px;
+  margin: 10px;
+  /*margin: 50px;*/
   font-family: 'Rubik', sans-serif;
   
 }
@@ -332,7 +332,7 @@ html{
   color: var(--title-color);
   font-family: 'Rubik', sans-serif;
   margin-bottom: var(--mb-4);
-   margin-top: 70px;
+   margin-top: 30px;
   color: #2bcfc9;
   text-align: left;
 }
@@ -340,6 +340,7 @@ html{
 
 .home__img{
   width: 300px;
+  padding-top: 40px;
   justify-self: center;
  
 }
@@ -384,16 +385,12 @@ html{
 
 
 
-
-
-
-
 /* ==================================================
       Text Info
 ================================================== */
 
 .textinfo{
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -458,7 +455,7 @@ html{
     	
     	display: flex;
     	flex-direction: column;
-      background-color: #f0f0f0;
+      background-color: #f7f7f7;
     	justify-content: space-evenly;
     	align-items: center;
     }
@@ -608,7 +605,7 @@ html{
 }
 
 #s{
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
   margin-bottom: -1vh;
 }
 
@@ -622,7 +619,7 @@ ul{
 }
 
 .bottomfooter{
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
 }
 .footer{
 	background-color: #24262b;
@@ -710,21 +707,22 @@ ul{
 
 
 .custom-shape-divider-bottom-1613503974 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+  
 }
 
 .custom-shape-divider-bottom-1613503974 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: calc(116% + 1.3px);
     height: 150px;
 }
 
 .custom-shape-divider-bottom-1613503974 .shape-fill {
-    fill: #f0f0f0;
+    fill: #f7f7f7;
 }

@@ -317,10 +317,10 @@ html{
   
 }
 .home__container{
-  height: calc(500px - var(--header-height));
+  height: calc(600px - var(--header-height));
   align-content: center;
   margin: 10px;
-  //margin: 50px;
+  /*margin: 50px;*/
   font-family: 'Rubik', sans-serif;
   
 }
@@ -332,7 +332,7 @@ html{
   color: var(--title-color);
   font-family: 'Rubik', sans-serif;
   margin-bottom: var(--mb-4);
-   margin-top: 70px;
+   margin-top: 30px;
   color: #2bcfc9;
   text-align: left;
 }
@@ -340,6 +340,7 @@ html{
 
 .home__img{
   width: 300px;
+  padding-top: 40px;
   justify-self: center;
  
 }

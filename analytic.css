@@ -336,6 +336,7 @@ html{
 
 .home__img{
   width: 300px;
+  padding-top: 40px;
   justify-self: center;
  
 }
@@ -1451,6 +1452,7 @@ text-align: left;
 .service-icon img{
   display: inline-block;
   height: 100px;
+  margin-bottom: 30px;
 
 }
 

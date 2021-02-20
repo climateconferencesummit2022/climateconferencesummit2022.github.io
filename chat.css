@@ -335,12 +335,13 @@ html{
 }
 
 
+
 .home__img{
   width: 300px;
+  padding-top: 40px;
   justify-self: center;
  
 }
-
 
 
 
@@ -1187,8 +1188,8 @@ h1 {
 
 #videoitem{
   background-color: #f0f0f0;
-  margin-left: 130px;
-  margin-right: -200px;
+  margin-left: 200px;
+    margin-right: -200px;
   margin-top: 15px;
 }
 
@@ -1234,14 +1235,14 @@ h1 {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
   #video-vid {
     display: none;
   }
 
   .video-table{
-     margin-left: -3%;
+     margin-left: -14%;
   }
 }
 

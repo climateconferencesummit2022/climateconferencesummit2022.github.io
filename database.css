@@ -345,11 +345,7 @@ html{
  
 }
 
-.home_img{
-  width: 300px;
-  justify-self: center;
 
-}
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
   .home__container,

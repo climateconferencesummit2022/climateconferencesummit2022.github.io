@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Rubik', sans-serif;
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
 }
 
 
@@ -312,8 +312,8 @@ html{
 
 
 .extra{
-  background-color: #f7f7f7;
- height: 10vw;
+  background-color: #f0f0f0;
+ height: 5vw;
   
 }
 .home__container{
@@ -390,8 +390,8 @@ html{
 ================================================== */
 
 .textinfo{
-  background-color: #f7f7f7;
-  padding-top: 50px;
+  background-color: #f0f0f0;
+  padding-top: 0px;
   padding-bottom: 100px;
 }
 
@@ -455,7 +455,7 @@ html{
     	
     	display: flex;
     	flex-direction: column;
-      background-color: #f7f7f7;
+      background-color: #f0f0f0;
     	justify-content: space-evenly;
     	align-items: center;
     }
@@ -605,7 +605,7 @@ html{
 }
 
 #s{
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
   margin-bottom: -1vh;
 }
 
@@ -619,7 +619,7 @@ ul{
 }
 
 .bottomfooter{
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
 }
 .footer{
 	background-color: #24262b;
@@ -724,5 +724,5 @@ ul{
 }
 
 .custom-shape-divider-bottom-1613503974 .shape-fill {
-    fill: #f7f7f7;
+    fill: #f0f0f0;
 }

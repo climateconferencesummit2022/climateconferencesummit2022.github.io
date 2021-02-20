@@ -312,7 +312,7 @@ html{
 
 
 .extra{
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
  height: 10vw;
   
 }
@@ -434,7 +434,7 @@ html{
 }
 
 .custom-shape-divider-bottom-1611382091 .shape-fill {
-    fill: #f7f7f7;
+    fill: #f0f0f0;
 }
   #hero:before {
     content: "";
@@ -506,7 +506,6 @@ html{
 
 #doubleservices .smallblurb{
   letter-spacing: 3px;
-  color: #eda137;
   padding-left: 10%;
   font-family: 'Rubik', sans-serif;
 
@@ -620,7 +619,7 @@ html{
 ================================================== */
 
 #servicedetails{
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
   padding-top: -20px;
 }
 #left img{
@@ -975,7 +974,7 @@ ul{
 }
 
 .bottomfooter{
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
 }
 .footer{
 	background-color: #24262b;
@@ -1073,7 +1072,7 @@ ul{
 ================================================== */
 
 #doubleservices{
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
   padding-top: 0vh;
   
 }
@@ -1220,7 +1219,7 @@ ul{
 }
 
 .custom-shape-divider-bottom-1612574977 .shape-fill {
-    fill: #f7f7f7;
+    fill: #f0f0f0;
 }
 
 
@@ -1231,7 +1230,7 @@ ul{
 ================================================== */
 
 .textinfo{
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
   margin-top: -20px;
   
 }

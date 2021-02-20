@@ -1234,7 +1234,10 @@ h1 {
   
 }
 
-
+#video-vid iframe{
+  height:700px;
+  
+}
 @media screen and (max-width: 1000px) {
 
   #video-vid {

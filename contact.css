@@ -666,8 +666,8 @@ ul{
 }
 
 .contact-form .text-box{
-  background: #bec4c4;
-  color:  #f0f0f0;
+  background: #ffffff;
+  color:  #1e3e78;
   padding-top: 50px;
   border: none;
   width: calc(50% - 10px);
@@ -686,8 +686,8 @@ ul{
 }
 
 .contact-form textarea{
-  background: #bec4c4;
-  color:  #f0f0f0;
+  background: #ffffff;
+  color:  #1e3e78;
   border: none;
   width: 100%;
   padding: 12px;

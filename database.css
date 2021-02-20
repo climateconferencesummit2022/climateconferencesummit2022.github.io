@@ -340,6 +340,7 @@ html{
 
 .home__img{
   width: 300px;
+  padding-top: 40px;
   justify-self: center;
  
 }
@@ -1604,8 +1605,8 @@ text-align: left;
 }
 
 #righttext{
-  margin-right: 10px;
-  margin-left:10px;
+  margin-right: 5px;
+  margin-left:55px;
   
 }
 
@@ -1635,8 +1636,9 @@ text-align: left;
 } 
 
 
-#rightimage{
+#rightimage img{
  text-align:center;
+  width: 20%;
 }
 
 

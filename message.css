@@ -1179,6 +1179,7 @@ ul{
 
 .home__img{
   width: 300px;
+  padding-top: 40px;
   justify-self: center;
  
 }
@@ -1265,6 +1266,8 @@ ul{
     background: #fff5d9;
     color:#ffc375;
     font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
 }

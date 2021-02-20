@@ -499,8 +499,6 @@ html{
 
 
 
-
-
 /* ==================================================
       Footer
 ================================================== */
@@ -668,7 +666,7 @@ ul{
 }
 
 .contact-form .text-box{
-  background: #28498a;
+  background: #bec4c4;
   color:  #f0f0f0;
   padding-top: 50px;
   border: none;
@@ -688,7 +686,7 @@ ul{
 }
 
 .contact-form textarea{
-  background: #28498a;
+  background: #bec4c4;
   color:  #f0f0f0;
   border: none;
   width: 100%;

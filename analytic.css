@@ -245,7 +245,7 @@ html{
   }
 
   .home{
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     padding-top: 100px;
   }
   
@@ -266,11 +266,6 @@ html{
     text-align: center;
   }
    
-  
-  .home{
-    margin: 7vw;
-  }
-
 
 
 }

@@ -1241,14 +1241,19 @@ h1 {
   }
   
     .video-table{
-     /*margin-left: -39%;*/
-      margin: 0 auto;
+     margin-left: -38vw;
        width: 80%;
   }
 
 
 }
 
+@media screen (min-width: 200px) and (max-width: 1000px) {
+  .video-table{
+     margin-left: -20vw;
+
+  }
+}
 #video-vid img{
   
  

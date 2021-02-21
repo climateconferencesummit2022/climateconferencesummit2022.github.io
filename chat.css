@@ -246,7 +246,7 @@ html{
    
 
   .home{
-    padding-bottom: 80px;
+    padding-bottom: 150px;
     padding-top: 100px;
   }
   
@@ -267,10 +267,6 @@ html{
     text-align: center;
   }
    
-  
-  .home{
-    margin: 7vw;
-  }
 
 
 
@@ -1243,10 +1239,14 @@ h1 {
   #video-vid {
     display: none;
   }
-
-  .video-table{
-     margin-left: -14%;
+  
+    .video-table{
+     /*margin-left: -39%;*/
+      margin: 0 auto;
+       width: 80%;
   }
+
+
 }
 
 #video-vid img{

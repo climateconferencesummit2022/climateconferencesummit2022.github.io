@@ -875,6 +875,8 @@ margin-left: 24%;
   .s-box{
     height: 480px;
 }
+  
+ 
 }
 
 
@@ -1858,7 +1860,7 @@ input[type="checkbox"]{
 
 
 .demo{
-  height: 1200px;
+  height: 1100px;
   background-color: #f0f0f0;
   margin-bottom: 45vw;
   margin-top: -800px;
@@ -1869,3 +1871,16 @@ input[type="checkbox"]{
   padding-top: 50px;
   display:block;
 }
+
+
+
+
+
+@media screen and (max-width: 576px){
+  .demo{
+    height: 1300px;
+  }
+
+
+}
+

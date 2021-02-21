@@ -1856,14 +1856,15 @@ input[type="checkbox"]{
 
 #services2nd{
   margin-top: -780px; 
-  padding-bottom: 50vw !important;
+  
 }
 
 
 .demo{
   height: 1200px;
   background-color: #f0f0f0;
-  padding-bottom: 60px;
+  margin-bottom: 45vw;
+  margin-top: -800px;
 }
 
 .demo iframe{

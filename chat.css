@@ -1235,7 +1235,7 @@ h1 {
 }
 
 #video-vid img{
-  height:700px;
+  height:650px;
   
 }
 @media screen and (max-width: 1000px) {
@@ -1255,7 +1255,7 @@ h1 {
   top: 0;
   left 0;
   
-  width:100%;
+  
 
 }
 

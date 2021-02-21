@@ -1858,3 +1858,16 @@ input[type="checkbox"]{
   margin-top: -780px; 
   padding-bottom: 50vw !important;
 }
+
+
+.demo{
+  height: 1200px;
+  background-color: #f0f0f0;
+  padding-bottom: 60px;
+}
+
+.demo iframe{
+  margin: 0 auto;
+  padding-top: 50px;
+  display:block;
+}

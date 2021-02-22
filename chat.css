@@ -1242,18 +1242,18 @@ h1 {
   
     .video-table{
      margin-left: -38vw;
-       width: 80%;
+       width: 150%;
+  }
+  
+  #videoitem{
+    margin-right: 0px;
+    padding-right: 0px;
   }
 
 
 }
 
-@media screen (min-width: 200px) and (max-width: 1000px) {
-  .video-table{
-     margin-left: -20vw;
 
-  }
-}
 #video-vid img{
   
  

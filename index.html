@@ -21,41 +21,42 @@
   
   <body>
     
- <nav>  
-<div class="topnav" id="myTopnav">
-  
-  <div class="logo">
-    
-  <a href="index.html" >ConnectHealth</a>
-    </div>
-  
-  
-  <a href="contact.html">Contact</a>
-  <a href="blog.html">News Updates</a>
-  <a href="pricing.html">Pricing</a>
-  
-  
-   
-  <div class="dropdown">
-   
-    <button class="dropbtn">Solutions 
-      <i class="fa fa-caret-down"></i>
-    </button>
-     
-    <div class="dropdown-content">
-      <a href="video.html">Video Service</a>
-      <a href="schedule.html">Scheduling</a>
-      <a href="message.html">Automatic Messaging</a>
-      <a href="database.html">Medical Record Database</a>
-      <a href="chat.html">Direct Chat Line</a>
-      <a href="analytic.html">Access to Analytics</a>
-    </div>
-  </div> 
-  <a href="about.html">About</a>
-  <a style="color:#32b3a3;"href="index.html">Home</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-</nav>   
+  <nav>  
+      <div class="topnav" id="myTopnav">
+        
+        <div class="logo">
+          
+        <a href="{% url 'index' %}" >ConnectHealth</a>
+          </div>
+        
+        
+        <a href="{% url 'contact' %}">Contact</a>
+        <a href="{% url 'news-updates' %}">News Updates</a>
+        <a href="{% url 'price' %}">Pricing</a>
+        
+        
+         
+        <div class="dropdown">
+         
+          <button class="dropbtn">Solutions 
+            <i class="fa fa-caret-down"></i>
+          </button>
+           
+          <div class="dropdown-content">
+            <a style="color:#32b3a3;" href="{% url 'video' %}">Video Service</a>
+            <a href="{% url 'schedule' %}">Scheduling</a>
+            <a href="{% url 'message' %}">Automatic Messaging</a>
+            <a href="{% url 'database' %}">Medical Record Database</a>
+            <a href="{% url 'chat' %}">Direct Chat Line</a>
+            <a href="{% url 'analytics' %}">Access to Analytics</a>
+          </div>
+        </div> 
+        <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'index' %}">Home</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      </nav>   
+      
 
 <script>
 function myFunction() {
@@ -68,6 +69,7 @@ function myFunction() {
 }
 </script>
    
+    
     
     
     

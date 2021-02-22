@@ -1376,7 +1376,7 @@ ul{
 .blogs{
   margin: 0;
   padding: 0;
-  margin-top: -20px;
+  margin-top: -30px;
   box-sizing: border-box;
   background-color: #f0f0f0;
 }
@@ -1384,11 +1384,11 @@ ul{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
 }
 .blog-card{
   position: absolute;
-  height: auto;
+  height: 400px;
   width: 95%;
   max-width: 900px;
   
@@ -1510,9 +1510,12 @@ ul{
   }
 
   .blog-card{
-    height: 80vh;
+    height: 650px;
   }
   
+  .blogs{
+    height: 100vh;
+  }
   .sliders{
     padding-top: 30px;
   }

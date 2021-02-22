@@ -1636,7 +1636,6 @@ input[type="checkbox"]{
 .content{
   padding-top: 10%;
   padding-left: 5%;
-  width: 530px;
   margin-left: 50px;
   opacity: 0;
   transition: .6s;

@@ -1412,7 +1412,6 @@ ul{
 }
 
 
-
 .inner-part .img{
   height: auto;
   width: 15vw;
@@ -1421,6 +1420,7 @@ ul{
   overflow: hidden;
   border-radius: 20px;
 }
+
 #imgTap:checked ~ .inner-part .img{
   height: 370px;
   width: 850px;
@@ -1428,6 +1428,7 @@ ul{
   margin-top: 10px;
   transition: .3s .2s ease-in;
 }
+
 .img img{
   height: 100%;
   width: 100%;
@@ -1436,13 +1437,15 @@ ul{
   opacity: 0;
   transition: .6s;
 }
+
 #tap-1:checked ~ .inner-part .img-1,
 #tap-2:checked ~ .inner-part .img-2,
 #tap-3:checked ~ .inner-part .img-3{
   opacity: 1;
   transition-delay: .2s;
 }
-.content{
+
+/*.content{
   padding-top: 10%;
   padding-left: 5%;
   margin-left: 50px;
@@ -1479,7 +1482,7 @@ ul{
   display: inline-block;
   width: auto;
   padding: 10px;
-  word-break: break-all; /* optional */
+  word-break: break-all; 
   color: #4e4a67;
   margin-left: -10px;
   padding-right: 20px;
@@ -1607,7 +1610,7 @@ input[type="checkbox"]{
   width: 100%;
 }
 
-
+*/
 
 
 .test2-heading{

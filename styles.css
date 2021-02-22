@@ -1388,7 +1388,7 @@ ul{
 }
 .blog-card{
   position: absolute;
-  height: 450px;
+  height: auto;
   width: 95%;
   max-width: 900px;
   
@@ -1445,16 +1445,20 @@ ul{
   transition-delay: .2s;
 }
 
-/*.content{
+.content{
   padding-top: 10%;
   padding-left: 5%;
+  
   margin-left: 50px;
   opacity: 0;
   transition: .6s;
 }
+
+
 #imgTap:checked ~ .inner-part .content{
   display: none;
 }
+
 #tap-1:checked ~ .inner-part .content-1,
 #tap-2:checked ~ .inner-part .content-2,
 #tap-3:checked ~ .inner-part .content-3{
@@ -1463,6 +1467,10 @@ ul{
   z-index: 100;
   transition-delay: .3s;
 }
+
+
+
+
 .content span{
   display: block;
   color: #7b7992;
@@ -1470,6 +1478,7 @@ ul{
   font-size: 22px;
   font-weight: 500
 }
+
 .content .title{
   font-size: 30px;
   font-family: 'Rubik', sans-serif;
@@ -1478,6 +1487,7 @@ ul{
   color: #333436;
   margin-bottom: 20px;
 }
+
 .inner-part .text{
   display: inline-block;
   width: auto;
@@ -1498,13 +1508,7 @@ ul{
    
     padding-top: 60px;  
   }
-  
-  .inner-part .text{
-  
-    width: 70vw;
-    
-  }
-  
+
   .blog-card{
     height: 80vh;
   }
@@ -1518,6 +1522,8 @@ ul{
   width: 30%;
   }
 }
+
+
 .content a{
   display: inline-flex;
  
@@ -1610,7 +1616,9 @@ input[type="checkbox"]{
   width: 100%;
 }
 
-*/
+
+
+
 
 
 .test2-heading{

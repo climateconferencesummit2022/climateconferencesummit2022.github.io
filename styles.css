@@ -1846,11 +1846,37 @@ input[type="checkbox"]{
 
 .slider{
   width: 800px;
-  height: 500px;
+  height: 400px;
   border-radius: 10px;
   overflow: hidden;
   
   z-index: 50000;
+}
+
+.slide section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.3s;
+  display: flex;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.slide h2 {
+  width: 60%;
+  text-align: center;
+  padding-bottom: 40px;
+  
+  color: #28498a;
+  font-family: 'Rubik', sans-serif;
+}
+
+.slide p {
+  width: 100%;
+  text-align: center;
+  color: #28498a;
+  font-family: 'Rubik', sans-serif;
 }
 
 .slides{
@@ -1885,7 +1911,7 @@ input[type="checkbox"]{
 }
 
 .manual-btn{
-  border: 2px solid #40D3DC;
+  border: 2px solid #28498a;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -1897,7 +1923,7 @@ input[type="checkbox"]{
 }
 
 .manual-btn:hover{
-  background: #40D3DC;
+  background: #28498a;
 }
 
 #radio1:checked ~ .first{
@@ -1923,11 +1949,11 @@ input[type="checkbox"]{
   display: flex;
   width: 800px;
   justify-content: center;
-  margin-top: 460px;
+  margin-top: 350px;
 }
 
 .navigation-auto div{
-  border: 2px solid #40D3DC;
+  border: 2px solid #28498a;
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
@@ -1938,19 +1964,19 @@ input[type="checkbox"]{
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-  background: #40D3DC;
+  background: #28498a;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-  background: #40D3DC;
+  background: #28498a;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-  background: #40D3DC;
+  background: #28498a;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-  background: #40D3DC;
+  background: #28498a;
 }
 
 

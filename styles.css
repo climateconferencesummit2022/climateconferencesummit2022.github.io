@@ -100,7 +100,9 @@ html {
   
 }
 
-
+.loginstuff{
+  float: right;
+}
 .topnav .icon {
   display: none;
 }

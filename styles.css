@@ -1843,10 +1843,17 @@ input[type="checkbox"]{
 
 
 
-
+.testimonial{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .slider{
   width: 800px;
-  height: 400px;
+  height: 530px;
   border-radius: 10px;
   overflow: hidden;
   
@@ -1860,6 +1867,7 @@ input[type="checkbox"]{
   transition: all ease 0.3s;
   display: flex;
   padding-top: 30px;
+  padding-bottom: -60px;
   font-size: 20px;
 }
 
@@ -1881,6 +1889,7 @@ input[type="checkbox"]{
 
 .slides{
   width: 500%;
+  
   background-color: white;
   height: 500px;
   display: flex;
@@ -1949,7 +1958,7 @@ input[type="checkbox"]{
   display: flex;
   width: 800px;
   justify-content: center;
-  margin-top: 350px;
+  margin-top: 460px;
 }
 
 .navigation-auto div{

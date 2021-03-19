@@ -437,6 +437,9 @@ html {
   text-align:center;
 }
 
+
+
+
 .testimonials .container {
   width: 90%;
   
@@ -485,6 +488,8 @@ html {
   color: #28498a;
   font-family: 'Rubik', sans-serif;
 }
+
+
 
 .testimonials .slider section {
   flex-basis: 100%;
@@ -1835,13 +1840,29 @@ input[type="checkbox"]{
 
 
 
+.testimonials .slider {
+  display: flex;
+  height: 100%;
+  width: 400%;
+}
 
 
+.testimonials .slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.3s;
+  display: flex;
+  font-size: 20px;
+}
 
+.testimonials .container {
+  width: 90%;
+  
+  margin: auto;
+  padding-top: 40px;
 
-
-
-
+}
 
 .testimonial{
   margin: 0;
@@ -1852,12 +1873,12 @@ input[type="checkbox"]{
   align-items: center;
 }
 .slider{
-  width: 800px;
+  width: 60%;
+  
   height: 530px;
   border-radius: 10px;
   overflow: hidden;
-  
-  z-index: 50000;
+ 
 }
 
 .slide section {

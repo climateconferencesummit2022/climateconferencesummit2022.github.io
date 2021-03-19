@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="styles.css">
    
     
-        <!--========== MAIN JS ==========-->
-        <script src="info.js"></script>
+      
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
    
@@ -78,6 +77,17 @@
 	</div>
 </div>
   
+  
+  <script>
+    document.getElementById('butt').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "flex";
+});
+
+document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "none";
+});
+  </script>
+  
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 </nav>   
@@ -92,7 +102,7 @@ function myFunction() {
   }
 }
 </script>
-   
+  
     
     
 <!-- End Header -->

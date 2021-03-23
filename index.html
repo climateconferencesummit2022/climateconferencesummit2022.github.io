@@ -20,13 +20,20 @@
     
     
     
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+   <link rel="stylesheet" href= 
+"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+    <link rel="stylesheet" href= 
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+          integrity= 
+"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+          crossorigin="anonymous"> 
+    <script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> 
+    </script> 
+    <script src= 
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> 
+    </script> 
   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> 
-    </script> 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> 
-    </script> 
   
     
     
@@ -72,9 +79,13 @@
     <a href="register.html">Register</a>
     
     
-    <a href="#signupModal" data-toggle="modal"> Sign-Up</a> 
+   <a href="#signupModal" data-toggle="modal"> 
+      Sign-Up 
+    </a> 
   
-    <div class="modal" id="signupModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+    <div class="modal" id="signupModal"
+         role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true"> 
   
         <div class="modal-dialog"> 
             <div class="modal-content"> 
@@ -84,7 +95,7 @@
                     <button class="close" data-dismiss="modal"> 
                         × 
                     </button> 
-                    <h2 class="myModalLabel"> Sign Up </h2> 
+                    <h2 class="myModalLabel">Sign Up</h2> 
                 </div> 
   
                 <!-- Modal body -->
@@ -114,28 +125,64 @@
                                id="email" placeholder="Email Address"> 
                     </div> 
   
-                    
+                    <!-- Password -->
+                    <div class="form-group input-group"> 
+                        <span class="input-group-addon"> 
+                          <i class="fa fa-lock"></i> 
+                        </span> 
+                        <label for="password" class="sr-only"> 
+                          Password 
+                        </label> 
+                        <input type="password" class="form-control"
+                               id="password" placeholder="Choose a password"> 
+                    </div> 
   
-                   
+                    <!-- Confirm Password -->
+                    <div class="form-group input-group"> 
+                        <span class="input-group-addon"> 
+                          <i class="fa fa-lock"></i> 
+                        </span> 
+                        <label for="password2" class="sr-only"> 
+                          Confirm Password 
+                        </label> 
+                        <input type="password" class="form-control" 
+                               id="password2" placeholder="Confirm password"> 
+                    </div> 
                 </div> 
   
-             
+                <!-- MOdal footer -->
+                <div class="footer"> 
+                    <button type="submit">Sign Up</button> 
+                    <p> 
+                        Already have an account?! 
+                        <a href="#loginModal" data-toggle="modal"
+                           data-dismiss="modal"> 
+                           Login! 
+                        </a> 
+                    </p> 
+                </div> 
   
             </div> 
         </div> 
     </div> 
   
-    
-    
-    
-    
-    
-    
- 
-
-    
-    
-  </div>
+    <script> 
+        $(document).ready(function() { 
+              
+            /* Centering the modal vertically */ 
+            function alignModal() { 
+                var modalDialog = $(this).find(".modal-dialog"); 
+                modalDialog.css("margin-top", Math.max(0,  
+                ($(window).height() - modalDialog.height()) / 2)); 
+            } 
+            $(".modal").on("shown.bs.modal", alignModal); 
+  
+            /* Resizing the modal according the screen size */ 
+            $(window).on("resize", function() { 
+                $(".modal:visible").each(alignModal); 
+            }); 
+        }); 
+    </script> 
   
   
   

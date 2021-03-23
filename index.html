@@ -66,6 +66,29 @@
     
     
     
+      <div class="popup" id="popup-1">
+   <div class="content">
+    <div class="close-btn" onclick="togglePopup()">
+     ×</div>
+     
+<h1>Sign in</h1> 
+  <div class="input-field"><input value="Email" class="validate"></div>
+  <div class="input-field"><input value="Password" class="validate"></div>
+    <button class="second-button">Sign in</button>
+    <p>Don't have an account? <a href="/signup.html">Sign Up</a></p>
+      
+     
+   </div>
+  </div>
+  <button onclick="togglePopup()" class="first-button">Sign In</button>
+<script>
+ function togglePopup() {
+ document.getElementById("popup-1")
+  .classList.toggle("active");
+}
+</script>
+    
+    
     
     
     
@@ -124,38 +147,6 @@ function myFunction() {
     
     
     
-    
-    
-    
-    
-    <div class="center">
-      <input type="checkbox" id="show">
-      <label for="show" class="show-btn">View Form</label>
-      <div class="container">
-        <label for="show" class="close-btn fas fa-times" title="close"></label>
-        <div class="text">
-Login Form</div>
-<form action="#">
-          <div class="data">
-            <label>Email or Phone</label>
-            <input type="text" required>
-          </div>
-<div class="data">
-            <label>Password</label>
-            <input type="password" required>
-          </div>
-<div class="forgot-pass">
-<a href="#">Forgot Password?</a></div>
-<div class="btn">
-            <div class="inner">
-</div>
-<button type="submit">login</button>
-          </div>
-<div class="signup-link">
-Not a member? <a href="#">Signup now</a></div>
-</form>
-</div>
-</div>
     
     
     

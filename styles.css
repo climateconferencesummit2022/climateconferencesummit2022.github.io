@@ -1919,11 +1919,11 @@ input[type="checkbox"]{
 
 #my-modal{
   display: none;
-  width: 60%;
+  width: 40%;
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
-  top: 20%;
-  left: 20%;   
+  top: 10%;
+  left: 30%;   
 }
 
 
@@ -1959,12 +1959,14 @@ input[type="checkbox"]{
     outline: 0;
     border-radius: 10px;
     background: #F2F2F2;
-    width: 100%;
     border: 0;
-    margin: 0 0 15px;
+    width: 80%;
+    display: block;
+     margin-left: 5%;
+  margin-bottom: 15px;
     padding: 15px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 15px;
 }
 .form input:hover{
     background-color: #D3F8F9;
@@ -1996,7 +1998,8 @@ input[type="checkbox"]{
     padding: 8px 28px;
     border-radius: 50px;
     transition: 0.5s;
-  text-align: center;
+    width: 40%;
+    text-align: center;
     margin: 10px;
     color: white;
     background: #11dbcf;

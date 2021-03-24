@@ -1955,22 +1955,21 @@ input[type="checkbox"]{
 
  .butt {
     font-family: 'Rubik', sans-serif;
-    text-transform: uppercase;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 17px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 8px 28px;
     border-radius: 50px;
     transition: 0.5s;
     margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    background: #11dbcf;
+    border: 2px solid #11dbcf;
   }
 
    .butt:hover {
-    background: #11dbcf;
-    border: 2px solid #11dbcf;
+    background: #0eb0a5;
+    border: 2px solid #0eb0a5;
     text-decoration: none;
     color:#fff;
   }
@@ -1984,14 +1983,14 @@ input[type="checkbox"]{
   left: 0;
   top: 0;
   height: 100%;
-  width: 100%;
+  width: 100px;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
   margin: 10% auto;
-  width: 60%;
+  width: 20%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
@@ -2024,19 +2023,7 @@ input[type="checkbox"]{
   border-bottom-right-radius: 5px;
 }
 
-.close {
-  color: #ccc;
-  float: right;
-  font-size: 30px;
-  color: #fff;
-}
 
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 @keyframes modalopen {
   from {

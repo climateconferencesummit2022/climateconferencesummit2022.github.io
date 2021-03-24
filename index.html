@@ -65,113 +65,56 @@
     <a href="register.html">Register</a>
     
     
-   <a href="#signupModal" data-toggle="modal"> 
-      Sign-Up 
-    </a> 
+ <button id="modal-btn" class="butt">Free Demo </button>
+
+  <div id="my-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Modal Header</h2>
+      </div>
+      <div class="modal-body">
+        <p>This is my modal</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit
+          repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo
+          commodi ab.</p>
+      </div>
+      <div class="modal-footer">
+        <h3>Modal Footer</h3>
+      </div>
+    </div>
+  </div>
   
-    <div class="modal" id="signupModal"
-         role="dialog" aria-labelledby="myModalLabel"
-         aria-hidden="true"> 
-  
-        <div class="modal-dialog"> 
-            <div class="modal-content"> 
-  
-                <!-- Modal root -->
-                <div class="m-header"> 
-                    <button class="close" data-dismiss="modal"> 
-                        × 
-                    </button> 
-                    <h2 class="myModalLabel">Sign Up</h2> 
-                </div> 
-  
-                <!-- Modal body -->
-                <div class="inputs"> 
-  
-                    <!-- username input -->
-                    <div class="form-group input-group"> 
-                        <label for="username" class="sr-only"> 
-                          Username 
-                        </label> 
-                        <span class="input-group-addon"> 
-                          <i class="fa fa-user"></i> 
-                        </span> 
-                        <input type="text" class="form-control" 
-                               id="username" placeholder="Username"> 
-                    </div> 
-  
-                    <!-- Email input -->
-                    <div class="form-group input-group"> 
-                        <span class="input-group-addon"> 
-                          <i class="fa fa-envelope"></i> 
-                        </span> 
-                        <label for="email" class="sr-only"> 
-                          Email 
-                        </label> 
-                        <input type="email" class="form-control" 
-                               id="email" placeholder="Email Address"> 
-                    </div> 
-  
-                    <!-- Password -->
-                    <div class="form-group input-group"> 
-                        <span class="input-group-addon"> 
-                          <i class="fa fa-lock"></i> 
-                        </span> 
-                        <label for="password" class="sr-only"> 
-                          Password 
-                        </label> 
-                        <input type="password" class="form-control"
-                               id="password" placeholder="Choose a password"> 
-                    </div> 
-  
-                    <!-- Confirm Password -->
-                    <div class="form-group input-group"> 
-                        <span class="input-group-addon"> 
-                          <i class="fa fa-lock"></i> 
-                        </span> 
-                        <label for="password2" class="sr-only"> 
-                          Confirm Password 
-                        </label> 
-                        <input type="password" class="form-control" 
-                               id="password2" placeholder="Confirm password"> 
-                    </div> 
-                </div> 
-  
-                <!-- MOdal footer -->
-                <div class="footer"> 
-                    <button type="submit">Sign Up</button> 
-                    <p> 
-                        Already have an account?! 
-                        <a href="#loginModal" data-toggle="modal"
-                           data-dismiss="modal"> 
-                           Login! 
-                        </a> 
-                    </p> 
-                </div> 
-  
-            </div> 
-        </div> 
-    </div> 
-  
-    <script> 
-        $(document).ready(function() { 
-              
-            /* Centering the modal vertically */ 
-            function alignModal() { 
-                var modalDialog = $(this).find(".modal-dialog"); 
-                modalDialog.css("margin-top", Math.max(0,  
-                ($(window).height() - modalDialog.height()) / 2)); 
-            } 
-            $(".modal").on("shown.bs.modal", alignModal); 
-  
-            /* Resizing the modal according the screen size */ 
-            $(window).on("resize", function() { 
-                $(".modal:visible").each(alignModal); 
-            }); 
-        }); 
-    </script> 
-  
-  
-  
+  <script>
+    // Get DOM Elements
+const modal = document.querySelector('#my-modal');
+const modalBtn = document.querySelector('#modal-btn');
+const closeBtn = document.querySelector('.close');
+
+// Events
+modalBtn.addEventListener('click', openModal);
+closeBtn.addEventListener('click', closeModal);
+window.addEventListener('click', outsideClick);
+
+// Open
+function openModal() {
+  modal.style.display = 'block';
+}
+
+// Close
+function closeModal() {
+  modal.style.display = 'none';
+}
+
+// Close If Outside Click
+function outsideClick(e) {
+  if (e.target == modal) {
+    modal.style.display = 'none';
+  }
+}
+
+</script>
+  </div>
   
   
   

@@ -1948,142 +1948,104 @@ input[type="checkbox"]{
 ================================================== */
 
 
-
-
-
-
-
-.popup {
-  width:350px;
-  height:280px;
-  background:#f5f5f5;
-  border-radius:10px;
-  box-sizing:border-box;
-  z-index:20000;
-  text-align:center;
-  opacity:0;
-  transform:translate(-50%,-50%) scale(0.5);
-  transition: opacity 300ms ease-in-out,
-              top 1000ms ease-in-out,
-              transform 1000ms ease-in-out;
-}
-.popup.active {
-  opacity:1;
-  transform:translate(-50%,-50%) scale(1);
-  transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
-  margin-top: 200px;
-}
-.popup .icon {
-  margin:5px 0px;
-  width:50px;
-  height:50px;
-  border:2px solid #34f234;
-  text-align:center;
-  display:inline-block;
-  border-radius:50%;
-  line-height:60px;
-}
-.popup .icon i.fa {
-  font-size:30px;
-  color:#34f234;
-} 
-.popup .title {
-  margin:5px 0px;
-  font-size:30px;
-  font-weight:600;
-}
-.popup .description {
-  color:#222;
-  font-size:15px;
-  padding:5px;
-}
-.popup .dismiss-btn {
-  margin-top:15px;
-}
-.popup .dismiss-btn button {
-  padding:10px 20px;
-  background:#111;
-  color:#f5f5f5;
-  border:2px solid #111;
-  font-size:16px;
-  font-weight:600;
-  outline:none;
-  border-radius:10px;
-  cursor:pointer;
-  transition: all 300ms ease-in-out;
-}
-.popup .dismiss-btn button:hover {
-  color:#111;
-  background:#f5f5f5;
-}
-.popup > div {
-  position:relative;
-  top:10px;
-  opacity:0;
-}
-.popup.active > div {
-  top:0px;
-  opacity:1;
-}
-.popup.active .icon {
-  transition: all 300ms ease-in-out 250ms;
-}
-.popup.active .title {
-  transition: all 300ms ease-in-out 300ms;
-}
-.popup.active .description {
-  transition: all 300ms ease-in-out 350ms;
-}
-.popup.active .dismiss-btn {
-  transition: all 300ms ease-in-out 400ms;
+:root {
+  --modal-duration: 1s;
+  --modal-color: #428bca;
 }
 
+ .butt {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+
+   .butt:hover {
+    background: #11dbcf;
+    border: 2px solid #11dbcf;
+    text-decoration: none;
+    color:#fff;
+  }
 
 
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
+.modal-content {
+  margin: 10% auto;
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
 
+.modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+}
 
+.modal-header {
+  background: var(--modal-color);
+  padding: 15px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
 
+.modal-body {
+  padding: 10px 20px;
+  background: #fff;
+}
 
+.modal-footer {
+  background: var(--modal-color);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
 
+.close {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+  color: #fff;
+}
 
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-/* ==================================================
-      Pop Up
-================================================== */
-
- /* Styling modal */ 
-        .modal .modal-content { 
-            padding: 20px 20px 20px 20px; 
-            -webkit-animation-name: modal-animation; 
-            -webkit-animation-duration: 0.5s; 
-            animation-name: modal-animation; 
-            animation-duration: 0.5s; 
-        } 
-          
-        @-webkit-keyframes modal-animation { 
-            from { 
-                top: -100px; 
-                opacity: 0; 
-            } 
-            to { 
-                top: 0px; 
-                opacity: 1; 
-            } 
-        } 
-          
-        @keyframes modal-animation { 
-            from { 
-                top: -100px; 
-                opacity: 0; 
-            } 
-            to { 
-                top: 0px; 
-                opacity: 1; 
-            } 
-        } 
-
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 
 

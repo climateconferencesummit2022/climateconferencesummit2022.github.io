@@ -2042,33 +2042,37 @@ input[type="checkbox"]{
 
 
 
-/* SECTION  NUMBERS */
-
-.numbers{
-	padding:40px 0;
+.middle{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
 }
-
-.numbers .flex{
-	justify-content: space-between;
+.counting-sec{
+  padding: 40px 0;
+  width: 100%;
+  background: linear-gradient(90deg,#3c6382,#82ccdd);
 }
-
-.numbers .number-item{
-	width:45%;
-	padding:20px 0;
-	text-align:center;
-	font-size:1.4em;
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
 }
-.numbers .number-item h2{
-	font-weight:500;
+.col{
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
 }
-
-.numbers .number-item h6{
-	font-weight:300;
-	text-transform:uppercase;
-	font-size:12px;
+.col i{
+  font-size: 40px;
+  color: #333;
 }
-
-
+.num{
+  font-size: 40px;
+  margin: 20px 0;
+}
 
 
 

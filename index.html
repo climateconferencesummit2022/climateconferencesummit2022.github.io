@@ -333,64 +333,7 @@ function myFunction() {
     
     
   
-    
-    
-    
- <!-- ======= Counter Section ======= -->
-    
-    
-    
-    <div class="middle">
-    <div class="counting-sec">
-      <div class="inner-width">
-        <div class="col">
-          <i class="far fa-smile-wink"></i>
-          <div class="num">1246</div>
-          Speakers
-        </div>
-
-        <div class="col">
-          <i class="fas fa-briefcase"></i>
-          <div class="num">19</div>
-          Services
-        </div>
-
-        <div class="col">
-          <i class="far fa-money-bill-alt"></i>
-          <div class="num">687</div>
-          Sells
-        </div>
-
-        <div class="col">
-          <i class="far fa-object-group"></i>
-          <div class="num">87</div>
-          Templates
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <script type="text/javascript">
-    $(".num").counterUp({delay:10,time:1000});
-  </script>
-
-
-
-
-  $('.value').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 4000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
-    
-    
+ 
  
   <!--- Testimonials ---->
     
@@ -442,6 +385,70 @@ function myFunction() {
     
   
  
+    
+    
+       
+    
+    
+ <!-- ======= Counter Section ======= -->
+    
+    
+ <!-- SECTION NUMBERS -->
+	<section class="numbers dark-blue-bg white-txt">
+		<div class="marged flex">
+		<!-- item 01 -->
+			<div class="number-item">
+				<h2><span class="value">782</span></h2>
+				<h6>clients</h6>
+			</div>
+
+		<!-- item 02 -->
+			<div class="number-item">
+				<h2 class="value">1388</h2>
+				<h6>clients</h6>
+			</div>
+
+		<!-- item 03 -->
+			<div class="number-item">
+				<h2 class="value">517</h2>
+				<h6>clients</h6>
+			</div>
+
+		<!-- item 04 -->
+			<div class="number-item">
+				<h2 class="value">390</h2>
+				<h6>clients</h6>
+			</div>
+		</div>
+	</section>
+<!-- END OF SECTION NUMBERS -->
+    
+    <script>
+      var section = document.querySelector('.numbers');
+var hasEntered = false;
+
+window.addEventListener('scroll', (e) => {
+	var shouldAnimate = (window.scrollY + window.innerHeight) >= section.offsetTop;
+
+	if (shouldAnimate && !hasEntered) {
+  	hasEntered = true;
+    
+    $('.value').each(function () {
+    	$(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    	}, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+   		});
+    });
+
+  }
+});
+
+    </script>
     
       
     <!--News Updates---------->

@@ -282,7 +282,6 @@ html {
   }
 
   #hero .container {
-    padding-top: 80px;
   }
 
 
@@ -318,8 +317,8 @@ html {
   }
 
   #hero h1 {
-    margin: 0 0 2px 0;
-    font-size: 60px;
+    margin: 0 0 20px 0;
+    font-size: 54px;
     font-weight: 800;
     line-height: 56px;
     font-family: 'Rubik', sans-serif;
@@ -2175,3 +2174,26 @@ input[type="checkbox"]{
                 opacity: 1; 
             } 
         } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

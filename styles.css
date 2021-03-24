@@ -466,7 +466,11 @@ html {
 
 .carousel section{
   padding-top: .5%;
+ 
+  padding: 0;
 }
+
+
 
 .testimonials .slider {
   display: flex;
@@ -477,10 +481,23 @@ html {
 .testimonials .slider h2 {
   width: 60%;
   text-align: center;
+  
   padding-bottom: 40px;
   
   color: #28498a;
   font-family: 'Rubik', sans-serif;
+  -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
 }
 
 .testimonials .slider p {
@@ -1841,95 +1858,6 @@ input[type="checkbox"]{
 
 
 
-.testimonials .slider {
-  display: flex;
-  height: 100%;
-  width: 400%;
-}
-
-
-.testimonials .slider section {
-  flex-basis: 100%;
-  justify-content: center;
-  align-items: center;
-  transition: all ease 0.3s;
-  display: flex;
-  font-size: 20px;
-}
-
-.testimonials .container {
-  width: 90%;
-  
-  margin: auto;
-  padding-top: 40px;
-
-}
-
-.testimonial{
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.slider{
-  width: 60%;
-  
-  height: 530px;
-  border-radius: 10px;
-  overflow: hidden;
- 
-}
-
-.slide section {
-  flex-basis: 100%;
-  justify-content: center;
-  align-items: center;
-  transition: all ease 0.3s;
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: -60px;
-  font-size: 20px;
-}
-
-.slide h2 {
-  width: 60%;
-  text-align: center;
-  padding-bottom: 40px;
-  
-  color: #28498a;
-  font-family: 'Rubik', sans-serif;
-}
-
-.slide p {
-  width: 100%;
-  text-align: center;
-  color: #28498a;
-  font-family: 'Rubik', sans-serif;
-}
-
-.slides{
-  width: 500%;
-  
-  background-color: white;
-  height: 500px;
-  display: flex;
-}
-
-.slides input{
-  display: none;
-}
-
-.slide{
-  width: 20%;
-  transition: 2s;
-}
-
-.slide img{
-  width: 800px;
-  height: 500px;
-}
 
 /*css for manual slide navigation*/
 
@@ -2011,14 +1939,7 @@ input[type="checkbox"]{
 }
 
 
-.testimonial{
-  
-  background-color: #28498a;
-  padding-bottom: 18vh;
-  margin-top: -45%;
-  
-  
-}
+
 
 
 

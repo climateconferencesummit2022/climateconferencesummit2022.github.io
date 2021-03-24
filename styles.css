@@ -1922,10 +1922,26 @@ input[type="checkbox"]{
   width: 40%;
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
-  top: 10%;
+  top: 15%;
   left: 30%;   
 }
 
+.modal-body h2{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: #4f4f4f;
+}
+
+.modal-body p{
+  font-family: 'Noto sans', sans-serif;
+  color: #6e6e6e;
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 9%;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .darkback{
   width: 100%;
@@ -1962,7 +1978,7 @@ input[type="checkbox"]{
     border: 0;
     width: 80%;
     display: block;
-     margin-left: 5%;
+     margin-left: 9%;
   margin-bottom: 15px;
     padding: 15px;
     box-sizing: border-box;
@@ -1994,13 +2010,13 @@ input[type="checkbox"]{
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
-    display: inline-block;
+    display: block;
+  margin: 0 auto;
     padding: 8px 28px;
     border-radius: 50px;
     transition: 0.5s;
     width: 40%;
     text-align: center;
-    margin: 10px;
     color: white;
     background: #11dbcf;
     border: 2px solid #11dbcf;

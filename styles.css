@@ -2058,7 +2058,7 @@ input[type="checkbox"]{
 
 /* SECTION  NUMBERS */
 .number{
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   margin-top: 60px;
 }
 .numbers{
@@ -2082,7 +2082,7 @@ input[type="checkbox"]{
 }
 .numbers .number-item h2{
 	font-weight:500;
-  color: white;
+  color: #454545;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -2090,7 +2090,7 @@ input[type="checkbox"]{
 	font-weight:300;
 	text-transform:uppercase;
 	font-size:18px;
-  color: white;
+  color: #454545;
   font-family: 'Noto sans', sans-serif;
 }
 

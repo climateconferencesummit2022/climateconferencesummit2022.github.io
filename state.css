@@ -258,19 +258,22 @@ skills{
 	height:15px;
 	border-radius: 2px;
 	position: relative;
+  padding-bottom: -10px;
 }
 
 #skill h2{
-  
+  font-size: 18px;
+  padding-bottom: 8px;
+  font-weight: 500;
 }
 .skill_view{
 	position: absolute;
 	left: 0;
 	top: 0;
 	height: 100%;
+  
 	border-radius: 2px;
 	z-index: 1;
-	background: #080b77;
 	/*transition: all 0.8s ease-out;
 	overflow: hidden;*/
 }
@@ -279,8 +282,8 @@ skills{
 	left: 100%;
 	bottom: 100%;
 	transform: translateX(-60%);
-	background-color: #080b77;
-	color: #fff;
+	background-color: white;
+	color: gray;
 	line-height: 20px;
 	padding: 0 5px;
 	margin-bottom: 5px;

@@ -2109,4 +2109,11 @@ input[type="checkbox"]{
 }
 
 
-
+.number h2{
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  font-size: 40px;
+  color: #3b3b3b; 
+  font-family: 'Rubik', sans-serif;
+}

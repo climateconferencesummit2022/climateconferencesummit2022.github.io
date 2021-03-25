@@ -624,9 +624,9 @@ html {
     
     	border-radius: 20px;
       margin-bottom: .3vh;
-    	border:.15em solid #3b92e3;
+    	border:.15em solid /*#3b92e3*/#8aa2a9;
       padding: 10px 70px;
-    	color: #3b92e3;
+    	color: /*#3b92e3*/#8aa2a9;
       font-family: 'Rubik', sans-serif;
       
     }

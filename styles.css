@@ -311,7 +311,7 @@ html {
 
 .testimonials{
   
-  background-color: #28498a;
+  background-color: #292f36;
   padding-bottom: 18vh;
   
   
@@ -336,15 +336,15 @@ html {
     
     	border-radius: 20px;
       margin-bottom: .3vh;
-    	border:.15em solid #3b92e3;
+    	border:.15em solid /*#3b92e3*/#8aa2a9;;
       padding: 10px 70px;
-    	color: #3b92e3;
+    	color: /*#3b92e3*/#8aa2a9;;;
       font-family: 'Rubik', sans-serif;
     }
 
 .test-btn:hover {
-    background: #3b92e3;
-    border: 2px solid #3b92e3;
+    background: /*#3b92e3*/#8aa2a9;;
+    border: 2px solid /*#3b92e3*/#8aa2a9;;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
@@ -632,15 +632,15 @@ html {
     }
 
 .test2-btn:hover {
-    background: #3b92e3;
-    border: 2px solid #3b92e3;
+    background: /*#3b92e3*/#8aa2a9;;
+    border: 2px solid /*#3b92e3*/#8aa2a9;;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
   }
 
 .test2-heading p{
-    	color: #333436;
+    	color: /*#333436*/#292f36;
     	font-size: 1rem;
       font-family: 'Noto Sans', sans-serif;
     	margin-top: .2em;
@@ -876,7 +876,7 @@ margin-left: 24%;
 
     }
     .s-box p{
-    	color: #333436;
+    	color: /*#333436*/#292f36;
     	text-align: left;
       font-family: 'Noto Sans', sans-serif;
       line-height: 2em;
@@ -890,11 +890,11 @@ margin-left: 24%;
     	height: 40px;
       text-align: center;
     	border-radius: 20px;
-    	border:.15em solid #3b92e3;
+    	border:.15em solid /*#3b92e3*/#8aa2a9;
     	display: flex;
       justify-content: center;
       align-items: center;
-    	color: #3b92e3;
+    	color: /*#3b92e3*/#8aa2a9;
     	margin-top:10px;
       font-family: 'Rubik', sans-serif;
     }
@@ -905,7 +905,7 @@ margin-left: 24%;
     	left: 50%;
     	top: 0%;
     	transform: translateX(-50%);
-    	background-color:#4a90e2;
+    	background-color:/*#3b92e3*/#8aa2a9;
     	border-radius: 50px 50px 50px 50px;
     	display: none;
     	animation: bar 0.5s;
@@ -915,8 +915,8 @@ margin-left: 24%;
     	transition: all ease 0.3s;
     }
     .s-btn:hover{
-    	background-color:#4a90e2;
-    	border: 1px solid #4a90e2;
+    	background-color:/*#3b92e3*/#8aa2a9;
+    	border: 1px solid /*#3b92e3*/#8aa2a9;
     	color:#FFFFFF;
       text-decoration: none;
     	transition: all ease 0.3s;

@@ -311,7 +311,7 @@ html {
 
 .testimonials{
   
-  background-color: /*#adf6b1*/#717c89;
+  background-color: #28498a;
   padding-bottom: 18vh;
   
   
@@ -336,15 +336,15 @@ html {
     
     	border-radius: 20px;
       margin-bottom: .3vh;
-    	border:.15em solid /*#3b92e3*/#1bf7ce;
+    	border:.15em solid #3b92e3;
       padding: 10px 70px;
-    	color: /*#3b92e3*/#1bf7ce;
+    	color: #3b92e3;
       font-family: 'Rubik', sans-serif;
     }
 
 .test-btn:hover {
-    background: /*#3b92e3*/#1bf7ce;
-    border: 2px solid /*#3b92e3*/#1bf7ce;
+    background: #3b92e3;
+    border: 2px solid /#3b92e3;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
@@ -624,23 +624,23 @@ html {
     
     	border-radius: 20px;
       margin-bottom: .3vh;
-    	border:.15em solid /*#3b92e3*/#8aa2a9;
+    	border:.15em solid #3b92e3;
       padding: 10px 70px;
-    	color: /*#3b92e3*/#8aa2a9;
+    	color: #3b92e3;
       font-family: 'Rubik', sans-serif;
       
     }
 
 .test2-btn:hover {
-    background: /*#3b92e3*/#8aa2a9;;
-    border: 2px solid /*#3b92e3*/#8aa2a9;;
+    background: #3b92e3;
+    border: 2px solid #3b92e3;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
   }
 
 .test2-heading p{
-    	color: /*#333436*/#292f36;
+    	color: #333436;
     	font-size: 1rem;
       font-family: 'Noto Sans', sans-serif;
     	margin-top: .2em;

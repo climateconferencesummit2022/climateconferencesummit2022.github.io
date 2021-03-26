@@ -3,12 +3,12 @@ var botui = new BotUI('help-bot');
 botui.message.add({
   delay: 500,
   loading: true,
-  content: 'Hi! Welcome to my website'
+  content: 'Hi! Welcome to ConnectHealth'
 }).then(function () {
   return botui.message.add({
     delay: 500,
     loading: true,
-    content: 'How can I help?'
+    content: 'How can we help you?'
   });
 }).then(function () {
   return botui.action.button({

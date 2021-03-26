@@ -1330,7 +1330,7 @@ h1 {
 	cursor: pointer;
 }
 .chat_box{
-	/*position: fixed;*/
+	
   width: 400px;
 	height: 80vh;
 	position: fixed;

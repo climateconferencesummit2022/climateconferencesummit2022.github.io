@@ -1332,7 +1332,7 @@ h1 {
 .chat_box{
 	
   width: 400px;
-	height: 80vh;
+	height: 75vh;
 	position: fixed;
 	bottom: 100px;
 	right: 30px;
@@ -1344,7 +1344,7 @@ h1 {
 .chat_box.active{
 	transform: scaleY(1);
 }
-#messages{
+/*#messages{
 	padding: 20px;
 }
 .my-conv-form-wrapper textarea{
@@ -1354,4 +1354,4 @@ h1 {
 }
 .hidden{
 	display: none !important;
-} 
+} */

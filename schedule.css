@@ -403,7 +403,7 @@ html{
 
 
 #lefttext p{
-  width: 80%;
+  width: 75%;
     
 }
 
@@ -423,10 +423,10 @@ html{
 #lefttext p{
   font-size: 17px;
   margin-left: 23%;
-  margin-right: 300px;
   justify-content:center;
   margin-bottom: 20px;
   margin-top: 20px;
+  
   line-height:35px;
   font-family: 'Noto Sans', sans-serif;
 } 
@@ -440,7 +440,56 @@ html{
 #rightimage{
  text-align:center;
   margin-bottom: 20px;
+  
 }
+
+#lefttext2 h2{
+  margin-left: 5%;
+  text-align: left;
+   
+}
+
+
+#lefttext2 p{
+  width: 80%;
+    
+}
+
+
+#lefttext2 h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  padding-bottom: 5px;
+  font-weight: 800;
+
+  width: 500px;
+  border-bottom: 4px solid #2bcfc9;
+ 
+}
+
+
+#lefttext2 p{
+  font-size: 17px;
+  margin-left: 5%;
+  margin-right: 300px;
+  justify-content:center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+#lefttext2{
+  
+  position: relative;
+  margin-top: 40px;
+
+}
+#rightimage2{
+ text-align:center;
+  margin-bottom: 20px;
+}
+
 
 
 

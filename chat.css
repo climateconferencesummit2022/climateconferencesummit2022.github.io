@@ -763,8 +763,8 @@ html{
         background-color: #41c0cc;
         background-image: linear-gradient(-90deg, #41c0cc, #41cca5);
         height: 80vh;
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 10vw;
+        margin-right: 10vw;
       }
 
       .botui-messages-container {
@@ -772,20 +772,27 @@ html{
       }
 
       .botui-actions-container {
-        padding: 0px 30px;
+        
       }
 
       .botui-message {
+        padding-top: 10px;
       }
 
       .botui-message-content.text {
         background-color: #e1fafc;
         color: #404040;
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 30vw;
+        
       }
 
       .botui-message-content.human {
         background-color: #f7ff61;
         color: #404040;
+        margin-left: 60px;
+        margin-right: 60px;
       }
 
       .botui-message-content.embed {

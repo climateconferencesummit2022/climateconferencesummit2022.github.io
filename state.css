@@ -312,88 +312,41 @@ skills{
 
 
 
-
-
-
-
-
-
-
-
-
-
-html {box-sizing: border-box;}
-*, *:before, *:after {box-sizing: inherit;}
-
-img {
-  width: 100%;
-  height: auto;
-	padding: 5px;
+.uk-section {
+  background-color: #666
 }
-
-h2 {
-  text-align:center;
-	padding-bottom: 1em;
+.owl-carousel {
+  position: relative;
+  margin-top: 30px;
 }
-
-.slick-dots {
-	text-align: center;
-  margin: 0 0 10px 0;
-  padding: 0;
-  li {
-    display:inline-block;
-    margin-left: 4px;
-    margin-right: 4px;
-    &.slick-active {
-      button {
-        background-color:black;
-      }
-    }
-    button {
-      font: 0/0 a;
-      text-shadow: none;
-      color: transparent;
-      background-color:#999;
-      border:none;
-      width: 15px;
-      height: 15px;
-      border-radius:50%;
-    }
-		:hover{
-			background-color: black;
-		}
-  }
+.owl-nav {
+  position: absolute;
+  top: -60px;
+  left: 10px;
 }
-
-/* Custom Arrow */
-.prev{
-	color: #999;
-	position: absolute;
-	top: 38%;
-	left: -2em;
-	font-size: 1.5em;
-		:hover{
-			cursor: pointer;
-			color: black;
-		}
+.uk-card-primary {
+  border-radius: 8px;
 }
-.next{
-	color: #999;
-	position: absolute;
-	top: 38%;
-	right: -2em;
-	font-size: 1.5em;
-	:hover{
-			cursor: pointer;
-			color: black;
-		}
+h3 {
+  margin-top: 10px
 }
-
-@media screen and (max-width: 800px) {
-    .next {
-        display: none !important;
-    }
+.uk-card > :last-child {
+  margin-top:0;
+  margin-bottom: 10px
 }
-
-
-
+p {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.owl-next {
+  background: #3286f0;
+}
+.owl-theme .owl-nav [class*='owl-'] {
+  background: #383838;
+}
+.owl-dots {
+  margin-top: 30px;
+}
+.uk-card-title {
+  padding-bottom: 20px
+}

@@ -756,14 +756,19 @@ html{
     Chatbot
     ================================================== */
 
+        
+      
+      .botui-container {
+        
         background-color: #41c0cc;
         background-image: linear-gradient(-90deg, #41c0cc, #41cca5);
-      }
-      .botui-container {
-        background-color: inherit;
+        height: 80vh;
+        margin-left: 60px;
+        margin-right: 60px;
       }
 
       .botui-messages-container {
+        
       }
 
       .botui-actions-container {

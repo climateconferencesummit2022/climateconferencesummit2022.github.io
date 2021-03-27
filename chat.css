@@ -768,11 +768,17 @@ html{
       }
 
       .botui-messages-container {
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 30vw;
         
       }
 
       .botui-actions-container {
-        
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 10px;
+        padding-right: 400px;
       }
 
       .botui-message {
@@ -782,9 +788,7 @@ html{
       .botui-message-content.text {
         background-color: #e1fafc;
         color: #404040;
-        margin-left: 60px;
-        margin-right: 60px;
-        width: 30vw;
+        
         
       }
 

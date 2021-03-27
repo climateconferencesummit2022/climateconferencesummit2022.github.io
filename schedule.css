@@ -388,11 +388,15 @@ html{
 /* ==================================================
       Text Info
 ================================================== */
-
+.textinfo2{
+ background-color: #e9f0ef;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .textinfo{
   background-color: #f0f0f0;
   padding-top: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
 }
 
 #lefttext h2{
@@ -795,6 +799,7 @@ ul{
 
 .box4 {
   background-color: #f0f0f0;
+  padding-top: 30px;
   
 }
 
@@ -871,6 +876,7 @@ ul{
 .image .details p{
 	margin: 10px 30px 0 30px;
 	font-size: 18px;
+  line-height:35px;
   font-family: 'Noto Sans', sans-serif;
 	text-align: left;
   color: #bac0cc;

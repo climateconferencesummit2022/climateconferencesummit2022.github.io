@@ -398,8 +398,7 @@ html{
 #lefttext h2{
   margin-left: 15%;
   text-align: left;
-  
-    
+   
 }
 
 
@@ -411,8 +410,10 @@ html{
 
 #lefttext h2{
   font-family: 'Rubik', sans-serif;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color:
  
 }
 

@@ -736,3 +736,118 @@ ul{
 .custom-shape-divider-bottom-1613503974 .shape-fill {
     fill: #f0f0f0;
 }
+
+
+
+
+/*--------------------------------------------------------------
+# Four Box Thing From MINT Website
+--------------------------------------------------------------*/
+
+.4box{
+	height: 100vh;	background: #f0f0f0;
+}
+
+.container{
+	padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.image{
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.52), rgba(22, 22, 22, 0.73)),
+    url('https://www.utmedicalcenter.org/wp-content/uploads/2021/01/1y1a9710-low.jpg');
+  background-size: cover;
+	position: relative;
+	flex: 1;
+  border-radius: 15px;
+	max-width: 550px;
+	height: 420px;
+	margin: 20px;
+	overflow: hidden;
+}
+
+.image img{
+	opacity: 0.8;
+	position: relative;
+	vertical-align: top;
+	transition: 0.6s;
+	transition-property: opacity;
+}
+
+.image:hover img{
+	opacity: 1;
+}
+
+.image .details{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.image .details h2{
+	text-align: left;
+	font-size: 35px;
+	font-weight: 300;
+  margin: 10px 30px 0 30px;
+	transition: 0.4s;
+	transition-property: transform;
+}
+
+.image .details h4{
+	text-align: left;
+  text-transform: uppercase;
+	font-size: 15px;
+  color: #9ea8ba;
+  margin: 50px 30px 0 30px;
+  letter-spacing: 2px;
+}
+
+.image .details h2 span{
+	font-weight: 900;
+}
+
+.image .details p{
+	margin: 10px 30px 0 30px;
+	font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+	text-align: left;
+  color: #bac0cc;
+
+}
+/*
+.image:hover .details p{
+	opacity: 1;
+	transform: translateY(-40px);
+}*/
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 1080px){
+	.image{
+		flex: 100%;
+		max-width: 480px;
+	}
+}
+
+}
+      
+
+
+
+
+

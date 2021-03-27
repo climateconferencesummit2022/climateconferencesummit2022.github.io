@@ -39,7 +39,7 @@ botui.message.add({
     loading: true,
     content: message
   });
-}).then(function (index2) {
+}).then(function (chat) {
   return botui.action.button({
     action: [
       {
@@ -48,7 +48,7 @@ botui.message.add({
       }
     ]
   });
-}).then(function (index2) {
+}).then(function (chat) {
   return botui.message.add({
     delay: 1000,
     loading: true,

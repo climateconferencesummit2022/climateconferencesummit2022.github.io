@@ -19,14 +19,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
   </head>
   
-  <title>Home</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css"> 
+  
 
+  <div class="botui-app-container" id="help-bot">
+      <bot-ui></bot-ui>
+    </div>
+    <!-- use Vue version 2.0.5 for HTML embeds | https://github.com/botui/botui/issues/103-->
+     <!-- remove .min from the file name to use in development mode -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/botui@0.3.9/build/botui.min.js"></script>
+    <script src="./bot-script.js"></script>
 
 
   
@@ -128,7 +133,6 @@ function myFunction() {
 <!-- End Hero -->
     
     
-
     
     <!---- Text Info ---
     <div class="textinfo">
@@ -319,7 +323,15 @@ function myFunction() {
     </div> 
     
     
-    
+    <!-- Chat Bot -->
+<div class="botui-app-container" id="help-bot">
+      <bot-ui></bot-ui>
+    </div>
+    <!-- use Vue version 2.0.5 for HTML embeds | https://github.com/botui/botui/issues/103-->
+     <!-- remove .min from the file name to use in development mode -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/botui@0.3.9/build/botui.min.js"></script>
+    <script src="./bot-script.js"></script>
     
     
     

@@ -972,7 +972,7 @@ ul{
     	border-radius: 10px;
     	width:300px;
     	padding: 30px 35px;
-    	height: 570px;
+    	height: 540px;
     	box-sizing: border-box;
       background-color: white;
       border-radius: 30px 30px 30px 30px;
@@ -1380,11 +1380,11 @@ h1 {
 
 
 .video-table td {
-  padding: 24px 15px;
+  padding: 24px 18px;
   font-family: 'Noto Sans', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
-  font-size: 14px;
+  font-size: 16px;
   
 
 }
@@ -1396,8 +1396,9 @@ h1 {
 .video-table td h1 {
   font-family: 'Rubik', sans-serif;
   line-height: 1em;
+  text-align: left;
   color: #eda318;
-  font-size: 17px;
+  font-size: 19px;
   letter-spacing: 1px;
 
 }

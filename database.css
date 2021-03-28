@@ -1517,11 +1517,11 @@ text-align: left;
   box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
   width: 85%;
    background-color: white;
-   padding-left: 5vw;
+   padding-left: 80px;
    padding-top: 60px;
    padding-bottom: 40px;
-   
-   margin-left: 10vw;
+   margin: 0 auto;
+  
    
      font-family: 'Noto Sans', sans-serif;
   

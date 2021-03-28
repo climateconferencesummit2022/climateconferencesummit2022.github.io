@@ -780,8 +780,8 @@ html{
          
       }
 
-      .botui-message {
-        
+      .botui-message-content {
+        background-color: #28498a;
       }
 
       .botui-message-content.text {

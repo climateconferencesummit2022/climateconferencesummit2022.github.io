@@ -1447,6 +1447,14 @@ h1 {
   padding-bottom: 60px;
 }
 
+
+.surr h5{
+  background-color: #e9f0ef;
+  margin-bottom: 15px;
+  
+  font-family: 'Rubik', sans-serif;
+  padding: 5px;
+}
  .blogpage{
     width: 80%;
    background-color: white;

@@ -758,45 +758,40 @@ html{
 
         
       
+      .yee-yee {
+        background-color: #28498a;
+        
+        
+        
+      }
       .botui-container {
         
-        background-color: #41c0cc;
-        background-image: linear-gradient(-90deg, #41c0cc, #41cca5);
-        height: 80vh;
-        margin-left: 10vw;
-        margin-right: 10vw;
+        
+        
       }
 
       .botui-messages-container {
-        margin-left: 60px;
-        margin-right: 60px;
-        width: 30vw;
+        
         
       }
 
       .botui-actions-container {
-        margin-left: 60px;
-        margin-right: 60px;
-        padding-top: 10px;
-        padding-right: 400px;
+         
+         
       }
 
       .botui-message {
-        padding-top: 10px;
+        
       }
 
       .botui-message-content.text {
-        background-color: #e1fafc;
+        background-color: #e1e4ed;
         color: #404040;
-        
-        
       }
 
       .botui-message-content.human {
-        background-color: #f7ff61;
+        background-color: #c9edf0;
         color: #404040;
-        margin-left: 60px;
-        margin-right: 60px;
       }
 
       .botui-message-content.embed {
@@ -806,9 +801,11 @@ html{
       }
 
       .botui-actions-text-input {
+         
       }
 
       .botui-actions-text-submit {
+        
       }
 
       button.botui-actions-buttons-button {

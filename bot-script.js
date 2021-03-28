@@ -14,7 +14,7 @@ botui.message.add({
   return botui.action.button({
     action: [
       {
-        text: 'What are your opening hours?',
+        text: 'What hours are you open?',
         value: 'hours'
       },
       {
@@ -30,7 +30,7 @@ botui.message.add({
     message = 'That’s a good one! This is a website, it’s always open.';
   }
   else if (res.value === "do") {
-    message = 'I’m a product-focused Scrum master<br><br>I also have a keen interest in chatbots and web analytics';
+    message = 'We are a medical communications company.<br><br>We are dedicated to giving practices more efficient and effective tools to help their customers.';
   }
 
   return botui.message.add({
@@ -52,6 +52,6 @@ botui.message.add({
   return botui.message.add({
     delay: 1000,
     loading: true,
-    content: 'I know! Thanks.'
+    content: 'Thanks. We thought so too!'
   });
 });

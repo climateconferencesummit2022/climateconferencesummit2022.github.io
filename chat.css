@@ -760,24 +760,26 @@ html{
       
       .yee-yee {
         background-color: #28498a;
-        
-        
-        
+     
       }
       .botui-container {
+        background-color: #28498a;
         
-        
-        
+      
       }
+
+.bot-ui{
+  background-color: #28498a;
+}
 
       .botui-messages-container {
         
-        
+        background-color: #28498a;
       }
 
       .botui-actions-container {
          
-         
+         background-color: #28498a;
       }
 
       .botui-message-content {
@@ -795,16 +797,19 @@ html{
       }
 
       .botui-message-content.embed {
+        background-color: #28498a;
       }
 
       .botui-message-content-link {
+        background-color: #28498a;
       }
 
       .botui-actions-text-input {
-         
+         background-color: #28498a;
       }
 
       .botui-actions-text-submit {
+        background-color: #28498a;
         
       }
 

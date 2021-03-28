@@ -760,26 +760,30 @@ html{
       
       .yee-yee {
         background-color: #28498a;
+        height: 600px;
      
       }
       .botui-container {
-        background-color: #28498a;
         
-      
+      background-color: #28498a;
+        
       }
 
 .bot-ui{
   background-color: #28498a;
+  
 }
 
       .botui-messages-container {
         
         background-color: #28498a;
+        
       }
 
       .botui-actions-container {
          
          background-color: #28498a;
+        
       }
 
       .botui-message-content {

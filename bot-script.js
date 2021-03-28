@@ -1,58 +1,62 @@
-var botui = new BotUI('help-bot');
+var botui = new BotUI('thermostat-bot'),
+    temperature = 30;
+
+function init() {
+  botui.message
+    .bot({
+      delay: 700,
+      content: 'What would you like to do?'
+    })
+    .then(function () {
+      return botui.action.button({
+        delay: 1000,
+        action: [{
+          text: 'Check temperature',
+          value: 'check'
+        }, {
+          text: 'Change temperature',
+          value: 'change'
+        }]
+      })
+  }).then(function (res) {
+    if(res.value == 'change') {
+      changeTemp();
+    } else {
+      botui.message.bot({
+        delay: 1200,
+        content: 'Current temperature is: ' + temperature + ' degree'
+      }).then(init);
+    }
+  });
+}
+
+var changeTemp = function () {
+  botui.message
+    .bot({
+      delay: 500,
+      content: 'Change the temperature to ...'
+    })
+    .then(function () {
+      return botui.action.text({
+        delay: 1000,
+        action: {
+          size: 10,
+          icon: 'thermometer-empty',
+          value: temperature, // show the current temperature as default
+          sub_type: 'number',
+          placeholder: '26'
+        }
+      })
+    }).then(function (res) {
+      temperature = res.value; // save new value
+      return botui.message
+        .bot({
+          delay: 1500,
+          loading: true, // pretend like we are doing something
+          content: 'temperature set to ' + res.value
+        });
+    }).then(init); // loop to initial state
+}
 
 
-botui.message.add({
-  delay: 500,
-  loading: true,
-  content: 'Hi! Welcome to ConnectHealth'
-}).then(function () {
-  return botui.message.add({
-    delay: 500,
-    loading: true,
-    content: 'How can we help you?'
-  });
-}).then(function () {
-  return botui.action.button({
-    action: [
-      {
-        text: 'What hours are you open?',
-        value: 'hours'
-      },
-      {
-        text: 'What do you do?',
-        value: 'do'
-      }
-    ]
-  });
-}).then(function (res) {
-  var message;
-
-  if (res.value === "hours") {
-    message = 'That’s a good one! This is a website, it’s always open.';
-  }
-  else if (res.value === "do") {
-    message = 'We are a medical communications company.<br><br>We are dedicated to giving practices more efficient and effective tools to help their customers.';
-  }
-
-  return botui.message.add({
-    type: 'html',
-    delay: 1000,
-    loading: true,
-    content: message
-  });
-}).then(function (chat) {
-  return botui.action.button({
-    action: [
-      {
-        text: 'Cool!',
-        value: 'cool'
-      }
-    ]
-  });
-}).then(function (chat) {
-  return botui.message.add({
-    delay: 1000,
-    loading: true,
-    content: 'Thanks. We thought so too!'
-  });
-});
+init();

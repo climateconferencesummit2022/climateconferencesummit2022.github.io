@@ -20,13 +20,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://unpkg.com/botui@0.3.9/build/botui.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/botui@0.3.9/build/botui-theme-default.css" />
+ 
     
      <style>
       
     </style>
     
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css" />
     
   </head>
   
@@ -245,7 +248,6 @@ function myFunction() {
          
         </p>
         
-        <a class="test2-btn" href="chatbot.html">More</a>
       </div>
 
       <div class="row">
@@ -326,19 +328,17 @@ function myFunction() {
     
     
     <!-- Chat Bot--->
+
     <div class="yee-yee">
-<div class="botui-app-container" id="help-bot">
+      
+   
+    <div class="botui-app-container" id="thermostat-bot">
       <bot-ui></bot-ui>
     </div>
-    <!-- use Vue version 2.0.5 for HTML embeds | https://github.com/botui/botui/issues/103-->
-     <!-- remove .min from the file name to use in development mode -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/botui@0.3.9/build/botui.min.js"></script>
-    <script src="./bot-script.js"></script>
-      </div>
-    
-    
-    
+    <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+    <script src="https://unpkg.com/botui/build/botui.js"></script>
+    <script src="./thermostat-bot.js"></script>
+     </div>
     
       <!--  Services Section ======= -->
    <section class="services">

@@ -6,13 +6,13 @@
     <title>Responsive Image Cards With Hover Effect</title>
     <link rel="stylesheet" href="state.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <script src="jquery.min.js"></script>
-<script src="owlcarousel/owl.carousel.min.js"></script>
-<!--Jquery-------------------->
-
+ 
     
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     
   </head>
   <body>
@@ -196,131 +196,204 @@
     
     
     
-<div class="row">
+<div class="wrapper">
 
-  <div class="customNavigation">
-    <a class="btn gray prev"><i class="icon ion-ios-arrow-left"></i></a>
-    <a class="btn gray next"><i class="icon ion-ios-arrow-right"></i></a>
-  </div>
-
-
-  <div id="slider-carousel" class="owl-carousel">
-    <div class="item">
-      <a class="hoverfx" href="#">
-        <div class="figure">
-          <i class="icon ion-search"></i>
-        </div>
-        <div class="figure">
-          <i class="icon ion-link"></i>
-        </div>
-        <div class="overlay">
-        </div>
-        <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2Fart-design-3.jpg?v=1611351364392">
-      </a>
-      <h4>Lorem ipsum</h4>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+  <div class="content">
+    <div class="bg-shape">
+       <img src="https://zel.cash/img/logo-zelcash-round.svg" alt="star wars" class="product-img__img">
     </div>
 
-    <div class="item">
-      <a class="hoverfx" href="#">
-        <div class="figure">
-          <i class="icon ion-search"></i>
-        </div>
-        <div class="figure">
-          <i class="icon ion-link"></i>
-        </div>
-        <div class="overlay">
-        </div>
-        <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2Fart-design-3.jpg?v=1611351364392">
-      </a>
-      <h4>Lorem ipsum</h4>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+    <div class="product-img">
+      <div class="product-img__item" id="img1">
+        <img src="https://zel.cash/img/logo-zelcash-round.svg" alt="star wars" class="product-img__img">
+      </div>
+
+      <div class="product-img__item" id="img2">
+        <img src="https://zel.cash/img/logo-zelcash-round.svg" alt="star wars" class="product-img__img">
+      </div>
+
+      <div class="product-img__item" id="img3">
+        <img src="https://zel.cash/img/logo-zelcash-round.svg" alt="star wars" class="product-img__img">
+      </div>
+
+      <div class="product-img__item" id="img4">
+        <img src="https://zel.cash/img/logo-zelcore-round.svg" alt="star wars" class="product-img__img">
+      </div>
     </div>
 
-    <div class="item">
-      <a class="hoverfx" href="#">
-        <div class="figure">
-          <i class="icon ion-search"></i>
-        </div>
-        <div class="figure">
-          <i class="icon ion-link"></i>
-        </div>
-        <div class="overlay">
-        </div>
-        <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2Fart-design-3.jpg?v=1611351364392">
-      </a>
-      <h4>Lorem ipsum</h4>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
-    </div>
+    <div class="product-slider">
+      <button class="prev disabled">
+        <span class="icon"><svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-left"></use></svg></span>
+      </button>
+      <button class="next">
+        <span class="icon"><svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-right"></use></svg></span>
+      </button>
 
-    <div class="item">
-      <a class="hoverfx" href="#">
-        <div class="figure">
-          <i class="icon ion-search"></i>
-        </div>
-        <div class="figure">
-          <i class="icon ion-link"></i>
-        </div>
-        <div class="overlay">
-        </div>
-        <img src="http://dummyimage.com/350x300/f0f0f0/333">
-      </a>
-      <h4>Lorem ipsum</h4>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
-    </div>
+      <div class="product-slider__wrp swiper-wrapper">
+        <div class="product-slider__item swiper-slide" data-target="img4">
+          <div class="product-slider__card">
+            <img src="https://zel.cash/img/item-1-bg.jpg" alt="star wars" class="product-slider__cover">
+            <div class="product-slider__content">
+              <h1 class="product-slider__title">ZelCore</h1>
+              <span class="product-slider__price">Multi-asset Platform</span>
+              <div class="product-ctr">
+                <div class="product-labels">
+                  <p>More than 50+ coins</p>
+                  <p>Multiple Accounts</p>
+                  <p>Light Node and Full Node</p>
+                  <p>Built-in Exchanges</p>
+                </div>
+                <span class="hr-vertical"></span>
+                <div class="product-inf">
+                  <img src="https://zelcore.io/images/zelcore-portfolio.png" class="mini-image">
+                  <img src="https://zelcore.io/images/zelcore-portfolio.png" class="mini-image">
+                </div>
+              </div>
 
-    <div class="item">
-      <a class="hoverfx" href="#">
-        <div class="figure">
-          <i class="icon ion-search"></i>
+              <div class="product-slider__bottom">
+                <button class="product-slider__cart">DOWNLOAD FOR MAC</button>
+                <button class="product-slider__fav">OTHER PLATFORMS</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="figure">
-          <i class="icon ion-link"></i>
-        </div>
-        <div class="overlay">
-        </div>
-        <img src="http://dummyimage.com/350x300/f0f0f0/333">
-      </a>
-      <h4>Lorem ipsum</h4>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
-    </div>
+        <div class="product-slider__item swiper-slide" data-target="img1">
+          <div class="product-slider__card">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1536405222/starwars/item-1-bg.jpg" alt="star wars" class="product-slider__cover">
+            <div class="product-slider__content">
+              <h1 class="product-slider__title">ZelCash Copay Wallet</h1>
+              <span class="product-slider__price">Copay Wallet</span>
+              <div class="product-ctr">
+                <div class="product-labels">
+                  <p>Multiple Accounts</p>
+                </div>
+                <span class="hr-vertical"></span>
+                <div class="product-inf">
+                </div>
+              </div>
 
-    <div class="item">
-      <a class="hoverfx" href="#">
-        <div class="figure">
-          <i class="icon ion-search"></i>
+              <div class="product-slider__bottom">
+                <button class="product-slider__cart">DOWNLOAD FOR MAC</button>
+                <button class="product-slider__fav">OTHER PLATFORMS</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="figure">
-          <i class="icon ion-link"></i>
+
+        <div class="product-slider__item swiper-slide" data-target="img2">
+          <div class="product-slider__card">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1536405222/starwars/item-2-bg.jpg" alt="star wars" class="product-slider__cover">
+            <div class="product-slider__content">
+              <h1 class="product-slider__title">ZelCash Swing Wallet</h1>
+              <span class="product-slider__price">Java Wallet</span>
+              <div class="product-ctr">
+                <div class="product-labels">
+                  <p>Full node wallet</p>
+                  <p>Support Z-Addresses</p>
+                </div>
+                <span class="hr-vertical"></span>
+                <div class="product-inf"></div>
+              </div>
+
+              <div class="product-slider__bottom">
+                <button class="product-slider__cart">DOWNLOAD FOR MAC</button>
+                <button class="product-slider__fav">OTHER PLATFORMS</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="overlay">
+
+        <div class="product-slider__item swiper-slide" data-target="img3">
+          <div class="product-slider__card">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1536405215/starwars/item-3-bg.jpg" alt="star wars" class="product-slider__cover">
+            <div class="product-slider__content">
+              <h1 class="product-slider__title">ZelCash Web Wallet</h1>
+              <span class="product-slider__price"></span>
+              <div class="product-ctr">
+                <div class="product-labels">
+                  <p>Works Online/Offline</p>
+                  <p>Simple</p>
+                </div>
+                <span class="hr-vertical"></span>
+                <div class="product-inf"></div>
+              </div>
+
+              <div class="product-slider__bottom">
+                <button class="product-slider__cart">WEBSITE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <img src="http://dummyimage.com/350x300/f0f0f0/333">
-      </a>
-      <h4>Lorem ipsum</h4>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+
+      </div>
     </div>
 
   </div>
 
 </div>
+<svg class="hidden" hidden>
+  <symbol id="icon-arrow-left" viewBox="0 0 32 32">
+    <path d="M0.704 17.696l9.856 9.856c0.896 0.896 2.432 0.896 3.328 0s0.896-2.432 0-3.328l-5.792-5.856h21.568c1.312 0 2.368-1.056 2.368-2.368s-1.056-2.368-2.368-2.368h-21.568l5.824-5.824c0.896-0.896 0.896-2.432 0-3.328-0.48-0.48-1.088-0.704-1.696-0.704s-1.216 0.224-1.696 0.704l-9.824 9.824c-0.448 0.448-0.704 1.056-0.704 1.696s0.224 1.248 0.704 1.696z"></path>
+  </symbol>
+  <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+    <path d="M31.296 14.336l-9.888-9.888c-0.896-0.896-2.432-0.896-3.328 0s-0.896 2.432 0 3.328l5.824 5.856h-21.536c-1.312 0-2.368 1.056-2.368 2.368s1.056 2.368 2.368 2.368h21.568l-5.856 5.824c-0.896 0.896-0.896 2.432 0 3.328 0.48 0.48 1.088 0.704 1.696 0.704s1.216-0.224 1.696-0.704l9.824-9.824c0.448-0.448 0.704-1.056 0.704-1.696s-0.224-1.248-0.704-1.664z"></path>
+  </symbol>
+</svg>
+    
     <script>
-       $(document).ready(function() {
-     var owl = $("#slider-carousel");
-     owl.owlCarousel({
-       items: 4,
-       itemsDesktop: [1000, 4],
-       itemsDesktopSmall: [900, 2],
-       itemsTablet: [600, 1],
-       itemsMobile: false,
-       pagination: false
-     });
-     $(".next").click(function() {
-       owl.trigger('owl.next');
-     })
-     $(".prev").click(function() {
-       owl.trigger('owl.prev');
-     })
-   });</script>
+    var swiper = new Swiper('.product-slider', {
+        spaceBetween: 30,
+        effect: 'fade',
+        // initialSlide: 2,
+        loop: false,
+        navigation: {
+            nextEl: '.next',
+            prevEl: '.prev'
+        },
+        // mousewheel: {
+        //     // invert: false
+        // },
+        on: {
+            init: function(){
+                var index = this.activeIndex;
+
+                var target = $('.product-slider__item').eq(index).data('target');
+
+                console.log(target);
+
+                $('.product-img__item').removeClass('active');
+                $('.product-img__item#'+ target).addClass('active');
+            }
+        }
+
+    });
+
+    swiper.on('slideChange', function () {
+        var index = this.activeIndex;
+
+        var target = $('.product-slider__item').eq(index).data('target');
+
+        console.log(target);
+
+        $('.product-img__item').removeClass('active');
+        $('.product-img__item#'+ target).addClass('active');
+
+        if(swiper.isEnd) {
+            $('.prev').removeClass('disabled');
+            $('.next').addClass('disabled');
+        } else {
+            $('.next').removeClass('disabled');
+        }
+
+        if(swiper.isBeginning) {
+            $('.prev').addClass('disabled');
+        } else {
+            $('.prev').removeClass('disabled');
+        }
+    });
+
+    $(".js-fav").on("click", function() {
+        $(this).find('.heart').toggleClass("is-active");
+    });</script>
   </body>
 </html>

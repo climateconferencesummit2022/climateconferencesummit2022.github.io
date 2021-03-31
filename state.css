@@ -795,6 +795,7 @@ a {
   display: block;
   font-size: 28px;
   opacity: 0;
+  color: black;
   transform: translateY(55px);
   transition: all .5s;
 }

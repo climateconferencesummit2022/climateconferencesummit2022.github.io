@@ -1401,6 +1401,10 @@ ul{
 
 
 
+
+
+
+
 /* ==================================================
       Accordion Content
 ================================================== */
@@ -1409,9 +1413,7 @@ ul{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding-top: -100vh;
-  padding-bottom: 10vh;
-  background-color: #28498a;
+  background-color: #f0f0f0;
 }
 
 h1 {
@@ -1423,32 +1425,26 @@ h1 {
 
 .accordion {
   width: 50%;
+  background-color: #f0f0f0;
   max-width: 1000px;
   margin: 3rem auto;
 }
 .accordion-item {
-  background-color: #f0f0f0;
+  background-color: #fff;
   z-index: 500;
   color: #111;
   margin: 1rem 0;
   border-radius: 0.5rem;
-  
-}
-
-.accordion-item:hover{
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
 }
 .accordion-head{
- padding: 20px 40px;
-  line-height: 40px;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+ font-weight: 500;
   display: flex;
   align-items: center;
   position: relative;
-  font-family: 'Rubik', sans-serif;
-  color: #333333;
-  font-size: 1.5em;
-  letter-spacing: 1px;
-  text-align: left;
   cursor: pointer;
 }
 .accordion-head::after {
@@ -1476,4 +1472,3 @@ h1 {
     font-size: 14px;
   }
 }
-

@@ -333,7 +333,16 @@ function myFunction() {
         Here's a demo of how this chat would work.
         </p>
         </div>
-          <a class="chat-btn" href="chatbot.html" target="_blank">Try it Out!</a>
+          <a class="chat-btn" href="chatbot.html" target="_blank" onclick="window.open(this.href,'targetWindow',
+                                   `toolbar=no,
+                                    location=no,
+                                    status=no,
+                                    menubar=no,
+                                    scrollbars=yes,
+                                    resizable=yes,
+                                    width=500,
+                                    height=500`);
+ return false;">Try it Out!</a>
     </div>
     
     <!-- Chat Bot

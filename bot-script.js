@@ -15,11 +15,11 @@ botui.message.add({
   return botui.action.button({
     action: [
       {
-        text: 'What hours are you open?',
+        text: 'What do you do?',
         value: 'hours'
       },
       {
-        text: 'What do you do?',
+        text: 'What solutions do you offer?',
         value: 'do'
       }
     ]
@@ -28,10 +28,10 @@ botui.message.add({
   var message;
 
   if (res.value === "hours") {
-    message = 'That’s a good one! This is a website, it’s always open.';
+    message = 'We are a medical communications company.<br><br>We are dedicated to giving practices more efficient and effective tools to help their customers.';
   }
   else if (res.value === "do") {
-    message = 'We are a medical communications company.<br><br>We are dedicated to giving practices more efficient and effective tools to help their customers.';
+    message = 'We offer six different solutions:<br><br>Direct Chat Line, Automatic Messaging, Access to Analytics, Online Scheduling, Video Serrvices, Medical Record Database';
   }
 
   return botui.message.add({

@@ -1441,29 +1441,32 @@ h1 {
   width: 140px;
     	height: 40px;
     	border-radius: 20px;
-    	border:.15em solid #3b92e3;
+    	border:.15em solid #2bcfc9;
     	display: flex;
     	justify-content: center;
     	align-items: center;
-    	color: #3b92e3;
+    	color: #2bcfc9;
     	margin-top:30px;
       font-family: 'Rubik', sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
 .chat-btn:hover {
-    background: #3b92e3;
-    border: 2px solid #3b92e3;
+    background: #2bcfc9;
+    border: 2px solid #2bcfc9;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
   }
 
 .videoinfo1{
-  background-color: #f0f0f0;
-  margin-left: auto;
-  margin-right:auto;
+  background-color: #28498a;
+  padding-top: 10px;
   padding-bottom: 100px;
+  
+  justify-content: center;
+    	align-items: center;
+  text-align: center;
 }
 .video-blurb1 p{
   padding-bottom: 10px;
@@ -1471,11 +1474,12 @@ h1 {
   font-size: 20px;
   line-height: 50px;
   font-weight: 200;
-  
-  padding-right: 20vw;
+  margin-left: auto;
+  margin-right:auto;
+  color:#ffffff;
   width: 80vw;
   
-  color: #333333;
+  
 }
 
 .video-blurb1 h2{
@@ -1483,12 +1487,14 @@ h1 {
   font-size: 50px;
   padding-bottom: 5px;
   font-weight: 800;
-  
+  margin-left: auto;
+  margin-right:auto;
   width: 500px;
-  border-bottom: 6px solid #2bcfc9;
+  color:#ffffff;
+  /*border-bottom: 6px solid black;*/
 }
 .video-blurb1{
   
-  padding-left: 12%;
+  
  
 }

@@ -1209,8 +1209,7 @@ ul{
 }
 
 #tablesinfo img{
-  width:70px;
-  margin-bottom:30px;
+  width:100px;
 }
 
 
@@ -1399,4 +1398,82 @@ ul{
 
 
 
+
+
+
+/* ==================================================
+      Accordion Content
+================================================== */
+
+.accordion1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: -100vh;
+  padding-bottom: 10vh;
+  background-color: #28498a;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+
+}
+
+.accordion {
+  width: 50%;
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+.accordion-item {
+  background-color: #f0f0f0;
+  z-index: 500;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  
+}
+
+.accordion-item:hover{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion-head{
+ padding: 20px 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: 'Rubik', sans-serif;
+  color: #333333;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  text-align: left;
+  cursor: pointer;
+}
+.accordion-head::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+
+
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.accordion-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+}
+
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
+}
 

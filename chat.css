@@ -1469,13 +1469,26 @@ h1 {
   text-align: center;
 }
 .video-blurb1 p{
-  padding-bottom: 10px;
+  
   font-family: 'Noto Sans', sans-serif;
   font-size: 20px;
   line-height: 50px;
   font-weight: 200;
   margin-left: auto;
   margin-right:auto;
+  color:#ffffff;
+  width: 80vw;
+  
+  
+}
+.video-blurb1 p1{
+  padding-bottom: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 150;
+  margin-left: 5px;
+  margin-right:5px;
   color:#ffffff;
   width: 80vw;
   

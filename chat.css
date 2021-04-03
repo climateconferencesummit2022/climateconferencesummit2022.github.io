@@ -1468,6 +1468,28 @@ h1 {
     	align-items: center;
   text-align: center;
 }
+
+#videoinfo1{
+  background-color: #e9f0ef;
+  padding: 90px;
+ 
+}
+
+
+#videoinfo1 h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  padding-bottom: 5px;
+  font-weight: 800;
+  margin-left: auto;
+  margin-right:auto;
+  width: 500px;
+  
+  color:black;
+  /*border-bottom: 6px solid black;*/
+}
+
+
 .video-blurb1 p{
   
   font-family: 'Noto Sans', sans-serif;

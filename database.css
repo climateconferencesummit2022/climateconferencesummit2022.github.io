@@ -1676,7 +1676,13 @@ text-align: left;
 
 
 
-#lefttext img{
+@media(max-width: 950px){
+  #noimg{
+  display: none;
+}
+}
+
+#lefttxt img{
  
   width: 70%;
 }

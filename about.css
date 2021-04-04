@@ -884,30 +884,39 @@ html{
       color: #6e6d6d;
     	text-align: center;
     }
-    .s-box-container{
+     .s-box-container{
     	width:100%;
     	display: flex;
     	justify-content: center;
     	align-items: center;
+      margin-top: -200px;
+       background-color: #f0f0f0;;
     }
+
+.textinfo7{
+  background-color: #f0f0f0;
+  padding-top: 50px;
+  margin-bottom: -40px;
+}
     .s-box{
     	display:flex;
     	flex-direction: column;
-
+    
     	border-radius: 10px;
-    	width:300px;
+    	width:90vw;
     	padding: 30px 35px;
-    	height: 530px;
+    	height: 540px;
     	box-sizing: border-box;
-      background-color: white;
+      background-color: #e9f0ef;
       border-radius: 30px 30px 30px 30px;
     	margin: 30px;
+      margin-left:40px;
     	position: relative;
     }
     .s-box img{
-    	height: 120px;
-      width: 80px;
-      padding-bottom: 10px;
+    	height: 100px;
+      width: 100px;
+      margin-bottom: 30px;
     }
     .s-box h1{
     	color: #333436;
@@ -927,6 +936,7 @@ html{
       margin-top: 1em;
       font-size: .9em;
     }
+
 
     .s-btn{
     	width: 140px;

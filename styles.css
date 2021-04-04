@@ -2165,13 +2165,14 @@ input[type="checkbox"]{
 }
 
 .carousel {
-  width: 100%;
+  width: 120%;
   
 }
 
 .slide-box {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -2201,8 +2202,34 @@ input[type="checkbox"]{
 
 .carousel-caption {
   background-color: blue;
+  color: red;
   padding: 20px;
   border-radius: .5rem;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
 }
 
 

@@ -2163,6 +2163,7 @@ input[type="checkbox"]{
 
 .carousel {
   width: 100%;
+  background-color: #f0f0f0;
 }
 
 .slide-box {

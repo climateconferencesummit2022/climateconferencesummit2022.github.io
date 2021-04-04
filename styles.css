@@ -2165,7 +2165,7 @@ input[type="checkbox"]{
 }
 
 .carousel {
-  width: 120%;
+  width: 100%;
   
 }
 
@@ -2173,8 +2173,15 @@ input[type="checkbox"]{
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
+  
 }
 
+@media (max-width: 700px){
+  .slide-box{
+    width: 950px;
+  margin: 0 auto;
+  }
+}
 @media (min-width: 576px) and (max-width: 767.98px) {
   .slide-box img {
     -ms-flex: 0 0 50%;
@@ -2208,29 +2215,11 @@ input[type="checkbox"]{
 }
 
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none;
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: red;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: red;
-}
 
 
 .card {

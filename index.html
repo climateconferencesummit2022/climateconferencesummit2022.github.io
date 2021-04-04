@@ -481,7 +481,9 @@ window.addEventListener('scroll', (e) => {
     </div>
     
     
-    
+    <div class="back">
+      
+ 
     <div class="thumbnail-slider">
 	<div class="thumbnail-container">
 			  <div class="item">
@@ -546,7 +548,7 @@ window.addEventListener('scroll', (e) => {
 
 </div>
 
-
+   </div>
     
     <script> const controls=document.querySelector(".controls");
   const container=document.querySelector(".thumbnail-container");
@@ -562,8 +564,8 @@ window.addEventListener('scroll', (e) => {
 
  responsive=[
   {breakPoint:{width:0,item:1}}, //if width greater than 0 (1 item will show) 
-  {breakPoint:{width:600,item:2}}, //if width greater than 600 (2  item will show) 
-  {breakPoint:{width:1000,item:3}} //if width greater than 1000 (4 item will show) 
+  {breakPoint:{width:600,item:1}}, //if width greater than 600 (2  item will show) 
+  {breakPoint:{width:1200,item:3}} //if width greater than 1000 (4 item will show) 
  ]
 
  function load(){

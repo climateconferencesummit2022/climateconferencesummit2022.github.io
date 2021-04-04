@@ -2154,30 +2154,33 @@ input[type="checkbox"]{
 
 
 
+.back{
+    background-color: #f0f0f0;
 
+
+}
 
 .thumbnail-slider{
 	width: 80%;
-	align-content:center;
-	overflow: hidden;
+margin: 0 auto;	overflow: hidden;
   background-color: #f0f0f0;
 }
 
 .thumbnail-slider .thumbnail-container{
-	width: 100%;
+	width: auto;
 	transition: margin 1s ease;
   
 }
 
 .thumbnail-slider .item{
-  height: 600px;
+  height: 500px;
   overflow: hidden;
   box-shadow: 0 8px 12px 0 #f2f2f2;
   background: #fafafa;
   border: none;
   border-radius: 0.9rem;
   position: relative;
-  width: 100px;
+  width: auto;
   margin: 1rem;
   transition: 250ms all ease-in-out;
   cursor: pointer;
@@ -2237,7 +2240,7 @@ input[type="checkbox"]{
 .banner-img {
   position: absolute;
   object-fit: cover;
-  height: 14rem;
+  height: 10rem;
   width: 100%;
 }
 
@@ -2264,7 +2267,7 @@ input[type="checkbox"]{
 
 
 .card-body {
-  margin: 15rem 1rem 1rem 1rem;
+  margin: 10rem 1rem 1rem 1rem;
 
 }
 

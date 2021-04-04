@@ -1217,8 +1217,8 @@ h1 {
 ================================================== */
 
 .textinfo{
-  background-color: #fcfcfc;
-  padding-top: 90px;
+  background-color: white;
+  margin-top:-80px;
 }
 
 #lefttext h2{
@@ -1252,10 +1252,12 @@ h1 {
 } 
 
 
-#rightimage{
- text-align:center;
-  height: 100px;
-  wight:auto;
+.rightimage{
+ background-color: white;
+  
+}
+.image{
+  background-color: white;
 }
 
 
@@ -1509,6 +1511,7 @@ text-align: left;
 .blogpage p{
       font-family: 'Noto Sans', sans-serif;
       line-height: 35px;
+   background-color: white;
 
 
     }

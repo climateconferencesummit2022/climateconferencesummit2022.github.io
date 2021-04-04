@@ -939,7 +939,7 @@ html{
 @media(max-width:1050px){
     	.s-box-container{
     		flex-wrap: wrap;
-        
+       
 
     	}
     	.services{
@@ -955,7 +955,10 @@ html{
         margin-left:40px;
     	}
   
-
+  .s-box p{
+   
+    word-wrap: break-word;
+  }
     }
 
 

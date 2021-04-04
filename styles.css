@@ -2154,64 +2154,51 @@ input[type="checkbox"]{
 
 
 
-.back{
-    background-color: #f0f0f0;
 
 
-}
 
-.thumbnail-slider{
-	width: 80%;
-margin: 0 auto;	overflow: hidden;
-  background-color: #f0f0f0;
-}
 
-.thumbnail-slider .thumbnail-container{
-	transition: margin 1s ease;
-  
-}
 
-.thumbnail-slider .item{
-  height: 500px;
-  overflow: hidden;
-  box-shadow: 0 8px 12px 0 #f2f2f2;
-  background: #fafafa;
-  border: none;
-  border-radius: 0.9rem;
-  position: relative;
+
+
+.carousel {
   width: 100%;
-  margin: 1rem;
-  transition: 250ms all ease-in-out;
-  cursor: pointer;
-  float: left;
 }
 
-.thumbnail-slider .controls{
-	width: 100%;
-	float: left;
-	padding:15px;
+.slide-box {
+  display: flex;
+  justify-content: space-between;
 }
 
-.thumbnail-slider .controls ul{
-	display: block;
-	text-align: center;
-	padding:0;
-	margin:0;
-	list-style: none;
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
-.thumbnail-slider .controls ul li{
-	height: 35px;
-	width: 35px;
-	border:1px solid #c3c3c3;
-	margin:4px;
-	display: inline-block;
-	line-height: 33px;
-	cursor: pointer;
-}
-.thumbnail-slider .controls ul li.active{
-	background-color: green;
-	color:#ffffff;
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
 }
 
 

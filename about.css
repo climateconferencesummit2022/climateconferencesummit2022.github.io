@@ -903,14 +903,14 @@ html{
     	flex-direction: column;
     
     	border-radius: 10px;
-    	width:90vw;
+    	width:85vw;
     	padding: 30px 35px;
     	height: 350px;
     	box-sizing: border-box;
       background-color: #e9f0ef;
       border-radius: 30px 30px 30px 30px;
     	margin: 30px;
-      margin-left:40px;
+      margin-left:100px;
     	position: relative;
     }
     .s-box img{
@@ -950,9 +950,11 @@ html{
     	}
     	.s-box{
     		flex-grow: 1;
-        width: 80vw;
+        width: auto;
         height:700px;
+        margin-left:40px;
     	}
+  
 
     }
 
@@ -1444,7 +1446,10 @@ h1 {
   margin-left: 10vw;
     
 }
-
+#midtext1 h2{
+  margin-left: 9vw;
+    
+}
 
 
 #midtext h2{

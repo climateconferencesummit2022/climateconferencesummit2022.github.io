@@ -2169,6 +2169,7 @@ input[type="checkbox"]{
 }
 
 .thumbnail-slider .item{
+  height: 250px;
   overflow: hidden;
   box-shadow: 0 8px 12px 0 #f2f2f2;
   background: #f0f0f0;
@@ -2211,8 +2212,25 @@ input[type="checkbox"]{
 }
 
 
-.item:hover {
+.card {
+  overflow: hidden;
+  box-shadow: 0 8px 12px 0 #f2f2f2;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 0.9rem;
+  position: relative;
+  width: 350px;
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+  cursor: pointer;
+}
+
+
+
+.card:hover {
   transform: scale(1.02);
+  
+
 }
 
 .banner-img {

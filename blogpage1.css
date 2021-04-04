@@ -1254,6 +1254,8 @@ h1 {
 
 #rightimage{
  text-align:center;
+  height: 100px;
+  wight:auto;
 }
 
 
@@ -1491,6 +1493,15 @@ text-align: left;
       font-size: 15px;
       color: #2bcfc9;
       
+
+
+    }
+ .blogpage h5{
+      font-family: 'Noto Sans', sans-serif;
+      padding-bottom: 10px;
+      font-size: 20px;
+      color: black;
+      background-color: #e9f0ef;
 
 
     }

@@ -1467,10 +1467,17 @@ h1 {
   
   
     }
+.test67-heading{
+    	
+  background-color: #e9f0ef;
+  
+  
+  
+    }
     .test2-heading h1{
     	color: #333436;
     	font-size: 3rem;
-  background-color: #e9f0ef;
+  background-color: #f0f0f0;
       font-family: 'Rubik', sans-serif;
     	letter-spacing: 1px;
  

@@ -2271,13 +2271,17 @@ input[type="checkbox"]{
 
 }
 
-.banner-img {
+
+.banner-img{
   position: absolute;
   object-fit: cover;
   height: 10rem;
-  width: 100%;
+  width: 400%;
 }
 
+.banner{
+  object-fit: cover;
+}
 .tag {
   font-size: 0.8rem;
   font-weight: bold;

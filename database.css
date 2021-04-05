@@ -1802,12 +1802,13 @@ text-align: left;
       
 
 
+
 .accordion1 {
   margin: 0;
   padding-bottom: 20px;
   padding-top: 1px;
   box-sizing: border-box;
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
 }
 
 h1 {
@@ -1821,7 +1822,7 @@ h1 {
   width: 70%;
   max-width: 1000px;
   margin: 4rem auto;
-   background-color: #f7f7f7;
+  
 }
 .accordion-item {
   background-color: #f7f7f7;
@@ -1843,6 +1844,7 @@ h1 {
   align-items: center;
   position: relative;
   cursor: pointer;
+  background-color: white;
 }
 .accordion-head::after {
   content: "\002B";
@@ -1852,13 +1854,12 @@ h1 {
 }
 
 
-.accordian1{
-   background-color: #f7f7f7;
-}
+
 .accordion-body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
+  background-color: white;
 }
 .accordion-content {
   padding: 1rem;
@@ -1871,6 +1872,5 @@ h1 {
     font-size: 14px;
   }
 }
-
 
 

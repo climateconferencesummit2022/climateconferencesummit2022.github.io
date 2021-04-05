@@ -1591,7 +1591,7 @@ ul{
 
 /* SECTION  NUMBERS */
 .number{
-  background-color: #f0f0f0;
+  background-color: #e9f0ef;
   margin-top: 60px;
 }
 .numbers{
@@ -1603,7 +1603,7 @@ ul{
 }
 
 .numbers .number-item .value{
-	color: #ff9500;
+	color: #11dbcf;
 }
 
 .numbers .flex{
@@ -1620,6 +1620,7 @@ ul{
 .numbers .number-item h2{
 	font-weight:500;
   color: #454545;
+  
   font-family: 'Rubik', sans-serif;
 }
 

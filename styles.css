@@ -1595,13 +1595,17 @@ ul{
   margin-top: 60px;
 }
 .numbers{
-	width: 50%;
-  margin-left: 28%;
-  padding-top: 15px;
+	width: 70%;
+  margin-left: 21%;
+  padding-top: 10px;
   padding-bottom: 50px;
   
 }
 
+.number-item img{
+  width: 155px;
+  padding-bottom: 10px;
+}
 .smallblurb2{
   letter-spacing: 4px;
   color: #eda137;

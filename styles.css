@@ -162,7 +162,7 @@ html {
   display: block;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1320px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -172,11 +172,6 @@ html {
     display: block;
   }
   
-  
- 
-  .loginstuff{
-  float: left;
-}
   
 
 }
@@ -205,6 +200,11 @@ html {
   .topnav{
     position: fixed;
   }
+  
+   .loginstuff{
+  float: left;
+}
+  
 }
 
 

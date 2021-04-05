@@ -469,7 +469,7 @@ html{
 .testimonials .slider h2 {
   width: 60%;
   text-align: center;
-  
+  padding-top: 40px;
   padding-bottom: 40px;
   transition: 0.6s ease;
   color: #28498a;
@@ -1600,20 +1600,14 @@ ul{
 }
 .numbers{
 	width: 70%;
-  margin-left: 21%;
+ 
   padding-top: 10px;
   padding-bottom: 50px;
   
 }
 
 
-@media (max-width: 700px){
-  .numbers{
-    margin-left: 25%;
-  }
 
-
-}
 
 .number-item img{
   width: 155px;
@@ -1639,11 +1633,22 @@ ul{
 
 
 .numbers .number-item{
-	width:45%;
+	width:100%;
+  margin-left: 70%;
 	padding:20px 0;
 	text-align:center;
 	font-size:40px;
 }
+
+@media (max-width: 577px){
+  
+.numbers .number-item{
+	margin-left: 25%;
+}
+
+}
+
+
 .numbers .number-item h2{
 	font-weight:500;
   

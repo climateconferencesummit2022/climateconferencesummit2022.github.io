@@ -2253,7 +2253,7 @@ input[type="checkbox"]{
 .card {
   overflow: hidden;
   box-shadow: 0 8px 12px 0 #f2f2f2;
-  background-color: blue;
+  background-color: red;
   border: none;
   border-radius: 0.9rem;
   position: relative;
@@ -2280,7 +2280,7 @@ input[type="checkbox"]{
 }
 
 .banner{
-  object-fit: cover;
+  width: 12;
 }
 .tag {
   font-size: 0.8rem;
@@ -2290,6 +2290,7 @@ input[type="checkbox"]{
   text-transform: uppercase;
   position: absolute;
   z-index: 1;
+  
   top: 1rem;
   border-radius: 0 2rem 2rem 0;
 }
@@ -2305,7 +2306,8 @@ input[type="checkbox"]{
 
 
 .card-body {
-  margin: 10rem 1rem 1rem 1rem;
+  margin: 4rem 1rem 1rem 1rem;
+ 
 
 }
 
@@ -2320,6 +2322,8 @@ input[type="checkbox"]{
   line-height: 2rem;
   margin: 1rem 0 0.5rem;
 }
+
+
 
 #morelink{
   color: #2bcfc9;

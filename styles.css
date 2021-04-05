@@ -96,7 +96,7 @@ html {
 .wimg img{
   width:150px;
    display: inline-block;
-  margin-top:-8px !important;
+  margin-top:0px !important;
 }
 
 .loginstuff .exr{

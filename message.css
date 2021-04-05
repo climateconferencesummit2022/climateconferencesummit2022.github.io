@@ -1086,10 +1086,27 @@ ul{
 
 }
 #rightimage{
- text-align:center;
+ text-align:left;
   margin-bottom: 20px;
   
 }
+@media screen and (max-width: 600px) {
+ #rightimage{
+ text-align:center;
+ margin-left: 0px;
+  
+}
+}
+
+
+
+#rightimage img{
+  margin-left: 90px;
+  width: 300px;
+  
+}
+
+
 
 
 

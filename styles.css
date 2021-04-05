@@ -87,6 +87,16 @@ html {
   
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #fafafa;
+   position: fixed; /* Set the navbar to fixed position */
+ top:0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
 .topnav a {
   float: left;
   display: block;
@@ -166,6 +176,7 @@ html {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
+  
 
   .topnav a.icon {
     float: right;
@@ -176,7 +187,7 @@ html {
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1320px) {
   .topnav.responsive {position: fixed;}
 
   .topnav.responsive .icon {
@@ -189,6 +200,8 @@ html {
     display: block;
     text-align: left;
   }
+  
+  
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
@@ -208,6 +221,9 @@ html {
 }
 
 
+html{
+  scroll-behavior: smooth;
+}
 
 
 

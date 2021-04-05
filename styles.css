@@ -2345,3 +2345,27 @@ input[type="checkbox"]{
   font-family: 'Noto Sans', sans-serif;
 }
 
+
+
+
+
+
+#fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+}
+
+.s-btn-team{
+    	width: 140px;
+    	height: 40px;
+      text-align: center;
+    	border-radius: 20px;
+      background-color: rgba(83, 90, 99, 0.8);
+    	display: flex;
+      justify-content: center;
+      align-items: center;
+    	color: #3b92e3;
+    	margin-top:10px;
+      font-family: 'Rubik', sans-serif;
+    }

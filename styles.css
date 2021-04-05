@@ -2217,7 +2217,36 @@ input[type="checkbox"]{
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
+  
 }
+
+
+
+.carousel .carousel-indicators	/* indicator wrapper*/
+{
+	position: absolute;
+	bottom: 0;
+	left:0px;
+  	margin: 0 auto;
+  	left: 0;
+ 	right: 0;
+ 	width: 20%;
+  
+ 	display: flex;	/* this is for indicators  */
+}
+#carousel .carousel-indicators li /* indicators*/
+{
+	flex-grow: 1;  /* make all indicator li similarly stretched */
+	height: 10px;
+	border-radius: 2px;	
+  background-color:#636d82;
+}
+
+#carousel .carousel-indicators li.active
+{
+	background-color:#28498a;/* changes indicators color when it is active*/ 
+}
+
 
 
 

@@ -93,6 +93,10 @@ html {
   
 }
 
+.wimg img{
+  width:100px;
+   display: inline-block;
+}
 
 .loginstuff .exr{
   display:none;
@@ -1596,6 +1600,10 @@ ul{
   padding-top: 50px;
   padding-bottom: 20px;
   
+}
+
+.numbers .number-item .value{
+	color: #ff9500;
 }
 
 .numbers .flex{

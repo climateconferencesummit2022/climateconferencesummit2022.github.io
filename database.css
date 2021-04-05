@@ -1802,7 +1802,75 @@ text-align: left;
       
 
 
+.accordion1 {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 1px;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
 
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+
+}
+
+.accordion {
+  width: 70%;
+  max-width: 1000px;
+  margin: 4rem auto;
+   background-color: #f7f7f7;
+}
+.accordion-item {
+  background-color: #f7f7f7;
+  z-index: 500;
+  color: #111;
+  margin: 1rem 0;
+ 
+  border-radius: 0.5rem;
+  /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);*/
+}
+.accordion-head{
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  font-size: 18px;
+  color: #57a19d;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-head::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+
+
+.accordian1{
+   background-color: #f7f7f7;
+}
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.accordion-content {
+  padding: 1rem;
+   font-family: 'Noto Sans', sans-serif;
+  line-height: 30px;
+}
+
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
+}
 
 
 

@@ -1,0 +1,1206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="styles.css">
+   
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+  </head>
+  
+  
+  <body>
+    
+ 
+    <nav>  
+<div class="topnav" id="myTopnav">
+  
+  <div class="logo">
+    
+  <a href="index.html" >ConnectHealth</a>
+    </div>
+  
+  <a style="color:#32b3a3;" href="index.html">Home</a>
+  <a href="about.html">About</a>
+    <div class="dropdown">
+   
+    <button class="dropbtn">Solutions 
+      <i class="fa fa-caret-down"></i>
+    </button>
+      
+   <div class="dropdown-content">
+      <a href="video.html">Video Service</a>
+      <a href="schedule.html">Scheduling</a>
+      <a href="message.html">Automatic Messaging</a>
+      <a href="database.html">Medical Record Database</a>
+      <a href="chat.html">Direct Chat Line</a>
+      <a href="analytic.html">Access to Analytics</a>
+    </div>
+  </div> 
+  <a href="pricing.html">Pricing</a>
+   <a href="blog.html">News Updates</a>
+  <a shref="contact.html">Contact</a>
+ 
+  
+  <div class="loginstuff">
+    <a class="exr" href="login.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+    
+    
+ <button id="modal-btn" class="butt">Free Demo &#8594;</button>
+  
+  
+   
+  <div id="my-modal" class="modal">
+    
+ 
+    
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+      </div>
+      
+      <div class="modal-body">
+        <h2>Request a Free Demo</h2>
+        <p>Please complete the form so we can contact you with information about how ConnectHealth can help you optimize your practice.</p>
+        <div class="form">
+   
+    <form>
+        <input type="text" name="username" placeholder="Full Name">
+        <input type="text" name="username" placeholder="Practice Name">
+      <input type="text" name="username" placeholder="Email">
+      <input type="text" name="username" placeholder="Phone Number">
+        <button>Submit</button>
+    </form>
+    </div>
+      </div>
+     
+    </div>
+      </div>
+  
+
+  
+  <script>
+    // Get DOM Elements
+const modal = document.querySelector('#my-modal');
+const modalBtn = document.querySelector('#modal-btn');
+const closeBtn = document.querySelector('.close');
+
+// Events
+modalBtn.addEventListener('click', openModal);
+closeBtn.addEventListener('click', closeModal);
+window.addEventListener('click', outsideClick);
+
+// Open
+function openModal() {
+  modal.style.display = 'block';
+}
+
+// Close
+function closeModal() {
+  modal.style.display = 'none';
+}
+
+// Close If Outside Click
+function outsideClick(e) {
+  if (e.target == modal) {
+    modal.style.display = 'none';
+  }
+}
+
+</script>
+  </div>
+  
+  
+  
+  
+  
+  
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</nav>   
+
+     
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+  
+
+    
+    
+<!-- End Header -->
+   <!-- ======= Hero Section ======= -->
+   <section id="hero" class="d-flex align-items-center">
+     <div class="custom-shape-divider-bottom-1609721473">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+         <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+         <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+         <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+     </svg>
+ </div>
+
+    <div id="maintitle" class="container text-center position-relative">
+      <h1>Introducing <span>ConnectHealth</span></h1>
+      <h2>Premium medical telecommunication services</h2>
+      <a href="#services" class="main-btn">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="test2-heading" id="services">
+       <div class="smallblurb1">
+      <p style="color: #ff9500"> OUR SERVICES </p>
+     <!-- ======= #717c89 ======= -->
+      
+      </div>
+	  <h1>Our Services</h1>
+  
+       <p  style="color: #292f36" >Due to recent global events, there have been a lot of changes to the way healthcare works. To help you adapt to these changes, ConnectHealth provides you with a variety of efficient and easy to use solutions to improve communication between you and your customers, organize your data in a centralized location, and more. </p>
+      
+    
+    <a class="test2-btn" href="video.html">More</a>
+
+    </div>
+      
+  
+      <!-- ======= Services Section ======= -->
+   <section class="services">
+	<!--heading---------------->
+	
+	<!--services-box-container------------------->
+	<div class="s-box-container">
+	<!--service-box-1---------------->
+	<div class="s-box">
+	<!--top-bar-------->
+	<div class="bar"></div>
+	<!--img---------->
+	<img alt="1" src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FDirect%20Chat%20Line%20Icon.png?v=1613690292779" 
+       width="120"
+       height="auto"/>
+	<!--servies-name---------->
+	<h1>Direct Chat Line</h1>
+	<!--details------>
+<p>Facilitate communication with your customers using our direct chat line feature that gives your customers a way to keep in contact with a staff member. </p>	<!--btn---------->
+	<a class="s-btn" href="chat.html">More</a>
+	</div>
+		<!--service-box-1---------------->
+	<div class="s-box">
+	<!--top-bar-------->
+	<div class="bar"></div>
+	<!--img---------->
+	<img alt="2" src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAutomatic%20Messaging%20Icon.svg?v=1617591985558" 
+       width="80"
+       height="auto"/>
+	<!--servies-name---------->
+	<h1>Automatic Messaging</h1>
+	<!--details------>
+  <p>Use our automatic messaging feature to send updates and alerts to your patients to make scheduling and attending appointments an easier process.</p>
+
+	<!--btn---------->
+	<a class="s-btn" href="message.html">More</a>
+	</div>
+		<!--service-box-3---------------->
+	<div class="s-box">
+	<!--top-bar-------->
+	<div class="bar"></div>
+	<!--img---------->
+	<img alt="3" src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAccess%20to%20Analytics%20Icon.png?v=1613690328412" 
+       width="120"
+       height="auto"/>
+	<!--servies-name---------->
+	<h1>Access to Analytics</h1>
+	<!--details------>
+<p>To help you decide whats best for your practice, we offer access to analytics that let you see what services are most used by your patients and trends in usage. </p>	<!--btn---------->
+	<a class="s-btn" href="analytic.html">More</a>
+	</div>
+	</div>
+	</section>
+    
+     
+    
+      <!-- ======= Services Section ======= -->
+   <section class="services" id="services2nd">
+	<!--heading---------------->
+	
+	<!--services-box-container------------------->
+	<div class="s-box-container">
+	<!--service-box-1---------------->
+	<div class="s-box">
+	<!--top-bar-------->
+	<div class="bar"></div>
+	<!--img---------->
+	<img alt="1" src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FScheduling%20Icon.png?v=1613690285544" 
+       width="120"
+       height="auto"/>
+	<!--servies-name---------->
+	<h1>Online Scheduling</h1>
+	<!--details------>
+<p>Make booking appointments easier for your patients with our online scheduling feature that lets them book and confirm appointments virtually. </p>	<!--btn---------->
+	<a class="s-btn" href="schedule.html">More</a>
+	</div>
+		<!--service-box-1---------------->
+	<div class="s-box">
+	<!--top-bar-------->
+	<div class="bar"></div>
+	<!--img---------->
+	<img alt="2" src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FVideo%20Serivces%20Icon.png?v=1613690277537" 
+       width="120"
+       height="auto"/>
+	<!--servies-name---------->
+	<h1>Video Services</h1>
+	<!--details------>
+  <p>Our video service lets you hold online appointments online in order to safely communicate with your patients face to face. </p>
+
+	<!--btn---------->
+	<a class="s-btn" href="video.html">More</a>
+	</div>
+		<!--service-box-3---------------->
+	<div class="s-box">
+	<!--top-bar-------->
+	<div class="bar"></div>
+	<!--img---------->
+	<img alt="3" src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FMedical%20Record%20Database%20Icon.png?v=1613690338131" 
+       width="120"
+       height="auto"/>
+	<!--servies-name---------->
+	<h1>Medical Record Database</h1>
+	<!--details------>
+<p>Store, transfer, and access all your patients' records in one, easy to use location with our efficient medical record database. </p>	<!--btn---------->
+	<a class="s-btn" href="database.html">More</a>
+	</div>
+	</div>
+	</section>
+    
+    <!---
+         <div class="demo">
+      
+         <div class="test2-heading" id="services">
+    
+	  <h1>Demo</h1>
+  
+       <p > Want to see how our services work? Or want to test how compatible and useful they'll be to your online platform without having to purchase anything first? Explore our demo to get a first-hand preview of how all our services function and work together to make sure you get the best of everything we can offer.  </p>
+      
+    
+    <a class="test2-btn" href="video.html">More</a>
+
+    </div>
+       
+          <iframe src="https://marvelapp.com/prototype/c190906?emb=1&iosapp=false&frameless=false" width="320" height="720" allowtransparency="false" style="-webkit-clip-path: inset(2px 2px); clip-path: inset(2px 2px);"></iframe>
+
+
+    </div>-->
+    
+    
+    
+  
+     
+ <!-- ======= Counter Section ======= -->
+    
+    
+ <!-- SECTION NUMBERS -->
+    <div class="number">
+       
+       <div class="test2-heading" id="services">
+       <div class="smallblurb1">
+      <p style="color: #ff9500"> STATISTICS </p>
+     <!-- ======= #292f36 ======= -->
+      
+      </div>
+	 
+            <h2>
+        ConnectHealth is Growing and Improving Everyday
+      </h2>
+  
+  
+    </div>
+      
+   
+    
+	<section class="numbers dark-blue-bg white-txt">
+		<div class="marged flex">
+		<!-- item 01 -->
+			<div class="number-item">
+				<h2><span class="value">1782</span></h2>
+				<h6>Clients</h6>
+			</div>
+
+		<!-- item 02 -->
+			<div class="number-item">
+				<h2 class="value">388</h2>
+				<h6>5 Star Reviews</h6>
+			</div>
+
+		<!-- item 03 -->
+			<div class="number-item">
+				<h2 class="value">517</h2>
+				<h6>Referrals</h6>
+			</div>
+
+		<!-- item 04 -->
+			<div class="number-item">
+				<h2 class="value">390</h2>
+				<h6>Packages Sold</h6>
+			</div>
+		</div>
+	</section>
+      </div>
+<!-- END OF SECTION NUMBERS -->
+    
+    <script>
+      
+      var section = document.querySelector('.numbers');
+var hasEntered = false;
+
+window.addEventListener('scroll', (e) => {
+	var shouldAnimate = (window.scrollY + window.innerHeight) >= section.offsetTop;
+
+	if (shouldAnimate && !hasEntered) {
+  	hasEntered = true;
+    
+    $('.value').each(function () {
+    	$(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    	}, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+   		});
+    });
+
+  }
+});
+
+    </script>
+    
+    
+    
+ 
+  <!--- Testimonials ---->
+    
+    <div class="testimonials">
+      <div class="test-heading">
+	  <h1>Meet Our Top Practices</h1>
+  
+    <a class="test-btn" href="{% url 'about' %}">More</a>
+    </div>
+<div class="container">
+  
+  <div class="carousel">
+    <div class="slider">
+     
+      <section> <h2> Hear from MedHub, a cardiology practice in Virginia: 
+        "We've seen a huge increase in patients who have joined us due to the easy accessibility of the services Connect Health has provided us with. There has been a significant increase in positive patient feedback."</h2>
+</section>
+      
+       
+      <section>
+        
+        <h2>TrueHealth, one of our top clinics from Beverly Hill, CA: "Connect Health has been a game changer, they handle your online presence, your booking, and scheduling - it’s what keeps everything running."
+          <br></h2>
+      </section>
+      
+      <section> <h2>Meet MDoc, one of the many thriving dental practices in Dallas, Texas:  "Our connection to our patients along with our ability to reach them even 
+        in situations like now has been greatly improved thanks to Connect Health. Their ability to provide interaction and account for customers virtually has been phenomenal."</h2>
+</section>
+      <section> <h2>UpCare, one of our most treasured practices in Seattle: "With ConnectHealth our business has seen an 80% increase in patient bookings. With this, I can safely say that patients have been 
+        able to  consult our doctors and request appointments a lot easier than before".</h2>
+</section>
+    </div>
+    <div class="control">
+      
+      <ul>
+        <li class="selected"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      
+    </div>
+  
+    </div>
+  </div>
+      
+      
+</div>
+    
+  
+ 
+    
+    
+       
+    
+
+    
+      
+    <!--News Updates---------->
+    
+    
+      
+      <div class="test2-heading">
+        <div class="smallblurb1">
+      <p style="color: #ff9500; padding-top: 80px;"> OUR NEWS </p>
+      </div>
+	  <h1>Our Latest News and Updates</h1>
+  
+    <a class="test-btn" href="blog.html">More</a>
+    </div>
+    
+    
+    
+    <div class="back">
+      
+
+   <div class="container">
+  <div class="row">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-none d-lg-block">
+            <div class="slide-box">
+                   <div class="card">
+                    <div class="card-banner">
+                      <p class="tag news">News</p>
+
+                    </div>
+                    <div class="card-body">
+                      <p class="hashtag">#vaccinetypes #corona</p>
+                      <h2 class="blog-title">Live Updates on Vaccinations and Their Avalibility</h2>
+                      <p class="blog-description">Pfizer, Moderna, and Johnson and Johnson- What are the diffrences? How effective are they?...</p>
+                      <a class="blog-description" id="morelink" href="blogpage1.html"> Read More</a>
+
+
+                    </div>
+                  </div>
+              
+              <div class="card">
+                <div class="card-banner">
+                  <p class="tag blog">Blog</p>
+
+                </div>
+                <div class="card-body">
+                  <p class="hashtag">#safety #coronalifestyle</p>
+                  <h2 class="blog-title">How To Celebrate The Holidays Safely</h2>
+                  <p class="blog-description">Life has changed since the COVID-19 outbreak but you should still follow safe practices when celebrating this holiday season....</p>
+                  <a class="blog-description" id="morelink" href="blogpage5.html"> Read More</a>
+
+
+                </div>
+              </div>
+              
+              <div class="card">
+                <div class="card-banner">
+                  <p class="tag news">News</p>
+
+                </div>
+                <div class="card-body">
+                  <p class="hashtag">#healthprecautions #healthcare</p>
+                <h2 class="blog-title">Vaccines vs Variants and How We Protect Ourselves</h2>
+                  <p class="blog-description">The scattering availability of emerging vaccines and problems concerning ...</p>
+                  <a class="blog-description" id="morelink" href="blogpage3.html"> Read More</a>
+
+
+
+                </div>
+              </div>
+              
+             
+              
+             
+            </div>
+          </div>
+          
+          <div class="d-none d-md-block d-lg-none">
+            <div class="slide-box">
+              <div class="card">
+                    <div class="card-banner">
+                      <p class="tag news">News</p>
+
+                    </div>
+                    <div class="card-body">
+                      <p class="hashtag">#vaccinetypes #corona</p>
+                      <h2 class="blog-title">Live Updates on Vaccinations and Their Avalibility</h2>
+                      <p class="blog-description">Pfizer, Moderna, and Johnson and Johnson- What are the diffrences? How effective are they?...</p>
+                      <a class="blog-description" id="morelink" href="blogpage1.html"> Read More</a>
+
+
+                    </div>
+                  </div>
+              
+              <div class="card">
+                <div class="card-banner">
+                  <p class="tag blog">Blog</p>
+
+                </div>
+                <div class="card-body">
+                  <p class="hashtag">#safety #coronalifestyle</p>
+                  <h2 class="blog-title">How To Celebrate The Holidays Safely</h2>
+                  <p class="blog-description">Life has changed since the COVID-19 outbreak but you should still follow safe practices when celebrating this holiday season....</p>
+                  <a class="blog-description" id="morelink" href="blogpage5.html"> Read More</a>
+
+
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+          
+          <div class="d-none d-sm-block d-md-none">
+            <div class="slide-box">
+              <div class="card">
+                    <div class="card-banner">
+                      <p class="tag news">News</p>
+
+                    </div>
+                    <div class="card-body">
+                      <p class="hashtag">#vaccinetypes #corona</p>
+                      <h2 class="blog-title">Live Updates on Vaccinations and Their Avalibility</h2>
+                      <p class="blog-description">Pfizer, Moderna, and Johnson and Johnson- What are the diffrences? How effective are they?...</p>
+                      <a class="blog-description" id="morelink" href="blogpage1.html"> Read More</a>
+
+
+                    </div>
+                  </div>
+              
+              <div class="card">
+                <div class="card-banner">
+                  <p class="tag blog">Blog</p>
+
+                </div>
+                <div class="card-body">
+                  <p class="hashtag">#safety #coronalifestyle</p>
+                  <h2 class="blog-title">How To Celebrate The Holidays Safely</h2>
+                  <p class="blog-description">Life has changed since the COVID-19 outbreak but you should still follow safe practices when celebrating this holiday season....</p>
+                  <a class="blog-description" id="morelink" href="blogpage5.html"> Read More</a>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="d-block d-sm-none">
+             <div class="card" style="margin: 0 auto;">
+                    <div class="card-banner">
+                      <p class="tag news">News</p>
+
+                    </div>
+                    <div class="card-body">
+                      <p class="hashtag">#vaccinetypes #corona</p>
+                      <h2 class="blog-title">Live Updates on Vaccinations and Their Avalibility</h2>
+                      <p class="blog-description">Pfizer, Moderna, and Johnson and Johnson- What are the diffrences? How effective are they?...</p>
+                      <a class="blog-description" id="morelink" href="blogpage1.html"> Read More</a>
+
+
+                    </div>
+                  </div>
+          </div>
+        </div>
+        
+        
+        
+        <div class="carousel-item">
+          <div class="d-none d-lg-block">
+            <div class="slide-box">
+             <div class="card">
+              <div class="card-banner">
+                <p class="tag blog">Blog</p>
+              </div>
+              <div class="card-body">
+                <p class="hashtag">#medicaltech #coronaprogress</p>
+                <h2 class="blog-title">New Tools For Electronics Visits</h2>
+                <p class="blog-description">Along with the rest of us, medical offices, hospitals, and clinics must also adapt to the circumstances COVID-19 has put us in...</p>
+                <a class="blog-description" id="morelink" href="blogpage4.html"> Read More</a>
+
+
+              </div>
+            </div>
+              
+              
+             <div class="card">
+              <div class="card-banner">
+                <p class="tag news">News</p>
+              </div>
+              <div class="card-body">
+                <p class="hashtag">#varriants #updates</p>
+               <h2 class="blog-title">New Variants of the Coronavirus</h2>
+                <p class="blog-description">The coronavirus has thousands of strands that have been identified, and several of them first found in the U.K. and places such as Africa are highly transmissible...</p>
+                <a class="blog-description" id="morelink" href="blogpage2.html"> Read More</a>
+
+
+
+              </div>
+            </div>
+              
+              <div class="card">
+                <div class="card-banner">
+                  <p class="tag blog">Blog</p>
+
+                </div>
+                <div class="card-body">
+                  <p class="hashtag">#medicalbreakthroughs #vaccines</p>
+                  <h2 class="blog-title">New Breakthrough In COVID Vaccine!</h2>
+                  <p class="blog-description">Now that there has been an authorized and recommended vaccine for the COVID-19 here in the US, it is vital you have accurate information about it...</p>
+                  <a class="blog-description" id="morelink" href="blogpage6.html"> Read More</a>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-md-block d-lg-none">
+            <div class="slide-box">
+             <div class="card">
+              <div class="card-banner">
+                <p class="tag blog">Blog</p>
+              </div>
+              <div class="card-body">
+                <p class="hashtag">#medicaltech #coronaprogress</p>
+                <h2 class="blog-title">New Tools For Electronics Visits</h2>
+                <p class="blog-description">Along with the rest of us, medical offices, hospitals, and clinics must also adapt to the circumstances COVID-19 has put us in...</p>
+                <a class="blog-description" id="morelink" href="blogpage4.html"> Read More</a>
+
+
+              </div>
+            </div>
+              
+              
+             <div class="card">
+              <div class="card-banner">
+                <p class="tag news">News</p>
+              </div>
+              <div class="card-body">
+                <p class="hashtag">#varriants #updates</p>
+               <h2 class="blog-title">New Variants of the Coronavirus</h2>
+                <p class="blog-description">The coronavirus has thousands of strands that have been identified, and several of them first found in the U.K. and places such as Africa are highly transmissible...</p>
+                <a class="blog-description" id="morelink" href="blogpage2.html"> Read More</a>
+
+
+
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="d-none d-sm-block d-md-none">
+            <div class="slide-box">
+            <div class="card">
+              <div class="card-banner">
+                <p class="tag blog">Blog</p>
+              </div>
+              <div class="card-body">
+                <p class="hashtag">#medicaltech #coronaprogress</p>
+                <h2 class="blog-title">New Tools For Electronics Visits</h2>
+                <p class="blog-description">Along with the rest of us, medical offices, hospitals, and clinics must also adapt to the circumstances COVID-19 has put us in...</p>
+                <a class="blog-description" id="morelink" href="blogpage4.html"> Read More</a>
+
+
+              </div>
+            </div>
+              
+              
+             <div class="card">
+              <div class="card-banner">
+                <p class="tag news">News</p>
+              </div>
+              <div class="card-body">
+                <p class="hashtag">#varriants #updates</p>
+               <h2 class="blog-title">New Variants of the Coronavirus</h2>
+                <p class="blog-description">The coronavirus has thousands of strands that have been identified, and several of them first found in the U.K. and places such as Africa are highly transmissible...</p>
+                <a class="blog-description" id="morelink" href="blogpage2.html"> Read More</a>
+
+
+
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="d-block d-sm-none">
+           <div class="card" style="margin: 0 auto;">
+              <div class="card-banner">
+                <p class="tag blog">Blog</p>
+              </div>
+              <div class="card-body">
+                <p class="hashtag">#medicaltech #coronaprogress</p>
+                <h2 class="blog-title">New Tools For Electronics Visits</h2>
+                <p class="blog-description">Along with the rest of us, medical offices, hospitals, and clinics must also adapt to the circumstances COVID-19 has put us in...</p>
+                <a class="blog-description" id="morelink" href="blogpage4.html"> Read More</a>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+       <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>--->
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+          </div>
+    <!---
+  <div class="blogs">
+<div class="blog-card">
+      <input type="radio" name="select" id="tap-1" checked>
+      <input type="radio" name="select" id="tap-2">
+      <input type="radio" name="select" id="tap-3">
+      <input type="checkbox" id="imgTap">
+      <div class="sliders">
+        <label for="tap-1" class="tap tap-1"></label>
+        <label for="tap-2" class="tap tap-2"></label>
+        <label for="tap-3" class="tap tap-3"></label>
+      </div>
+  
+  
+  
+  <div class="inner-part">
+       
+        <div class="content content-1">
+          <span>January 1, 2021 </span>
+          <div class="title">
+Live Updates on Vaccinations </div>
+<div class="text">
+Pfizer, Moderna, and Johnson and Johnson - What are the differences? Are two shots more ideal than one-dose vaccines?</div>
+          <a href="blogpage1.html"> Read More</a>
+        </div>
+</div>
+  
+ <div class="inner-part">
+       
+        <div class="content content-2">
+          <span>
+            January 7, 2021</span>
+          <div class="title">
+New Variants of the Coronavirus</div>
+<div class="text">
+The coronavirus has thousands of strands that have been identified, and several of them were discovered in...</div>
+ <a href="blogpage2.html" >Read More</a>
+        </div>
+</div>
+  
+<div class="inner-part">
+      
+        <div class="content content-3">
+          <span>January 15, 2021</span>
+          <div class="title">
+Variants vs. Vaccines</div>
+<div class="text">
+The scattering availability of emerging vaccines and problems concerning safety are 
+  prompting a dicussion on how distribution should work...</div>
+<a href="blogpage3.html" >Read More</a>
+        </div>
+</div>
+</div> 
+</div>
+    -->
+    
+    
+    
+    
+    
+
+    
+    <div class="faqsvg">
+      
+   
+    
+    
+    <div class="custom-shape-divider-top-1612923488">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+    </svg>
+</div>
+    
+       </div>
+    
+    
+    
+    
+
+ 
+    
+    
+    
+    
+    
+    
+
+
+   
+<!---- Accordion Info --->
+    
+    
+    
+    <div class="accordion1">
+  
+        <div class="test1-heading">
+        <div class="smallblurb1">
+      <p style="color: #ff9500;"> FAQ </p>
+      </div>
+	  <h1 style="color: #fcfcfc;">Frequently Asked Questions</h1>
+  
+    <div id="btn">
+      
+          <a class="test1-btn" href="contact.html">Have more questions?</a>
+    </div> </div>
+
+<div class="accordion">
+  
+  
+  <div class="accordion-item">
+    <div class="accordion-head">
+      Is telehealth safe?
+    </div>
+    <div class="accordion-body">
+      <div class="accordion-content">
+        Yes, telehealth is a safe and effective way to expand health care. Everything is held to the same standards as in-person visits, but in a safer and more convient way for both patients and practices by reducing the risk of exposure to infections. Your files and data are also kept in private and nothing will be shared or accessed by someone outside your organization absent your permission. Contact us if you have questions about how we're accomodating your health and security concerns.
+      </div>
+    </div>
+  </div>
+  
+  <div class="accordion-item">
+    <div class="accordion-head">
+      Where can patients get access to telehealth service?
+    </div>
+    <div class="accordion-body">
+      <div class="accordion-content">
+        Paitents can ask their employers, health plan, doctors, hospitals, and their healthcare providers about telehealth services they may offer. Through ConnectHealth, we offer one centralized location for patients to access to telehealth information and resources.
+      </div>
+    </div>
+  </div>
+  
+<div class="accordion-item">
+    <div class="accordion-head">
+      Can ConnectHealth guarantee that their services will be effective for our practice?
+    </div>
+    <div class="accordion-body">
+      <div class="accordion-content">
+        Of course; we make sure to ourselves fix any issues and problems you might run into. All our services are carefully designed to be accomodated to your own online platform and expand as your practice sees fit. Our staff is available at any time to assist with using our services, and we are always working on ways to improve our services so let us know what we can do to help make your experience using ConnectHealth better. 
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-head">
+      Why should I use telehealth services?
+    </div>
+    <div class="accordion-body">
+      <div class="accordion-content">
+        It is not always easy or convenient for patients to get help for their health care needs. The purpose of telecommunication is to provide a safer, improved care for patients from the comforts of their home, especially during these times. 
+      </div>
+    </div>
+  </div>
+
+   <div class="accordion-item">
+    <div class="accordion-head">
+      What is the difference between telemedicine and telehealth?
+    </div>
+    <div class="accordion-body">
+      <div class="accordion-content">
+        These two words are often used interchangeably; both terms refer to the use of tech to deliver health care in a way that's convenient for your paitents.
+      </div>
+    </div>
+  </div>
+ 
+</div>
+</div>
+ 
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <!---Pricing----
+    
+    <div class="pricing">
+   
+    
+<div class="columns">
+  <ul class="price">
+    <div class="smallprice">
+      
+   
+    <li class="header">BASIC</li>
+    
+    
+      <li class="grey"><span class="mini">$</span>9.99 <span class="mini">/ year</span></li>
+       </div>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <button class="button"> GET STARTED </button>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <div class="smallprice">
+      
+   
+    <li class="header">BASIC</li>
+    
+    
+      <li class="grey"><span class="mini">$</span>9.99 <span class="mini">/ year</span></li>
+       </div>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <button class="button"> GET STARTED </button>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <div class="smallprice">
+      
+   
+    <li class="header">BASIC</li>
+    
+    
+      <li class="grey"><span class="mini">$</span>9.99 <span class="mini">/ year</span></li>
+       </div>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <li class="price-info"><i class="fa fa-check mr-2 text-primary"></i> information</li>
+    <button class="button"> GET STARTED </button>
+  </ul>
+</div>
+
+       </div> --->
+    
+    
+    
+ 
+    <!---Footer----
+    <h2> Check Out Our Services and Get Started Today!</h2>
+     
+     
+      
+    
+<svg height="100%" width="100%" id="bg-svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#002bdc88"></stop><stop offset="95%" stop-color="#32ded488"></stop></linearGradient></defs><path d="M 0,700 C 0,700 0,233 0,233 C 151.86666666666667,206.06666666666666 303.73333333333335,179.13333333333335 461,172 C 618.2666666666667,164.86666666666665 780.9333333333334,177.53333333333333 945,191 C 1109.0666666666666,204.46666666666667 1274.5333333333333,218.73333333333335 1440,233 C 1440,233 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#002bdcff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,700 C 0,700 0,466 0,466 C 154.13333333333333,468.5333333333333 308.26666666666665,471.06666666666666 485,474 C 661.7333333333333,476.93333333333334 861.0666666666666,480.2666666666667 1024,479 C 1186.9333333333334,477.7333333333333 1313.4666666666667,471.8666666666667 1440,466 C 1440,466 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
+
+   >
+    
+    
+    <!---Footer---->
+    <div class="bottomfooter">
+      
+   <svg height="100%" width="100%" id="bg-svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,133 0,133 C 106.25,145.89285714285714 212.5,158.78571428571428 327,148 C 441.5,137.21428571428572 564.2500000000001,102.75 687,92 C 809.7499999999999,81.25 932.5,94.21428571428571 1058,105 C 1183.5,115.78571428571429 1311.75,124.39285714285714 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#24262b88" class="transition-all duration-300 ease-in-out delay-150"></path><path d="M 0,400 C 0,400 0,266 0,266 C 93.17857142857142,281.17857142857144 186.35714285714283,296.35714285714283 294,295 C 401.64285714285717,293.64285714285717 523.7499999999999,275.75 667,261 C 810.2500000000001,246.24999999999997 974.6428571428573,234.64285714285717 1107,236 C 1239.3571428571427,237.35714285714283 1339.6785714285713,251.67857142857142 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#24262bff" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
+
+   <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>ConnectHealth</h4>
+  	 			<ul>
+  	 				<li><a href="index.html">home</a></li>
+  	 				<li><a href="about.html">about us</a></li>
+  	 				<li><a href="blog.html">news updates</a></li>
+  	 				<li><a href="contact.html">contact us</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>our services</h4>
+  	 			<ul>
+  	 				<li><a href="video.html">Video Service</a></li>
+  	 				<li><a href="schedule.html">Online Scheduling</a></li>
+  	 				<li><a href="message.html">Automatic Messaging</a></li>
+  	 				<li><a href="database.html">Medical Record Database</a></li>
+  	 				<li><a href="chat.html">Direct Chat Line</a></li>
+            <li><a href="analytic.html">Access to Analytics</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="pricing.html">pricing</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>More</h4>
+  	 			<ul>
+  	 				<li><a href="about.html">citations</a></li>
+            
+  	 			</ul>
+          
+  	 		</div>
+  	 	</div>
+  	 </div>
+  
+  </footer>
+      
+      
+      <h2>
+        Team# 2027-1
+      </h2>
+      
+      
+            
+    </div>
+    
+    
+  
+    
+    
+    <a class="s-btn-team" id="fixedbutton" style="color:#dfe5e8">Team <span style="font-weight: 800;">&nbsp;2027-1</span> </a>
+
+
+    
+
+<script>
+      const accordionItemHeaders = document.querySelectorAll(".accordion-head");
+  
+      accordionItemHeaders.forEach(accordionItemHeader => {
+      accordionItemHeader.addEventListener("click", event => {
+    
+
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    }
+    else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+    
+  });
+});
+  
+  
+  
+  
+  
+  const left = document.querySelector('.left');
+const right = document.querySelector('.right');
+
+const slider = document.querySelector('.slider');
+
+const indicatorParent = document.querySelector('.control ul'); 
+const indicators = document.querySelectorAll('.control li');
+index = 0;
+
+indicators.forEach((indicator, i) => {
+  indicator.addEventListener('click', () => {
+    document.querySelector('.control .selected').classList.remove('selected');
+    indicator.classList.add('selected');
+    slider.style.transform = 'translateX(' + (i) * -25 + '%)';  
+    index = i;
+    
+  });
+});
+
+left.addEventListener('click', function() {
+  index = (index > 0) ? index -1 : 0;
+  document.querySelector('.control .selected').classList.remove('selected');
+  indicatorParent.children[index].classList.add('selected');
+  slider.style.transform = 'translateX(' + (index) * -25 + '%)';
+});
+
+right.addEventListener('click', function() {
+  index = (index < 4 - 1) ? index+1 : 3;
+  document.querySelector('.control .selected').classList.remove('selected');
+  indicatorParent.children[index].classList.add('selected');
+  slider.style.transform = 'translateX(' + (index) * -25 + '%)';
+});
+
+  
+</script>
+    
+    
+    
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="main.js"></script>
+  </body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

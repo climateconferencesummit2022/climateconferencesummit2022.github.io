@@ -1595,8 +1595,8 @@ ul{
   margin-top: 60px;
 }
 .numbers{
-	width: 100%;
-  margin: 0 auto;
+	width: 50%;
+  margin-left: 28%;
   padding-top: 15px;
   padding-bottom: 50px;
   
@@ -1619,10 +1619,10 @@ ul{
   font-size:45px;
 }
 
-.numbers .flex{
-}
+
 
 .numbers .number-item{
+	width:45%;
 	padding:20px 0;
 	text-align:center;
 	font-size:40px;

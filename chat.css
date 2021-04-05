@@ -1005,7 +1005,7 @@ ul{
       color: #6e6d6d;
 
       margin-top: 1em;
-      font-size: .9em;
+      font-size: 14px;
     }
 
     .s-btn{
@@ -1477,7 +1477,7 @@ h1 {
 .cht-btn{
   width: 250px;
     	height: 80px;
-    	border-radius: 40px;
+    	border-radius: 15px;
     	display: flex;
     	justify-content: center;
     	align-items: center;
@@ -1487,12 +1487,14 @@ h1 {
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
   font-family: 'Rubik', sans-serif;
   transition: all ease 0.3s;
+  
   margin-left: auto;
+  
   margin-right: auto;
   font-size: 30px;
 }
 .cht-btn:hover {
-    background: none;
+  transform:scale(1.07);
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;

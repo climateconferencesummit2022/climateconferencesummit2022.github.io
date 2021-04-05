@@ -1175,3 +1175,25 @@ ul{
 
 
 
+#fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+}
+
+.s-btn-team{
+    	width: 125px;
+    	height: 30px;
+  margin: 15px;
+      text-align: center;
+    	border-radius: 20px;
+      background-color: rgba(83, 90, 99, 0.7);
+    	display: flex;
+  z-index: 2000;
+      justify-content: center;
+      align-items: center;
+    	font-size: 15px;
+    	margin-top:10px;
+      font-family: 'Rubik', sans-serif;
+}
+

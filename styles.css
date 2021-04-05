@@ -1600,10 +1600,19 @@ ul{
 }
 .numbers{
 	width: 70%;
-  margin-left: 20%;
+  margin-left: 21%;
   padding-top: 10px;
   padding-bottom: 50px;
   
+}
+
+
+@media (max-width: 700px){
+  .numbers{
+    margin-left: 25%;
+  }
+
+
 }
 
 .number-item img{

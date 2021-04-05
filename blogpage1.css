@@ -1452,13 +1452,7 @@ h1 {
 }
 
 
-.surr h5{
-  background-color: #e9f0ef;
-  margin-bottom: 15px;
-  
-  font-family: 'Rubik', sans-serif;
-  padding: 5px;
-}
+
  .blogpage{
     width: 80%;
    background-color: white;
@@ -1503,7 +1497,6 @@ text-align: left;
       padding-bottom: 10px;
       font-size: 20px;
       color: black;
-      background-color: #e9f0ef;
 
 
     }
@@ -1554,3 +1547,8 @@ text-align: left;
       font-family: 'Rubik', sans-serif;
 }
 
+.blogpage img{
+  
+  width: 60%;
+  padding-bottom: 30px;
+}

@@ -974,13 +974,19 @@ ul{
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   
   #tablesinfo table{
     width:80vw;
 }
 }
 
+.content-table4:hover {
+  border-radius: 20px;
+  transition: all ease 0.6s;
+box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+
+}
 
 .content-table4 td h1 {
   font-family: 'Rubik', sans-serif;
@@ -1044,7 +1050,6 @@ ul{
 .textinfo{
   background-color: #f0f0f0;
   padding-top: 0px;
-  padding-bottom: 30px;
 }
 
 
@@ -1090,7 +1095,7 @@ ul{
   margin-bottom: 20px;
   
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
  #rightimage{
  text-align:center;
  margin-left: 0px;
@@ -1390,7 +1395,7 @@ ul{
     	width: 125px;
     	height: 30px;
   margin: 15px;
-  
+  z-index: 900;
       text-align: center;
     	border-radius: 20px;
       background-color: rgba(83, 90, 99, 0.7);

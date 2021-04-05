@@ -1201,7 +1201,7 @@ box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   
   #tablesinfo table{
     width:80vw;

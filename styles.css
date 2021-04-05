@@ -15,7 +15,11 @@ html {
 
 
 
+*{
 
+  padding: 0;
+
+}
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -87,15 +91,6 @@ html {
   
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #fafafa;
-   position: fixed; /* Set the navbar to fixed position */
- top:0;
-  width: 100%;
-  z-index: 1000;
-  
-}
 
 .loginstuff .exr{
   display:none;
@@ -194,9 +189,10 @@ html {
     display: block;
   }
   
-  .loginstuff .exr{
+  .topnav.responsive .loginstuff .exr{
   display:none;
 }
+  
 
 }
 
@@ -260,7 +256,8 @@ html{
     position: relative;
   }
 
-  #hero .container {
+   #hero .container {
+    padding-top: 80px;
   }
 
 

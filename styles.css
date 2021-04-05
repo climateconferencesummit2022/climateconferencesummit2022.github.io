@@ -97,6 +97,9 @@ html {
   
 }
 
+.loginstuff .exr{
+  display:none;
+}
 .topnav a {
   float: left;
   display: block;
@@ -172,18 +175,28 @@ html {
   display: block;
 }
 
+@media screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  
+  
+}
+
 @media screen and (max-width: 1320px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
   
-
+ 
   .topnav a.icon {
     float: right;
     display: block;
   }
   
-  
+  .loginstuff .exr{
+  display:none;
+}
 
 }
 
@@ -200,7 +213,9 @@ html {
     display: block;
     text-align: left;
   }
-  
+  .loginstuff .exr{
+  display:block;
+}
   
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}

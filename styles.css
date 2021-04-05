@@ -172,6 +172,8 @@ html {
     display: block;
   }
   
+  
+ 
   .loginstuff{
   float: left;
 }
@@ -904,6 +906,7 @@ margin-left: 24%;
       justify-content: center;
       align-items: center;
     	color: #3b92e3;
+      cursor: pointer;
     	margin-top:10px;
       font-family: 'Rubik', sans-serif;
     }
@@ -2356,6 +2359,7 @@ input[type="checkbox"]{
     	width: 125px;
     	height: 30px;
   margin: 10px;
+  
       text-align: center;
     	border-radius: 20px;
       background-color: rgba(83, 90, 99, 0.7);

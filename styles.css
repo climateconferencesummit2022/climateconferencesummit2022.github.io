@@ -2206,12 +2206,7 @@ input[type="checkbox"]{
   }
 }
 
-.carousel-caption {
-  background-color: blue;
-  color: red;
-  padding: 20px;
-  border-radius: .5rem;
-}
+
 
 
 .carousel-control-next,
@@ -2329,6 +2324,7 @@ input[type="checkbox"]{
   color: #2bcfc9;
   text-decoration: underline;
   font-family: 'Rubik', sans-serif;
+  padding-left: 35%;
 }
 
 #morelink:hover{

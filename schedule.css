@@ -894,7 +894,7 @@ ul{
 	.image{
 		flex: 100%;
 		max-width: 480px;
-    height: 
+  
 	}
 }
 /*IMAGE 2*/
@@ -985,6 +985,7 @@ ul{
 	.image2{
 		flex: 100%;
 		max-width: 480px;
+
 	}
 }
 /*IMAGE 3*/
@@ -1073,6 +1074,7 @@ ul{
 	.image3{
 		flex: 100%;
 		max-width: 480px;
+  
 	}
 }
 
@@ -1161,25 +1163,26 @@ ul{
 	.image4{
 		flex: 100%;
 		max-width: 480px;
+   
 	}
 }
 
 
 
 
-   @media (max-width: 474px){
+@media (max-width: 400px){
 	.image{
     height: 500px;
   }
   
   .image2{
-    height: 530px;
+    height: 550px;
   }
   .image3{
-    height: 450px;
+    height: 500px;
   }
   .image4{
-    height: 450px;
+    height: 530px;
   }
 }   
 

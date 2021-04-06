@@ -1072,7 +1072,6 @@ box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
  
 }
 
-
 #lefttext p{
   font-size: 17px;
   margin-left: 23%;
@@ -1083,6 +1082,17 @@ box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
   line-height:35px;
   font-family: 'Noto Sans', sans-serif;
 } 
+
+
+@media(max-width: 700px){
+  #lefttext h2{
+    margin-left: 15%;
+  }
+  #lefttext p{
+    margin-left: 15%;
+  }
+  
+}
 
 #lefttext{
   
@@ -1095,13 +1105,7 @@ box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
   margin-bottom: 20px;
   
 }
-@media screen and (max-width: 1200px) {
- #rightimage{
- text-align:center;
- margin-left: 0px;
-  
-}
-}
+
 
 
 
@@ -1112,7 +1116,13 @@ box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
 }
 
 
-
+@media screen and (max-width: 1200px) {
+ #rightimage{
+ text-align:right !important;
+ margin-left: -20vw;
+  
+}
+}
 
 
 

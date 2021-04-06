@@ -1563,7 +1563,7 @@ text-align: left;
 }
 .test2-heading{
     	text-align:center;
-
+height: 2vh;
   margin-top: -3vh;
   padding-top:5vh;
  background-color: #fcfcfc;
@@ -1582,12 +1582,10 @@ text-align: left;
 @media(max-width: 1000px){
   
   .test2-heading{
-     margin-top: -50px;
+     margin-top: -45px;
   padding-top:100px;
 }
-  .accordian{
-    margin-top: -100px;
-  }
+  
 }
 
 .test3-heading{

@@ -808,6 +808,7 @@ h2 {
   padding-top:5vh;
   
   
+  
     }
 .test2-heading h1{
     	color: #333436;
@@ -911,6 +912,9 @@ h2 {
   #authentictext{
     padding-top: 40px;
     text-align: center;
+  }
+  .test2-heading{
+    margin-bottom: 20px;
   }
 
 }

@@ -1672,7 +1672,8 @@ ul{
 .number h2{
   text-align: center;
   margin: 0 auto;
-  width: 60%;
+  width: 90%;
+  padding-bottom: 30px;
   font-size: 40px;
   color: #28498a; 
   font-family: 'Rubik', sans-serif;

@@ -1662,8 +1662,7 @@ h1 {
 }
 /*IMAGE 1*/
 .image{
-  background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
-    url('https://images.pexels.com/photos/110473/pexels-photo-110473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),;
   background-size: cover;
 	position: relative;
 	flex: 1;
@@ -1751,7 +1750,7 @@ h1 {
 
 .image2{
   background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
-    url('https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    ;
   background-size: cover;
 	position: relative;
 	flex: 1;
@@ -1841,7 +1840,7 @@ h1 {
 
 .image3{
   background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
-    url('https://images.pexels.com/photos/6393017/pexels-photo-6393017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    ;
   background-size: cover;
 	position: relative;
 	flex: 1;
@@ -1928,8 +1927,8 @@ h1 {
 
 /*IMAGE 4*/
 .image4{
-  background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
-    url('https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-color: rgba(43, 207, 202, 0.6);
+
   background-size: cover;
 	position: relative;
 	flex: 1;

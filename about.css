@@ -1636,3 +1636,402 @@ h1 {
       font-family: 'Rubik', sans-serif;
 }
 
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Four Box Thing From MINT Website
+--------------------------------------------------------------*/
+
+.box4 {
+  background-color: #f0f0f0;
+  padding-left: 30px;
+}
+
+
+.row{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+/*IMAGE 1*/
+.image{
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
+    url('https://images.pexels.com/photos/110473/pexels-photo-110473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+	position: relative;
+	flex: 1;
+  border-radius: 15px;
+	max-width: 550px;
+	height: 360px;
+	margin: 20px;
+	overflow: hidden;
+}
+
+
+.image img{
+	opacity: 0.8;
+	position: relative;
+	vertical-align: top;
+	transition: 0.6s;
+	transition-property: opacity;
+}
+
+.image:hover img{
+	opacity: 1;
+}
+
+.image .details{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.image .details h2{
+	text-align: left;
+	font-size: 35px;
+	font-weight: 300;
+  margin: 10px 30px 0 30px;
+	transition: 0.4s;
+	transition-property: transform;
+}
+
+.image .details h4{
+	text-align: left;
+  text-transform: uppercase;
+	font-size: 15px;
+  color: #9ea8ba;
+  margin: 50px 30px 0 30px;
+  letter-spacing: 2px;
+}
+
+.image .details h2 span{
+	font-weight: 900;
+}
+
+.image .details p{
+	margin: 10px 30px 0 30px;
+	font-size: 18px;
+  line-height:30px;
+  font-family: 'Noto Sans', sans-serif;
+	text-align: left;
+  color: #bac0cc;
+
+}
+
+
+/*
+.image:hover .details p{
+	opacity: 1;
+	transform: translateY(-40px);
+}*/
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 1080px){
+	.image{
+		flex: 100%;
+		max-width: 480px;
+	}
+}
+/*IMAGE 2*/
+
+.image2{
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
+    url('https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+	position: relative;
+	flex: 1;
+  border-radius: 15px;
+	max-width: 550px;
+	height: 360px;
+	margin: 20px;
+	overflow: hidden;
+}
+
+
+
+
+.image2 img{
+	opacity: 0.8;
+	position: relative;
+	vertical-align: top;
+	transition: 0.6s;
+	transition-property: opacity;
+}
+
+.image2:hover img{
+	opacity: 1;
+}
+
+.image2 .details{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.image2 .details h2{
+	text-align: left;
+	font-size: 35px;
+	font-weight: 300;
+  margin: 10px 30px 0 30px;
+	transition: 0.4s;
+	transition-property: transform;
+}
+
+.image2 .details h4{
+	text-align: left;
+  text-transform: uppercase;
+	font-size: 15px;
+  color: #9ea8ba;
+  margin: 50px 30px 0 30px;
+  letter-spacing: 2px;
+}
+
+.image2 .details h2 span{
+	font-weight: 900;
+}
+
+.image2 .details p{
+	margin: 10px 30px 0 30px;
+	font-size: 18px;
+  line-height:30px;
+  font-family: 'Noto Sans', sans-serif;
+	text-align: left;
+  color: #bac0cc;
+
+}
+
+
+/*
+.image:hover .details p{
+	opacity: 1;
+	transform: translateY(-40px);
+}*/
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 1080px){
+	.image2{
+		flex: 100%;
+		max-width: 480px;
+	}
+}
+/*IMAGE 3*/
+
+.image3{
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
+    url('https://images.pexels.com/photos/6393017/pexels-photo-6393017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+	position: relative;
+	flex: 1;
+  border-radius: 15px;
+	max-width: 550px;
+	height: 360px;
+	margin: 20px;
+	overflow: hidden;
+}
+
+
+.image3 img{
+	opacity: 0.8;
+	position: relative;
+	vertical-align: top;
+	transition: 0.6s;
+	transition-property: opacity;
+}
+
+.image3:hover img{
+	opacity: 1;
+}
+
+.image3 .details{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.image3 .details h2{
+	text-align: left;
+	font-size: 35px;
+	font-weight: 300;
+  margin: 10px 30px 0 30px;
+	transition: 0.4s;
+	transition-property: transform;
+}
+
+.image3 .details h4{
+	text-align: left;
+  text-transform: uppercase;
+	font-size: 15px;
+  color: #9ea8ba;
+  margin: 50px 30px 0 30px;
+  letter-spacing: 2px;
+}
+
+.image3 .details h2 span{
+	font-weight: 900;
+}
+
+.image3 .details p{
+	margin: 10px 30px 0 30px;
+	font-size: 18px;
+  line-height:30px;
+  font-family: 'Noto Sans', sans-serif;
+	text-align: left;
+  color: #bac0cc;
+
+}
+
+
+/*
+.image:hover .details p{
+	opacity: 1;
+	transform: translateY(-40px);
+}*/
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 1080px){
+	.image3{
+		flex: 100%;
+		max-width: 480px;
+	}
+}
+
+/*IMAGE 4*/
+.image4{
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
+    url('https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+	position: relative;
+	flex: 1;
+  border-radius: 15px;
+	max-width: 550px;
+	height: 360px;
+	margin: 20px;
+	overflow: hidden;
+}
+
+
+.image4 img{
+	opacity: 0.8;
+	position: relative;
+	vertical-align: top;
+	transition: 0.6s;
+	transition-property: opacity;
+}
+
+.image4:hover img{
+	opacity: 1;
+}
+
+.image4 .details{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.image4 .details h2{
+	text-align: left;
+	font-size: 35px;
+	font-weight: 300;
+  margin: 10px 30px 0 30px;
+	transition: 0.4s;
+	transition-property: transform;
+}
+
+.image4 .details h4{
+	text-align: left;
+  text-transform: uppercase;
+	font-size: 15px;
+  color: #9ea8ba;
+  margin: 50px 30px 0 30px;
+  letter-spacing: 2px;
+}
+
+.image4 .details h2 span{
+	font-weight: 900;
+}
+
+.image4 .details p{
+	margin: 10px 30px 0 30px;
+	font-size: 18px;
+  line-height:30px;
+  font-family: 'Noto Sans', sans-serif;
+	text-align: left;
+  color: #bac0cc;
+
+}
+
+
+/*
+.image:hover .details p{
+	opacity: 1;
+	transform: translateY(-40px);
+}*/
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 1080px){
+	.image4{
+		flex: 100%;
+		max-width: 480px;
+	}
+}
+
+
+
+
+   @media (max-width: 474px){
+	.image{
+    height: 500px;
+  }
+  
+  .image2{
+    height: 530px;
+  }
+  .image3{
+    height: 450px;
+  }
+  .image4{
+    height: 450px;
+  }
+}   
+
+
+

@@ -105,12 +105,12 @@ html {
 .topnav a {
   float: left;
   display: block;
-  font-weight: 600;
+  font-weight: 400;
   color: #4b4e54;
   text-align: center;
   padding-top: 20px;
   padding-left: 20px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
   text-decoration: none;
   font-size: 18px;
   
@@ -125,8 +125,8 @@ html {
 
 .dropdown {
   float: left;
-  font-weight: 800;
-  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
   overflow: hidden;
   color: #4b4e54;
 }
@@ -145,7 +145,7 @@ html {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .dropdown-content {

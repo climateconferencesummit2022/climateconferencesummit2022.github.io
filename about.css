@@ -1839,7 +1839,7 @@ h1 {
 /*IMAGE 3*/
 
 .image3{
-  background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
+  background-color: #28498a
     ;
   background-size: cover;
 	position: relative;

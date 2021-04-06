@@ -138,8 +138,9 @@ html {
   border: none;
   outline: none;
   color: #4b4e54;
-  padding-top: 20px;
+  padding: 20px;
   padding-left: 20px;
+  
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -151,6 +152,7 @@ html {
   position: fixed;
   background-color: #f9f9f9;
   max-width: 300px;
+  padding-right: 20px;
   color: #4b4e54;
   z-index: 1000;
 }

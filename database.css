@@ -1566,6 +1566,7 @@ text-align: left;
 height: 5vh;
   margin-top: -3vh;
   padding-top:5vh;
+ background-color: #fcfcfc;
   
   
     }
@@ -1577,6 +1578,13 @@ height: 5vh;
      font-weight: 600;
       
     }
+
+@media(max-width: 950px){
+  .test2-heading {
+    margin-top: -3vh;
+  padding-top:2vh;
+  }
+}
 .test3-heading{
     	text-align:center;
 margin-top: -200px;

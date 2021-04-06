@@ -1342,12 +1342,12 @@ h1 {
   
  
   position: relative; 
-  vertical-align: middle
+  vertical-align: middle;
   
 }
 
 #video-vid img{
-  height:400px;
+  width: 100%;
   position: absolute;
     top: 0;
     bottom: 0;
@@ -1470,7 +1470,7 @@ h1 {
 #videoinfo1{
   background-color: #e9f0ef;
   padding: 90px;
-  padding-left: 140px;
+ 
  
 }
 

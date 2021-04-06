@@ -152,7 +152,7 @@ html {
   position: fixed;
   background-color: #f9f9f9;
   max-width: 300px;
-  padding-right: 20px;
+  
   color: #4b4e54;
   z-index: 1000;
 }
@@ -161,6 +161,7 @@ html {
   float: none;
   color: black;
   color: #4b4e54;
+  padding-right: 20px;
   padding-top: 20px;
   text-decoration: none;
   display: block;

@@ -1579,11 +1579,11 @@ height: 5vh;
       
     }
 
-@media(max-width: 950px){
-  .test2-heading {
-    margin-top: -3vh;
-  padding-top:2vh;
-  }
+@media(max-width: 10000px){
+  
+  .accordian{
+  margin-top: 100px;
+}
 }
 .test3-heading{
     	text-align:center;

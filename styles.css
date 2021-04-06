@@ -1468,6 +1468,28 @@ ul{
     
 }
 
+#modal-btn{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: white;
+    background: #11dbcf;
+    border: 2px solid #11dbcf;
+  }
+
+   #modal-btn:hover {
+    background: #0eb0a5;
+    border: 2px solid #0eb0a5;
+    text-decoration: none;
+    color:#fff;
+  }
+
 
   
 
@@ -1560,11 +1582,11 @@ ul{
     font-size: 17px;
     letter-spacing: 1px;
     display: block;
-  margin: 0 auto;
+    margin: 0 auto;
     padding: 8px 28px;
     border-radius: 50px;
     transition: 0.5s;
-    width: 40%;
+    width: 55%;
     text-align: center;
     color: white;
     background: #11dbcf;

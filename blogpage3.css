@@ -1506,7 +1506,8 @@ font-size: 50;
 
 
 .blogpage img{
-  width: 40%;
-  padding-bottom: 30px;
   
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
 }

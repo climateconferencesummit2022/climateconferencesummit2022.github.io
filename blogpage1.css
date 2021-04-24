@@ -1549,6 +1549,7 @@ text-align: left;
 
 .blogpage img{
   
-  width: 60%;
+  width: 100%;
+  height: auto;
   padding-bottom: 30px;
 }

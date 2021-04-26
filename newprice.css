@@ -7,10 +7,13 @@
   --gray: #999;
   --lightgray: whitesmoke;
   --popular: #ffdd40;
-  --starter: #f73859;
-  --essential: #00AEEF;
-  --professional: #FF7F45;
+  --starter: #6e8efb;
+  --essential: #3b92e3;
+  --professional: #a777e3;
 }
+
+
+
 
 * {
   padding: 0;

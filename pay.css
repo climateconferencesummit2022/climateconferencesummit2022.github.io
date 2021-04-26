@@ -92,4 +92,73 @@ span.price {
 
 
 
+/* ==================================================
+      Accordion Content
+================================================== */
+
+.accordion1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: -100vh;
+  padding-bottom: 10vh;
+  background-color: #28498a;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+
+}
+
+.accordion {
+  width: 50%;
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+.accordion-item {
+  background-color: #fff;
+  z-index: 500;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion-head{
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+ font-weight: 500;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.accordion-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+}
+
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
 

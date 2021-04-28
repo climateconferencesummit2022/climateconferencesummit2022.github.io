@@ -36,7 +36,9 @@
 
 
 
-
+#colleft{
+  padding-bottom: 50px;
+}
 
 
 input[type=text] {
@@ -118,12 +120,11 @@ h1 {
   margin: 3rem auto;
 }
 .accordion-item {
-  background-color: #fff;
+  background-color: #ececef;
   z-index: 500;
   color: #111;
   margin: 1rem 0;
   border-radius: 0.5rem;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
 }
 .accordion-head{
   padding: 0.5rem 3rem 0.5rem 1rem;
@@ -158,8 +159,14 @@ h1 {
 
 
 
-#rightcol{
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 90px;
+.payforms{
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+
+.paybottom{
+  background-color: #46b4b4;
+  height: 200px;
 }

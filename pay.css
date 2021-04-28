@@ -158,7 +158,8 @@ h1 {
 
 
 
-
-
-
-
+#rightcol{
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 90px;
+}

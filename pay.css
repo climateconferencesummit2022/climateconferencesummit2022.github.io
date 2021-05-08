@@ -26,12 +26,13 @@
     text-align: left;
       font-size: 50px;
     line-height: 25px;
-    width: 80%;
+    width: 90%;
+    padding-left: 30px;
     padding-top: 30vh;
   color: white;
    font-family:  'Noto Sans', sans-serif;
     letter-spacing: .1px;
-   line-height: 39px;
+   line-height: 60px;
   }
 
 

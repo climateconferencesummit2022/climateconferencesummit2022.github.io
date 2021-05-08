@@ -104,7 +104,7 @@ span.price {
   box-sizing: border-box;
   padding-top: -100vh;
   padding-bottom: 10vh;
-  background-color: #28498a;
+  background-color: #5a115c;
 }
 
 h1 {
@@ -167,6 +167,6 @@ h1 {
 }
 
 .paybottom{
-  background-color: #46b4b4;
+  background-color: #5a115c;
   height: 100px;
 }

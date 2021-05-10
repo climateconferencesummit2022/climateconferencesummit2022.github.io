@@ -1521,10 +1521,10 @@ h1 {
 }
 
 .hashtag {
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 600;
   font-family: 'Noto Sans', sans-serif;
-  color: #2bcfc9;
+  color: black;
 }
 
 .blog-title {

@@ -25,18 +25,27 @@ html {
   clear: both;
 }
 
+
+#colleft{
+  background-color: blue;
+  height: 100vh;
+  
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
   .column {
     width: 100%;
   }
+  
+  #colleft{
+    height: 40vw;
+  }
 }
 
-#colleft{
-  background-color: blue;
-  height: 100%;
-  
-}
+
+
+
   #colleft h2{
     text-align: left;
       font-size: 50px;
@@ -51,6 +60,24 @@ html {
 }
 
 
+ .test2-btn{
+    
+    	border-radius: 20px;
+      margin-bottom: .3vh;
+    	border:.15em solid #3b92e3;
+      padding: 10px 70px;
+    	color: #3b92e3;
+      font-family: 'Rubik', sans-serif;
+      
+    }
+
+.test2-btn:hover {
+    background: #3b92e3;
+    border: 1px solid #3b92e3;
+    text-decoration: none;
+  transition: all ease 0.3s;
+    color: white;
+  }
 
 
 input[type=text] {

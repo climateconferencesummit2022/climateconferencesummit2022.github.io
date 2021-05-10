@@ -1662,7 +1662,7 @@ h1 {
 }
 /*IMAGE 1*/
 .image{
- background-image: linear-gradient(to bottom, rgba(62, 243, 213, .6), rgba(0, 0, 0, .8)),
+ background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
     url('https://images.pexels.com/photos/4031710/pexels-photo-4031710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: cover;
 	position: relative;
@@ -1751,7 +1751,7 @@ h1 {
 
 .image2{
   background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
-    url('https://images.pexels.com/photos/110473/pexels-photo-110473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    url('https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: cover;
 	position: relative;
 	flex: 1;
@@ -1841,7 +1841,7 @@ h1 {
 
 .image3{
   background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
-    url('https://images.pexels.com/photos/110473/pexels-photo-110473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    url('https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: cover;
 	position: relative;
 	flex: 1;
@@ -1929,7 +1929,7 @@ h1 {
 /*IMAGE 4*/
 .image4{
   background-image: linear-gradient(to bottom, rgba(22, 22, 22, .6), rgba(0, 0, 0, .8)),
-    url('https://images.pexels.com/photos/110473/pexels-photo-110473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    url('https://images.pexels.com/photos/7013247/pexels-photo-7013247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 
   background-size: cover;
 	position: relative;

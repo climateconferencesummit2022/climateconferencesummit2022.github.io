@@ -70,11 +70,14 @@ html {
 
  .test2-btn{
     
-    	border-radius: 20px;
-      margin-bottom: .3vh;
+    	border-radius: 10px;
+   margin-left: 20%;
     	border:.15em solid #3b92e3;
-      padding: 10px 70px;
+      padding: 10px 200px;
+   text-decoration: none;
     	color: #3b92e3;
+  text-align: center;
+   
       font-family: 'Rubik', sans-serif;
       
     }
@@ -225,11 +228,10 @@ h1 {
   padding-left: 110px;
   padding-right: 110px;
   font-family:  'Noto Sans', sans-serif;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .paybottom{
   background-color: #5a115c;
-  height: 100px;
   font-family:  'Noto Sans', sans-serif;
 }

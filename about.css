@@ -907,7 +907,8 @@ html{
     	padding: 30px 35px;
     	height: 100%;
     	box-sizing: border-box;
-      background-image: -webkit-linear-gradient(top, #b1f7fa, #16e7f0);
+      /**background-color: #e9f0ef;**/
+      background-image: -webkit-linear-gradient(top, #e9f0ef, #dfedeb);
       border-radius: 30px 30px 30px 30px;
     	margin: 30px;
       margin-left:100px;

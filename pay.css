@@ -71,9 +71,9 @@ html {
  .test2-btn{
     
     	border-radius: 10px;
-   margin-left: 20%;
+   margin-left: 8%;
     	border:.15em solid #3b92e3;
-      padding: 10px 200px;
+   max-width: 100%;
    text-decoration: none;
     	color: #3b92e3;
   text-align: center;
@@ -113,7 +113,8 @@ label {
 }
 
 #rightcol{
-  padding-top: 130px;
+  padding-top: 50px;
+  background-color:#fafafa;
 }
 .btn {
   background-color: #4CAF50;
@@ -228,10 +229,9 @@ h1 {
   padding-left: 110px;
   padding-right: 110px;
   font-family:  'Noto Sans', sans-serif;
-  padding-bottom: 30px;
+  margin-bottom: 116px;
 }
 
-.paybottom{
-  background-color: #5a115c;
-  font-family:  'Noto Sans', sans-serif;
-}
+.paybot{
+  padding-top: 25px;
+\}

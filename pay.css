@@ -27,8 +27,8 @@ html {
 
 
 #colleft{
-  background-color: blue;
   height: 100vh;
+  background: url("https://images.pexels.com/photos/3786157/pexels-photo-3786157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   
 }
 
@@ -44,18 +44,18 @@ html {
 }
 
 
-
+.headspace{
+  padding-top: 40%;
+}
 
   #colleft h2{
     text-align: left;
       font-size: 50px;
-    line-height: 25px;
     padding-left: 30px;
-  height: 100%;
-  color: white;
+
+    color: white;
    font-family:  'Noto Sans', sans-serif;
     letter-spacing: .1px;
-   line-height: 60px;
 
 }
 

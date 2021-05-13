@@ -94,50 +94,50 @@ populate();
 
 const questions = [
   {
-    "question": "Age range?",
-    "answer1": "under 18",
+    "question": "What type of practice do you have?",
+    "answer1": "Clinic",
     "answer1Total": "1",
-    "answer2": "18 - 30",
+    "answer2": "Shared Practice",
     "answer2Total": "2",
-    "answer3": "over 30",
+    "answer3": "Hospital",
     "answer3Total": "3"
   },
   {
-    "question": "I am very imaginative.",
-    "answer1": "Agree",
+    "question": "Which services do you need the most",
+    "answer1": "Video Servicing and Scheduling",
     "answer1Total": "1",
-    "answer2": "Neutral",
+    "answer2": "Basic Services + Automatic Messaging and Direct Chat Line",
     "answer2Total": "2",
-    "answer3": "Disagree",
+    "answer3": "Basic and Advanced Services + Medical Record Database and Analytics",
     "answer3Total": "3"
   },
   {
     "question":
-      "Select in which order you would value these \"Money, Love & Career",
-    "answer1": "Love, Career, Money",
+      "On average, how many patients do you see each day?",
+    "answer1": "0-50",
     "answer1Total": "1",
-    "answer2": "Money, Career, Love",
-    "answer2Total": "3",
-    "answer3": "Career, Love, Money",
-    "answer3Total": "2"
+    "answer2": "50-100",
+    "answer2Total": "2",
+    "answer3": "100+",
+    "answer3Total": "3"
   },
   {
-    "question": "Best Sentence to describe you?",
-    "answer1": "You feel superior to other people.",
-    "answer1Total": "3",
-    "answer2": "You consider yourself more practical than creative.",
+    "question": "What is your price range (per year)?",
+    "answer1": "Less than $300",
+    "answer1Total": "1",
+    "answer2": "$300 - $500",
     "answer2Total": "2",
     "answer3":
-      "Winning a debate matters less to you than making sure no one gets upset.",
-    "answer3Total": "1"
+      "Less than $600",
+    "answer3Total": "3"
   },
   {
-    "question": "Which best describes your relationship with food",
-    "answer1": "You tend to over-eat when you have company.",
+    "question": "What do you hope to gain from our services?",
+    "answer1": "Better communication and connections with patients",
     "answer1Total": "1",
-    "answer2": "You tend to eat snacks secretly.",
+    "answer2": "Become a interactive practice to address patient needs",
     "answer2Total": "2",
-    "answer3": "You prepare food and don\’t even look at the recipe.",
+    "answer3": "Better organization and data analysis",
     "answer3Total": "3"
   },
   {

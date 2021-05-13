@@ -77,11 +77,10 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS", "HTML"], "HTML"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django", "NodeJS"], "Django"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-    new Question("Webdevtrick.com is about..", ["Web Design", "Graphic Design", "SEO & Development", "All"], "All")
+    new Question("What type of practice do you have?", ["Clinic", "Small Business","Shared Practice", "Hospital"], "Hospital"),
+    new Question("What services do you need most?", ["Video Servicing and Scheduling", "Automatic Messaging and Direct Chat Line", "Medical Record Database and Analytics", "All of the Above"], "CSS"),,
+    new Question("On average how many patients do you see each day?", ["0-20", "20-40","40-100", "100+"], "100+"),
+    new Question("What is your price range (per year)?", ["Less than $300", "Less than $400", "Less than $500", "Less than $600"], "Less than $600"),
 ];
  
 // create quiz

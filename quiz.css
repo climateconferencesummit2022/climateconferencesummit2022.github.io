@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.7rem;
   background: #fafafa;
 }
@@ -30,7 +30,7 @@ body {
   margin-top: 0;
   margin-bottom: 3rem;
   color: #00000050;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -75,7 +75,7 @@ button.next {
   background: #3c91e6;
 }
 button.restart {
-  background: #0cf574;
+  background: #74e8c9;
   color: #00000050;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -111,7 +111,7 @@ button:focus {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 2rem;
   margin-bottom: 2rem;
 }

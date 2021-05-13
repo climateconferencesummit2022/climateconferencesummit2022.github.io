@@ -206,13 +206,13 @@ function loadNextQuestion () {
     if(currentQuestion == totalQuestions) {
         container.style.display = 'none';
         result.innerHTML =
-         `<h1 class="final-score">Your score: ${totalScore}</h1>
+         `<h1 class="final-score">Your Score: ${totalScore}</h1>
          <div class="summary">
             <h1>Summary</h1>
             <p>This is the recommended pricing plan for your practice:</p>
-            <p>10 - 15 - Premium</p>
-            <p>6 - 10 - Advanced </p>
-            <p>5 - Basic</p>
+            <p>Premium: 10 - 15</p>
+            <p>Advanced: 6 - 10 </p>
+            <p>Basic: 5</p>
         </div>
         <button class="restart">Restart Quiz</button>
          `;

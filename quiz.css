@@ -71,13 +71,13 @@ button {
   transition: all 0.2s;
 }
 button.previous {
-  background: linear-gradient(135deg, #34ede7, #34aeeb);
+  background: linear-gradient(135deg, #34aeeb, #6e8efb);
 }
 button.next {
   background: linear-gradient(135deg, #6e8efb, #a777e3);;
 }
 button.restart {
-  background: linear-gradient(135deg, #6e8efb, #a777e3);;
+  background: #0096fa;
   color: #e1e4ed;
   font-size: 2rem;
   margin-bottom: 1rem;

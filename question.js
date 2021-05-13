@@ -1,4 +1,4 @@
-<!--
+/*
 function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
@@ -90,8 +90,7 @@ var quiz = new Quiz(questions);
 // display quiz
 populate();
 -->
-// QUESTIONS
-
+*/
 const questions = [
   {
     "question": "What type of practice do you have?",
@@ -114,9 +113,9 @@ const questions = [
   {
     "question":
       "On average, how many patients do you see each day?",
-    "answer1": "0-50",
+    "answer1": "0 - 50",
     "answer1Total": "1",
-    "answer2": "50-100",
+    "answer2": "50 - 100",
     "answer2Total": "2",
     "answer3": "100+",
     "answer3Total": "3"
@@ -135,31 +134,11 @@ const questions = [
     "question": "What do you hope to gain from our services?",
     "answer1": "Better communication and connections with patients",
     "answer1Total": "1",
-    "answer2": "Become a interactive practice to address patient needs",
+    "answer2": "Become an interactive practice to address patient needs",
     "answer2Total": "2",
     "answer3": "Better organization and data analysis",
     "answer3Total": "3"
   },
-  {
-    "question":
-      "You make plans with a friend and they cancel on you, what do you do?",
-    "answer1":
-      "Say \"whatever\" and plan a night that'll be GREAT so they don't cancel again.",
-    "answer1Total": "3",
-    "answer2": "Feel hurt because you were looking forward to tonight.",
-    "answer2Total": "2",
-    "answer3": "No problem, you kinda wanted to stay home anyway.",
-    "answer3Total": "1"
-  },
-  {
-    "question": "Which of the following colours do you like most?",
-    "answer1": "Black",
-    "answer1Total": "1",
-    "answer2": "Yellow or light blue",
-    "answer2Total": "2",
-    "answer3": "Red or orange",
-    "answer3Total": "3"
-  }
 ]
 
 
@@ -230,11 +209,10 @@ function loadNextQuestion () {
          `<h1 class="final-score">Your score: ${totalScore}</h1>
          <div class="summary">
             <h1>Summary</h1>
-            <p>Possible - Personality Traits, see below for a summary based on your results:</p>
-            <p>15 - 21- You Need Help</p>
-            <p>10 - 15 - Good Soul</p>
-            <p>5 - 10 - Meh </p>
-            <p>5 - Are You Even Real</p>
+            <p>This is the recommended pricing plan for your practice:</p>
+            <p>10 - 15 - Premium</p>
+            <p>6 - 10 - Advanced </p>
+            <p>5 - Basic</p>
         </div>
         <button class="restart">Restart Quiz</button>
          `;

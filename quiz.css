@@ -1,121 +1,120 @@
-/**
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
-    background-color: #413D3D;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  line-height: 1.7rem;
+  background: no-repeat linear-gradient(250deg, #ff934f, #db222a);
 }
- 
-.grid {
-    width: 600px;
-    height: 500px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 10px 50px 50px 50px;
-    border: 2px solid #cbcbcb;
-    
+.quiz-container {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px white;
+  padding: 3rem;
+  text-shadow: 0 1px #00000010;
+  width: 60%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(360deg, transparent, #ffffff);
+  min-height: 100vh;
 }
- 
-.grid h1 {
-    font-family: "sans-serif";
-    background-color: #01BBFF;
-    font-size: 60px;
-    text-align: center;
-    color: #ffffff;
-    padding: 2px 0px;
-    
-}
- 
-#score {
-    color: #01BBFF;
-    text-align: center;
-    font-size: 30px;
-}
- 
-.grid #question {
-    font-family: "monospace";
-    font-size: 30px;
-    color: #01BBFF;
-}
- 
-.buttons {
-    margin-top: 30px;
-}
- 
-#btn0, #btn1, #btn2, #btn3 {
-    background-color: #01BBFF;
-    width: 250px;
-    font-size: 20px;
-    color: #fff;
-    border: 1px solid #1D3C6A;
-    margin: 10px 40px 10px 0px;
-    padding: 10px 10px;
-}
- 
-#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
-    cursor: pointer;
-    background-color: #01BBFF;
-}
- 
-#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
-    outline: 0;
-}
- 
-#progress {
-    color: #2b2b2b;
-    font-size: 18px;
-}
-**/
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
+.title {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  color: #00000050;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
 }
-/* cyrillic */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+.question {
+  margin: 2rem 0;
+  font-size: 1.5rem;
 }
-/* greek-ext */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');
-  unicode-range: U+1F00-1FFF;
+.option {
+  padding: 1rem;
+  color: #00000095;
+  background: rgba(255, 255, 255, 0.1);
+  width: 80%;
+  border-radius: 5px;
+  transition: all 0.3s;
 }
-/* greek */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+.option:hover {
+  background: rgba(255, 255, 255, 0.4);
 }
-/* vietnamese */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+.option input:checked .option {
+  background: #08038c;
+  color: #000;
 }
-/* latin-ext */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+.controls > * {
+  margin: 1rem;
 }
-/* latin */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-weight: 300;
+  color: white;
+  outline: none;
+  transform: scale(0.98);
+  transition: all 0.2s;
+}
+button.previous {
+  background: #c84630;
+}
+button.next {
+  background: #3c91e6;
+}
+button.restart {
+  background: #0cf574;
+  color: #00000050;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  transition: all 0.4s;
+}
+button.restart:hover {
+  color: #00000098;
+}
+button:hover,
+button:focus {
+  transform: scale(1);
+  font-weight: 500;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5rem;
+  min-height: 100vh;
+}
+.final-score {
+  color: #00000099;
+}
+.summary {
+  font-size: 1rem;
+  text-shadow: 1px 1px #ffffff50;
+  color: #00000099;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+.summary h1 {
+  align-self: center;
 }

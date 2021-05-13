@@ -90,6 +90,8 @@ var quiz = new Quiz(questions);
 // display quiz
 populate();
 -->
+// QUESTIONS
+
 const questions = [
   {
     "question": "Age range?",

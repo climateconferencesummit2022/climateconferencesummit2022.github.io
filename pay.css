@@ -25,7 +25,9 @@ html {
   display: table;
   clear: both;
 }
-
+.headspace img{
+  width: 100px;
+}
 
 #colleft{
   height: 100vh;

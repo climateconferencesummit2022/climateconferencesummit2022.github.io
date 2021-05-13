@@ -71,13 +71,13 @@ button {
   transition: all 0.2s;
 }
 button.previous {
-  background: #c84630;
+  background: linear-gradient(135deg, #34ede7, #34aeeb);
 }
 button.next {
-  background: #3c91e6;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);;
 }
 button.restart {
-  background: #0088ff;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);;
   color: #e1e4ed;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -108,7 +108,7 @@ button:focus {
 .summary {
   font-size: 1rem;
   color: #031b30;
-  background: #009dff;
+  background: linear-gradient(135deg, #6e8efb, #34aeeb);
   border-radius: 5px;
   display: flex;
   flex-direction: column;

@@ -74,7 +74,7 @@ button.next {
 }
 button.restart {
   background: #0088ff;
-  color: #00000050;
+  color: #e1e4ed;
   font-size: 2rem;
   margin-bottom: 1rem;
   transition: all 0.4s;
@@ -103,8 +103,8 @@ button:focus {
 }
 .summary {
   font-size: 1rem;
-  color: #e1e4ed;
-  background: #c9edf0;
+  color: #031b30;
+  background: #009dff;
   border-radius: 5px;
   display: flex;
   flex-direction: column;

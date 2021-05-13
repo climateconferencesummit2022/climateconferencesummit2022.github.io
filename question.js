@@ -209,7 +209,7 @@ function loadNextQuestion () {
          `<h1 class="final-score">Your Score: ${totalScore}</h1>
          <div class="summary">
             <h1>Summary</h1>
-            <p>This is the recommended pricing plan for your practice:</p>
+            <p>Based on your score</p>
             <p>Premium: 10 - 15</p>
             <p>Advanced: 6 - 10 </p>
             <p>Basic: 5</p>

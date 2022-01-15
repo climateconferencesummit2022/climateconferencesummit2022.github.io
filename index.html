@@ -314,7 +314,66 @@ function myFunction() {
     
   
      
+    <!--- number bar things --->
     
+     <section class="skills" id="skills">
+      <div class="title reveal">
+        <h2 class="section-title">Stuff</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <h2 class="content-title">Title with stuff</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="#" class="btn">See More</a>
+        </div>
+        
+        
+            <div class="column col-right reveal" id="skill">
+	<h2>Value</h2>
+	<div class="skill_row">
+		<div class="skill_view" style="background: #e45126;">
+			<span class="skill_value">90%</span>
+		</div>
+	</div>
+	<br>
+	
+
+	<h2>Value</h2>
+	<div class="skill_row">
+		<div class="skill_view" style="background: #e3a324;">
+			<span class="skill_value">60%</span>
+		</div>
+	</div>
+	<br>
+	
+	<h2>Value</h2>
+	<div class="skill_row">
+		<div class="skill_view" style="background: #6d7eb8;">
+			<span class="skill_value">70%</span>
+		</div>
+	</div>
+
+
+</div>
+        
+      </div>
+    </section>
+    
+    
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script src="js/custom.js"></script>
+    <script>
+    $(window).on('load',function() {
+	$('.skill_value').each(function(index, el) {
+		thisVal = $(this).text();
+		$(this).parent('.skill_view').animate({width: thisVal},2000)
+	});
+});</script>
+    
+    
+       
   
   <!--- Testimonials ---->
     
@@ -368,7 +427,6 @@ function myFunction() {
  
     
     
-       
     
 
     

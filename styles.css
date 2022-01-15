@@ -2105,7 +2105,8 @@ ul{
 
 
 .skills{
-  background: #000016;
+  background: #f0f0f0;
+  padding: 90px;
 }
 
 .skills .content{
@@ -2113,7 +2114,7 @@ ul{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: #394455;
   margin-top: 20px;
 }
 

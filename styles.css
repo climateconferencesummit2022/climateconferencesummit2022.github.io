@@ -1642,10 +1642,11 @@ ul{
 #rightimage{
  text-align:center;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 #rightimage img{
-  width: 70%;
+  width: 50%;
 }
 
 @media screen and (max-width: 600px){
@@ -2465,6 +2466,7 @@ margin-top: -200px;
   width: 90%;
       padding-top: 20px;
 
+  
 }
 
 
@@ -2498,7 +2500,7 @@ margin-top: -200px;
 
 #lefttext p{
   width: 70%;
-    
+  ont-size: 20px;
 }
 
 

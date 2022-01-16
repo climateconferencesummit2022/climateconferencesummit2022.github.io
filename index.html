@@ -37,105 +37,50 @@
   <body>
     
  
-    <nav>  
-<div class="topnav" id="myTopnav">
-  
-  <div class="logo">
-    
-  <a href="index.html" class="wimg"> <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2Flogo2.png?v=1617650116662"></a>
-    </div>
-  
-  <a style="color:#32b3a3;" href="index.html">Home</a>
-  <a href="about.html">About</a>
-    <div class="dropdown">
-   
-    <button class="dropbtn">Solutions 
-      <i class="fa fa-caret-down"></i>
-    </button>
-      
-   <div class="dropdown-content">
-      <a href="video.html">Video Service</a>
-      <a href="schedule.html">Scheduling</a>
-      <a href="message.html">Automatic Messaging</a>
-      <a href="database.html">Medical Record Database</a>
-      <a href="chat.html">Direct Chat Line</a>
-      <a href="analytic.html" style="padding-bottom: 20px;">Access to Analytics</a>
-    </div>
-  </div> 
-  <a href="pricing.html">Pricing</a>
-   <a href="blog.html">News Updates</a>
-  <a href="contact.html">Contact</a>
- 
-  
-  <div class="loginstuff">
-    <a class="exr" href="index.html">Home</a>
-    <a href="login.html">Login</a>
-    <a href="register.html">Register</a>
-    
-    
- <button id="modal-btn" class="butt">Free Demo &#8594;</button>
-  
-  
-   
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <div class="logo">
+          <a href="index.html">ConnectHealth</a>
+        </div>
 
-  
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">News Updates</a>
 
-  
-  <script>
-    // Get DOM Elements
-const modal = document.querySelector('#my-modal');
-const modalBtn = document.querySelector('#modal-btn');
-const closeBtn = document.querySelector('.close');
+        <div class="dropdown">
+          <button class="dropbtn">
+            Events
+            <i class="fa fa-caret-down"></i>
+          </button>
 
-// Events
-modalBtn.addEventListener('click', openModal);
-closeBtn.addEventListener('click', closeModal);
-window.addEventListener('click', outsideClick);
+          <div class="dropdown-content">
+            <a href="schedule.html">Plant-A-Tree</a>
+            <a href="message.html">Recycling Competition</a>
+            <a href="chat.html">Speakers</a>
+            <a href="analytic.html">Projects</a>
+          </div>
+        </div>
+        <a href="about.html">Calendar</a>
+        <a href="index.html">Home</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </nav>
 
-// Open
-function openModal() {
-  modal.style.display = 'block';
-}
-
-// Close
-function closeModal() {
-  modal.style.display = 'none';
-}
-
-// Close If Outside Click
-function outsideClick(e) {
-  if (e.target == modal) {
-    modal.style.display = 'none';
-  }
-}
-
-</script>
-  </div>
-  
-  
-  
-  
-  
-  
-
-  <a href="javascript:void(0);" style="font-size:20px; padding-right: 20px" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-</nav>   
-
-     
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-  
-
-    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   
     
     
@@ -854,12 +799,6 @@ The scattering availability of emerging vaccines and problems concerning safety 
     
     
   
-    
-    
-    <a class="s-btn-team" id="fixedbutton" style="color:#dfe5e8">Team <span style="font-weight: 800;">&nbsp;2027-1</span> </a>
-
-
-    
 
 <script>
       const accordionItemHeaders = document.querySelectorAll(".accordion-head");

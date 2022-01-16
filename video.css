@@ -1551,3 +1551,128 @@ h1 {
       font-family: 'Rubik', sans-serif;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.testimonials .container {
+  width: 90%;
+  transition: 0.6s ease;
+  margin: auto;
+  padding-top: 40px;
+
+}
+.testimonials .carousel {
+
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: 0.6s ease;
+  border-radius: 25px;
+  background: #fff;
+ /*box-shadow:
+  0 2.8px 2.2px rgba(35, 63, 120),
+  0 6.7px 5.3px rgba(35, 63, 120),
+  0 12.5px 10px rgba(35, 63, 120),
+  0 22.3px 17.9px rgba(35, 63, 120),
+  0 41.8px 33.4px rgba(35, 63, 120),
+  0 100px 80px rgba(35, 63, 120);*/
+}
+
+.carousel section{
+  padding-top: .5%;
+ transition: 0.6s ease;
+  padding: 0;
+}
+
+
+
+.testimonials .slider {
+  display: flex;
+  height: 150%;
+  transition: 0.6s ease;
+  width: 400%;
+}
+
+.testimonials .slider h2 {
+  width: 60%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  transition: 0.6s ease;
+  color: #28498a;
+  font-family: 'Rubik', sans-serif;
+}
+
+.testimonials .slider p {
+  width: 100%;
+  text-align: center;
+  color: #28498a;
+  transition: 0.6s ease;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+.testimonials .slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.3s;
+  display: flex;
+  font-size: 20px;
+}
+.testimonials .left, .right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  
+  
+}
+.testimonials .arrow i {
+  font-size: 70px;
+  -webkit-user-select: none;
+  color: #416be4;
+  
+}
+.testimonials .left {
+  left: 10px;
+}
+.testimonials .right {
+  right: 10px;
+}
+.testimonials .control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  transition: all ease 0.3s;
+  padding: 0;
+  transform: translate(-50%);
+}
+.testimonials .control ul li {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.testimonials .control ul li.selected {
+  background: transparent;
+  transition: all ease 0.6s;
+}
+
+

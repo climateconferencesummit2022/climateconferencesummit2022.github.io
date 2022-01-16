@@ -1,127 +1,96 @@
-html {
-	 box-sizing: border-box;
+
+.green {
+	 background-color: #2ecc71;
 }
- *, *:before, *:after {
-	 box-sizing: inherit;
+ .turquoise {
+	 background-color: #1abc9c;
 }
- body {
-	 font-family: 'Crimson Text', serif;
-	 background: #eaeaea;
+ .navy {
+	 background-color: #34495e;
 }
- .timetable {
-	 background: #fafafa;
-	 margin: 60px;
-	 padding: 60px;
-	 box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+ .blue {
+	 background-color: #3498db;
 }
- .headline {
-	 font-size: 54px;
-	 margin-top: 0;
-	 margin-bottom: 6px;
-	 line-height: 1;
-	 text-transform: uppercase;
+ .purple {
+	 background-color: #9b59b6;
 }
- .subline {
-	 text-transform: uppercase;
-	 font-size: 16px;
-	 margin-top: 0;
-	 line-height: 1;
+ .grey {
+	 background-color: #bdc3c7;
+	 color: #202020;
 }
- .schedule {
-	 margin: 40px 0;
-	 padding: 50px;
-	 padding: 2px 0;
+ .gray {
+	 background-color: #7f8c8d;
 }
- .date {
-	 display: grid;
-	 grid-template-columns: 100px 1fr;
-	 grid-column-gap: 12px;
-	 align-items: center;
+ .red {
+	 background-color: #e74c3c;
 }
- .day {
-	 border-radius: 50%;
-	 display: block;
-	 width: 80px;
-	 height: 80px;
-	 font-size: 56px;
-	 line-height: 1;
-	 font-weight: 700;
-	 display: inline-flex;
+ .orange {
+	 background-color: #f39c12;
+}
+ .yellow {
+	 background-color: #f1c40f;
+	 color: #303030;
+}
+ .day-columns {
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: nowrap;
+	 overflow-x: auto;
 	 justify-content: center;
-	 align-items: center;
-	 margin-right: 15px;
 }
- .today .day {
-	 background: black;
+ .day-columns .day-column {
+	 display: flex;
+	 flex: 1;
+	 flex-direction: column;
+	 height: 400px;
+	 min-width: 160px;
+	 border: 1px solid #ebedf2;
+	 border-left: none;
+}
+ .day-columns .day-column:first-child {
+	 border-left: 1px solid #ebedf2;
+}
+ .day-columns .day-column .day-header {
+	 border-bottom: 1px solid #ebedf2;
+	 text-align: center;
+	 padding: 5px;
+	 color: #898b96;
+}
+ .day-columns .day-column .day-content {
+	 flex-grow: 1;
+	 flex-direction: column;
+	 justify-content: flex-start;
+	 padding: 5px;
+	 overflow-y: auto;
+}
+ .day-columns .day-column .day-content .event {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: flex-start;
+	 margin-bottom: 5px;
+	 border-radius: 5px;
+	 padding: 3px;
 	 color: white;
-	 font-weight: 400;
+	 padding: 5px;
+	 box-shadow: 0px 1px 15px 1px rgba(81, 77, 92, 0.08);
 }
- .weekday {
-	 font-size: 26px;
-	 font-weight: 400;
+ .day-columns .day-column .day-content .event .title {
+	 font-size: 12px;
 }
- .today .weekday {
-	 font-weight: 700;
+ .day-columns .day-column .day-content .event footer {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-evenly;
+	 font-size: 11px;
 }
- .row {
-	 display: grid;
-	 grid-template-columns: 100px 1fr;
-	 grid-column-gap: 12px;
-	 height: 20px;
-	 width: 100%;
-	 margin: 0px 0;
-	 height: 26px;
+ .day-columns .day-column .day-footer {
+	 border-top: 1px solid #ebedf2;
+	 padding: 5px;
+	 text-align: center;
+	 font-size: 13px;
+	 color: #575962;
 }
- .room {
-	 font-family: 'Roboto Mono', monospace;
-	 min-width: 50px;
-	 border-bottom: 1px solid #e4e4e4;
-	 position: relative;
-	 padding: 4px 0;
-	 min-width: 65px;
-	 font-weight: 100;
-}
- .room.caption {
-	 font-weight: 500;
-}
- .room:after {
-	 content: "";
-	 position: absolute;
-	 background: #e4e4e4;
-	 width: 1px;
-	 display: block;
-	 height: 120%;
-	 top: 0;
-	 right: -6px;
-}
- .legend span {
-	 display: block;
-	 min-width: 100px;
-	 position: absolute;
-	 font-family: 'Roboto Mono', monospace;
-	 font-weight: 100;
-}
- .bookings, .legend {
-	 border-bottom: 1px solid #e4e4e4;
-	 position: relative;
-	 width: 100%;
-	 padding: 0 8px;
-}
- .block {
-	 position: absolute;
-	 background: grey;
-	 height: 20px;
-	 padding: 0 6px;
-	 color: white;
-	 top: 6px;
-	 white-space: nowrap;
-	 text-overflow: ellipsis;
-	 border-radius: 1px;
-	 overflow: hidden;
-	 opacity: 0.4;
-	 margin: 0 1px;
-}
- .today .block {
-	 opacity: 1;
+ .container {
+	 margin-top: 20px;
 }
  

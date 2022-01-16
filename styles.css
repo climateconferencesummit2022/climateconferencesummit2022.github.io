@@ -1810,7 +1810,26 @@ ul{
   font-family: "Noto Sans", sans-serif;
   text-align: left;
   color: #bac0cc;
+  padding-bottom: 
 }
+
+ .test-btn-box{
+    
+    	border-radius: 20px;
+      margin-left: 30px;
+    	border:.15em solid #3b92e3;
+      padding: 10px 70px;
+    	color: #3b92e3;
+      font-family: 'Rubik', sans-serif;
+    }
+
+.test-btn-box:hover {
+    background: #3b92e3;
+    border: 2px solid /#3b92e3;
+    text-decoration: none;
+  transition: all ease 0.3s;
+    color: white;
+  }
 
 /*
 .image:hover .details p{

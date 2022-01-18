@@ -91,7 +91,7 @@ html {
 --------------------------------------------------------------*/
 .topnav {
   overflow: hidden;
-  background-color: #f2fde5;
+ background-image: linear-gradient(to right, #f3fce6, #f7fbe9);
    position: fixed; /* Set the navbar to fixed position */
  top:0;
   width: 100%;
@@ -259,107 +259,11 @@ html{
 
 
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-#hero {
-    width: 100%;
-    height: 100vh;
-    background: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/istockphoto-935827452-612x612.jpeg?v=1642282400884") center center;
-    background-size: cover;
-    position: relative;
-  }
-
-
-
-  .custom-shape-divider-bottom-1609721473 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1609721473 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 224px;
-}
-
-.custom-shape-divider-bottom-1609721473 .shape-fill {
-    fill: #f0f0f0;
-}
-
-  #hero:before {
-    content: "";
-    background: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  #hero h1 {
-    margin: 0 0 10px 0;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 56px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 200;
-    color: #fff;
-  }
-
-#hero span {
-    color: #97d534;
-}
-
-
-  #hero h2 {
-    color: #eee;
-    margin-bottom: 40px;
-    font-size: 15px;
-    font-weight: 500;
-    font-family: 'Rubik', sans-serif;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-  }
-
-  .main-btn {
-    font-family: 'Rubik', sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
-  }
-
-   .main-btn:hover {
-    background: #11dbcf;
-    border: 2px solid #11dbcf;
-    text-decoration: none;
-    color:#fff;
-  }
-
-
-
-
-
-
 
 /* Header */
 
 .header{
-  background-color: #f2fde5;
+  background-image: linear-gradient(to bottom right, #f2fde5, #fcfaed);
   padding-top: 300px;
   
 }
@@ -1218,7 +1122,8 @@ ul{
     transition: 0.5s;
     margin: 10px;
     color: gray;
-    border: 2px solid #11dbcf;
+   background-color: #f2fde5;
+    border: 2px solid #gray;
   }
 
    .butt:hover {

@@ -91,7 +91,7 @@ html {
 --------------------------------------------------------------*/
 .topnav {
   overflow: hidden;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: #f2fde5;
    position: fixed; /* Set the navbar to fixed position */
  top:0;
   width: 100%;
@@ -358,14 +358,9 @@ html{
 
 /* Header */
 
-
-/* ==================================================
-      Text Info
-================================================== */
-
 .header{
-  background-color: #f0f0f0;
-  padding-top: 70px;
+  background-color: #f2fde5;
+  padding-top: 300px;
   
 }
 
@@ -1222,8 +1217,7 @@ ul{
     border-radius: 50px;
     transition: 0.5s;
     margin: 10px;
-    color: white;
-    background: #11dbcf;
+    color: gray;
     border: 2px solid #11dbcf;
   }
 

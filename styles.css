@@ -290,8 +290,9 @@ html{
     padding-top: 300px;
   font-size: 17px;
   margin-left: 25%;
-  
+   font-style: italic;
   margin-right: 250px;
+  padding-bottom: 10px;
   justify-content:center;
   font-family: 'Noto Sans', sans-serif;
 }

@@ -264,7 +264,6 @@ html{
 
 .header{
   background-image: linear-gradient(to bottom right, #f2fde5, #fcfaed);
-  padding-top: 300px;
   
 }
 
@@ -287,6 +286,14 @@ html{
     
 }
 
+#leftheader h3 {
+    padding-top: 300px;
+  font-size: 17px;
+  margin-left: 25%;
+  margin-right: 250px;
+  justify-content:center;
+  font-family: 'Noto Sans', sans-serif;
+}
 
 @media screen and (max-width: 1000px){
   #leftheader p{
@@ -295,7 +302,23 @@ html{
 }
 
 
+.headbtn{
+    
+    	border-radius: 20px;
+      margin-left: 30px;
+    	border:.15em solid #3b92e3;
+      padding: 10px 70px;
+    	color: #3b92e3;
+      font-family: 'Rubik', sans-serif;
+    }
 
+.headbtn:hover {
+    background: #3b92e3;
+    border: 2px solid /#3b92e3;
+    text-decoration: none;
+  transition: all ease 0.3s;
+    color: white;
+  }
 
 #leftheader h2{
   font-family: 'Rubik', sans-serif;
@@ -319,6 +342,8 @@ html{
 #rightheader{
  text-align:center;
   width: 100%;
+      padding-top: 300px;
+
   padding-bottom: 50px;
 }
 

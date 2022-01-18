@@ -270,9 +270,6 @@ html{
     position: relative;
   }
 
-  #hero .container {
-    padding-top: 80px;
-  }
 
 
   .custom-shape-divider-bottom-1609721473 {
@@ -352,6 +349,158 @@ html{
     text-decoration: none;
     color:#fff;
   }
+
+
+
+
+
+
+
+/* Header */
+
+
+/* ==================================================
+      Text Info
+================================================== */
+
+.header{
+  background-color: #f0f0f0;
+  padding-top: 70px;
+  
+}
+
+.textinfo2{
+ background-color: #e9f0ef;
+  padding-top: 30px;
+
+
+}
+
+#leftheader h2{
+  margin-left: 25%;
+    width: 80%;
+}
+
+
+#leftheader p{
+  width: 70%;
+   
+    
+}
+
+
+@media screen and (max-width: 1000px){
+  #leftheader p{
+    width: 70%;
+  }
+}
+
+
+
+
+#leftheader h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+ 
+}
+
+#leftheader p{
+  font-size: 17px;
+  margin-left: 25%;
+  margin-right: 250px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+
+#rightheader{
+ text-align:center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+#rightheader img{
+  width: 50%;
+}
+
+@media screen and (max-width: 600px){
+  #rightheader{
+    padding-bottom: 50px;
+  }
+}
+
+
+
+#leftheader2 h2{
+  margin-left: 5%;
+  text-align: left;
+   
+}
+
+
+#leftheader2 p{
+  width: 80%;
+}
+
+
+
+
+#leftheader2 h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  padding-bottom: 5px;
+  font-weight: 800;
+
+  width: 80%;
+  border-bottom: 0px solid #2bcfc9;
+ 
+}
+
+@media screen and (max-width: 600px){
+ 
+#leftheader2 h2{
+
+
+  width: auto;
+
+ 
+}
+}
+
+
+#leftheader2 p{
+  font-size: 17px;
+  margin-left: 5%;
+  margin-right: 300px;
+  justify-content:center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Noto Sans', sans-serif;
+} 
+
+#leftheader2{
+  
+  position: relative;
+  margin-top: 40px;
+
+}
+#rightheader2{
+ text-align:center;
+  margin-bottom: 20px;
+ 
+}
+
+#rightheader2 img{
+
+  width: 80%;
+}
+
+
 
 
 

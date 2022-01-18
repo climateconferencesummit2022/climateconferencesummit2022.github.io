@@ -290,6 +290,7 @@ html{
     padding-top: 300px;
   font-size: 17px;
   margin-left: 25%;
+  
   margin-right: 250px;
   justify-content:center;
   font-family: 'Noto Sans', sans-serif;
@@ -354,7 +355,7 @@ html{
   margin-left: 25%;
   margin-right: 250px;
   justify-content:center;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   margin-top: 20px;
   line-height:35px;
   font-family: 'Noto Sans', sans-serif;
@@ -366,7 +367,7 @@ html{
   width: 100%;
       padding-top: 220px;
 
-  padding-bottom: 200px;
+  padding-bottom: 122px;
 }
 
 #rightheader img{
@@ -1168,9 +1169,10 @@ ul{
     border-radius: 50px;
     transition: 0.5s;
     margin: 10px;
+    border: 2px solid gray;
+
     color: gray;
-   background-color: #f2fde5;
-    border: 2px solid #gray;
+   background-color: #f7fbe9;
   }
 
    .butt:hover {
@@ -1201,20 +1203,7 @@ ul{
     
 }
 
-#modal-btn{
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    font-size: 17px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px;
-    color: white;
-    background: #11dbcf;
-    border: 2px solid #11dbcf;
-  }
+
 
    #modal-btn:hover {
     background: #0eb0a5;

@@ -1,16 +1,16 @@
-/*
+
 var botui = new BotUI('help-bot');
 
 
 botui.message.add({
   delay: 500,
   loading: true,
-  content: 'Hi! Welcome to ConnectHealth'
+  content: 'Hello! I was inspired by your work on youth activism on climate.'
 }).then(function () {
   return botui.message.add({
     delay: 500,
     loading: true,
-    content: 'How can we help you?'
+    content: 'How can I help?'
   });
 }).then(function () {
   return botui.action.button({
@@ -57,8 +57,3 @@ botui.message.add({
     content: 'Thanks. We thought so too!'
   });
 });
-*/
-
- $(".person").on('click', function(){
-    $(this).toggleClass('focus').siblings().removeClass('focus');
- })

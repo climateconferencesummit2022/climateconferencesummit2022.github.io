@@ -63,52 +63,67 @@ body {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-nav {
-  margin-bottom: 100px;
-}
-
 .topnav {
   overflow: hidden;
-  background-color: #fafafa;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0;
+ background-image: linear-gradient(to right, #f3fce6, #f7fbe9);
+   position: fixed; /* Set the navbar to fixed position */
+ top:0;
   width: 100%;
   z-index: 1000;
+  
 }
 
+.wimg img{
+  width:150px;
+   display: inline-block;
+  margin-top:0px !important;
+}
+
+.loginstuff .exr{
+  display:none;
+}
 .topnav a {
-  float: right;
+  float: left;
   display: block;
-
-  color: #4b4e54;
+  color: #394455;
+  transition: color .3s;
   text-align: center;
-  padding: 17px 20px;
-  font-family: "Rubik", sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+  
+  font-family: 'Mulish', sans-serif;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
+  
 }
 
+.loginstuff{
+  float: right;
+}
 .topnav .icon {
   display: none;
 }
 
 .dropdown {
-  float: right;
-  font-family: "Rubik", sans-serif;
+  float: left;
+  font-family: 'Rubik', sans-serif;
   overflow: hidden;
-  color: #4b4e54;
+  color: #394455;
+    font-weight: 200 !important;
+
 }
-.logo {
+.logo{
   float: left;
 }
 .dropdown .dropbtn {
-  font-size: 18px;
+  font-size: 16px;   
   border: none;
   outline: none;
-  color: #4b4e54;
-  padding: 17px 20px;
+  color: #394455;
+  padding-top: 20px;
+  padding-left: 20px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: 'Mulish', sans-serif;
   margin: 0;
 }
 
@@ -117,7 +132,8 @@ nav {
   position: fixed;
   background-color: #f9f9f9;
   max-width: 300px;
-  color: #4b4e54;
+  
+  color: #394455;
   z-index: 1000;
 }
 
@@ -125,15 +141,16 @@ nav {
   float: none;
   color: black;
   color: #4b4e54;
-  padding: 12px 16px;
+
+  padding-top: 20px;
+  padding-right: 20px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.topnav a:hover,
-.dropdown:hover .dropbtn {
-  text-decoration: none;
+.topnav a:hover, .dropdown:hover .dropbtn {
+   text-decoration: none;
   color: #32b3a3;
 }
 
@@ -146,29 +163,39 @@ nav {
   display: block;
 }
 
-@media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child),
-  .dropdown .dropbtn {
-    display: none;
-  }
+@media screen and (max-width: 600px) {
   .logo {
     display: none;
   }
+  
+  
+}
 
+@media screen and (max-width: 1200px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  
+ 
   .topnav a.icon {
     float: right;
     display: block;
   }
+  
+  .topnav.responsive .loginstuff .exr{
+  display:none;
+}
+  
+
 }
 
-@media screen and (max-width: 1000px) {
-  .topnav.responsive {
-    position: fixed;
-  }
+@media screen and (max-width: 1200px) {
+  .topnav.responsive {position: fixed;}
 
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
+    
     top: 0;
   }
   .topnav.responsive a {
@@ -176,26 +203,36 @@ nav {
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {
-    float: none;
-  }
-  .topnav.responsive .dropdown-content {
-    position: relative;
-  }
+  .loginstuff .exr{
+  display:block;
+}
+  
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
   }
-
-  .topnav {
+  
+  .topnav{
     position: fixed;
   }
+  
+   .loginstuff{
+  float: left;
+}
+  
 }
 
-html {
+
+html{
   scroll-behavior: smooth;
 }
+
+
+
+
 
 /*========== LAYOUT ==========*/
 .bd-container {
@@ -1303,3 +1340,189 @@ p {
   margin-top: 10px;
   font-family: "Rubik", sans-serif;
 }
+
+
+
+
+/* ==================================================
+      Pop Up
+================================================== */
+
+
+:root {
+  --modal-duration: 1s;
+  --modal-color: #428bca;
+}
+
+ .butt {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid gray;
+
+    color: gray;
+   background-color: #f7fbe9;
+  }
+
+   .butt:hover {
+    background: #0eb0a5;
+    border: 2px solid #0eb0a5;
+    text-decoration: none;
+    color:#fff;
+  }
+
+#my-modal{
+  display: none;
+  width: 40%;
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+  top: 15%;
+  left: 30%;   
+  max-height: calc(100vh - 160px);
+    overflow-y: auto;
+}
+
+
+@media screen and (max-width: 800px) {
+  #my-modal{
+  display: none;
+  width: 60%;
+  left: 20%;
+  
+    
+}
+
+
+
+   #modal-btn:hover {
+    background: #0eb0a5;
+    border: 2px solid #0eb0a5;
+    text-decoration: none;
+    color:#fff;
+  }
+
+
+  
+
+}
+.modal-body h2{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: #4f4f4f;
+}
+
+.modal-body p{
+  font-family: 'Noto sans', sans-serif;
+  color: #6e6e6e;
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 9%;
+  width: 80%;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.back{
+  background-color: rgba(0,0,0,0.4);
+}
+.darkback{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.close{
+  cursor: pointer;
+  color: blue;
+  font-size: 20px;
+}
+
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.form p{
+    font-size: 15px;
+    padding: 1px;
+    text-align: center;
+}
+.form input{
+    outline: 0;
+    border-radius: 10px;
+    background: #F2F2F2;
+    border: 0;
+    width: 80%;
+    display: block;
+     margin-left: 9%;
+  margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.form input:hover{
+    background-color: #D3F8F9;
+    transition: all 1s ease 0s;
+}
+.form input:focus{
+    background-color: #D3F8F9;
+    transition: all 1s ease 0s;
+}
+
+
+.form .message{
+    margin: 15px 0 0;
+    color: #B3B3B3;
+    font-size: 12px;
+}
+.form .message a{
+    color: #06C5CF;
+    text-decoration: none;
+}
+      
+
+.form button {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0 auto;
+    padding: 8px 28px;
+    border-radius: 50px;
+  margin-bottom: 40px;
+    transition: 0.5s;
+    width: 55%;
+    text-align: center;
+    color: white;
+    background: #11dbcf;
+    border: 2px solid #11dbcf;
+  }
+
+.form button:hover {
+    background: #0eb0a5;
+    border: 2px solid #0eb0a5;
+    text-decoration: none;
+    color:#fff;
+  }
+
+
+
+
+
+
+
+

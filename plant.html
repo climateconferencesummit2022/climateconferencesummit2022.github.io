@@ -1,39 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Title</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="plant.css">
-   
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="plant.css" />
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-  
-  
-  <body>
-    
-    
- 
 
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <nav>
       <div class="topnav" id="myTopnav">
-        <div class="logo">
-          <a href="index.html">ConnectHealth</a>
-        </div>
-
-        <a href="contact.html">Contact</a>
-        <a href="blog.html">News Updates</a>
-
+        <a style="color: #32b3a3" href="index.html">Home</a>
+        <a href="calendar.html">Calendar</a>
         <div class="dropdown">
           <button class="dropbtn">
             Events
@@ -41,17 +42,87 @@
           </button>
 
           <div class="dropdown-content">
-            <a style="color: #32b3a3" href="plant.html">Plant-A-Tree</a>
-            <a href="recycling.html">Recycling Competition</a>
-            <a href="speakers.html">Speakers</a>
-            <a href="projects.html">Projects</a>
+            <a href="plant.html">Plant-A-Tree</a>
+            <a href="schedule.html">Recycling Competition</a>
+            <a href="message.html">Speakers</a>
+            <a href="database.html">Projects</a>
+            <a href="analytic.html" style="padding-bottom: 20px"
+              >Access to Analytics</a
+            >
           </div>
         </div>
-        <a href="calendar.html">Calendar</a>
-        <a href="index.html">Home</a>
+        <a href="blog.html">News Updates</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="loginstuff">
+          <a class="exr" href="index.html">Home</a>
+
+          <button id="modal-btn" class="butt">Register Now &#8594;</button>
+
+          <div id="my-modal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close"
+                  ><i class="fa fa-times-circle" aria-hidden="true"></i
+                ></span>
+              </div>
+
+              <div class="modal-body">
+                <h2>Register</h2>
+                <p>Please complete the form to register for our event.</p>
+                <div class="form">
+                  <form>
+                    <input
+                      type="text"
+                      name="username"
+                      placeholder="Full Name"
+                    />
+                    <input type="text" name="username" placeholder="Email" />
+                    <input
+                      type="text"
+                      name="username"
+                      placeholder="Phone Number"
+                    />
+                    <button>Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            // Get DOM Elements
+            const modal = document.querySelector("#my-modal");
+            const modalBtn = document.querySelector("#modal-btn");
+            const closeBtn = document.querySelector(".close");
+
+            // Events
+            modalBtn.addEventListener("click", openModal);
+            closeBtn.addEventListener("click", closeModal);
+            window.addEventListener("click", outsideClick);
+
+            // Open
+            function openModal() {
+              modal.style.display = "block";
+            }
+
+            // Close
+            function closeModal() {
+              modal.style.display = "none";
+            }
+
+            // Close If Outside Click
+            function outsideClick(e) {
+              if (e.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+          </script>
+        </div>
+
         <a
           href="javascript:void(0);"
-          style="font-size: 15px"
+          style="font-size: 20px; padding-right: 20px"
           class="icon"
           onclick="myFunction()"
           >&#9776;</a
@@ -59,116 +130,88 @@
       </div>
     </nav>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-   
-    
-        <a class="s-btn-team" id="fixedbutton" style="color:#dfe5e8">Team <span style="font-weight: 800;">&nbsp;2027-1</span> </a>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
 
+    <a class="s-btn-team" id="fixedbutton" style="color: #dfe5e8"
+      >Team <span style="font-weight: 800">&nbsp;2027-1</span>
+    </a>
 
-    
+    <!-- End Header -->
 
-<!-- End Header -->
-  
-    
-    
-       <!-- ======= Hero Section ======= -->
+    <!-- ======= Hero Section ======= -->
 
-     
-     
-<!--========== HOME ==========-->
-      
-     
-            <section  class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                  
-                  
-                    
-                   <div class="home__data">
-                        <h1 class="home_title"> Plant Together Event
-</h1>
-   <h2 class="home__subtitle"> Lean more about our global event to increase the amount of flora!
+    <!--========== HOME ==========-->
 
-</h2>
-                                              <a href="pricing.html" class="button">Purchase Supplies</a>
-                    </div>
-    
-                  
-                                      <html>
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__data">
+          <h1 class="home_title">Plant Together Event</h1>
+          <h2 class="home__subtitle">
+            Lean more about our global event to increase the amount of flora!
+          </h2>
+          <a href="pricing.html" class="button">Purchase Supplies</a>
+        </div>
 
-<body>
+        <html>
+          <body>
+            <p id="demo"></p>
 
-<p id="demo"></p>
+            <script>
+              // Set the date we're counting down to
+              var countDownDate = new Date("Jan 30, 2022 15:37:25").getTime();
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 30, 2022 15:37:25").getTime();
+              // Update the count down every 1 second
+              var x = setInterval(function () {
+                // Get today's date and time
+                var now = new Date().getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
 
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor(
+                  (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+                );
+                var minutes = Math.floor(
+                  (distance % (1000 * 60 * 60)) / (1000 * 60)
+                );
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-</body>
-</html>
+                // Output the result in an element with id="demo"
+                document.getElementById("demo").innerHTML =
+                  days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
-                  
-                  
-    
-                </div>
-              
-              
-           <!---<div class="custom-shape-divider-bottom-1612574455">
+                // If the count down is over, write some text
+                if (distance < 0) {
+                  clearInterval(x);
+                  document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+              }, 1000);
+            </script>
+          </body>
+        </html>
+      </div>
+
+      <!---<div class="custom-shape-divider-bottom-1612574455">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
     </svg>
 </div>-->
-              
-            </section>
-     
-     
-     
-     
-<!-- End Hero -->
-    
-  
-    
-    
-    
-    
-    
-    
-  <!--Services Details---------
+    </section>
+
+    <!-- End Hero -->
+
+    <!--Services Details---------
     
      <div class="test2-heading">
        <div class="smallblurb1">
@@ -237,15 +280,8 @@ var x = setInterval(function() {
   
     
     </div>  -->
-    
-    
-    
- 
-    
-    
-    
-    
-       <!--Double Services Details--------
+
+    <!--Double Services Details--------
     
   <div class="row">
     
@@ -341,23 +377,7 @@ var x = setInterval(function() {
     
     
         </div> -->
-    
-    
-    
-    
-      
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     <!---- Tabs --
     
     
@@ -389,8 +409,7 @@ var x = setInterval(function() {
   </div>
     
     </div>  -->
-    
-    
+
     <!--Services Details-------
     
      <div class="test2-heading">
@@ -472,114 +491,110 @@ var x = setInterval(function() {
   
     
     </div> -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-     <!---- Text Info --->
+
+    <!---- Text Info --->
     <div class="textinfo">
-    <div class="row">
-      
-      <div class="col-md-6 col-md-push-6" id="lefttext">
-         <h2>About the Event
-</h2>  
-        <p>One way for individuals to help the environment is by growing plants. More plants means more carbon dioxide taken from the atmosphere and turned into oxygen through photosynthesis. And, certain plants have even more specific benefits to the environment. The best part is, planting is something that can be done by anyone! To encourage this, we are hosting a Plant Together Event where people all over the world plant a flower or shrub on the same day, as an act of solidarity for our environment.
-</p>
+      <div class="row">
+        <div class="col-md-6 col-md-push-6" id="lefttext">
+          <h2>About the Event</h2>
+          <p>
+            One way for individuals to help the environment is by growing
+            plants. More plants means more carbon dioxide taken from the
+            atmosphere and turned into oxygen through photosynthesis. And,
+            certain plants have even more specific benefits to the environment.
+            The best part is, planting is something that can be done by anyone!
+            To encourage this, we are hosting a Plant Together Event where
+            people all over the world plant a flower or shrub on the same day,
+            as an act of solidarity for our environment.
+          </p>
+        </div>
+
+        <div class="col-md-6 col-md-pull-6" id="rightimage">
+          <img
+            src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytic%20Demo%20Graphic.svg?v=1617591333753"
+            alt=""
+            class="home__img"
+          />
+        </div>
       </div>
-      
-      <div class="col-md-6 col-md-pull-6" id="rightimage">
-        <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytic%20Demo%20Graphic.svg?v=1617591333753" alt="" class="home__img">
-      </div>
-       
-      
-      
-      
-     
-    </div> 
     </div>
-    
-    
+
     <div class="content">
-<div class="services-section">
-  
-      <div class="inner-width">
-        
-         <div class="test2-heading">
-       <div class="smallblurb1">
-      
-      </div>
-	  <h1>What Can You Plant?</h1>
-           <p style="color: #ff9500;"> While all plants are good for the environment, certain plants are better for the soil and purifying the air. Here is a list that we compiled of that are the best for the environment and easy to find. </p>
-  <p>
-</p>
-    <a class="test2-btn" href="pricing.html">More</a>
-    </div>
-        
-
-        <div class="services-container">
-
-          <div class="service-box">
-            <div class="service-icon">
-              <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytics%201%202.0.png?v=1613690490090">
-
-            </div>
-            <div class="service-title">plant 1</div>
-            <div  class="service-desc">
-              <p>If you opted for the scheduling feature, we can show you the number and type of appointments your patients made using that feature. 
-</p>
-            </div>
-          </div>
-          
-          <div class="service-box">
-            <div class="service-icon">
-              <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytics%202.png?v=1613690488979">
-
-            </div>
-            <div class="service-title">plant 2</div>
-            <div  class="service-desc">
-              <p>If you opted for the automatic messaging feature, we can show you how many of your patients signed up for it.
-
-</p>
-            </div>
+      <div class="services-section">
+        <div class="inner-width">
+          <div class="test2-heading">
+            <div class="smallblurb1"></div>
+            <h1>What Can You Plant?</h1>
+            <p style="color: #ff9500">
+              While all plants are good for the environment, certain plants are
+              better for the soil and purifying the air. Here is a list that we
+              compiled of that are the best for the environment and easy to
+              find.
+            </p>
+            <p></p>
+            <a class="test2-btn" href="pricing.html">More</a>
           </div>
 
-      
-          
-
-          <div class="service-box">
-            <div class="service-icon">
-              <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytics%203.png?v=1613690489129">
-
+          <div class="services-container">
+            <div class="service-box">
+              <div class="service-icon">
+                <img
+                  src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytics%201%202.0.png?v=1613690490090"
+                />
+              </div>
+              <div class="service-title">plant 1</div>
+              <div class="service-desc">
+                <p>
+                  If you opted for the scheduling feature, we can show you the
+                  number and type of appointments your patients made using that
+                  feature.
+                </p>
+              </div>
             </div>
-            <div class="service-title">plant 3
-</div>
-            <div class="service-desc">
-              If you opted for the direct chat line feature, we give you access to see how many of your patients used it. 
-            </div>
-          </div>
 
-          <div class="service-box">
-            <div class="service-icon">
-              <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytics%204%202.0.png?v=1613690489769">
-
+            <div class="service-box">
+              <div class="service-icon">
+                <img
+                  src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytics%202.png?v=1613690488979"
+                />
+              </div>
+              <div class="service-title">plant 2</div>
+              <div class="service-desc">
+                <p>
+                  If you opted for the automatic messaging feature, we can show
+                  you how many of your patients signed up for it.
+                </p>
+              </div>
             </div>
-            <div class="service-title">plant 4</div>
-            <div class="service-desc">
-              If you opted for the video services feature, we can tell you how many virtual appointments your practice held over a period of time and even break that down based on the type of appointment.
-            </div>
-          </div>
 
-          <!---<<div class="service-box">
+            <div class="service-box">
+              <div class="service-icon">
+                <img
+                  src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytics%203.png?v=1613690489129"
+                />
+              </div>
+              <div class="service-title">plant 3</div>
+              <div class="service-desc">
+                If you opted for the direct chat line feature, we give you
+                access to see how many of your patients used it.
+              </div>
+            </div>
+
+            <div class="service-box">
+              <div class="service-icon">
+                <img
+                  src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytics%204%202.0.png?v=1613690489769"
+                />
+              </div>
+              <div class="service-title">plant 4</div>
+              <div class="service-desc">
+                If you opted for the video services feature, we can tell you how
+                many virtual appointments your practice held over a period of
+                time and even break that down based on the type of appointment.
+              </div>
+            </div>
+
+            <!---<<div class="service-box">
             <div class="service-icon">
               <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytics%205.png?v=1613690490381">
             </div>
@@ -605,213 +620,183 @@ var x = setInterval(function() {
       </div>
     </div>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <!---- Text Info --->
     <div class="textinfo">
-    <div class="row">
-      
-       
-      <div class="col-lg-6" id="lefttext">
-         <h2>Instructions
-</h2>  
-        <p>The different analytics will be updated daily and you will have the option to see them for each day/week/month/year. You can also choose to view the analytics in a chart or graph format. That's the benefit of this feature; we give you the option to view this data in whatever manner you see fit! It’s also important to note that the analytics you get access to depend on the other features that you choose to purchase from us. In other words, you will only get the analytics for the features you buy. 
-</p>
+      <div class="row">
+        <div class="col-lg-6" id="lefttext">
+          <h2>Instructions</h2>
+          <p>
+            The different analytics will be updated daily and you will have the
+            option to see them for each day/week/month/year. You can also choose
+            to view the analytics in a chart or graph format. That's the benefit
+            of this feature; we give you the option to view this data in
+            whatever manner you see fit! It’s also important to note that the
+            analytics you get access to depend on the other features that you
+            choose to purchase from us. In other words, you will only get the
+            analytics for the features you buy.
+          </p>
+        </div>
+
+        <div class="col-lg-6" id="rightimage">
+          <img
+            src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytic%20Blob%20Graphic.svg?v=1617591208627"
+            alt=""
+            class="home__img"
+          />
+        </div>
       </div>
-      
-      <div class="col-lg-6" id="rightimage">
-        <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytic%20Blob%20Graphic.svg?v=1617591208627" alt="" class="home__img">
-      </div>
-     
-    </div> 
     </div>
-    
-    
-    
+
     <!---- Text Info --->
     <div class="textinfo">
-    <div class="row">
-      
-      <div class="col-md-6 col-md-push-6" id="lefttext">
-         <h2>Instructions
-</h2>  
-        <p>By using these analytics, you get an in-depth view of both your patients and your own practice. You can then use this data to assess your own online progress and success in order to tailor your methods to better help your patients. At ConnectHealth, we believe in helping our clients get whatever they need to help their patients in the digital landscape, and this feature does exactly that.
-</p>
+      <div class="row">
+        <div class="col-md-6 col-md-push-6" id="lefttext">
+          <h2>Instructions</h2>
+          <p>
+            By using these analytics, you get an in-depth view of both your
+            patients and your own practice. You can then use this data to assess
+            your own online progress and success in order to tailor your methods
+            to better help your patients. At ConnectHealth, we believe in
+            helping our clients get whatever they need to help their patients in
+            the digital landscape, and this feature does exactly that.
+          </p>
+        </div>
+
+        <div class="col-md-6 col-md-pull-6" id="rightimage">
+          <img
+            src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytic%20Demo%20Graphic.svg?v=1617591333753"
+            alt=""
+            class="home__img"
+          />
+        </div>
       </div>
-      
-      <div class="col-md-6 col-md-pull-6" id="rightimage">
-        <img src="https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2FAnalytic%20Demo%20Graphic.svg?v=1617591333753" alt="" class="home__img">
-      </div>
-       
-      
-      
-      
-     
-    </div> 
     </div>
-    
-    
-    
-    
-    
-        
-       
-     <!---Footer---->
+
+    <!---Footer---->
     <div class="bottomfooter">
-      
-   <svg height="100%" width="100%" id="bg-svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,133 0,133 C 106.25,145.89285714285714 212.5,158.78571428571428 327,148 C 441.5,137.21428571428572 564.2500000000001,102.75 687,92 C 809.7499999999999,81.25 932.5,94.21428571428571 1058,105 C 1183.5,115.78571428571429 1311.75,124.39285714285714 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#24262b88" class="transition-all duration-300 ease-in-out delay-150"></path><path d="M 0,400 C 0,400 0,266 0,266 C 93.17857142857142,281.17857142857144 186.35714285714283,296.35714285714283 294,295 C 401.64285714285717,293.64285714285717 523.7499999999999,275.75 667,261 C 810.2500000000001,246.24999999999997 974.6428571428573,234.64285714285717 1107,236 C 1239.3571428571427,237.35714285714283 1339.6785714285713,251.67857142857142 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#24262bff" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
+      <svg
+        height="100%"
+        width="100%"
+        id="bg-svg"
+        viewBox="0 0 1440 400"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <path
+          d="M 0,400 C 0,400 0,133 0,133 C 106.25,145.89285714285714 212.5,158.78571428571428 327,148 C 441.5,137.21428571428572 564.2500000000001,102.75 687,92 C 809.7499999999999,81.25 932.5,94.21428571428571 1058,105 C 1183.5,115.78571428571429 1311.75,124.39285714285714 1440,133 C 1440,133 1440,400 1440,400 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#24262b88"
+          class="transition-all duration-300 ease-in-out delay-150"
+        ></path>
+        <path
+          d="M 0,400 C 0,400 0,266 0,266 C 93.17857142857142,281.17857142857144 186.35714285714283,296.35714285714283 294,295 C 401.64285714285717,293.64285714285717 523.7499999999999,275.75 667,261 C 810.2500000000001,246.24999999999997 974.6428571428573,234.64285714285717 1107,236 C 1239.3571428571427,237.35714285714283 1339.6785714285713,251.67857142857142 1440,266 C 1440,266 1440,400 1440,400 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#24262bff"
+          class="transition-all duration-300 ease-in-out delay-150"
+        ></path>
+      </svg>
 
-   <footer class="footer">
-  	 <div class="container">
-  	 	<div class="row">
-  	 		<div class="footer-col">
-  	 			<h4>ConnectHealth</h4>
-  	 			<ul>
-  	 				<li><a href="index.html">home</a></li>
-  	 				<li><a href="about.html">about us</a></li>
-  	 				<li><a href="blog.html">news updates</a></li>
-  	 				<li><a href="contact.html">contact us</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footer-col">
-  	 			<h4>our services</h4>
-  	 			<ul>
-  	 				<li><a href="video.html">Video Service</a></li>
-  	 				<li><a href="schedule.html">Online Scheduling</a></li>
-  	 				<li><a href="message.html">Automatic Messaging</a></li>
-  	 				<li><a href="database.html">Medical Record Database</a></li>
-  	 				<li><a href="chat.html">Direct Chat Line</a></li>
-            <li><a href="analytic.html">Access to Analytics</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footer-col">
-  	 			<h4>online shop</h4>
-  	 			<ul>
-  	 				<li><a href="pricing.html">pricing</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footer-col">
-  	 			<h4>More</h4>
-  	 			<ul>
-  	 				<li><a href="about.html">citations</a></li>
-  	 			</ul>
-  	 		</div>
-  	 	</div>
-  	 </div>
-  </footer>
-      
-      
-      
-      
-            
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>ConnectHealth</h4>
+              <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="blog.html">news updates</a></li>
+                <li><a href="contact.html">contact us</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>our services</h4>
+              <ul>
+                <li><a href="video.html">Video Service</a></li>
+                <li><a href="schedule.html">Online Scheduling</a></li>
+                <li><a href="message.html">Automatic Messaging</a></li>
+                <li><a href="database.html">Medical Record Database</a></li>
+                <li><a href="chat.html">Direct Chat Line</a></li>
+                <li><a href="analytic.html">Access to Analytics</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="pricing.html">pricing</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>More</h4>
+              <ul>
+                <li><a href="about.html">citations</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-      
-    
-    
-    
-      
-  
-    
 
-<script>
+    <script>
       const accordionItemHeaders = document.querySelectorAll(".accordion-head");
-  
-      accordionItemHeaders.forEach(accordionItemHeader => {
-      accordionItemHeader.addEventListener("click", event => {
-    
 
-    accordionItemHeader.classList.toggle("active");
-    const accordionItemBody = accordionItemHeader.nextElementSibling;
-    if(accordionItemHeader.classList.contains("active")) {
-      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
-    }
-    else {
-      accordionItemBody.style.maxHeight = 0;
-    }
-    
-  });
-});
-  
-  
-  
-  
-  
-  const left = document.querySelector('.left');
-const right = document.querySelector('.right');
+      accordionItemHeaders.forEach((accordionItemHeader) => {
+        accordionItemHeader.addEventListener("click", (event) => {
+          accordionItemHeader.classList.toggle("active");
+          const accordionItemBody = accordionItemHeader.nextElementSibling;
+          if (accordionItemHeader.classList.contains("active")) {
+            accordionItemBody.style.maxHeight =
+              accordionItemBody.scrollHeight + "px";
+          } else {
+            accordionItemBody.style.maxHeight = 0;
+          }
+        });
+      });
 
-const slider = document.querySelector('.slider');
+      const left = document.querySelector(".left");
+      const right = document.querySelector(".right");
 
-const indicatorParent = document.querySelector('.control ul'); 
-const indicators = document.querySelectorAll('.control li');
-index = 0;
+      const slider = document.querySelector(".slider");
 
-indicators.forEach((indicator, i) => {
-  indicator.addEventListener('click', () => {
-    document.querySelector('.control .selected').classList.remove('selected');
-    indicator.classList.add('selected');
-    slider.style.transform = 'translateX(' + (i) * -25 + '%)';  
-    index = i;
-    
-  });
-});
+      const indicatorParent = document.querySelector(".control ul");
+      const indicators = document.querySelectorAll(".control li");
+      index = 0;
 
-left.addEventListener('click', function() {
-  index = (index > 0) ? index -1 : 0;
-  document.querySelector('.control .selected').classList.remove('selected');
-  indicatorParent.children[index].classList.add('selected');
-  slider.style.transform = 'translateX(' + (index) * -25 + '%)';
-});
+      indicators.forEach((indicator, i) => {
+        indicator.addEventListener("click", () => {
+          document
+            .querySelector(".control .selected")
+            .classList.remove("selected");
+          indicator.classList.add("selected");
+          slider.style.transform = "translateX(" + i * -25 + "%)";
+          index = i;
+        });
+      });
 
-right.addEventListener('click', function() {
-  index = (index < 4 - 1) ? index+1 : 3;
-  document.querySelector('.control .selected').classList.remove('selected');
-  indicatorParent.children[index].classList.add('selected');
-  slider.style.transform = 'translateX(' + (index) * -25 + '%)';
-});
+      left.addEventListener("click", function () {
+        index = index > 0 ? index - 1 : 0;
+        document
+          .querySelector(".control .selected")
+          .classList.remove("selected");
+        indicatorParent.children[index].classList.add("selected");
+        slider.style.transform = "translateX(" + index * -25 + "%)";
+      });
 
-  
-</script>
-    
-    
-           
+      right.addEventListener("click", function () {
+        index = index < 4 - 1 ? index + 1 : 3;
+        document
+          .querySelector(".control .selected")
+          .classList.remove("selected");
+        indicatorParent.children[index].classList.add("selected");
+        slider.style.transform = "translateX(" + index * -25 + "%)";
+      });
+    </script>
 
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--========== MAIN JS ==========-->
-        <script src="main.js"></script>
+    <!--========== MAIN JS ==========-->
+    <script src="main.js"></script>
   </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

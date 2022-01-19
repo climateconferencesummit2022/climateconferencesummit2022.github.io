@@ -5,22 +5,22 @@ var botui = new BotUI('help-bot');
 botui.message.add({
   delay: 500,
   loading: true,
-  content: 'Hello! I was inspired by your work on youth activism on climate.'
+  content: 'Hello! I saw that you attended the Alternative Energy Sources lecture.'
 }).then(function () {
   return botui.message.add({
     delay: 500,
     loading: true,
-    content: 'How can I help?'
+    content: 'Do you prefer solar power or wind power?'
   });
 }).then(function () {
   return botui.action.button({
     action: [
       {
-        text: 'What do you do?',
+        text: 'Solar Power',
         value: 'hours'
       },
       {
-        text: 'What solutions do you offer?',
+        text: 'Wind Power',
         value: 'do'
       }
     ]
@@ -29,10 +29,10 @@ botui.message.add({
   var message;
 
   if (res.value === "hours") {
-    message = 'We are a medical communications company.<br><br>We are dedicated to giving practices more efficient and effective tools to help their customers.';
+    message = 'Me too!<br><br>I thought it was interesting how Marta Bello has worked with her engineering experience to develop her own company.';
   }
   else if (res.value === "do") {
-    message = 'We offer six different solutions:<br><br>Direct Chat Line, Automatic Messaging, Access to Analytics, Online Scheduling, Video Serrvices, Medical Record Database';
+    message = 'Personally, I prefer solar power because it has less of an external impact on the environment.<br><br>I understand your interest in wind power though.';
   }
 
   return botui.message.add({
@@ -45,7 +45,7 @@ botui.message.add({
   return botui.action.button({
     action: [
       {
-        text: 'Cool!',
+        text: 'Cool! It is nice to meet someone else who is passionate about the environment.',
         value: 'cool'
       }
     ]
@@ -54,6 +54,6 @@ botui.message.add({
   return botui.message.add({
     delay: 1000,
     loading: true,
-    content: 'Thanks. We thought so too!'
+    content: 'Thanks. It was fun talking to you!'
   });
 });

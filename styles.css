@@ -1808,6 +1808,10 @@ ul{
 /*--------------------------------------------------------------
 # Four Box Thing From MINT Website
 --------------------------------------------------------------*/
+.services{
+  padding-bottom: 80px;
+  background-color: #f0f0f0;
+}
 
 .box4 {
   background-color: #f0f0f0;
@@ -1833,7 +1837,7 @@ ul{
   flex: 1;
   border-radius: 15px;
   max-width: 550px;
-  height: 360px;
+  height: 300px;
   margin: 20px;
   overflow: hidden;
 }
@@ -1894,10 +1898,10 @@ ul{
 
  .test-btn-box{
     
-    	border-radius: 20px;
+    	border-radius: 15px;
       margin-left: 30px;
     	border:.15em solid #3b92e3;
-      padding: 10px 70px;
+      padding: 15px 80px;
     	color: #3b92e3;
       font-family: 'Rubik', sans-serif;
     }
@@ -1938,7 +1942,7 @@ ul{
   flex: 1;
   border-radius: 15px;
   max-width: 550px;
-  height: 360px;
+  height: 300px;
   margin: 20px;
   overflow: hidden;
 }
@@ -2025,7 +2029,7 @@ ul{
   flex: 1;
   border-radius: 15px;
   max-width: 550px;
-  height: 360px;
+  height: 300px;
   margin: 20px;
   overflow: hidden;
 }
@@ -2113,7 +2117,7 @@ ul{
   flex: 1;
   border-radius: 15px;
   max-width: 550px;
-  height: 360px;
+  height: 300px;
   margin: 20px;
   overflow: hidden;
 }
@@ -2403,8 +2407,7 @@ ul{
   transition: all ease 0.3s;
   
   margin-left: auto;
-  
-  margin-right: auto;
+
   font-size: 30px;
 }
 .cht-btn:hover {
@@ -2421,9 +2424,9 @@ ul{
   font-weight: 800;
   margin-left: auto;
   margin-right:auto;
+  padding-left: 60px;
   
   color:black;
-  border-bottom: 6px solid #2bcfc9;
 }
 
 
@@ -2434,6 +2437,8 @@ ul{
   line-height: 50px;
   font-weight: 200;
   margin-left: auto;
+    padding-left: 30px;
+
   margin-right:auto;
   color:black;
   
@@ -2461,7 +2466,8 @@ ul{
   margin-left: auto;
   margin-right:auto;
   width: 500px;
-  
+    padding-left: 30px;
+
   color:black;
   /*border-bottom: 6px solid black;*/
 }

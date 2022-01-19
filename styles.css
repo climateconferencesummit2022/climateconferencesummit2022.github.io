@@ -135,6 +135,8 @@ html {
   font-family: 'Rubik', sans-serif;
   overflow: hidden;
   color: #394455;
+    font-weight: 200 !important;
+
 }
 .logo{
   float: left;
@@ -147,7 +149,7 @@ html {
   padding-top: 20px;
   padding-left: 20px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: 'Mulish', sans-serif;
   margin: 0;
 }
 
@@ -264,7 +266,6 @@ html{
 
 .header{
   background-image: linear-gradient(to bottom right, #f2fde5, #fcfaed);
-  
 }
 
 .textinfo2{
@@ -1665,7 +1666,7 @@ ul{
 
 .textinfo{
   background-color: #f0f0f0;
-  padding-top: 70px;
+  padding-top: 100px;
   
 }
 
@@ -2588,13 +2589,6 @@ margin-top: -200px;
    font-family: 'Noto Sans', sans-serif;
 } 
 
-
-
-
-.textinfo{
-  background-color: #f0f0f0;
-  padding-top: 50px;
-}
 
 
 

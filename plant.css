@@ -1203,9 +1203,6 @@ p {
   padding-top: 50px;
 }
 
-#lefttext p {
-  width: 70%;
-}
 
 #lefttext h2 {
   font-family: "Rubik", sans-serif;
@@ -1218,6 +1215,7 @@ p {
 }
 
 #lefttext p {
+  width: 70%;
   font-size: 17px;
   margin-left: 20%;
   margin-right: 300px;
@@ -1231,6 +1229,37 @@ p {
 #rightimage {
   text-align: center;
 }
+
+
+
+
+
+#lefttext1 h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 20%;
+  width: auto;
+  border-bottom: 6px solid #2bcfc9;
+}
+
+#lefttext1 p {
+  width: 70%;
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right: 300px;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height: 35px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#rightimage1 {
+  text-align: center;
+}
+
 
 * {
   margin: 0;

@@ -260,23 +260,23 @@ html{
 	 border-radius: 5px;
 	 padding: 3px;
 	 color: white;
-	 padding: 5px;
+	 padding: 20px;
 	 box-shadow: 0px 1px 15px 1px rgba(81, 77, 92, 0.08);
 }
  .day-columns .day-column .day-content .event .title {
-	 font-size: 12px;
+	 font-size: 15px;
 }
  .day-columns .day-column .day-content .event footer {
 	 display: flex;
 	 flex-direction: row;
 	 justify-content: space-evenly;
-	 font-size: 11px;
+	 font-size: 13px;
 }
  .day-columns .day-column .day-footer {
 	 border-top: 1px solid #ebedf2;
 	 padding: 5px;
 	 text-align: center;
-	 font-size: 13px;
+	 font-size: 14px;
 	 color: #575962;
 }
  .container {
@@ -284,7 +284,14 @@ html{
 }
  
 
+#calendar {
+  padding-top: 100px;
+  background-color: #f0f0f0;
+}
 
+.back{
+  background-color: #f0f0f0;  
+}
 
 /* ==================================================
       Pop Up

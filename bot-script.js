@@ -1,3 +1,4 @@
+/*
 var botui = new BotUI('help-bot');
 
 
@@ -56,3 +57,8 @@ botui.message.add({
     content: 'Thanks. We thought so too!'
   });
 });
+*/
+
+ $(".person").on('click', function(){
+    $(this).toggleClass('focus').siblings().removeClass('focus');
+ })

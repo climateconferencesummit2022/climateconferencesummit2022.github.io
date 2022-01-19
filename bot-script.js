@@ -1,4 +1,4 @@
-
+/*
 var botui = new BotUI('help-bot');
 
 
@@ -57,3 +57,5 @@ botui.message.add({
     content: 'Thanks. It was fun talking to you!'
   });
 });
+*/
+

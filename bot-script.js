@@ -1,5 +1,4 @@
-
-  var $messages = $('.messages-content'),
+var $messages = $('.messages-content'),
     d, h, m,
     i = 0;
 
@@ -29,7 +28,7 @@ function setDate(){
 }
 
 function insertMessage() {
-  msg = $('.message-input').val();
+  var msg = $('.message-input').val();
   if ($.trim(msg) == '') {
     return false;
   }
@@ -54,21 +53,21 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  'Hi there, I\'m ... and you?',
+  'Hi there, I\'m Jesse and you?',
   'Nice to meet you',
   'How are you?',
   'Not too bad, thanks',
   'What do you do?',
   'That\'s awesome',
-  'I am passionate about climate activism.',
-  'My favorite alternative energy source is solar power.',
+  'Codepen is a nice place to stay',
+  'I think you\'re a nice person',
   'Why do you think that?',
   'Can you explain?',
   'Anyway I\'ve gotta go now',
   'It was a pleasure chat with you',
-  'Did you enjoy the planting event?',
+  'Time to make a new codepen',
   'Bye',
-  'Thank you!'
+  ':)'
 ]
 
 function fakeMessage() {
@@ -92,6 +91,7 @@ $('.button').click(function(){
   $('.menu .items span').toggleClass('active');
    $('.menu .button').toggleClass('active');
 });
+
 
 /*
 var botui = new BotUI('help-bot');

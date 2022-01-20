@@ -108,6 +108,10 @@ body {
 
 }
 
+#demo p{
+  color: blue;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -809,19 +813,19 @@ h2 {
 .test2-heading p {
   color: #333436;
   font-size: 1rem;
-  font-family: "Rubik", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   margin-top: 1em;
-  margin-bottom: 2em;
+  padding-top: 15px;
+  padding-bottom: 15px;
   line-height: 2em;
   color: #6e6d6d;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0 auto;
+  width: 70%;
 }
 
 .smallblurb1 {
   letter-spacing: 0.2em;
-  color: #eda137;
   text-align: center;
 }
 
@@ -832,7 +836,6 @@ h2 {
 
 #authentictext .smallblurb {
   letter-spacing: 0.2em;
-  color: #eda137;
 }
 
 #authentictext {
@@ -1335,7 +1338,7 @@ p {
 .border {
   width: 160px;
   height: 2px;
-  background: #82ccdd;
+  background: white;
   margin: 40px auto;
 }
 .services-container {
@@ -1349,8 +1352,10 @@ p {
 .service-box {
   max-width: 33.33%;
   padding: 50px;
+  margin: 20px;
   text-align: center;
-  background-color: #e9f0ef;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .service-box:hover {

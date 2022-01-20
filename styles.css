@@ -2282,7 +2282,7 @@ flex: 2 0px;
 
 
 .skill_row{
-	background:lightgray;
+	background: #a49e8d;
 	height:15px;
 	border-radius: 2px;
 	position: relative;
@@ -2504,7 +2504,7 @@ flex: 2 0px;
 }
 
 .burr{
-  background-color: #f0f0f0;
+  background-color: #a49e8d;
   padding-bottom: 80px;
   padding-top: 250px;
 }

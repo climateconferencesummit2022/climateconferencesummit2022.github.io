@@ -1885,3 +1885,80 @@ h1 {
 
 
 
+/* second form */
+
+
+.form2{
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+}
+
+.form2 p{
+    font-size: 15px;
+    padding: 1px;
+    text-align: center;
+}
+.form2 input{
+    outline: 0;
+    border-radius: 10px;
+    background: #F2F2F2;
+    border: 0;
+    width: 80%;
+    display: block;
+     margin-left: 9%;
+  margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.form2 input:hover{
+    background-color: #D3F8F9;
+    transition: all 1s ease 0s;
+}
+.form2 input:focus{
+    background-color: #D3F8F9;
+    transition: all 1s ease 0s;
+}
+
+
+.form2 .message{
+    margin: 15px 0 0;
+    color: #B3B3B3;
+    font-size: 12px;
+}
+.form2 .message a{
+    color: #06C5CF;
+    text-decoration: none;
+}
+      
+
+.form2 button {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0 auto;
+    padding: 8px 28px;
+    border-radius: 50px;
+  margin-bottom: 40px;
+    transition: 0.5s;
+    width: 55%;
+    text-align: center;
+    color: white;
+    background: #11dbcf;
+    border: 2px solid #11dbcf;
+  }
+
+.form2 button:hover {
+    background: #0eb0a5;
+    border: 2px solid #0eb0a5;
+    text-decoration: none;
+    color:#fff;
+  }
+
+
+
+
+

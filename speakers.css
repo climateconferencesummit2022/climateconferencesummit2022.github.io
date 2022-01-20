@@ -68,10 +68,14 @@ body{
 
 
 
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
 .header{
   padding-top: 200px;
   background-color: #f3f5f2;
-  height: 500px;
+  height: 550px;
   background-image: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/istockphoto-1283629300-170667a.jpeg?v=1642568540873");
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,8 +83,8 @@ body{
 
 .header h1{
   text-align: center;
-    font-family: 'Rubik', sans-serif;
-
+  font-family: 'Rubik', sans-serif;
+  font-size: 75px;
   
 }
 
@@ -90,7 +94,7 @@ body{
   background-color: #82e8a6;
   border-radius: 10px;
   color: white;
-  padding: 10px 70px;
+  padding: 15px 70px;
   border: none;
       font-family: 'Rubik', sans-serif;
  margin:0 auto;

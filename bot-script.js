@@ -29,7 +29,7 @@ function setDate(){
 
 function insertMessage() {
   var msg = $('.message-input').val();
-  if ($.trim(msg) == '') {
+  if ($.trim(msg) == "") {
     return false;
   }
   $('<div class="message message-personal">' + msg + '</div>').appendTo($('.mCSB_container')).addClass('new');

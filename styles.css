@@ -785,16 +785,7 @@ color: #fff;
 flex:  1 100%;
 }
 
-.l-footer {
-margin-right: 1.25em;
-margin-bottom: 2em;
-  text-align: left;
-}
 
-.l-footer img {
-
-  text-align: left;
-}
 
 h2 {
 font-weight: 400;
@@ -836,9 +827,15 @@ color: #999;
 padding-top: 50px;
 }
 
-.l-footer p {
+.l-footer p{
 padding-right: 20%;
 color: #999;
+}   
+
+.l-footer h1{
+padding-right: 20%;
+color: #999;
+  text-align: left !important;
 }   
 
 @media screen and (min-width: 600px) {

@@ -1536,11 +1536,11 @@ flex: 2 0px;
 }
 
 
-.banner-img{
+.banner-img {
   position: absolute;
   object-fit: cover;
-  height: 10rem;
-  width: 400%;
+  height: 14rem;
+  width: 100%;
 }
 
 .banner{

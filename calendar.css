@@ -1,5 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+
+body{
+  font-family: 'Rubik', sans-serif;
+  background-color: #b2e6d4;
+}
+
 html{
-  background-color: #f0f0f0;
+  background-color: #fcfcfc;
 }
 
 
@@ -231,8 +246,9 @@ html{
 	 display: flex;
 	 flex: 1;
 	 flex-direction: column;
-	 height: 400px;
+	 height: 600px;
 	 min-width: 200px;
+   margin-bottom: 100px;
 	 border: 1px solid #ebedf2;
 	 border-left: none;
 }
@@ -286,11 +302,11 @@ html{
 
 #calendar {
   padding-top: 100px;
-  background-color: #f0f0f0;
+  background-color: #fcfcfc;
 }
 
 .back{
-  background-color: #f0f0f0;  
+  background-color: #fcfcfc;  
 }
 
 /* ==================================================
@@ -379,7 +395,7 @@ html{
 }
 
 .back{
-  background-color: rgba(0,0,0,0.4);
+  background-color: #fcfcfc;
 }
 .darkback{
   width: 100%;

@@ -91,7 +91,7 @@ html {
 --------------------------------------------------------------*/
 .topnav {
   overflow: hidden;
- background-image: linear-gradient(to right, #f3fce6, #f7fbe9);
+ background-image: linear-gradient(to right, #f9f9ec, #d4efdf);
    position: fixed; /* Set the navbar to fixed position */
  top:0;
   width: 100%;
@@ -2385,9 +2385,8 @@ flex: 2 0px;
   background: linear-gradient(135deg, #6e8efb, #a777e3);
   font-family: 'Rubik', sans-serif;
   transition: all ease 0.3s;
-  
-  margin-left: 40%;
-  margin-top: 100px;
+  margin-left: 60px;
+  margin-top: 50px;
 
   font-size: 30px;
 }

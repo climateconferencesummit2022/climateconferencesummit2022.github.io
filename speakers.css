@@ -319,7 +319,15 @@ padding: 35px;
   
  
 }
+.home__img1{
 
+  height: auto;
+  width: 35vw;
+ 
+padding: 35px;
+  
+ 
+}
 
 
 @media screen and (max-width: 600px){

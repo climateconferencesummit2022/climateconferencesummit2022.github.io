@@ -266,6 +266,7 @@ html{
 
 .header{
   background-image: linear-gradient(to bottom right, #fcfaed, #b2e6d4);
+  
 }
 
 .textinfo2{
@@ -776,7 +777,8 @@ display: flex;
 flex-flow: row wrap;
 padding: 50px;
 color: #fff;
-background-color: darkblue;
+   background-image: linear-gradient(to bottom right, #b2e6d4, #9cdbc5);
+
 }
 
 .footer > * {
@@ -1702,12 +1704,11 @@ flex: 2 0px;
 
 #rightimage{
  text-align:center;
-  width: 100%;
-  padding-bottom: 50px;
+  width: 150%;
 }
 
 #rightimage img{
-  width: 50%;
+  width: 80%;
 }
 
 @media screen and (max-width: 600px){

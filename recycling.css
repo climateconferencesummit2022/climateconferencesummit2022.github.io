@@ -417,12 +417,11 @@ html{
 
 .home__img{
   padding-top: 40px;
-  justify-self: center;
+  
    width: 35vw;
   height: 35vh;
   object-fit: contain;
-  padding-left: -5vw;
- margin-right: -5vw;
+  padding-right: 100px;
 }
 
 
@@ -460,6 +459,7 @@ html{
   }
 
 }
+
 
 
 

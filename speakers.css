@@ -361,7 +361,6 @@ html{
 
 .button{
   display: inline-block;
-  
   background-color: #2bcfc9;
   color: #FFF;
   padding: .9rem 1.5rem;
@@ -369,6 +368,7 @@ html{
   font-family: 'Rubik', sans-serif;
   transition: .3s;
   font-size: 1.2rem;
+  text-align:
 }
 
 

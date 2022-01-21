@@ -318,15 +318,119 @@ function myFunction() {
     
      </div>
    
-      
-      
-      
-      <!---- Slider ------>
-      
-      
+    </div>
+    </div>
     
     
     
+    
+    
+    
+    
+    
+    
+    
+      <div class="buttons">
+    <button class="btn btn-pre" id="pre"><i class="material-icons">
+        keyboard_arrow_left
+      </i></button>
+    <button class="btn btn-next" id="next"><i class="material-icons">
+        keyboard_arrow_right
+      </i></button>
+  </div>
+  <div class="container">
+    <div class="slide active">
+      <img class="slide-img"
+        src="https://images.unsplash.com/photo-1512407709198-1ef39dffb7ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+        alt="image">
+      <div class="slide-body">
+        <h5 class="slide-title"><i class="material-icons">
+            location_on
+          </i>東京</h5>
+        <p class="slide-text">東京是位於日本關東地方的都市，狹義上指東京都、或東京都區部，亦可泛指東京都及周邊衛星都市群相連而成的「首都圈」...
+        </p>
+      </div>
+    </div>
+    <div class="slide">
+      <img class="slide-img"
+        src="https://images.unsplash.com/photo-1542051925014-faaadce62e4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+        alt="image">
+      <div class="slide-body">
+        <h5 class="slide-title"><i class="material-icons">
+            location_on
+          </i>澀谷區</h5>
+        <p class="slide-text">澀谷區，是日本東京都的特別區之一，其名稱源自於位於該行政區中央、以澀谷車站為中心的澀谷地區。 與新宿、池袋等因為位處於交通要衝上而發展出的商業街相同...
+        </p>
+      </div>
+    </div>
+    <div class="slide">
+      <img class="slide-img"
+        src="https://images.unsplash.com/photo-1502716502781-621f233d06c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+        alt="image">
+      <div class="slide-body">
+        <h5 class="slide-title"><i class="material-icons">
+            location_on
+          </i>新宿區</h5>
+        <p class="slide-text">新宿區是日本東京都內23個特別區之一，為東京都廳所在地。區內的新宿站為東京主要的交通樞紐之一，而以新宿站為中心的商圈...
+        </p>
+      </div>
+    </div>
+  </div>
+    
+    <script>
+      // learn from Traversy Media
+
+let slides = document.querySelectorAll('.slide')
+let pre = document.querySelector('#pre')
+let next = document.querySelector('#next')
+let auto = true
+let slideInterval
+
+next.addEventListener('click', () => {
+  nextHandler();
+  if (auto) {
+    clearInterval(slideInterval)
+    slideInterval = setInterval(nextHandler, 5000);
+  }
+})
+pre.addEventListener('click', () => {
+  preHandler();
+  if (auto) {
+    clearInterval(slideInterval)
+    slideInterval = setInterval(nextHandler, 5000);
+  }
+})
+
+
+let nextHandler = function () {
+  let active = document.querySelector('.active')
+  active.classList.remove('active')
+  if (active.nextElementSibling) {
+    active.nextElementSibling.classList.add('active')
+  } else {
+    slides[0].classList.add('active')
+  }
+  setTimeout(() => { active.classList.remove('active'), 200 });
+
+}
+
+let preHandler = function () {
+  let active = document.querySelector('.active')
+  active.classList.remove('active')
+  if (active.previousElementSibling) {
+    active.previousElementSibling.classList.add('active')
+  } else {
+    slides[slides.length - 1].classList.add('active')
+  }
+  setTimeout(() => { active.classList.remove('active'), 200 });
+}
+if (auto) {
+  slideInterval = setInterval(nextHandler, 5000);
+}
+
+    </script>
+      
+      
      
     
    

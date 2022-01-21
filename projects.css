@@ -1566,3 +1566,96 @@ max height: 460px;
 
 
 /* slider */
+
+ .slide {
+	 width: 100%;
+	 height: 100vh;
+	 position: absolute;
+	 left: 0;
+	 opacity: 0;
+	 transition: opacity 0.5s ease-in-out;
+}
+ .slide .slide-img {
+	 max-width: 100%;
+	 height: auto;
+	 object-fit: cover;
+	 position: absolute;
+	 left: 0;
+}
+ .slide .slide-body {
+	 position: absolute;
+	 left: 0;
+	 bottom: 6%;
+	 width: 960px;
+	 letter-spacing: 0.15rem;
+	 padding: 15px 250px 30px 60px;
+	 color: #fff;
+	 line-height: 1.5;
+	 transform: translateX(-960px);
+	 transition: all 0.5s ease-in 0.3s;
+	 background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+}
+ .slide .slide-title {
+	 font-weight: 700;
+	 font-size: 2.8rem;
+	 margin-bottom: 0.5rem;
+	 vertical-align: text-bottom;
+}
+ .slide .slide-text {
+	 font-size: 0.9rem;
+	 color: #fff;
+	 line-height: 1.8;
+}
+ .slide i {
+	 font-size: 2.4rem;
+	 padding-right: 10px;
+	 color: #fff;
+}
+ .slide.active {
+	 opacity: 1;
+}
+ .slide.active .slide-body {
+	 transform: translateX(0px);
+}
+ .buttons {
+	 font-family: "Material Icons";
+}
+ .buttons .btn {
+	 width: 60px;
+	 height: 60px;
+	 line-height: 60px;
+	 position: absolute;
+	 z-index: 3;
+	 border-radius: 50%;
+	 border: 2px solid white;
+	 background-color: rgba(0, 0, 0, 0.5);
+	 color: white;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .buttons i {
+	 font-size: 2rem;
+}
+ .buttons button {
+	 outline: none;
+	 transition: all 0.3s;
+}
+ .buttons button:hover {
+	 background-color: #fff;
+	 border: 2px solid white;
+}
+ .buttons button:hover i {
+	 color: #494949;
+}
+ .buttons .btn-pre {
+	 top: 50%;
+	 left: 60px;
+	 cursor: pointer;
+}
+ .buttons .btn-next {
+	 top: 50%;
+	 right: 60px;
+	 cursor: pointer;
+}
+ 

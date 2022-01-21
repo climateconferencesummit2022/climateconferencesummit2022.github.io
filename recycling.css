@@ -416,10 +416,13 @@ html{
 
 
 .home__img{
-  width: 300px;
   padding-top: 40px;
   justify-self: center;
- 
+   width: 35vw;
+  height: 35vh;
+  object-fit: contain;
+  padding-left: -5vw;
+ margin-right: -5vw;
 }
 
 
@@ -1235,8 +1238,7 @@ h1 {
 
 #rightimage{
  text-align:center;
-  width: 10px;
-  height: 5px;
+ 
 }
 
 

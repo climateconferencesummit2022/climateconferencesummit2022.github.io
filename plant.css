@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fcfcfc;
 }
 
@@ -73,7 +73,7 @@ body {
   padding-top: 200px;
   background-color: #b2e6d4;
   height: 550px;
-  background-image: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/istockphoto-1283629300-170667a.jpeg?v=1642568540873");
+  background-image: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/7b11560fbc23d1f98a915770362e88bd.jpeg?v=1642830867066");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -334,7 +334,7 @@ html{
   font-size: 20px;
   color: var(--title-color);
 
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   margin-bottom: var(--mb-4);
   line-height: 39px;
   text-align: left;
@@ -347,7 +347,7 @@ html{
   color: #b2e6d4;
   padding: 0.9rem 1.5rem;
   border-radius: 0.5rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   transition: 0.3s;
   font-size: 1.2rem;
 }
@@ -366,14 +366,14 @@ html{
   height: calc(500px - var(--header-height));
   align-content: center;
   margin: 50px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .home_title {
   font-size: 3.3rem;
   font-weight: 400;
   color: var(--title-color);
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: var(--mb-4);
   margin-top: 70px;
   color: #2bcfc9;
@@ -475,7 +475,7 @@ html{
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 200;
   color: #24262b;
 }
@@ -489,13 +489,13 @@ html{
   margin-bottom: 40px;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
 .main-btn {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -537,7 +537,7 @@ html{
 }
 
 .video-blurb h2 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
 }
@@ -548,7 +548,7 @@ html{
   margin-right: 300px;
   margin-top: 20px;
   line-height: 35px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 .video-table {
@@ -570,14 +570,14 @@ html{
 
 .video-table td {
   padding: 24px 15px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
   font-size: 14px;
 }
 
 .video-table td h1 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1em;
   color: #eda318;
   font-size: 17px;
@@ -699,7 +699,7 @@ h2 {
 .test2-heading h1 {
   color: #333436;
   font-size: 3rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
 }
 
@@ -709,7 +709,7 @@ h2 {
   border: 0.15em solid #3b92e3;
   padding: 10px 70px;
   color: #3b92e3;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .test2-btn:hover {
@@ -723,7 +723,7 @@ h2 {
 .test2-heading p {
   color: #333436;
   font-size: 1rem;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   margin-top: 1em;
   padding-top: 15px;
   line-height: 2em;
@@ -761,11 +761,11 @@ h2 {
 #authentictext h2 {
   padding-bottom: 10px;
   font-weight: 600;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #authentictext p {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
 }
@@ -805,7 +805,7 @@ h2 {
 }
 
 .content-table td h4 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   text-align: left;
 }
 
@@ -834,7 +834,7 @@ h2 {
   padding-top: 30px;
   height: 10%;
   text-align: left;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
@@ -862,13 +862,13 @@ h2 {
 
 .tabs {
   background: #fcfcfc;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .mytabs {
   display: flex;
   flex-wrap: wrap;
   max-width: 1000px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 36px;
   border-radius: 10px;
   margin-left: 20%;
@@ -950,7 +950,7 @@ h2 {
   letter-spacing: 3px;
   color: #eda137;
   padding-left: 25vh;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #authentictext2 {
@@ -965,7 +965,7 @@ h2 {
 
 #doubleservices h2 {
   padding-bottom: 10px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 1.7em;
   line-height: 1.7em;
   padding-left: 12vw;
@@ -975,7 +975,7 @@ h2 {
 }
 
 #authentictext2 p {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
   font-size: 1em;
@@ -1021,7 +1021,7 @@ h2 {
 .content-table4 td {
   padding: 24px 15px;
 
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
   font-size: 15px;
@@ -1034,7 +1034,7 @@ h2 {
 }
 
 .content-table4 td h1 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1em;
   color: #333333;
   font-size: 1.5em;
@@ -1087,31 +1087,31 @@ h2 {
   padding-right: 5vw;
   margin-left: 10vw;
 
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 .blogpage h1 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   text-align: left;
   padding-bottom: 20px;
 }
 
 .blogpage h3 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   padding-bottom: 20px;
   font-size: 20px;
   color: #2bcfc9;
 }
 
 .blogpage h4 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   padding-bottom: 20px;
   font-size: 15px;
   color: #2bcfc9;
 }
 
 .blogpage p {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 35px;
 }
 
@@ -1143,7 +1143,7 @@ p {
   padding-bottom: 10px;
   padding-right: 5vw;
 
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 .burr {
@@ -1167,7 +1167,7 @@ p {
 
 
 #lefttext h2 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
   text-align: left;
@@ -1185,7 +1185,7 @@ p {
   padding-bottom: 50px;
   margin-top: 20px;
   line-height: 35px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 #rightimage {
@@ -1197,7 +1197,7 @@ p {
 
 
 #lefttext1 h2 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
   text-align: left;
@@ -1215,7 +1215,7 @@ p {
   padding-bottom: 15px;
   margin-top: 20px;
   line-height: 35px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 #rightimage1 {
@@ -1282,7 +1282,7 @@ p {
 .service-title {
   font-size: 18px;
   color: #333333;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   margin-bottom: 10px;
 }
@@ -1291,7 +1291,7 @@ p {
   font-size: 14px;
   line-height: 30px;
   color: #333333;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 @media screen and (max-width: 960px) {
@@ -1331,7 +1331,7 @@ p {
   align-items: center;
   font-size: 15px;
   margin-top: 10px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 

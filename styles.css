@@ -773,7 +773,7 @@ h1 {
 display: flex;
 flex-flow: row wrap;
 padding: 50px;
-color: #fff;
+color: #504136;
    background-image: linear-gradient(to bottom right, #b2e6d4, #9cdbc5);
 
 }
@@ -816,27 +816,27 @@ margin-right: 1.25em;
 }
 
 .box a {
-color: #999;
+color: #504136;
 }
 
 
 
 .b-footer {
 text-align: center;
-color: #999;
+color: #333436;
 padding-top: 50px;
 }
 
 .l-footer p{
 padding-right: 20%;
-color: #999;
+color: #333436;
     font-family: 'Mulish', sans-serif;
 
 }   
 
 .l-footer h1{
 padding-right: 20%;
-color: #999;
+color: #333436;
   text-align: left !important;
   font-family: 'Roboto', sans-serif;
 }   

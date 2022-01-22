@@ -1856,13 +1856,13 @@ h1 {
     width: 55%;
     text-align: center;
     color: white;
-    background: #11dbcf;
-    border: 2px solid #11dbcf;
+    background: #0eb0a5;
+    border: 2px solid #0eb0a5;
   }
 
 .form2 button:hover {
-    background: #0eb0a5;
-    border: 2px solid #0eb0a5;
+    background: #689689;
+    border: 2px solid #689689;
     text-decoration: none;
     color:#fff;
   }

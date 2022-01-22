@@ -489,8 +489,8 @@ font-family: 'Roboto', sans-serif;  font-size: 40px;
     }
 
 .test-btn:hover {
-    background: ##504136;
-    border: 2px solid /#504136;
+    background: #504136;
+    border: 2px solid #504136;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;

@@ -44,8 +44,8 @@ function setDate(){
 }
 
 function insertMessage() {
-  msg = $('.message-input').val();
-  if ($.trim(msg) == '') {
+  $messages = $('.message-input').val();
+  if ($.trim($messages) == '') {
     return false;
   }
   $('<div class="message message-personal">' + msg + '</div>').appendTo($('.mCSB_container')).addClass('new');

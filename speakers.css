@@ -1,14 +1,13 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
 body{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fcfcfc;
 }
 
@@ -83,7 +82,7 @@ body{
 
 .header h1{
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 75px;
   
 }
@@ -96,7 +95,7 @@ body{
   color: white;
   padding: 15px 70px;
   border: none;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
  margin:0 auto;
     display:block;
 
@@ -159,7 +158,7 @@ body{
 
 .dropdown {
   float: left;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
   color: #394455;
     font-weight: 200 !important;
@@ -369,7 +368,7 @@ padding: 35px;
   font-size: 20px;
   color: var(--title-color);
 
-   font-family: 'Noto Sans', sans-serif;
+   font-family: 'Mulish', sans-serif;
   margin-bottom: var(--mb-4);
    line-height: 39px;
   text-align: left;
@@ -382,7 +381,7 @@ padding: 35px;
   color: #FFF;
   padding: .9rem 1.5rem;
   border-radius: .5rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   transition: .3s;
   font-size: 1.2rem;
   width: 100%;
@@ -405,7 +404,7 @@ padding: 35px;
   height: calc(500px - var(--header-height));
   align-content: center;
   margin: 50px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   
 }
 
@@ -414,7 +413,7 @@ padding: 35px;
   font-size: 3.3rem;
   font-weight: 400;
   color: var(--title-color);
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: var(--mb-4);
    margin-top: 70px;
   color: #2bcfc9;
@@ -541,7 +540,7 @@ padding: 35px;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: #24262b;
   }
@@ -556,13 +555,13 @@ padding: 35px;
     margin-bottom: 40px;
     font-size: 15px;
     font-weight: 500;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.5px;
     text-transform: uppercase;
   }
 
   .main-btn {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 14px;
@@ -607,7 +606,7 @@ padding: 35px;
 }
 
 .video-blurb h2{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
 }
@@ -618,7 +617,7 @@ padding: 35px;
   margin-right: 300px;
   margin-top: 20px;
   line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 } 
 
 
@@ -649,7 +648,7 @@ padding: 35px;
 
 .video-table td {
   padding: 24px 15px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
   font-size: 14px;
@@ -659,7 +658,7 @@ padding: 35px;
 
 
 .video-table td h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1em;
   color: #eda318;
   font-size: 17px;
@@ -810,7 +809,7 @@ h2 {
 .test2-heading h1{
     	color: #333436;
     	font-size: 3rem;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
      
       
@@ -823,7 +822,7 @@ h2 {
     	border:.15em solid #3b92e3;
       padding: 10px 70px;
     	color: #3b92e3;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
 .test2-btn:hover {
@@ -837,7 +836,7 @@ h2 {
 .test2-heading p{
     	color: #333436;
     	font-size: 1rem;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	margin-top: 1em;
       margin-bottom: 2em;
       line-height: 2em;
@@ -880,11 +879,11 @@ h2 {
 #authentictext h2{
   padding-bottom: 10px;
   font-weight:600;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #authentictext p{
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
 
@@ -947,7 +946,7 @@ h2 {
   padding-top: 30px;
   height: 10%;
   text-align: left;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 16px;
   line-height: 33px;
 
@@ -1008,7 +1007,7 @@ h2 {
 .test2-heading h1{
     	color: #333436;
     	font-size: 3rem;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
      
       
@@ -1021,7 +1020,7 @@ h2 {
     	border:.15em solid #3b92e3;
       padding: 10px 70px;
     	color: #3b92e3;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
 .test2-btn:hover {
@@ -1035,7 +1034,7 @@ h2 {
 .test2-heading p{
     	color: #333436;
     	font-size: 1rem;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	margin-top: 1em;
       margin-bottom: 2em;
       line-height: 2em;
@@ -1078,11 +1077,11 @@ h2 {
 #authentictext h2{
   padding-bottom: 10px;
   font-weight:600;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #authentictext p{
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
 
@@ -1143,7 +1142,7 @@ h2 {
   padding-top: 30px;
   height: 10%;
   text-align: left;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 16px;
   line-height: 33px;
 
@@ -1195,13 +1194,13 @@ h2 {
 
 .tabs {
     background: #fcfcfc;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .mytabs {
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
   line-height: 36px;
     border-radius: 10px;
     margin-left: 20%;
@@ -1291,7 +1290,7 @@ h2 {
   letter-spacing: 3px;
   color: #eda137;
   padding-left: 25vh;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -1308,7 +1307,7 @@ h2 {
 
 #doubleservices h2{
   padding-bottom: 10px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 1.7em;
   line-height: 1.7em;
   padding-left: 12vw;
@@ -1318,7 +1317,7 @@ h2 {
 }
 
 #authentictext2 p{
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
   font-size: 1em;
@@ -1375,7 +1374,7 @@ h2 {
 .content-table4 td {
   padding: 24px 15px;
   
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 2em;
   color: #6e6d6d;
   font-size: 15px;
@@ -1392,7 +1391,7 @@ h2 {
 
 
 .content-table4 td h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1em;
   color: #333333;
   font-size: 1.5em;
@@ -1457,20 +1456,20 @@ h2 {
    padding-right: 5vw;
    margin-left: 10vw;
    
-     font-family: 'Noto Sans', sans-serif;
+     font-family: 'Mulish', sans-serif;
 
 
   }
   
     .blogpage h1{
-      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Mulish', sans-serif;
 text-align: left;
       padding-bottom: 20px;
 
     }
     
     .blogpage h3{
-      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Mulish', sans-serif;
       padding-bottom: 20px;
       font-size: 20px;
       color: #2bcfc9;
@@ -1479,7 +1478,7 @@ text-align: left;
     }
 
     .blogpage h4{
-      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Mulish', sans-serif;
       padding-bottom: 20px;
       font-size: 15px;
       color: #2bcfc9;
@@ -1489,7 +1488,7 @@ text-align: left;
     }
 
 .blogpage p{
-      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Mulish', sans-serif;
       line-height: 35px;
   
 
@@ -1523,7 +1522,7 @@ text-align: left;
    margin: 0 auto;
   
    
-     font-family: 'Noto Sans', sans-serif;
+     font-family: 'Mulish', sans-serif;
   
 }
 
@@ -1545,10 +1544,10 @@ text-align: left;
 ================================================== */
 #lefttxt2 h2{
   margin-left: 0px;
-   font-family: 'Rubik', sans-serif;
+   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   text-align:center;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
   text-align: center;
@@ -1569,7 +1568,7 @@ height: 2vh;
 .test2-heading h2{
     	color: #333436;
     	font-size: 3rem;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
      font-weight: 600;
       
@@ -1598,7 +1597,7 @@ margin-top: -200px;
 .test3-heading h2{
     	color: #333436;
     	font-size: 3rem;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
      font-weight: 600;
       
@@ -1625,7 +1624,7 @@ margin-top: -200px;
 
 
 #lefttxt h2{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   text-align:left;
  
@@ -1639,7 +1638,7 @@ margin-top: -200px;
   padding-bottom: 0px;
   margin-top: 20px;
   line-height:35px;
-   font-family: 'Noto Sans', sans-serif;
+   font-family: 'Mulish', sans-serif;
 } 
 
 
@@ -1659,7 +1658,7 @@ margin-top: -200px;
 
 
 #lefttext h2{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
   text-align: left;
@@ -1678,7 +1677,7 @@ margin-top: -200px;
   padding-bottom: 50px;
   margin-top: 20px;
   line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 } 
 
 
@@ -1714,13 +1713,13 @@ margin-top: -200px;
   padding-bottom: 0px;
   margin-top: 20px;
   line-height:35px;
-   font-family: 'Noto Sans', sans-serif;'
+   font-family: 'Mulish', sans-serif;'
     
 }
 
 
 #righttext h2{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
   text-align:left;
@@ -1834,7 +1833,7 @@ margin-top: -200px;
 	margin: 10px 30px 0 30px;
 	font-size: 15px;
   line-height:30px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 	text-align: left;
   color: #bac0cc;
 
@@ -1899,7 +1898,7 @@ h1 {
   padding: 0.5rem 3rem 0.5rem 1rem;
   min-height: 3.5rem;
   line-height: 1.25rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   font-size: 18px;
   color: #57a19d;
@@ -1926,7 +1925,7 @@ h1 {
 }
 .accordion-content {
   padding: 1rem;
-   font-family: 'Noto Sans', sans-serif;
+   font-family: 'Mulish', sans-serif;
   line-height: 30px;
   
 }
@@ -1962,7 +1961,7 @@ h1 {
       align-items: center;
     	font-size: 15px;
     	margin-top:10px;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
 }
 
 
@@ -1979,7 +1978,7 @@ h1 {
 }
 
  .butt {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -2037,7 +2036,7 @@ h1 {
 }
 .modal-body h2{
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #4f4f4f;
 }
 
@@ -2119,7 +2118,7 @@ h1 {
       
 
 .form button {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -2170,7 +2169,7 @@ h1 {
     .test-heading h1{
     	color: #f0f0f0;
     	font-size: 3rem;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
       padding-bottom: 4vh;
       padding-top: 10vh;
@@ -2185,7 +2184,7 @@ h1 {
     	border:.15em solid #3b92e3;
       padding: 10px 70px;
     	color: #3b92e3;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
 .test-btn:hover {
@@ -2208,7 +2207,7 @@ h1 {
     	color: #3b92e3;
     
    
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
 .test1-btn:hover {
@@ -2261,7 +2260,7 @@ h1 {
 
 .testimonials .slider {
   display: flex;
-  height: 150%;
+  height: 200%;
   transition: 0.6s ease;
   width: 400%;
 }
@@ -2269,11 +2268,9 @@ h1 {
 .testimonials .slider h2 {
   width: 100%;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
   transition: 0.6s ease;
   color: #28498a;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .testimonials .slider p {
@@ -2281,7 +2278,7 @@ h1 {
   text-align: center;
   color: #28498a;
   transition: 0.6s ease;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-size: 55px;
   
 }
@@ -2295,6 +2292,7 @@ h1 {
   transition: all ease 0.3s;
   display: flex;
   font-size: 20px;
+  height: 450px;
 }
 .testimonials .left, .right {
   position: absolute;
@@ -2386,7 +2384,7 @@ h1 {
       
 
 .form2 button {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -2411,6 +2409,103 @@ h1 {
   }
 
 
+
+
+
+/* ==================================================
+      Footer
+================================================== */
+
+.footer {
+display: flex;
+flex-flow: row wrap;
+padding: 50px;
+  
+color: #504136;
+   background-image: linear-gradient(to bottom right, #b2e6d4, #9cdbc5);
+
+}
+
+.footer > * {
+flex:  1 100%;
+}
+
+
+
+h2 {
+font-weight: 400;
+font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+line-height: 2em;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+.footer a {
+text-decoration: none;
+}
+
+.r-footer {
+display: flex;
+flex-flow: row wrap;
+}
+
+.r-footer > * {
+flex: 1 50%;
+margin-right: 1.25em;
+}
+
+.box a {
+color: #504136;
+}
+
+
+
+.b-footer {
+text-align: center;
+color: #333436;
+padding-top: 50px;
+}
+
+.l-footer p{
+padding-right: 20%;
+color: #333436;
+    font-family: 'Mulish', sans-serif;
+
+}   
+
+.l-footer h1{
+padding-right: 20%;
+color: #333436;
+  text-align: left !important;
+  font-family: 'Roboto', sans-serif;
+}   
+
+@media screen and (min-width: 600px) {
+.r-footer > * {
+flex: 1;
+}
+
+.features {
+flex-grow: 2;
+}
+
+.l-footer {
+flex: 1 0px;
+}
+
+.r-footer {
+flex: 2 0px;
+}
+}
 
 
 

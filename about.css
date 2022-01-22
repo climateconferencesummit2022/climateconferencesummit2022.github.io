@@ -372,11 +372,11 @@ body {
     font-size: 15px;
 }
 .form input:hover{
-    background-color: #D3F8F9;
+    background-color: #CBEBE0;
     transition: all 1s ease 0s;
 }
 .form input:focus{
-    background-color: #D3F8F9;
+    background-color: CBEBE0;
     transition: all 1s ease 0s;
 }
 

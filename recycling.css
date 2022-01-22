@@ -1822,7 +1822,7 @@ h1 {
     font-size: 15px;
 }
 .form2 input:hover{
-    background-color: #D3F8F9;
+    background-color: #a49;
     transition: all 1s ease 0s;
 }
 .form2 input:focus{
@@ -1861,8 +1861,8 @@ h1 {
   }
 
 .form2 button:hover {
-    background: #689689;
-    border: 2px solid #689689;
+    background: #504136;
+    border: 2px solid #504136;
     text-decoration: none;
     color:#fff;
   }

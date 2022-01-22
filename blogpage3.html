@@ -22,41 +22,105 @@
   <body>
     
     
-    <nav>  
-<div class="topnav" id="myTopnav">
-  
-  <div class="logo">
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="calendar.html">Calendar</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Events
+            <i class="fa fa-caret-down"></i>
+          </button>
+
+          <div class="dropdown-content">
+            <a href="plant.html">Plant-A-Tree</a>
+            <a href="recycling.html">Recycling Competition</a>
+            <a href="speakers.html">Speakers</a>
+            <a href="projects.html" style="padding-bottom: 20px">Projects</a>
+          </div>
+        </div>
+        <a style="color: #32b3a3"href="blog.html">News Updates</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="loginstuff">
+          <a class="exr" href="index.html">Home</a>
+
+          <button id="modal-btn" class="butt">Register Now &#8594;</button>
+
+          <div id="my-modal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close"
+                  ><i class="fa fa-times-circle" aria-hidden="true"></i
+                ></span>
+              </div>
+
+              <div class="modal-body">
+                <h2>Register</h2>
+                <p>
+                  Please complete the form to register for our event.
+                </p>
+                <div class="form">
+                  <form>
+                    <input
+                      type="text"
+                      name="username"
+                      placeholder="Full Name"
+                    />
+                    <input type="text" name="username" placeholder="Email" />
+                    <input
+                      type="text"
+                      name="username"
+                      placeholder="Phone Number"
+                    />
+                    <button>Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            // Get DOM Elements
+            const modal = document.querySelector("#my-modal");
+            const modalBtn = document.querySelector("#modal-btn");
+            const closeBtn = document.querySelector(".close");
+
+            // Events
+            modalBtn.addEventListener("click", openModal);
+            closeBtn.addEventListener("click", closeModal);
+            window.addEventListener("click", outsideClick);
+
+            // Open
+            function openModal() {
+              modal.style.display = "block";
+            }
+
+            // Close
+            function closeModal() {
+              modal.style.display = "none";
+            }
+
+            // Close If Outside Click
+            function outsideClick(e) {
+              if (e.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+          </script>
+        </div>
+
+        <a
+          href="javascript:void(0);"
+          style="font-size: 20px; padding-right: 20px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </nav>
     
-  <a href="index.html" >ConnectHealth</a>
-    </div>
-  
-  
-  <a href="contact.html">Contact</a>
-  <a href="blog.html">News Updates</a>
-  <a href="pricing.html">Pricing</a>
-  
-  
-   
-  <div class="dropdown">
-   
-    <button class="dropbtn">Solutions 
-      <i class="fa fa-caret-down"></i>
-    </button>
-     
-    <div class="dropdown-content">
-      <a href="video.html">Video Service</a>
-      <a href="schedule.html">Scheduling</a>
-      <a href="message.html">Automatic Messaging</a>
-      <a href="database.html">Medical Record Database</a>
-      <a href="chat.html">Direct Chat Line</a>
-      <a href="analytic.html">Access to Analytics</a>
-    </div>
-  </div> 
-  <a href="about.html">About</a>
-  <a href="index.html">Home</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-</nav>   
 
 <script>
 function myFunction() {

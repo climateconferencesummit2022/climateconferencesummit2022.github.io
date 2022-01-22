@@ -491,15 +491,15 @@ html{
     
     	border-radius: 20px;
       margin-bottom: .3vh;
-    	border:.15em solid #3b92e3;
+    	border:.15em solid #504136;
       padding: 10px 70px;
-    	color: #3b92e3;
+    	color: #504136;
       font-family: 'Rubik', sans-serif;
     }
 
 .test-btn:hover {
-    background: #3b92e3;
-    border: 2px solid /#3b92e3;
+    background: ##504136;
+    border: 2px solid /#504136;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
@@ -512,17 +512,17 @@ html{
       
     	border-radius: 20px;
       margin-bottom: .3vh;
-    	border:.15em solid #3b92e3;
+    	border:.15em solid #504136;
       padding: 10px 70px;
-    	color: #3b92e3;
+    	color: #504136;
     
    
       font-family: 'Rubik', sans-serif;
     }
 
 .test1-btn:hover {
-    background: #3b92e3;
-    border: 2px solid #3b92e3;
+    background: #504136;
+    border: 2px solid #504136;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
@@ -1888,15 +1888,15 @@ flex: 2 0px;
     
     	border-radius: 15px;
       margin-left: 30px;
-    	border:.15em solid #3b92e3;
+    	border:.15em solid #b2e6d4;
       padding: 15px 80px;
-    	color: #3b92e3;
+    	color:#b2e6d4;
       font-family: 'Rubik', sans-serif;
     }
 
 .test-btn-box:hover {
-    background: #3b92e3;
-    border: 2px solid /#3b92e3;
+    background: #b2e6d4;
+    border: 2px solid /#b2e6d4;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;

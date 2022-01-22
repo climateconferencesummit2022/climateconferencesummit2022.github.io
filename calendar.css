@@ -1,15 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
 body{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #b2e6d4;
 }
 
@@ -65,7 +60,7 @@ html{
 
 .dropdown {
   float: left;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
   color: #394455;
     font-weight: 200 !important;
@@ -249,7 +244,7 @@ html{
 	 height: 600px;
 	 min-width: 200px;
    margin-bottom: 100px;
-	 border: 1px solid #ebedf2;
+	 border: 1px solid #394455;
 	 border-left: none;
 }
  .day-columns .day-column:first-child {
@@ -257,9 +252,12 @@ html{
 }
  .day-columns .day-column .day-header {
 	 border-bottom: 1px solid #ebedf2;
+     font-family: 'Roboto', sans-serif;
+
 	 text-align: center;
 	 padding: 5px;
-	 color: #898b96;
+	 color: #394455;
+   font-weight: 500;
 }
  .day-columns .day-column .day-content {
 	 flex-grow: 1;
@@ -286,6 +284,7 @@ html{
 	 display: flex;
 	 flex-direction: row;
 	 justify-content: space-evenly;
+   font-family: 'Mulish', sans-serif;
 	 font-size: 13px;
 }
  .day-columns .day-column .day-footer {
@@ -320,7 +319,7 @@ html{
 }
 
  .butt {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -378,12 +377,12 @@ html{
 }
 .modal-body h2{
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #4f4f4f;
 }
 
 .modal-body p{
-  font-family: 'Noto sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   color: #6e6e6e;
   font-size: 14px;
   line-height: 30px;
@@ -460,7 +459,7 @@ html{
       
 
 .form button {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -487,6 +486,105 @@ html{
 
 
 
+
+
+
+
+
+/* ==================================================
+      Footer
+================================================== */
+
+.footer {
+display: flex;
+flex-flow: row wrap;
+padding: 50px;
+  
+color: #504136;
+   background-image: linear-gradient(to bottom right, #b2e6d4, #9cdbc5);
+
+}
+
+.footer > * {
+flex:  1 100%;
+}
+
+
+
+h2 {
+font-weight: 400;
+font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+line-height: 2em;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+.footer a {
+text-decoration: none;
+}
+
+.r-footer {
+display: flex;
+flex-flow: row wrap;
+}
+
+.r-footer > * {
+flex: 1 50%;
+margin-right: 1.25em;
+}
+
+.box a {
+color: #504136;
+}
+
+
+
+.b-footer {
+text-align: center;
+color: #333436;
+padding-top: 50px;
+}
+
+.l-footer p{
+padding-right: 20%;
+color: #333436;
+    font-family: 'Mulish', sans-serif;
+
+}   
+
+.l-footer h1{
+padding-right: 20%;
+color: #333436;
+  text-align: left !important;
+  font-family: 'Roboto', sans-serif;
+}   
+
+@media screen and (min-width: 600px) {
+.r-footer > * {
+flex: 1;
+}
+
+.features {
+flex-grow: 2;
+}
+
+.l-footer {
+flex: 1 0px;
+}
+
+.r-footer {
+flex: 2 0px;
+}
+}
 
 
 

@@ -277,6 +277,22 @@ html{
 	 padding: 20px;
 	 box-shadow: 0px 1px 15px 1px rgba(81, 77, 92, 0.08);
 }
+   
+    .day-columns .day-column .day-content .begin {
+	 background-color: #a49e8d;
+}
+
+  .day-columns .day-column .day-content .food {
+	 background-color: #689689;
+}
+
+  .day-columns .day-column .day-content .speaker {
+	 background-color: #b2e6d4;
+}
+
+  .day-columns .day-column .day-content .event {
+	 background-color: #83e8ba;
+}
  .day-columns .day-column .day-content .event .title {
 	 font-size: 15px;
 }

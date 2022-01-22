@@ -410,15 +410,15 @@ html{
     width: 55%;
     text-align: center;
     color: white;
-    background: #11dbcf;
-    border: 2px solid #11dbcf;
+    background: #0eb0a5;
+    border: 2px solid #0eb0a5;
   }
 
 .form button:hover {
-    background: #0eb0a5;
-    border: 2px solid #0eb0a5;
+    background: #504136;
+    border: 2px solid #504136;
     text-decoration: none;
-    color:#fff;
+    color:#ffffff;
   }
 
 
@@ -944,7 +944,7 @@ flex: 2 0px;
 
 .contact-form .send-btn{
   float: right;
-  background: #2E94E3;
+  background: #0eb0a5;
   color: #fff;
   border: none;
   width: 120px;
@@ -961,7 +961,7 @@ flex: 2 0px;
 }
 
 .contact-form .send-btn:hover{
-  background: #0582E3;
+  background: #504136;
   font-family: 'Roboto', sans-serif;
 }
 

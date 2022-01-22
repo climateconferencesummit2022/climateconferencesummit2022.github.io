@@ -1298,13 +1298,13 @@ flex: 2 0px;
     width: 55%;
     text-align: center;
     color: white;
-    background: #11dbcf;
-    border: 2px solid #11dbcf;
+    background: #0eb0a5;
+    border: 2px solid ##0eb0a5;
   }
 
 .form button:hover {
-    background: #0eb0a5;
-    border: 2px solid #0eb0a5;
+    background: #504136;
+    border: 2px solid #504136;
     text-decoration: none;
     color:#fff;
   }

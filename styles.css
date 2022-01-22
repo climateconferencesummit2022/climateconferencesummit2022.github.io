@@ -3,12 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
 body{
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #b2e6d4;
 }
 
@@ -131,7 +130,7 @@ html {
 
 .dropdown {
   float: left;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
   color: #394455;
     font-weight: 200 !important;
@@ -295,7 +294,7 @@ html{
   margin-right: 250px;
   padding-bottom: 10px;
   justify-content:center;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 @media screen and (max-width: 1000px){
@@ -313,7 +312,7 @@ html{
       padding: 10px 70px;
     	color: #504136;
     margin-left: 25%;
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
 .headbtn:hover {
@@ -334,7 +333,7 @@ html{
     	color: #3b92e3;
     margin-left: 47%;
   margin-bottom: 30px;
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
 .headbtn:hover {
@@ -346,7 +345,7 @@ html{
   }
 
 #leftheader h2{
-font-family: 'Outfit', sans-serif;  font-size: 40px;
+font-family: 'Roboto', sans-serif;  font-size: 40px;
   font-weight: 600;
  
 }
@@ -359,7 +358,7 @@ font-family: 'Outfit', sans-serif;  font-size: 40px;
   padding-bottom: 20px;
   margin-top: 20px;
   line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 } 
 
 
@@ -398,7 +397,7 @@ font-family: 'Outfit', sans-serif;  font-size: 40px;
 
 
 #leftheader2 h2{
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   padding-bottom: 5px;
   font-weight: 800;
@@ -428,7 +427,7 @@ font-family: 'Outfit', sans-serif;  font-size: 40px;
   margin-bottom: 20px;
   margin-top: 20px;
   line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 } 
 
 #leftheader2{
@@ -471,7 +470,7 @@ font-family: 'Outfit', sans-serif;  font-size: 40px;
     .test-heading h1{
     	color: #f0f0f0;
     	font-size: 3rem;
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
       padding-bottom: 4vh;
       padding-top: 10vh;
@@ -486,7 +485,7 @@ font-family: 'Outfit', sans-serif;  font-size: 40px;
     	border:.15em solid #504136;
       padding: 10px 70px;
     	color: #504136;
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
 .test-btn:hover {
@@ -509,7 +508,7 @@ font-family: 'Outfit', sans-serif;  font-size: 40px;
     	color: #504136;
     
    
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
 .test1-btn:hover {
@@ -574,7 +573,7 @@ font-family: 'Outfit', sans-serif;  font-size: 40px;
   padding-bottom: 40px;
   transition: 0.6s ease;
   color: #28498a;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .testimonials .slider p {
@@ -582,7 +581,7 @@ font-family: 'Outfit', sans-serif;  font-size: 40px;
   text-align: center;
   color: #28498a;
   transition: 0.6s ease;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -744,7 +743,7 @@ h1 {
   padding-top: 32%;
   z-index:10;
   color: white;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size:3vw;
   text-shadow: 2px 2px 20px #000000;
   margin: auto;
@@ -788,6 +787,7 @@ flex:  1 100%;
 h2 {
 font-weight: 400;
 font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer ul {
@@ -797,6 +797,8 @@ padding-left: 0;
 
 .footer li {
 line-height: 2em;
+  font-family: 'Mulish', sans-serif;
+
 }
 
 .footer a {
@@ -828,12 +830,15 @@ padding-top: 50px;
 .l-footer p{
 padding-right: 20%;
 color: #999;
+    font-family: 'Mulish', sans-serif;
+
 }   
 
 .l-footer h1{
 padding-right: 20%;
 color: #999;
   text-align: left !important;
+  font-family: 'Roboto', sans-serif;
 }   
 
 @media screen and (min-width: 600px) {
@@ -891,7 +896,7 @@ flex: 2 0px;
     	color: #333436;
     	font-size: 3rem;
       
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
  
     }
@@ -1140,7 +1145,7 @@ flex: 2 0px;
 }
 
  .butt {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -1198,7 +1203,7 @@ flex: 2 0px;
 }
 .modal-body h2{
   text-align: center;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #4f4f4f;
 }
 
@@ -1280,7 +1285,7 @@ flex: 2 0px;
       
 
 .form button {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -1383,7 +1388,7 @@ flex: 2 0px;
 .numbers .number-item h2{
 	font-weight:500;
   
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .numbers .number-item h6{
@@ -1402,7 +1407,7 @@ flex: 2 0px;
   padding-bottom: 30px;
   font-size: 40px;
   color: #28498a; 
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -1558,7 +1563,7 @@ flex: 2 0px;
 }
 
 .blog {
-  background: #edab1c;
+  background: #a49e82;
 }
 
 .news {
@@ -1576,7 +1581,7 @@ flex: 2 0px;
 .hashtag {
   font-size: 1.2rem;
   font-weight: 600;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   color: black
 }
 
@@ -1590,7 +1595,7 @@ flex: 2 0px;
 #morelink{
   color: black;
   text-decoration: underline;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-left: 35%;
 }
 
@@ -1605,7 +1610,7 @@ flex: 2 0px;
   color: #4b4e54;
   font-size: 0.9rem;
   padding-top: 20px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 
@@ -1632,7 +1637,7 @@ flex: 2 0px;
       align-items: center;
     	font-size: 15px;
     	margin-top:10px;
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
 }
 
 
@@ -1680,7 +1685,7 @@ flex: 2 0px;
 
 
 #lefttext h2{
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
  
@@ -1694,7 +1699,7 @@ flex: 2 0px;
   padding-bottom: 50px;
   margin-top: 20px;
   line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 } 
 
 
@@ -1731,7 +1736,7 @@ flex: 2 0px;
 
 
 #lefttext2 h2{
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   padding-bottom: 5px;
   font-weight: 800;
@@ -1761,7 +1766,7 @@ flex: 2 0px;
   margin-bottom: 20px;
   margin-top: 20px;
   line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 } 
 
 #lefttext2{
@@ -1883,7 +1888,7 @@ flex: 2 0px;
     	border:.15em solid #b2e6d4;
       padding: 15px 80px;
     	color:#b2e6d4;
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
 .test-btn-box:hover {
@@ -2343,7 +2348,7 @@ flex: 2 0px;
     	align-items: center;
     	color: #2bcfc9;
     	margin-top:30px;
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2380,8 +2385,8 @@ flex: 2 0px;
     	justify-content: center;
     	align-items: center;
     	color: white;
-  background: linear-gradient(135deg, #a49e82, #A09A80);
-  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(135deg, #a49e82, #504136);
+  font-family: 'Roboto', sans-serif;
   transition: all ease 0.3s;
   margin-left: 60px;
   margin-top: 50px;
@@ -2396,7 +2401,7 @@ flex: 2 0px;
   }
 
 #videoinfo1 h2{
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 50px;
   padding-bottom: 5px;
   font-weight: 800;
@@ -2410,7 +2415,7 @@ flex: 2 0px;
 
 #videoinfo1 p{
   
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 20px;
   line-height: 50px;
   font-weight: 200;
@@ -2424,7 +2429,7 @@ flex: 2 0px;
 }
 .video-blurb1 p1{
   padding-bottom: 10px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 16px;
   line-height: 25px;
   font-weight: 150;
@@ -2437,7 +2442,7 @@ flex: 2 0px;
 }
 
 .video-blurb1 h2{
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 50px;
   padding-bottom: 5px;
   font-weight: 800;
@@ -2496,7 +2501,7 @@ flex: 2 0px;
    margin: 0 auto;
   
    
-     font-family: 'Noto Sans', sans-serif;
+     font-family: 'Mulish', sans-serif;
   
 }
 
@@ -2526,7 +2531,7 @@ margin-top: -200px;
 .test3-heading h2{
     	color: #333436;
     	font-size: 3rem;
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
      font-weight: 600;
       
@@ -2550,7 +2555,7 @@ margin-top: -200px;
 
 
 #lefttxt h2{
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   text-align:left;
  
@@ -2565,7 +2570,7 @@ margin-top: -200px;
 
   padding-bottom: 20px;
   line-height:35px;
-   font-family: 'Noto Sans', sans-serif;
+   font-family: 'Mulish', sans-serif;
 } 
 
 
@@ -2578,7 +2583,7 @@ margin-top: -200px;
 
 
 #lefttext h2{
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
   text-align: left;
@@ -2597,7 +2602,7 @@ margin-top: -200px;
   padding-bottom: 50px;
   margin-top: 20px;
   line-height:35px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 } 
 
 
@@ -2634,13 +2639,13 @@ margin-top: -200px;
   padding-bottom: 20px;
   margin-top: 20px;
   line-height:35px;
-   font-family: 'Noto Sans', sans-serif;'
+   font-family: 'Mulish', sans-serif;'
     
 }
 
 
 #righttext h2{
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
 

@@ -1,4 +1,4 @@
-
+/*
 var $messages = $('.messages-content'),
     d, h, m,
     i = 0;
@@ -93,8 +93,8 @@ $('.button').click(function(){
    $('.menu .button').toggleClass('active');
 });
 
+*/
 
-/*
 var botui = new BotUI('help-bot');
 
 
@@ -153,5 +153,5 @@ botui.message.add({
     content: 'Thanks. It was fun talking to you!'
   });
 });
-*/
+
 

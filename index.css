@@ -274,9 +274,8 @@ html{
 
 }
 
-#leftheader h2{
-  margin-left: 25%;
-    width: 80%;
+#leftheader h1{
+  text-align: left;
 }
 
 

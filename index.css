@@ -262,11 +262,13 @@ html{
 
 /* Header */
 
+
 .header{
   /*background-image: linear-gradient(to bottom right, #fcfaed, #b2e6d4);*/
   background-color: #38318c;
-  padding-top: 100px;
+  padding-top: 150px;
   font-family: 'Oswald', sans-serif;
+  height: 900px;
   
 }
 
@@ -283,8 +285,14 @@ html{
 
 #leftheader h1{
   text-align: left;
+    letter-spacing: -1px;
+
 }
 
+#big{
+  font-size: 250px;
+  letter-spacing: -7px !important;
+}
 
 #leftheader p{
   width: 70%;

@@ -1070,6 +1070,34 @@ p {
   padding-bottom: 50px;
 }
 
+.planttypes h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.planttypes p{
+ text-align: center;
+  font-size: 17px;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height: 35px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.planttypes table{
+ width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.planttypes table img{
+ width: 80%;
+}
+
 
 /* ==================================================
       Text Info

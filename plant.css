@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -81,8 +83,10 @@ body {
 
 .header h1{
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  letter-spacing: 5px;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
+  padding-bottom: 50px;
   
 }
 
@@ -105,8 +109,19 @@ body {
   text-align: center;
   font-size: 20px;
   line-height: 30px;
+  color: #666;
     font-family: 'Mulish', sans-serif;
 
+}
+
+.fade {
+
+  animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 #demo p{
@@ -414,181 +429,6 @@ html{
   }
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 80vh;
-  background: url("https://cdn.glitch.com/fe9ee492-4350-4c23-91a3-7de989bb85f5%2Funnamed.jpg?v=1612137489174")
-    center center;
-  background-size: cover;
-  position: relative;
-}
-
-#hero .container {
-  padding-top: 10px;
-}
-
-#hero .video-head {
-  padding-bottom: 70px;
-  margin-left: 80px;
-}
-#hero img {
-  width: 50%;
-  margin-left: 300px;
-  z-index: 99;
-  margin-top: 450px;
-}
-
-.custom-shape-divider-bottom-1611382091 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1611382091 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 194px;
-}
-
-.custom-shape-divider-bottom-1611382091 .shape-fill {
-  fill: #fcfcfc;
-}
-#hero:before {
-  content: "";
-
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  color: #24262b;
-}
-
-#hero span {
-  color: #62e6d4;
-}
-
-#hero h2 {
-  color: #24262b;
-  margin-bottom: 40px;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-.main-btn {
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #24262b;
-  color: #24262b;
-}
-
-.main-btn:hover {
-  background: #11dbcf;
-  border: 2px solid #11dbcf;
-  text-decoration: none;
-  color: #fff;
-}
-
-/* ==================================================
-      Video Information Section
-================================================== */
-
-.videoinfo {
-  background-color: #fcfcfc;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-#videoitem {
-  background-color: #fcfcfc;
-  margin-left: 120px;
-  margin-top: 15px;
-}
-
-.video-blurb {
-  text-align: center;
-}
-
-.video-blurb h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.video-blurb p {
-  font-size: 17px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 20px;
-  line-height: 35px;
-  font-family: 'Mulish', sans-serif;
-}
-
-.video-table {
-  background: white;
-
-  border-radius: 14px;
-
-  width: 50%;
-  max-width: 1000px;
-  margin: 25px;
-}
-
-#video-vid iframe {
-  position: relative;
-  margin-left: -250px;
-  margin-top: 40px;
-  border-radius: 14px;
-}
-
-.video-table td {
-  padding: 24px 15px;
-  font-family: 'Mulish', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-  font-size: 14px;
-}
-
-.video-table td h1 {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1em;
-  color: #eda318;
-  font-size: 17px;
-  letter-spacing: 1px;
-}
-
-.video-table img {
-  width: 75px;
-  margin-bottom: 30px;
-}
 
 
 /* ==================================================

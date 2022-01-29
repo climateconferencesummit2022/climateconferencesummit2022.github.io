@@ -73,11 +73,16 @@ body {
 
 .header{
   padding-top: 200px;
-  background-color: #b2e6d4;
   height: 550px;
-  background-image: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/istockphoto-1283629300-170667a.jpeg?v=1642568540873");
+  /*background-image: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/istockphoto-1283629300-170667a.jpeg?v=1642568540873");
   background-repeat: no-repeat;
   background-size: cover;
+  background-image:url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/images.jpeg?v=1643436975510");
+  background-color: linear-gradient(white, #f0f0f0);*/
+  
+ linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg');
+
 }
 
 
@@ -116,7 +121,8 @@ body {
 
 .fade {
 
-  animation: fadeIn linear 1s;
+  animation: fadeIn linear 1.9s;
+animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {

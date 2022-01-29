@@ -1060,6 +1060,17 @@ p {
   background-color: red;
 }
 
+
+
+/* what can u plant */
+
+.planttypes{
+  background-color: #f0f0f0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
 /* ==================================================
       Text Info
 ================================================== */

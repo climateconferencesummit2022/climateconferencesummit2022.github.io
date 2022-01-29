@@ -1159,16 +1159,15 @@ p {
 .services-container {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 40px;
   background-color: #f0f0f0;
   justify-content: center;
 }
 
 .service-box {
   max-width: 33.33%;
-  padding: 50px;
+  padding: 40px;
   margin: 20px;
-  text-align: center;
+  text-align: left;
   background-color: white;
   border-radius: 10px;
 }

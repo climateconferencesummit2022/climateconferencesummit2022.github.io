@@ -1228,11 +1228,54 @@ h1 {
 
 .why p{
   padding-top: 30px;
+  line-height: 30px;
   width: 70%;
   text-align: center;
   justify-content: center;
   margin: 0 auto;
+  font-family: 'Mulish', sans-serif;
   display: block;
+}
+
+.why h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* how */
+.how{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+
+}
+
+.how p{
+  padding-top: 30px;
+  line-height: 30px;
+  width: 80%;
+  text-align: left;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: 'Mulish', sans-serif;
+  display: block;
+}
+
+.how h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+#righttext{
+  padding-top: 50px;
+  font-family: 'Mulish', sans-serif;
+  
+
+}
+
+#righttext li{
+  padding-top: 10px;
+text-align: left;
 }
 
 /* ==================================================

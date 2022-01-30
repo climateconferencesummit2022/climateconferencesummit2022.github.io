@@ -1473,12 +1473,14 @@ padding: 35px;
   display: flex;
   flex-wrap: wrap;
   background-color: #f0f0f0;
-  margin-left: 20px;
+  margin-left: auto;
+    margin-right: auto;
+    
   
 }
 
 .service-box {
-  max-width: 33.33%;
+  max-width: 100%;
   padding: 40px;
   margin: 20px;
   text-align: left;

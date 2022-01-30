@@ -1028,6 +1028,7 @@ p {
 .testimonials .carousel {
 
   height: 100%;
+  width: 1
   overflow: hidden;
   position: relative;
   transition: 0.6s ease;
@@ -1469,7 +1470,7 @@ padding: 35px;
   display: flex;
   flex-wrap: wrap;
   background-color: #f0f0f0;
-  
+  margin-left: 20px;
   
 }
 

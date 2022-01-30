@@ -944,8 +944,8 @@ p {
  width: 80%;
 }
 
-/* Caoursel (pretend i spelled that right) stuff
-*/
+/* ##########################Caoursel (pretend i spelled that right) stuff
+##############################*/
 .testimonials{
   
   background-color: #28498a;
@@ -1019,7 +1019,7 @@ p {
 
 
 .testimonials .container {
-  width: 90%;
+  width: 100%;
   transition: 0.6s ease;
   margin: auto;
   padding-top: 40px;
@@ -1046,6 +1046,7 @@ p {
   padding-top: .5%;
  transition: 0.6s ease;
   padding: 0;
+  overflow: hidden;
 }
 
 
@@ -1055,6 +1056,8 @@ p {
   height: 150%;
   transition: 0.6s ease;
   width: 400%;
+  
+   
 }
 
 .testimonials .slider h2 {

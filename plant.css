@@ -1469,7 +1469,8 @@ padding: 35px;
   display: flex;
   flex-wrap: wrap;
   background-color: #f0f0f0;
-  justify-content: center;
+  
+  margin-right: -40vw;
   
 }
 

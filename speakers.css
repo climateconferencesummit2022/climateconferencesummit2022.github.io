@@ -2055,17 +2055,11 @@ h1 {
 
 
 
-
-
-
-
-/* ==================================================
-      Testimonials
-================================================== */
-
+/* ##########################Caoursel (pretend i spelled that right) stuff
+##############################*/
 .testimonials{
   
-  background-color: #b2e6d4;
+  background-color: #28498a;
   padding-bottom: 18vh;
   
   
@@ -2076,7 +2070,7 @@ h1 {
   
     }
     .test-heading h1{
-    	color: #504136;
+    	color: #f0f0f0;
     	font-size: 3rem;
       font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
@@ -2090,15 +2084,15 @@ h1 {
     
     	border-radius: 20px;
       margin-bottom: .3vh;
-    	border:.15em solid #3b92e3;
+    	border:.15em solid #504136;
       padding: 10px 70px;
-    	color: #3b92e3;
+    	color: #504136;
       font-family: 'Roboto', sans-serif;
     }
 
 .test-btn:hover {
-    background: #3b92e3;
-    border: 2px solid /#3b92e3;
+    background: #504136;
+    border: 2px solid #504136;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
@@ -2111,17 +2105,17 @@ h1 {
       
     	border-radius: 20px;
       margin-bottom: .3vh;
-    	border:.15em solid #3b92e3;
+    	border:.15em solid #504136;
       padding: 10px 70px;
-    	color: #3b92e3;
+    	color: #504136;
     
    
       font-family: 'Roboto', sans-serif;
     }
 
 .test1-btn:hover {
-    background: #3b92e3;
-    border: 2px solid #3b92e3;
+    background: #504136;
+    border: 2px solid #504136;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
@@ -2136,10 +2130,11 @@ h1 {
 
 
 .testimonials .container {
-  width: 90%;
+  width: 100%;
   transition: 0.6s ease;
   margin: auto;
   padding-top: 40px;
+ 
 
 }
 .testimonials .carousel {
@@ -2162,33 +2157,37 @@ h1 {
 .carousel section{
   padding-top: .5%;
  transition: 0.6s ease;
-  padding-right: 50px;
+  padding: 0;
+  overflow: hidden;
 }
 
 
 
 .testimonials .slider {
   display: flex;
-  height: 200%;
+  height: 150%;
   transition: 0.6s ease;
-  width: 400%;
+  width: 200%;
+  
+   
 }
 
 .testimonials .slider h2 {
-  width: 100%;
+  width: 60%;
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
   transition: 0.6s ease;
-  color: #3D342D;
+  color: #28498a;
   font-family: 'Roboto', sans-serif;
 }
 
 .testimonials .slider p {
-  width: 100%;
+  width: 95%;
   text-align: center;
-  color: #504136;
+  color: #28498a;
   transition: 0.6s ease;
   font-family: 'Roboto', sans-serif;
-  text-size: 55px;
   
 }
 
@@ -2201,7 +2200,6 @@ h1 {
   transition: all ease 0.3s;
   display: flex;
   font-size: 20px;
-  height: 450px;
 }
 .testimonials .left, .right {
   position: absolute;
@@ -2248,6 +2246,12 @@ h1 {
   background: transparent;
   transition: all ease 0.6s;
 }
+
+
+
+
+
+
 
 
 

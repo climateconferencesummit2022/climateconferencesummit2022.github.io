@@ -14,6 +14,69 @@ html{
 
 
 
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.header{
+  /*background-image: linear-gradient(to bottom right, #fcfaed, #b2e6d4);*/
+  background-color: #38318c;
+  
+  padding-top: 150px;
+  background-image: url("https://ukcop26.org/wp-content/uploads/2020/11/What-is-a-cop-hero_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.header h1{
+  font-family: 'Oswald', sans-serif;
+  height: 550px;
+  font-size: 150px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.fade {
+
+  animation: fadeIn linear 1.6s;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#demo p{
+  color: blue;
+}
+
+
+.downbtn{
+    
+    	border-radius: 20px;
+    	border:.15em solid #3b92e3;
+      padding: 10px 20px;
+    	color: #3b92e3;
+    margin-left: 47%;
+  margin-bottom: 30px;
+
+      font-family: 'Roboto', sans-serif;
+    }
+.downbtn i{
+  color: white;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/

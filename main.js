@@ -6,6 +6,6 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal(`.home__data, #maintitle, .home__img`, {
+sr.reveal(`.home__data, #big, .home__img`, {
     interval: 200
 })

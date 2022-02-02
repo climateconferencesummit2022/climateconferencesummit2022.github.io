@@ -1315,10 +1315,29 @@ display: block;
   font-family: 'Mulish', sans-serif;
 }
 
+#lefttext h3{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+
+  width: auto;
+margin-top: -100px;
+background: #689689;
+
 #rightimage {
   text-align: center;
 }
+.home__img1{
 
+  height: auto;
+  width: 35vw;
+ 
+padding: 35px;
+  
+ 
+}
 
 
 

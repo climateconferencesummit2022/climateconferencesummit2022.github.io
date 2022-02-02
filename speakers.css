@@ -2452,6 +2452,8 @@ body {
 }
 .testim {
 		width: 100%;
+   font-family: 'Mulish', sans-serif;
+
   background-color: #28498a;
 
 }
@@ -2482,7 +2484,6 @@ body {
     -o-transition: all .3s ease-in-out;    
     transition: all .3s ease-in-out;
     padding: 5px;
-    z-index: 22222222;
 }
 
 .testim .arrow:before {
@@ -2509,7 +2510,7 @@ body {
     bottom: 60px;
     left: 0;
     display: block;
-    z-index: 3333;
+    z-index: 300;
 		height: 12px;
 }
 

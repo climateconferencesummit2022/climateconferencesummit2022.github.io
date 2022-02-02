@@ -1578,6 +1578,19 @@ margin-top: -200px;
 
 }
 
+
+#lefttext h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 20%;
+  width: auto;
+
+
+
+}
+
 #lefttext p{
   font-size: 17px;
   margin-left: 20%;

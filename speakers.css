@@ -1584,7 +1584,7 @@ margin-top: -200px;
   font-size: 40px;
   font-weight: 600;
   text-align: center;
- 
+ margin-top: -80px;
   width: auto;
 
 
@@ -1593,13 +1593,14 @@ margin-top: -200px;
 
 #lefttext h3{
   font-family: 'Roboto', sans-serif;
+  color: white;
   font-size: 50px;
   font-weight: 800;
   text-align: center;
-padding-bottom: 50px;
+
   width: auto;
 margin-top: -100px;
-
+background: #689689;
 
 }
 #lefttext p{
@@ -3267,4 +3268,171 @@ max height: 460px;
     	margin-top:10px;
       font-family: 'Roboto', sans-serif;
 }
+
+/* the left right boxes at bottom*/
+
+.analytic .clear {
+    clear: both;background-color: red;
+
+}
+
+
+.test3-heading{
+    	text-align:center;
+margin-top: -200px;
+  padding-top:-30px;
+  height:100%;
+  margin-bottom: -10px;
+  
+ 
+  
+  
+    }
+.test3-heading h2{
+    	color: #333436;
+    	font-size: 3rem;
+      font-family: 'Roboto', sans-serif;
+    	letter-spacing: 1px;
+     font-weight: 600;
+      
+    }
+
+
+
+#lefttxt h2{
+  margin-left: 0px;
+  padding-bottom: 20px;
+    
+}
+
+#lefttxt{
+  margin-right: 20px;
+    padding-bottom: 50px;
+
+
+}
+
+
+
+#lefttxt h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-align:left;
+ 
+}
+
+#lefttxt p{
+  font-size: 17px;
+  margin-left: 0px;
+  color:#707070;
+  justify-content:center;
+    width: 90%;
+
+  padding-bottom: 20px;
+  line-height:35px;
+   font-family: 'Mulish', sans-serif;
+} 
+
+
+
+
+#lefttext p{
+  width: 70%;
+  ont-size: 20px;
+}
+
+
+#lefttext h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 20%;
+  width: auto;
+  border-bottom: 6px solid #689689;
+
+
+}
+
+#lefttext p{
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right: 300px;
+  justify-content:center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height:35px;
+  font-family: 'Mulish', sans-serif;
+} 
+
+
+#rightimage{
+ text-align:center;
+}
+
+
+
+
+
+
+
+
+
+#2col{
+  text-align:center;
+  justify-content: center;
+  align-content:center;
+}
+
+#righttext{
+  margin-right: 5px;
+  text-align:left;
+  
+}
+
+#righttext p{
+  font-size: 17px;
+  color:#707070;
+  justify-content:center;
+      width: 90%;
+
+  padding-bottom: 20px;
+  margin-top: 20px;
+  line-height:35px;
+   font-family: 'Mulish', sans-serif;'
+    
+}
+
+
+#righttext h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+
+  text-align:left;
+ 
+}
+
+
+
+#righttext img{
+ 
+  width: 50%;
+}
+
+
+
+
+@media(max-width: 950px){
+  #noimg{
+  display: none;
+}
+}
+
+#lefttxt img{
+ 
+  width: 70%;
+}
+
+
 

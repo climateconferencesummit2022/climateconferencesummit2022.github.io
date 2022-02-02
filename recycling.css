@@ -1291,6 +1291,13 @@ display: block;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.textinfo1 {
+  background-color: #f0f0f0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  text-align: center;
+}
 
 
 #lefttext h2 {
@@ -1320,11 +1327,19 @@ display: block;
   color: white;
   font-size: 50px;
   font-weight: 800;
-  text-align: center;
-
+ text-align: center;
+justify-content:center;
   width: auto;
 margin-top: -100px;
-background: #689689;
+  background: #689689;
+  
+}
+.row{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 
 #rightimage {
   text-align: center;

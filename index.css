@@ -1717,14 +1717,9 @@ flex: 2 0px;
 } 
 
 
-#rightimage{
- text-align:center;
-  width: 100%;
-}
 
 #rightimage img{
-  width: 70%;
-  margin-top: -40px;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px){
@@ -1815,6 +1810,23 @@ flex: 2 0px;
 .box4 {
   background-color: #f0f0f0;
   padding-left: 30px;
+}
+
+.image:hover{
+  transform: scale(1.02);
+  transition: 350ms all ease-in-out;
+}
+.image2:hover{
+  transform: scale(1.02);
+  transition: 350ms all ease-in-out;
+}
+.image3:hover{
+  transform: scale(1.02);
+  transition: 350ms all ease-in-out;
+}
+.image4:hover{
+  transform: scale(1.02);
+  transition: 350ms all ease-in-out;
 }
 
 .row {
@@ -2391,20 +2403,21 @@ flex: 2 0px;
 }
 
 .cht-btn{
-  width: 250px;
-    	height: 80px;
+  width: 200px;
+    	height: 60px;
     	border-radius: 8px;
     	display: flex;
     	justify-content: center;
     	align-items: center;
     	color: white;
-  background: linear-gradient(135deg, #a49e82, #504136);
-  font-family: 'Roboto', sans-serif;
+  background-color: #504136;
+  /*background: linear-gradient(135deg, #a49e82, #504136);*/
+  font-family: 'Mulish', sans-serif;
   transition: all ease 0.3s;
   margin-left: 60px;
-  margin-top: 50px;
+  margin-top: 30px;
 
-  font-size: 30px;
+  font-size: 25px;
 }
 .cht-btn:hover {
   transform:scale(1.07);

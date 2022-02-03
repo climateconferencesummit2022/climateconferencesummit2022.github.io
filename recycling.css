@@ -1652,106 +1652,6 @@ padding: 35px;
   }
 
 
-
-
-
-
-/* ==================================================
-      Footer
-================================================== */
-
-.footer {
-display: flex;
-flex-flow: row wrap;
-padding: 50px;
-  
-color: #504136;
-   background-image: linear-gradient(to bottom right, #b2e6d4, #9cdbc5);
-
-}
-
-.footer > * {
-flex:  1 100%;
-}
-
-
-
-h2 {
-font-weight: 400;
-font-size: 15px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.footer ul {
-list-style: none;
-padding-left: 0;
-}
-
-.footer li {
-line-height: 2em;
-  font-family: 'Mulish', sans-serif;
-
-}
-
-.footer a {
-text-decoration: none;
-}
-
-.r-footer {
-display: flex;
-flex-flow: row wrap;
-}
-
-.r-footer > * {
-flex: 1 50%;
-margin-right: 1.25em;
-}
-
-.box a {
-color: #504136;
-}
-
-
-
-.b-footer {
-text-align: center;
-color: #333436;
-padding-top: 50px;
-}
-
-.l-footer p{
-padding-right: 20%;
-color: #333436;
-    font-family: 'Mulish', sans-serif;
-
-}   
-
-.l-footer h1{
-padding-right: 20%;
-color: #333436;
-  text-align: left !important;
-  font-family: 'Roboto', sans-serif;
-}   
-
-@media screen and (min-width: 600px) {
-.r-footer > * {
-flex: 1;
-}
-
-.features {
-flex-grow: 2;
-}
-
-.l-footer {
-flex: 1 0px;
-}
-
-.r-footer {
-flex: 2 0px;
-}
-}
-
-
 /* speakers */
 
 
@@ -2346,5 +2246,106 @@ body {
 		line-height: 25px;
 	}
 
+}
+
+
+
+
+
+
+
+/* ==================================================
+      Footer
+================================================== */
+
+.footer {
+display: flex;
+flex-flow: row wrap;
+padding: 50px;
+  
+color: #504136;
+   background-image: linear-gradient(to bottom right, #b2e6d4, #9cdbc5);
+
+}
+
+.footer > * {
+flex:  1 100%;
+}
+
+
+
+h2 {
+font-weight: 400;
+font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+line-height: 2em;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+.footer a {
+text-decoration: none;
+}
+
+.r-footer {
+display: flex;
+flex-flow: row wrap;
+}
+
+.r-footer > * {
+flex: 1 50%;
+margin-right: 1.25em;
+}
+
+.box a {
+color: #504136;
+}
+
+
+
+.b-footer {
+text-align: center;
+color: #333436;
+padding-top: 50px;
+}
+
+.l-footer p{
+padding-right: 20%;
+color: #333436;
+    font-family: 'Mulish', sans-serif;
+
+}   
+
+.l-footer h1{
+padding-right: 20%;
+color: #333436;
+  text-align: left !important;
+  font-family: 'Roboto', sans-serif;
+}   
+
+@media screen and (min-width: 600px) {
+.r-footer > * {
+flex: 1;
+}
+
+.features {
+flex-grow: 2;
+}
+
+.l-footer {
+flex: 1 0px;
+}
+
+.r-footer {
+flex: 2 0px;
+}
 }
 

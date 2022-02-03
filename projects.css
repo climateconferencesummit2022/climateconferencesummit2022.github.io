@@ -2221,6 +2221,15 @@ body {
 }
 
 
+.pic img{
+display: block;
+  margin: 0 auto;
+}
 
+
+.pic{
+  background-color: #f0f0f0;
+  padding: 50px;
+}
 
 

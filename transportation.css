@@ -2920,6 +2920,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 	overflow: hidden;
+  margin-bottom: -70px;
   
 }
 
@@ -2995,7 +2996,7 @@ body {
 	.image{
 		flex: 100%;
 		max-width: 480px;
-    max height: 20px;
+    max height: 460px;
   
 	}
 }

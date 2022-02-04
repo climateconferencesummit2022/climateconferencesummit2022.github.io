@@ -418,7 +418,7 @@ html{
       Text Info
 ================================================== */
 .textinfo2{
- background-color: #white;
+ background-color: #f0f0f0;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -434,11 +434,13 @@ html{
 
 
 }
+
 .textinfo{
   background-color: #f0f0f0;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 
 #lefttext h2{
   margin-left: 23%;
@@ -468,6 +470,7 @@ html{
 #lefttext h3{
   font-family: 'Roboto', sans-serif;
   color: white;
+  background-color: white;
   font-size: 50px;
   font-weight: 800;
  text-align: center;

@@ -72,15 +72,10 @@ body{
 # Header
 --------------------------------------------------------------*/
 
-/*.header{
-  padding-top: 200px;
-  background-color: #f3f5f2;
-  height: 550px;
-  background-image: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/istockphoto-1283629300-170667a.jpeg?v=1642568540873");
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
 
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
 
 .header{
   /*background-image: linear-gradient(to bottom right, #fcfaed, #b2e6d4);*/
@@ -91,18 +86,51 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 
-
 }
 
 .header h1{
   font-family: 'Oswald', sans-serif;
-  height: 500px;
-  font-size: 200px;
+  font-size: 150px;
   color: white;
+  height: 300px;
+
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
+
+
+.fade {
+
+  animation: fadeIn linear 1.7s;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#demo p{
+  color: blue;
+}
+
+
+.downbtn{
+    
+    	border-radius: 20px;
+    	border:.15em solid #3b92e3;
+      padding: 10px 20px;
+    	color: #3b92e3;
+    margin-left: 47%;
+margin-bottom: 30px;
+      font-family: 'Roboto', sans-serif;
+    }
+.downbtn i{
+  color: white;
+}
+
 
 
 
@@ -2233,19 +2261,6 @@ flex: 2 0px;
 
 
 
-
-
-
-.downbtn{
-    
-    	border-radius: 20px;
-    	border:.15em solid #3b92e3;
-      padding: 40px 40px;
-    	color: #3b92e3;
-    margin-left: 47%;
-  margin-bottom: 30px;
-      font-family: 'Roboto', sans-serif;
-    }
 
 
 

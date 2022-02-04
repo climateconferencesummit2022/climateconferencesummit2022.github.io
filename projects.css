@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -1505,42 +1507,57 @@ max height: 460px;
 --------------------------------------------------------------*/
 
 .header{
-  padding-top: 200px;
-  background-color: #f3f5f2;
-  height: 550px;
-  background-image: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/istockphoto-1283629300-170667a.jpeg?v=1642568540873");
+  /*background-image: linear-gradient(to bottom right, #fcfaed, #b2e6d4);*/
+  background-color: #38318c;
+  
+  padding-top: 150px;
+  background-image: url("https://ukcop26.org/wp-content/uploads/2020/11/What-is-a-cop-hero_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .header h1{
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 75px;
-  
-}
-
-
-.header button{
-  text-align: center;
-  background-color: #82e8a6;
-  border-radius: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 150px;
   color: white;
-  padding: 15px 70px;
-  border: none;
-      font-family: 'Roboto', sans-serif;
- margin:0 auto;
-    display:block;
+  height: 300px;
 
-  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.header p{
-  text-align: center;
-  font-size: 20px;
-  line-height: 30px;
-    font-family: 'Mulish', sans-serif;
 
+
+.fade {
+
+  animation: fadeIn linear 1.7s;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#demo p{
+  color: blue;
+}
+
+
+.downbtn{
+    
+    	border-radius: 20px;
+    	border:.15em solid #3b92e3;
+      padding: 10px 20px;
+    	color: #3b92e3;
+    margin-left: 47%;
+margin-bottom: 30px;
+      font-family: 'Roboto', sans-serif;
+    }
+.downbtn i{
+  color: white;
 }
 
 

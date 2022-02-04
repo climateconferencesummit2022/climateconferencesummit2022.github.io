@@ -935,6 +935,7 @@ p {
   color: #504136;
 }
 
+
 .planttypes table{
  width: auto;
   max-width: 80%;
@@ -949,9 +950,10 @@ p {
  width: 80%;
 }
 @media (max-width: 1080px) {
-  .planttypes table{
-    display: none;
-  }
+  
+  .planttypes table img{
+ display:none;
+}
 }
 /* ##########################Caoursel (pretend i spelled that right) stuff
 ##############################*/

@@ -1619,16 +1619,21 @@ margin-top: -200px;
 
 }
 
-#lefttext h3{
+.textinfo1{
+  background: #b2e6d4;
+  padding-top: 150px;
+  
+}
+#lefttext3 h3{
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: black;
   font-size: 50px;
   font-weight: 800;
   text-align: center;
 
   width: auto;
 margin-top: -100px;
-background: #689689;
+background: #b2e6d4;
 
 }
 #lefttext p{
@@ -1898,7 +1903,7 @@ background: #689689;
 ##############################*/
 .testimonials{
   
-  background-color: #28498a;
+  background-color: #689689;
   padding-bottom: 18vh;
   
   

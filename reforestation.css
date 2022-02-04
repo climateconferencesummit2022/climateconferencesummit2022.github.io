@@ -517,7 +517,7 @@ margin-top: -100px;
 
 .textinfo1{
   
-  background-image: linear-gradient(to bottom, #b2e6d4, #689689);
+  background-image: linear-gradient(to bottom, #b2e6d4, #7DB4A5);
   padding-top: 150px;
   
 }
@@ -692,7 +692,7 @@ padding-left: 40px;
   font-size: 20px;
   line-height: 30px;
   color: #333333;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 @media screen and (max-width: 960px) {
@@ -1717,9 +1717,9 @@ body {
 }
 .testim {
 		width: 100%;
-   font-family: 'Mulish', sans-serif;
+   font-family: 'Playfair Display', sans-serif;
 
-  background-color: #689689;
+  background-color: #7DB4A5;
 
 }
 

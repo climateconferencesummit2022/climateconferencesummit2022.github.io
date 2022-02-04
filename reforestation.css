@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=PlayfairDisplay:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 
 body{
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f0f0f0;
 }
 
@@ -116,7 +116,7 @@ body{
 
 .dropdown {
   float: left;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
   color: #394455;
     font-weight: 200 !important;
@@ -327,7 +327,7 @@ html{
   color: #FFF;
   padding: .9rem 1.5rem;
   border-radius: .5rem;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   transition: .3s;
   font-size: 1.2rem;
 }
@@ -350,7 +350,7 @@ html{
   align-content: center;
   margin: 10px;
   /*margin: 50px;*/
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   
 }
 
@@ -359,7 +359,7 @@ html{
   font-size: 60px;
   font-weight: 400;
   color: var(--title-color);
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: var(--mb-4);
    margin-top: 30px;
   color: #2bcfc9;
@@ -424,7 +424,7 @@ html{
 }
 
 #lefttext1 h1{
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
   text-align: center;
@@ -454,7 +454,7 @@ html{
 
 
 #lefttext h2{
-  font-family:  'Playfair Display, sans-serif;
+  font-family:  'Roboto, sans-serif;
   font-size: 40px;
   padding-bottom: 5px;
   font-weight: 600;
@@ -466,7 +466,7 @@ html{
 
 
 #lefttext h3{
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 50px;
   font-weight: 800;
@@ -484,7 +484,7 @@ margin-top: -100px;
 
 
 #lefttext h1{
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
   text-align: center;
@@ -522,7 +522,7 @@ margin-top: -100px;
   
 }
 #lefttext3 h3{
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #grey;
   font-size: 50px;
   font-weight: 800;
@@ -562,7 +562,7 @@ margin-top: -100px;
 
 
 #lefttext2 h2{
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   padding-bottom: 5px;
   font-weight: 800;
@@ -683,7 +683,7 @@ padding-left: 40px;
 .service-title {
   font-size: 18px;
   color: #333333;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   margin-bottom: 10px;
 }
@@ -692,7 +692,7 @@ padding-left: 40px;
   font-size: 20px;
   line-height: 30px;
   color: #333333;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 960px) {
@@ -732,7 +732,7 @@ padding-left: 40px;
   align-items: center;
   font-size: 15px;
   margin-top: 10px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -862,7 +862,7 @@ flex:  1 100%;
 h2 {
 font-weight: 400;
 font-size: 15px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer ul {
@@ -913,7 +913,7 @@ color: #333436;
 padding-right: 20%;
 color: #333436;
   text-align: left !important;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }   
 
 @media screen and (min-width: 600px) {
@@ -1356,7 +1356,7 @@ max height: 460px;
       align-items: center;
     	font-size: 15px;
     	margin-top:10px;
-      font-family: 'Playfair Display', sans-serif;
+      font-family: 'Roboto', sans-serif;
 }
 
 
@@ -1373,7 +1373,7 @@ max height: 460px;
 }
 
  .butt {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -1431,7 +1431,7 @@ max height: 460px;
 }
 .modal-body h2{
   text-align: center;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #4f4f4f;
 }
 
@@ -1513,7 +1513,7 @@ max height: 460px;
       
 
 .form button {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -1595,7 +1595,7 @@ animation-fill-mode: forwards;
     	color: #3b92e3;
     margin-left: 47%;
 margin-bottom: 30px;
-      font-family: 'Playfair Display', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 .downbtn i{
   color: white;
@@ -1717,7 +1717,7 @@ body {
 }
 .testim {
 		width: 100%;
-   font-family: 'Playfair Display', sans-serif;
+   font-family: 'Roboto', sans-serif;
 
   background-color: #7DB4A5;
 

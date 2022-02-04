@@ -2916,7 +2916,9 @@ body {
   border-radius: 15px;
 	max-width: 550px;
 	height: 300px;
-	margin: 20px;
+	margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 	overflow: hidden;
   
 }
@@ -2993,7 +2995,7 @@ body {
 	.image{
 		flex: 100%;
 		max-width: 480px;
-    max height: 460px;
+    max height: 20px;
   
 	}
 }
@@ -3171,9 +3173,7 @@ max height: 460px;
 
 @media (max-width: 1080px){
 	.image3{
-		flex: 100%;
-		max-width: 480px;
-  max height: 460px;
+		display:none;
 	}
 }
 

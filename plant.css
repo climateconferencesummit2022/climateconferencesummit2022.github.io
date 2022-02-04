@@ -942,13 +942,17 @@ p {
   margin: 0 auto;
   justify-content: center;
   ooverflow-wrap: normal;
-  word-break: break-all;
+  
 }
 
 .planttypes table img{
  width: 80%;
 }
-
+@media (max-width: 1080px) {
+  .planttypes table{
+    display: none;
+  }
+}
 /* ##########################Caoursel (pretend i spelled that right) stuff
 ##############################*/
 .testimonials{

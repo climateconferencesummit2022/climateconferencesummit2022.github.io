@@ -1437,12 +1437,12 @@ margin-top: -100px;
 justify-content:center;
  margin-right:-30px;
 margin-top: -100px;
-  background: #504136;
+  background: rgba(80, 65, 54, .8);
     padding-top: 20px;
   padding-bottom:20px;
   
+  
 }
-
 
 #lefttext1 h2 {
   font-family: 'Roboto', sans-serif;

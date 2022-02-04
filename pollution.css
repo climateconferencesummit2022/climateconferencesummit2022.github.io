@@ -1330,13 +1330,19 @@ display: block;
   font-size: 50px;
   font-weight: 800;
  text-align: center;
-justify-content:center;
- margin-right:-30px;
+justify-content:left;
+width:100%
 margin-top: -100px;
-  background: #504136;
+  margin-left: -400px;
+   overflow: hidden;
+  background: rgba(80, 65, 54, .7);
     padding-top: 20px;
   padding-bottom:20px;
+  margin-bottom: 30px;
   
+}
+
+
 }
 .row{
 	width: 100%;

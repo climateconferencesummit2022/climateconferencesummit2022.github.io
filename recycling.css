@@ -84,14 +84,14 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 
-
 }
 
 .header h1{
   font-family: 'Oswald', sans-serif;
-  height: 550px;
   font-size: 150px;
   color: white;
+  height: 300px;
+
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -101,7 +101,7 @@ body{
 
 .fade {
 
-  animation: fadeIn linear 1.6s;
+  animation: fadeIn linear 1.7s;
 animation-fill-mode: forwards;
 }
 
@@ -122,8 +122,7 @@ animation-fill-mode: forwards;
       padding: 10px 20px;
     	color: #3b92e3;
     margin-left: 47%;
-  margin-bottom: 30px;
-
+margin-bottom: 30px;
       font-family: 'Roboto', sans-serif;
     }
 .downbtn i{

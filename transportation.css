@@ -1630,6 +1630,7 @@ margin-top: -100px;
   background: #504136;
     padding-top: 20px;
   padding-bottom:20px;
+  margin-bottom: 30px;
   
 }
 
@@ -1641,7 +1642,18 @@ margin-top: -100px;
   padding-top: 150px;
   
 }
+#lefttext3 h3{
+  font-family: 'Roboto', sans-serif;
+  color: #grey;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
 
+  width: auto;
+margin-top: -100px;
+
+
+}
 #lefttext p{
   font-size: 17px;
   margin-left: 20%;

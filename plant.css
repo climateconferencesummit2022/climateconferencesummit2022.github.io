@@ -2457,6 +2457,7 @@ body {
     height: 100px;
     margin: auto;
     border-radius: 50%;
+  object-fit: cover;
 }
 
 .testim .cont div h2 {

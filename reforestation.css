@@ -512,10 +512,11 @@ html{
   font-size: 50px;
   font-weight: 800;
  text-align: center;
+  margin-bottom: 0px;
 justify-content:center;
-  background: rgba(80, 65, 54, .8);
-    padding-top: 20px;
-  padding-bottom:20px;
+  background: rgba(80, 65, 54);
+    padding-top: 50px;
+  padding-bottom:50px;
   
   
 }
@@ -539,31 +540,14 @@ justify-content:center;
 }
 
 .custom-shape-divider-top-1644096856 .shape-fill {
-    fill: rgba(80, 65, 54, .8);
+    fill: rgba(80, 65, 54);
+}
+
+.svgback{
+  background-color: #7DB4A5;
 }
 
 
-#lefttext3 h3{
-  font-family: 'Roboto', sans-serif;
-  color: #grey;
-  font-size: 50px;
-  font-weight: 800;
-  text-align: center;
-
-  width: auto;
-margin-top: -100px;
-
-
-}
-
-
-
-.textinfo1{
-  
-  background-image: linear-gradient(to bottom, #b2e6d4, #7DB4A5);
-  padding-top: 150px;
-  
-}
 
 
 
@@ -932,7 +916,7 @@ padding-left: 40px;
   
 	text-decoration: none;
 	font-weight: 100;
-  font-family: 'Mulish', sans-serif;'
+  font-family: 'Mulish', sans-serif;
   
 	display: block;
 	transition: all 0.3s ease;
@@ -1083,7 +1067,7 @@ padding-left: 40px;
 	.image{
 		flex: 100%;
 		max-width: 480px;
-    max height: 460px;
+    max-height: 460px;
   
 	}
 }
@@ -1175,7 +1159,7 @@ padding-left: 40px;
 	.image2{
 		flex: 100%;
 		max-width: 480px;
-max height: 460px;
+max-height: 460px;
 	}
 }
 /*IMAGE 3*/
@@ -1263,7 +1247,7 @@ max height: 460px;
 	.image3{
 		flex: 100%;
 		max-width: 480px;
-  max height: 460px;
+  max-height: 460px;
 	}
 }
 
@@ -1352,7 +1336,7 @@ max height: 460px;
 	.image4{
 		flex: 100%;
 		max-width: 480px;
-   max height: 460px;
+   max-height: 460px;
 	}
 }
 
@@ -1593,7 +1577,7 @@ max height: 460px;
   /*background-image: linear-gradient(to bottom right, #fcfaed, #b2e6d4);*/
   
   padding-top: 200px;
-   background-image: url("https://images.unsplash.com/photo-1571035089306-e40c9289fe78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVmb3Jlc3RhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
+   background-image: url("https://images.unsplash.com/photo-1453791052107-5c843da62d97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
   /* Set a specific height */
   min-height: 500px;
 
@@ -1766,6 +1750,32 @@ body {
     font-size: 16px;
 		background: rgba(30,30,30);
 }
+
+
+
+
+
+.textinfo1{
+  
+  padding-top: 150px;
+  background-color: #7DB4A5;
+  
+}
+#lefttext3 h3{
+  font-family:'Roboto', sans-serif;
+  color: grey;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+
+  width: auto;
+margin-top: -100px;
+
+
+}
+
+
+
 .testim {
 		width: 100%;
     font-family:'Roboto', sans-serif;
@@ -1901,6 +1911,8 @@ body {
     height: 100px;
     margin: auto;
     border-radius: 50%;
+  object-fit: cover;
+  
 }
 
 .testim .cont div h2 {

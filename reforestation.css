@@ -546,6 +546,11 @@ margin-top: -100px;
   margin-bottom: 20px;
   
 }
+
+#rightimage img{
+  width: 80%;
+  height: auto;
+}
 #rightimage1{
 
   margin-bottom: 10px;
@@ -567,8 +572,9 @@ margin-top: -100px;
 
 
 #lefttext2 h2{
+    font-size: 45px;
+
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
   padding-bottom: 5px;
   font-weight: 800;
 

@@ -554,7 +554,7 @@ animation-fill-mode: forwards;
 .card{
   list-style: none;
   position: relative;
-  margin: 4px 40px 40px 100px;
+  margin: 2px 40px 120px 100px;
   
 }
 
@@ -610,6 +610,13 @@ animation-fill-mode: forwards;
 .card__content p{
     font-family: 'Mulish', sans-serif;
 font-size: 20px;
+}
+
+.info:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 350ms all ease-in-out;
+
 }
 
 .card__category{

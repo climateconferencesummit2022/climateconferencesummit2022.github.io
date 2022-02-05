@@ -546,12 +546,14 @@ animation-fill-mode: forwards;
 .cards{
   padding-top: 60px;
   background-color: #f0f0f0;
+  width: 80%;
 }
 
 #event{
-  margin: 20px;
+  margin-top: 20px;
 }
 .card{
+  
   list-style: none;
   position: relative;
   margin: 2px 40px 120px 100px;

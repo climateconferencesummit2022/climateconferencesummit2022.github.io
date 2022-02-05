@@ -872,7 +872,7 @@ flex: 2 0px;
 */
 
 .bottomfooter{
-  background-color: #28498a;
+  background-color: #24262b;
 
   
 }
@@ -2913,4 +2913,21 @@ color: #689689;
   width: 70%;
 }
 
+.custom-shape-divider-top-1644035325 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-top-1644035325 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 128px;
+}
+
+.custom-shape-divider-top-1644035325 .shape-fill {
+    fill: #F0F0F0;
+}

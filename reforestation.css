@@ -502,8 +502,9 @@ html{
 
 .textinfo{
   background-color: #f0f0f0;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  width: 100%;
+  padding-top: 70px;
+  margin-bottom: -80px;
 }
 #lefttext h3{
   font-family: 'Roboto', sans-serif;
@@ -512,8 +513,6 @@ html{
   font-weight: 800;
  text-align: center;
 justify-content:center;
- margin-right:-30px;
-margin-top: -100px;
   background: rgba(80, 65, 54, .8);
     padding-top: 20px;
   padding-bottom:20px;
@@ -523,24 +522,24 @@ margin-top: -100px;
 
 
 
-
-.custom-shape-divider-bottom-1644096753 {
-    bottom: 0;
+.custom-shape-divider-top-1644096856 {
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1644096753 svg {
+.custom-shape-divider-top-1644096856 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    height: 66px;
 }
 
-.custom-shape-divider-bottom-1644096753 .shape-fill {
-    fill: #428BCA;
+.custom-shape-divider-top-1644096856 .shape-fill {
+    fill: rgba(80, 65, 54, .8);
 }
 
 
@@ -1594,7 +1593,7 @@ max height: 460px;
   /*background-image: linear-gradient(to bottom right, #fcfaed, #b2e6d4);*/
   
   padding-top: 200px;
-   background-image: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/istockphoto-1335852418-170667a.jpeg?v=1644080579633");
+   background-image: url("https://images.unsplash.com/photo-1571035089306-e40c9289fe78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVmb3Jlc3RhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
   /* Set a specific height */
   min-height: 500px;
 
@@ -1769,7 +1768,8 @@ body {
 }
 .testim {
 		width: 100%;
-   font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
+
 
   background-color: #7DB4A5;
 

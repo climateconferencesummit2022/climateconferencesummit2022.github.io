@@ -21,10 +21,15 @@ html{
 
 .header{
   /*background-image: linear-gradient(to bottom right, #fcfaed, #b2e6d4);*/
-  background-color: #38318c;
   
-  padding-top: 150px;
-  background-image: url("https://ukcop26.org/wp-content/uploads/2020/11/What-is-a-cop-hero_2.jpg");
+  padding-top: 200px;
+   background-image: url("https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/istockphoto-1335852418-170667a.jpeg?v=1644080579633");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 

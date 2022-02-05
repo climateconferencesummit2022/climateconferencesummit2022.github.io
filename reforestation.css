@@ -1730,9 +1730,13 @@ body {
 
 #right-arrow{
   color: red;
-  margin-left: 40px;
+  
 }
 
+.testim .arrow{
+    background-color: white;
+
+}
 
 #right-arrow:hover{
   color: blue;
@@ -1749,23 +1753,15 @@ body {
 }
 
 .testim .arrow {
-    display: block;
     position: absolute;
     color: #eee;
     cursor: pointer;
     font-size: 2em;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
+   
 		transform: translateY(-50%);
-    -webkit-transition: all .3s ease-in-out;    
-    -ms-transition: all .3s ease-in-out;    
-    -moz-transition: all .3s ease-in-out;    
-    -o-transition: all .3s ease-in-out;    
+  
     transition: all .3s ease-in-out;
-    padding: 5px;
 }
 
 .testim .arrow:before {

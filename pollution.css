@@ -80,8 +80,8 @@ body{
   
   padding-top: 200px;
    background-image: url("https://images.unsplash.com/photo-1526951521990-620dc14c214b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
-  opacity: .8;
-  filter: brightness(0.75), saturate(1.2),contrast(0.85);
+  /*opacity: .8;*/
+  /*filter: brightness(0.75) saturate(1.2) contrast(0.85);*/
   /* Set a specific height */
   min-height: 500px;
 

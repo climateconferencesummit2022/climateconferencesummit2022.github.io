@@ -1297,9 +1297,11 @@ display: block;
 
 .textinfo {
   background-color: #f0f0f0;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
+
+
 .textinfo1 {
   background-color: #f0f0f0;
   padding-top: 50px;
@@ -1688,26 +1690,31 @@ padding: 35px;
 
 
 
-
-/* speakers */
-
-
-
-
-
-body {
-    width: 100%;
-    height: auto;
-    font-size: 16px;
-		background: rgba(30,30,30);
-}
 .testim {
 		width: 100%;
-   font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
+padding-bottom: 40px;
+  margin-top: -30px;
 
   background-color: #7DB4A5;
 
 }
+
+#right-arrow{
+  color: red;
+  
+}
+
+.testim .arrow{
+    background-color: white;
+
+}
+
+#right-arrow:hover{
+  color: blue;
+  cursor: pointer;
+}
+
 
 .testim .wrap {
     position: relative;
@@ -1718,23 +1725,15 @@ body {
 }
 
 .testim .arrow {
-    display: block;
     position: absolute;
-    color: #eee;
+    color: #eeeeee;
     cursor: pointer;
     font-size: 2em;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
+   
 		transform: translateY(-50%);
-    -webkit-transition: all .3s ease-in-out;    
-    -ms-transition: all .3s ease-in-out;    
-    -moz-transition: all .3s ease-in-out;    
-    -o-transition: all .3s ease-in-out;    
+  
     transition: all .3s ease-in-out;
-    padding: 5px;
 }
 
 .testim .arrow:before {
@@ -1828,6 +1827,7 @@ body {
     margin: auto;
     border-radius: 50%;
   object-fit: cover;
+  
 }
 
 .testim .cont div h2 {
@@ -1839,6 +1839,8 @@ body {
 .testim .cont div p {
     font-size: 1.15em;
     color: #eee;
+    font-family: 'Mulish', sans-serif;
+
     width: 80%;
     margin: auto;
 }
@@ -2291,8 +2293,6 @@ body {
 
 
 
-
-
 /* ==================================================
       Footer
 ================================================== */
@@ -2418,3 +2418,30 @@ body {
 .custom-shape-divider-top-1644035655 .shape-fill {
     fill: #F0F0F0;
 }
+
+
+
+.custom-shape-divider-top-1644096856 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1644096856 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 66px;
+}
+
+.custom-shape-divider-top-1644096856 .shape-fill {
+    fill: rgba(80, 65, 54);
+}
+
+.svgback{
+  background-color: #7DB4A5;
+}
+

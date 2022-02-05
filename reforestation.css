@@ -510,7 +510,7 @@ html{
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 400;
  text-align: center;
   margin-bottom: 0px;
 justify-content:center;
@@ -1744,15 +1744,6 @@ margin-bottom: 30px;
 
 
 
-body {
-    width: 100%;
-    height: auto;
-    font-size: 16px;
-		background: rgba(30,30,30);
-}
-
-
-
 
 
 .textinfo1{
@@ -1762,14 +1753,16 @@ body {
   
 }
 #lefttext3 h3{
-  font-family:'Roboto', sans-serif;
-  color: grey;
-  font-size: 50px;
+  font-family: 'Mulish', sans-serif;
+  color: #f0f0f0;
+  font-size: 42px;
   font-weight: 800;
   text-align: center;
 
   width: auto;
-margin-top: -100px;
+margin-top: -150px;
+  margin-top: -150px;
+
 
 
 }

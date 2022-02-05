@@ -2093,7 +2093,7 @@ h1 {
 .skills{
   background: #f0f0f0;
   padding: 90px;
-  magin
+  margin-left: 0 auto;
 }
 
 .skills .content{

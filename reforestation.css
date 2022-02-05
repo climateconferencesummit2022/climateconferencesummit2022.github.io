@@ -417,29 +417,42 @@ html{
 /* ==================================================
       Text Info
 ================================================== */
+
 .textinfo2{
- background-color: #f0f0f0;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+    padding-bottom: 50px;
+
+  background-color: #7DB4A5;
 }
 
-#lefttext1 h1{
-  font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  font-weight: 600;
+#lefttext4 h2{
   text-align: center;
- margin-bottom: -20px;
+
+  font-family: 'Mulish', sans-serif;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 5px;
+  font-weight: 600;
+  
   width: auto;
+  
+}
 
+#lefttext4 p{
+  width: 70%;
 
-
-
+  font-size: 17px;
+  justify-content:center;
+  color: #f0f0f0;
+  line-height:35px;
+  font-family: 'Mulish', sans-serif;
 }
 
 
-
-
-
+.textinfo3{
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
 #lefttext p{
   width: 75%;
     
@@ -1840,7 +1853,7 @@ padding-bottom: 40px;
 
 .testim .arrow {
     position: absolute;
-    color: #eee;
+    color: #eeeeee;
     cursor: pointer;
     font-size: 2em;
     top: 50%;
@@ -1953,6 +1966,8 @@ padding-bottom: 40px;
 .testim .cont div p {
     font-size: 1.15em;
     color: #eee;
+    font-family: 'Mulish', sans-serif;
+
     width: 80%;
     margin: auto;
 }

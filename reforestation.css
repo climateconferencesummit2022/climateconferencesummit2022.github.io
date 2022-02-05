@@ -1728,6 +1728,18 @@ body {
 
 }
 
+#right-arrow{
+  color: red;
+  margin-left: 40px;
+}
+
+
+#right-arrow:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+
 .testim .wrap {
     position: relative;
     width: 100%;

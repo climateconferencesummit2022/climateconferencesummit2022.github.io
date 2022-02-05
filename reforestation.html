@@ -217,8 +217,11 @@ function myFunction() {
 <section id="testim" class="testim">
 <!--         <div class="testim-cover"> -->
             <div class="wrap">
-
-                <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                <div id="right-arrow">
+                  
+              
+                <span class="arrow right fa fa-chevron-right"></span>
+                  </div>
                 <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
                 <ul id="testim-dots" class="dots">
                     <li class="dot active"></li><!--
@@ -760,10 +763,7 @@ window.onload = function() {
 
         currentActive = currentSlide;
     
-        clearTimeout(testimTimer);
-        testimTimer = setTimeout(function() {
-            playSlide(currentSlide += 1);
-        }, testimSpeed)
+     
     }
 
     testimLeftArrow.addEventListener("click", function() {

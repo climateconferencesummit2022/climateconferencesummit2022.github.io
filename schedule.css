@@ -251,7 +251,6 @@ animation-fill-mode: forwards;
 
 
 
-
 /* ==================================================
       Pop Up
 ================================================== */
@@ -263,7 +262,7 @@ animation-fill-mode: forwards;
 }
 
  .butt {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Mulish', sans-serif;
     font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
@@ -319,6 +318,8 @@ animation-fill-mode: forwards;
   
 
 }
+
+
 .modal-body h2{
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -382,11 +383,11 @@ animation-fill-mode: forwards;
     font-size: 15px;
 }
 .form input:hover{
-    background-color: #D3F8F9;
+    background-color: #CBEBE0;
     transition: all 1s ease 0s;
 }
 .form input:focus{
-    background-color: #D3F8F9;
+    background-color: #CBEBE0;
     transition: all 1s ease 0s;
 }
 
@@ -408,16 +409,16 @@ animation-fill-mode: forwards;
     font-size: 17px;
     letter-spacing: 1px;
     display: block;
-    margin-left: 20%;
+    margin: 0 auto;
     padding: 8px 28px;
     border-radius: 50px;
   margin-bottom: 40px;
     transition: 0.5s;
-    width: 50%;
+    width: 55%;
     text-align: center;
     color: white;
     background: #0eb0a5;
-    border: 2px solid #0eb0a5;
+    border: 2px solid ##0eb0a5;
   }
 
 .form button:hover {
@@ -426,6 +427,10 @@ animation-fill-mode: forwards;
     text-decoration: none;
     color:#fff;
   }
+
+
+
+
 
 
 
@@ -658,15 +663,6 @@ letter-spacing: 1px;
 }
 }
 
-@media (max-width: 990px){
-  .info {
-    width: 60%;
-    
-    margin-left: 30px;
-    
-}
- 
-}
 
 .info{
   padding-bottom: 5px;
@@ -830,4 +826,19 @@ letter-spacing: 1px;
 .details p{
     font-family: 'Mulish', sans-serif;
     font-size: 20px;
+}
+
+@media (max-width: 990px){
+  .info {
+    width: 60%;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+
+    
+}
+  .image{
+    margin-left: 30px;
+  }
+ 
 }

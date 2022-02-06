@@ -572,14 +572,16 @@ html{
 }
 @media (max-width: 1080px) {
   
-  .planttypes table img{
+/*  .planttypes table img{
  display:none;
-}
+}*/
   
    .planttypes table {
- display:none;
+     width: 60%;
 }
-  
+  .planttypes tr p{
+    font-size: 12px;
+  }
 }
 /* ##########################Caoursel (pretend i spelled that right) stuff
 ##############################*/
@@ -1049,6 +1051,13 @@ margin-top: -100px;
   width: 40%;
   display: block;
   margin: 0 auto;
+}
+
+@media (max-width: 925px) {
+  #planttog {
+  width: 70%;
+
+}
 }
 
 #lefttext h2 {
@@ -1931,11 +1940,11 @@ margin-top: -100px;
 
 @media (max-width: 474px) {
   .image {
-    height: 500px;
+    height: 650px;
   }
 
   .image2 {
-    height: 530px;
+    height: 600px;
   }
   .image3 {
     height: 450px;

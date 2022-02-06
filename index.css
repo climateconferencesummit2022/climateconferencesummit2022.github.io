@@ -1941,7 +1941,9 @@ img {
 
 
 #rightimage img{
-  width: 100%;
+  width: 80% !important;
+  height: auto !important;
+  padding-top: 0 !important;
   
 }
 
@@ -2485,6 +2487,16 @@ img {
  
 }
 
+
+@media (max-width: 700px) {
+#videoinfo1 {
+    padding-left: 0px;
+  padding-right: 0px;
+}
+  
+}
+
+
 .cht-btn{
   width: auto;
 
@@ -2509,6 +2521,13 @@ img {
   transition: all ease 0.3s;
     color: white;
   }
+
+@media (max-width: 700px) {
+.cht-btn {
+    font-size: 20px;
+}
+  
+}
 
 #videoinfo1 h2{
   font-family: 'Roboto', sans-serif;

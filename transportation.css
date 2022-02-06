@@ -1694,11 +1694,10 @@ justify-content:center;
   
 }
 
-#rightimage{
- text-align:center;
+#rightimage img{
+  width: 100%;
+  height: auto;
 }
-
-
 
 
 
@@ -1743,7 +1742,7 @@ justify-content:center;
 
 #righttext img{
  
-  width: 50%;
+  width: 100%;
 }
 
 
@@ -1755,10 +1754,6 @@ justify-content:center;
 }
 }
 
-#lefttxt img{
- 
-  width: 70%;
-}
 
 
 
@@ -3518,14 +3513,6 @@ margin-top: -200px;
 
 
 
-#righttext img{
- 
-  width: 50%;
-}
-
-
-
-
 @media(max-width: 950px){
   #noimg{
   display: none;
@@ -3534,7 +3521,7 @@ margin-top: -200px;
 
 #lefttxt img{
  
-  width: 70%;
+  width: 100%;
 }
 
 

@@ -1769,7 +1769,14 @@ justify-content:center;
 }
 
 
-
+@media (max-width: 600px) {
+  #righttext img{
+ 
+  display: none;
+}
+  
+  
+}
 
 @media(max-width: 950px){
   #noimg{

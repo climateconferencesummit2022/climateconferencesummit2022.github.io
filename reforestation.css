@@ -1712,16 +1712,31 @@ animation-fill-mode: forwards;
 .downbtn{
     
     	border-radius: 20px;
-    	border:.15em solid #3b92e3;
+    	border: 4px solid #689689;
       padding: 10px 20px;
-    	color: #3b92e3;
+    	color: #689689;
     margin-left: 47%;
+  background-color: white;
+  font-weight: 800;
     margin-bottom: 30px;
       font-family: 'Roboto', sans-serif;
     }
 .downbtn i{
-  color: white;
+  color: #689689;
+  font-weight: 800;
+  font-size: 25px;
+  
 }
+
+.downbtn:hover{
+    background-color: #d6d6d6;
+    color: white;
+  	 transition: .3s ease-in-out;
+
+  
+
+}
+
 
 
 /* slider */

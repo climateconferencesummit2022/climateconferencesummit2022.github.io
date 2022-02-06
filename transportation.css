@@ -106,7 +106,12 @@ body{
   text-align: center;
 }
 
-
+@media (max-width: 860px) {
+  .header h1 {
+    font-size: 70px;
+    height: 100px;
+  }
+}
 
 .fade {
 

@@ -948,14 +948,14 @@ textarea {
 }
 
 .list-item {
-  line-height: 4;
+  line-height: 2;
   color: #aaa;
 }
 
 .contact-text {
   font-family: 'Mulish', sans-serif;
-  letter-spacing: 1.9px;
-  color: #bbb;
+  color: black;
+  font-size: 20px;
 }
 
 .place {
@@ -971,7 +971,9 @@ textarea {
 }
 
 .contact-text a {
-  color: #bbb;
+  font-family: 'Mulish', sans-serif;
+  color: black;
+  font-size: 20px;
   text-decoration: none;
   transition-duration: 0.2s;
 }
@@ -987,7 +989,7 @@ textarea {
   position: relative;
   font-size: 22px;
   text-align: center;
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   padding: 0;
 }
@@ -996,6 +998,9 @@ textarea {
   color: #fff;
 }
 
+#contact-form{
+  margin-right: 50px;
+}
 .social-media-list li {
   position: relative; 
   display: inline-block;
@@ -1020,7 +1025,6 @@ textarea {
   line-height: 60px;
   border-radius: 50%;
   opacity: 0;
-  box-shadow: 0 0 0 1px #fff;
   transition: all .2s ease-in-out;
 }
 
@@ -1038,16 +1042,6 @@ textarea {
   color: #000;
 }
 
-.copyright {
-  font: 200 14px 'Oswald', sans-serif;
-  color: #555;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-hr {
-  border-color: rgba(255,255,255,.6);
-}
 
 /* Begin Media Queries*/
 @media screen and (max-width: 850px) {

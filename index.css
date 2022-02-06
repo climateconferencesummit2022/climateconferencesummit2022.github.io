@@ -311,6 +311,12 @@ html{
   font-family: 'Mulish', sans-serif;
 }
 
+@media (max-width: 500px){
+  #big {
+    font-size: 180px;
+  }
+}
+
 @media screen and (max-width: 1000px){
   #leftheader p{
     width: 70%;
@@ -2046,6 +2052,9 @@ img {
   transition: 350ms all ease-in-out;
 }
 
+
+
+
 .row {
   width: 100%;
   display: flex;
@@ -2430,7 +2439,7 @@ img {
     height: 450px;
   }
   .image4 {
-    height: 450px;
+    height: 580px;
   }
 }
 
@@ -2477,8 +2486,9 @@ img {
 }
 
 .cht-btn{
-  width: 200px;
-    	height: 60px;
+  width: auto;
+
+    	height: 80px;
     	border-radius: 8px;
     	display: flex;
     	justify-content: center;

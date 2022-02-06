@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
@@ -435,7 +435,7 @@ animation-fill-mode: forwards;
   text-align: center;
   background-color: #f0f0f0;
   padding-top: 150px;
-  margin-bottom: -120px;
+  margin-bottom: -12px;
 }
 
 .test2-heading h1 {
@@ -650,21 +650,21 @@ letter-spacing: 1px;
 }
 
 .info{
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
 .info h2{
   color: #689689;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  	font-size: 35px;
+  	font-size: 30px;
 
 }
 
 .info p{
   color: #696161;
   font-family: 'Mulish', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 30px;
 }
 
@@ -715,9 +715,11 @@ letter-spacing: 1px;
   position: relative;
   flex: 1;
   border-radius: 15px;
-  max-width: 550px;
+  max-width: 500px;
   height: 700px;
   margin: 20px;
+    margin-left: 50px;
+
   overflow: hidden;
 }
 

@@ -573,6 +573,9 @@ animation-fill-mode: forwards;
   
 }
 
+
+
+
 .card:before{
   content: '';
   display: block;
@@ -647,6 +650,22 @@ font-size: 20px;
     font-family: 'Roboto', sans-serif;
 letter-spacing: 1px;
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 570px){
+  .card__heading {
+    font-size: 40px;
+}
+}
+
+@media (max-width: 990px){
+  .info {
+    width: 60%;
+    
+    margin-left: 30px;
+    
+}
+ 
 }
 
 .info{

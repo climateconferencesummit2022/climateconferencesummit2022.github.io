@@ -1936,6 +1936,7 @@ img {
 
 #rightimage img{
   width: 100%;
+  
 }
 
 @media screen and (max-width: 600px){
@@ -2803,4 +2804,14 @@ color: #689689;
 
 .custom-shape-divider-top-1644035655 .shape-fill {
     fill: #F0F0F0;
+}
+
+
+.home__img{
+  padding-top: 40px;
+  
+   width: auto;
+  height: 45vh;
+  object-fit: contain;
+  padding-left: 80px;
 }

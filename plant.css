@@ -441,176 +441,6 @@ html{
 
 
 /* ==================================================
-      Services Details Section
-================================================== */
-
-.test2-heading {
-  text-align: center;
-
-  margin-top: -3vh;
-  padding-top: 5vh;
-}
-.test2-heading h1 {
-  color: #333436;
-  font-size: 3rem;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 1px;
-}
-
-.test2-btn {
-  border-radius: 20px;
-  margin-bottom: 0.3vh;
-  border: 0.15em solid #3b92e3;
-  padding: 10px 70px;
-  color: #3b92e3;
-  font-family: 'Roboto', sans-serif;
-}
-
-.test2-btn:hover {
-  background: #3b92e3;
-  border: 2px solid #3b92e3;
-  text-decoration: none;
-  transition: all ease 0.3s;
-  color: white;
-}
-
-.test2-heading p {
-  color: #333436;
-  font-size: 1rem;
-  font-family: 'Mulish', sans-serif;
-  margin-top: 1em;
-  padding-top: 15px;
-  line-height: 2em;
-  color: #856A56;
-  text-align: center;
-  margin: 0 auto;
-  width: 70%;
-}
-
-.smallblurb1 {
-  letter-spacing: 0.2em;
-  text-align: center;
-}
-
-#servicedetails {
-  background-color: #fcfcfc;
-  padding-bottom: 20vh;
-}
-
-#authentictext .smallblurb {
-  letter-spacing: 0.2em;
-}
-
-#authentictext {
-  display: block;
-  text-align: center;
-
-  grid-area: content;
-  padding-left: 30vh;
-  padding-right: 10vh;
-  text-align: left;
-  align-self: center;
-}
-
-#authentictext h2 {
-  padding-bottom: 10px;
-  font-weight: 600;
-  font-family: 'Roboto', sans-serif;
-}
-
-#authentictext p {
-  font-family: 'Mulish', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-}
-
-#left img {
-  width: 100%;
-  margin-left: 0px;
-  padding-right: 70px;
-}
-
-@media (max-width: 1200px) {
-  h2::before {
-    content: none;
-  }
-
-  #left {
-    display: none;
-  }
-
-  #authentictext {
-    padding-top: 40px;
-    text-align: center;
-  }
-}
-
-.content-table {
-  border-collapse: collapse;
-  margin-left: 300px;
-  width: 300px;
-  font-size: 0.9em;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-}
-
-.content-table td {
-  padding: 20px 15px;
-}
-
-.content-table td h4 {
-  font-family: 'Mulish', sans-serif;
-  text-align: left;
-}
-
-#tables {
-  padding-top: 50px;
-  margin-left: 130px;
-  display: flex;
-  flex-direction: row;
-  margin-right: 50px;
-}
-
-#tables img {
-  width: 80px;
-}
-
-.content-table2 {
-  border-collapse: collapse;
-  align-items: center;
-  width: 30%;
-  height: 10%;
-  font-size: 0.9em;
-  border-radius: 5% 5% 5% 5%;
-}
-
-.content-table2 td {
-  padding-top: 30px;
-  height: 10%;
-  text-align: left;
-  font-family: 'Mulish', sans-serif;
-  font-size: 16px;
-  line-height: 33px;
-}
-
-.content-table2 td img {
-  padding-right: 20px;
-}
-
-.content-table3 {
-  border-collapse: collapse;
-  margin-left: 60px;
-  width: 300px;
-  font-size: 0.9em;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-}
-
-.content-table3 td {
-  padding: 20px 15px;
-}
-
-/* ==================================================
       Tabs
 ================================================== */
 
@@ -686,228 +516,6 @@ html{
   fill: #fcfcfc;
 }
 
-/* ==================================================
-      Services Double Column Section
-================================================== */
-
-#doubleservices {
-  background-color: #fcfcfc;
-  padding-top: 8vh;
-}
-
-#authentictext2 .smallblurb {
-  letter-spacing: 0.2em;
-  color: #eda137;
-}
-
-#doubleservices .smallblurb {
-  letter-spacing: 3px;
-  color: #eda137;
-  padding-left: 25vh;
-  font-family: 'Roboto', sans-serif;
-}
-
-#authentictext2 {
-  display: block;
-  text-align: center;
-
-  grid-area: content;
-  padding-left: 12vw;
-  text-align: left;
-  align-self: center;
-}
-
-#doubleservices h2 {
-  padding-bottom: 10px;
-  font-family: 'Mulish', sans-serif;
-  font-size: 1.7em;
-  line-height: 1.7em;
-  padding-left: 12vw;
-  padding-right: 20vw;
-  width: 100vw;
-  color: #333333;
-}
-
-#authentictext2 p {
-  font-family: 'Mulish', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-  font-size: 1em;
-}
-
-@media (min-width: 800px) {
-  #authentictext2 p {
-    font-size: 2em;
-  }
-}
-
-#left2 img {
-  width: 60%;
-  margin-left: 1000px;
-  padding-right: 50px;
-  position: relative;
-  top: -400px;
-}
-
-@media (max-width: 1200px) {
-  h2::before {
-    content: none;
-  }
-
-  #left2 {
-    display: none;
-  }
-
-  #authentictext {
-    padding-top: 40px;
-    text-align: center;
-  }
-}
-
-.content-table4 {
-  border-collapse: collapse;
-  width: 650px;
-  font-size: 0.2em;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-}
-
-.content-table4 td {
-  padding: 24px 15px;
-
-  font-family: 'Mulish', sans-serif;
-  line-height: 2em;
-  color: #6e6d6d;
-  font-size: 15px;
-}
-
-@media screen and (max-width: 700px) {
-  #tablesinfo table {
-    width: 80vw;
-  }
-}
-
-.content-table4 td h1 {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1em;
-  color: #333333;
-  font-size: 1.5em;
-  letter-spacing: 1px;
-}
-
-#tablesinfo {
-  padding-top: 2vh;
-  margin-left: -20px;
-}
-
-#tablesinfo img {
-  width: 70px;
-  margin-bottom: 30px;
-}
-
-.custom-shape-divider-bottom-1612574977 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1612574977 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 137px;
-}
-
-.custom-shape-divider-bottom-1612574977 .shape-fill {
-  fill: #fcfcfc;
-}
-
-.surr {
-  background-color: #fcfcfc;
-  padding-top: 120px;
-  padding-bottom: 60px;
-}
-
-.blogpage {
-  width: 80%;
-  background-color: white;
-  padding-left: 5vw;
-  padding-top: 60px;
-  padding-bottom: 10px;
-  padding-right: 5vw;
-  margin-left: 10vw;
-
-  font-family: 'Mulish', sans-serif;
-}
-
-.blogpage h1 {
-  font-family: 'Mulish', sans-serif;
-  text-align: left;
-  padding-bottom: 20px;
-}
-
-.blogpage h3 {
-  font-family: 'Mulish', sans-serif;
-  padding-bottom: 20px;
-  font-size: 20px;
-  color: #2bcfc9;
-}
-
-.blogpage h4 {
-  font-family: 'Mulish', sans-serif;
-  padding-bottom: 20px;
-  font-size: 15px;
-  color: #2bcfc9;
-}
-
-.blogpage p {
-  font-family: 'Mulish', sans-serif;
-  line-height: 35px;
-}
-
-.leftside,
-.rightside {
-  height: 50vh;
-  width: 100%;
-  float: left;
-}
-
-.leftside h2,
-p {
-  display: block;
-}
-
-@media screen and (min-width: 768px) {
-  .leftside,
-  .rightside {
-    height: 100vh;
-  }
-}
-
-.analytic {
-  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.08);
-  width: 80%;
-  background-color: white;
-
-  padding-top: 60px;
-  padding-bottom: 10px;
-  padding-right: 5vw;
-
-  font-family: 'Mulish', sans-serif;
-}
-
-.burr {
-  background-color: #fcfcfc;
-}
-
-.analytic .clear {
-  clear: both;
-  background-color: red;
-}
 
 
 
@@ -915,8 +523,9 @@ p {
 
 .planttypes{
   background-color: #f0f0f0;
-  padding-top: 50px;
   padding-bottom: 50px;
+    padding-top: 70px;
+
 }
 
 .planttypes h1{
@@ -932,13 +541,13 @@ p {
 .planttypes p{
  text-align: center;
   font-size: 17px;
+  
+  display: block;
+  margin: 0 auto;
   text-align: center;
   padding-bottom: 50px;
-  margin-top: 20px;
-  line-height: 35px;
   font-family: 'Mulish', sans-serif;
-  margin-right: 4vw;
-  margin-left: 0vw;
+
   color: #504136;
 }
 
@@ -953,7 +562,7 @@ p {
 }
 
 .planttypes table img{
- width: 80%;
+ width: 100%;
 }
 @media (max-width: 1080px) {
   
@@ -978,6 +587,8 @@ p {
 
 .test-heading{
     	text-align:center;
+   padding-bottom: 40px;
+      padding-top: 40px;
   
     }
     .test-heading h1{
@@ -985,8 +596,7 @@ p {
     	font-size: 3rem;
       font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
-      padding-bottom: 4vh;
-      padding-top: 10vh;
+     
       
       
     }
@@ -1904,7 +1514,6 @@ margin-top: -100px;
 .services{
   padding-bottom: 80px;
   background-color: #f0f0f0;
-  padding-top: 50px;
 }
 
 .box4 {
@@ -2303,13 +1912,13 @@ margin-top: -100px;
 
 
  .test-heading h7{
-    	color: #black;
     
    font-size: 40px;
   font-weight: 600;
       font-family: 'Roboto', sans-serif;
     	letter-spacing: 1px;
-      padding-bottom: 4vh;
+      padding-bottom: 60px;
+   padding-top: 160px;
    
       
     }

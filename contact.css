@@ -385,16 +385,7 @@ html{
 }
 
 
-.form .message{
-    margin: 15px 0 0;
-    color: #B3B3B3;
-    font-size: 12px;
-}
-.form .message a{
-    color: #06C5CF;
-    text-decoration: none;
-}
-      
+
 
 .form button {
     font-family: 'Roboto', sans-serif;
@@ -900,15 +891,6 @@ html{
   font-weight: 400;
 }
 
-.form-control, 
-textarea {
-  max-width: 400px;
-  background-color: #000;
-  color: #fff;
-    font-family: 'Mulish', sans-serif;
-
-  letter-spacing: 1px;
-}
 
 .send-button {
   margin-top: 15px;
@@ -1132,4 +1114,46 @@ textarea {
 
 .custom-shape-divider-top-1644035655 .shape-fill {
     fill: #F0F0F0;
+}
+
+
+#name{
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 7px;
+    font-family: 'Mulish', sans-serif;
+
+  border: 2px solid #c9c9c9;
+  border-radius: 5px;
+}
+
+#email{
+  width: 100%;
+  background-color: #f0f0f0;
+    font-family: 'Mulish', sans-serif;
+
+  padding: 7px;
+  border: 2px solid #c9c9c9;
+  border-radius: 5px;
+}
+
+#message{
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 7px;
+    font-family: 'Mulish', sans-serif;
+
+  border: 2px solid #c9c9c9;
+  border-radius: 5px;
+}
+
+
+.form-control, 
+textarea {
+  width: 100%;
+  background-color: #000;
+  color: black;
+    font-family: 'Mulish', sans-serif;
+
+  letter-spacing: 1px;
 }

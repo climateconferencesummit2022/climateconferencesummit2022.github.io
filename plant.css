@@ -597,6 +597,13 @@ html{
       padding-top: 40px;
   
     }
+
+@media (max-width: 1080px) {
+  .test-heading {
+       margin-bottom: 0px;
+
+  }
+}
     .test-heading h1{
     	color: #f0f0f0;
     	font-size: 3rem;
@@ -1039,7 +1046,7 @@ margin-top: -100px;
 }
 
 #planttog {
-  width: 50%;
+  width: 40%;
   display: block;
   margin: 0 auto;
 }
@@ -1570,6 +1577,8 @@ margin-top: -100px;
   margin: 20px;
   overflow: hidden;
 }
+
+
 
 .image img {
   opacity: 0.8;

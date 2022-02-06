@@ -485,6 +485,7 @@ display: block;
 
 
 
+
 #righttext p{
   width: 90%;
 
@@ -522,6 +523,13 @@ display: block;
 
 
 
+}
+
+
+@media (max-width: 995px) {
+  #righttext {
+    padding-left: 50px;
+  }
 }
 
 
@@ -613,17 +621,31 @@ justify-content:center;
 #rightimage{
  text-align:center;
   margin-bottom: 20px;
+    padding-top: 40px !important;
+  padding-left: 40px;
+
+}
+
+
+#rightimage img{
+  width: 100% !important;
+  height: auto !important;
   
 }
 
-#rightimage img{
-  width: 80%;
-  height: auto;
-}
-#rightimage1{
 
-  margin-bottom: 10px;
-  height: 4px;
+#rightimage1{
+ text-align:center;
+  margin-bottom: 20px;
+    padding-top: 40px !important;
+  padding-left: 40px;
+
+}
+
+
+#rightimage1 img{
+  width: 80% !important;
+  height: auto !important;
   
 }
 
@@ -1663,6 +1685,12 @@ max-height: 460px;
   text-align: center;
 }
 
+@media (max-width: 860px) {
+  .header h1 {
+    font-size: 70px;
+    height: 100px;
+  }
+}
 
 
 .fade {
@@ -1688,7 +1716,7 @@ animation-fill-mode: forwards;
       padding: 10px 20px;
     	color: #3b92e3;
     margin-left: 47%;
-margin-bottom: 30px;
+    margin-bottom: 30px;
       font-family: 'Roboto', sans-serif;
     }
 .downbtn i{

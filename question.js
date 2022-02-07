@@ -106,18 +106,18 @@ const questions = [
     "answer5Total": ""
   },
   {
-    "question": "What type of practice do you have?",
-    "answer1": "Clinic",
+  
+  },  "question": "What is your monthly electricity bill?",
+    "answer1": "Less than $50",
     "answer1Total": "1",
-    "answer2": "Shared Practice",
+    "answer2": "$50 to $100",
     "answer2Total": "2",
-    "answer3": "Hospital",
+    "answer3": "$101 to 150",
     "answer3Total": "3",
-    "answer4": "",
+    "answer4": "$151 to $200",
     "answer4Total": "",
-    "answer5": "",
+    "answer5": "More than $200",
     "answer5Total": ""
-  },
   {
     "question":
       "On average, how many patients do you see each day?",

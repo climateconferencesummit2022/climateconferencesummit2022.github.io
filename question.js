@@ -93,22 +93,30 @@ populate();
 */
 const questions = [
   {
+    "question": "What is your monthly electric bill?",
+    "answer1": "Clinic",
+    "answer1Total": "1",
+    "answer2": "Shared Practice",
+    "answer2Total": "2",
+    "answer3": "Hospital",
+    "answer3Total": "3",
+    "answer4": "",
+    "answer4Total": "",
+    "answer5": "",
+    "answer5Total": ""
+  },
+  {
     "question": "What type of practice do you have?",
     "answer1": "Clinic",
     "answer1Total": "1",
     "answer2": "Shared Practice",
     "answer2Total": "2",
     "answer3": "Hospital",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Which services do you need the most",
-    "answer1": "Video Servicing and Scheduling",
-    "answer1Total": "1",
-    "answer2": "Basic Services + Automatic Messaging and Direct Chat Line",
-    "answer2Total": "2",
-    "answer3": "Basic and Advanced Services + Medical Record Database and Analytics",
-    "answer3Total": "3"
+    "answer3Total": "3",
+    "answer4": "",
+    "answer4Total": "",
+    "answer5": "",
+    "answer5Total": ""
   },
   {
     "question":

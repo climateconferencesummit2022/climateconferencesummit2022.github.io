@@ -93,59 +93,108 @@ populate();
 */
 const questions = [
   {
-    "question": "What is your monthly electricity bill?",
+    "question": "On average, what is your monthly electric bill?",
     "answer1": "Less than $50",
-    "answer1Total": "1",
+    "answer1Total": "2625",
     "answer2": "$50 to $100",
-    "answer2Total": "2",
-    "answer3": "$101 to 150",
-    "answer3Total": "3",
-    "answer4": "$151 to $200",
-    "answer4Total": "",
+    "answer2Total": "7875",
+    "answer3": "$101 to $150",
+    "answer3Total": "13125",
+    "answer4": "$151 to 200",
+    "answer4Total": "18375",
     "answer5": "More than $200",
-    "answer5Total": ""
+    "answer5Total": "26250"
   },
   {
-  
-  },  "question": "What is your monthly electricity bill?",
+    "question": "On average, what is your monthly gas bill?",
     "answer1": "Less than $50",
-    "answer1Total": "1",
+    "answer1Total": "2625",
     "answer2": "$50 to $100",
-    "answer2Total": "2",
-    "answer3": "$101 to 150",
-    "answer3Total": "3",
-    "answer4": "$151 to $200",
-    "answer4Total": "",
+    "answer2Total": "7875",
+    "answer3": "$101 to $150",
+    "answer3Total": "13125",
+    "answer4": "$151 to 200",
+    "answer4Total": "18375",
     "answer5": "More than $200",
-    "answer5Total": ""
-  {
-    "question":
-      "On average, how many patients do you see each day?",
-    "answer1": "0 - 50",
-    "answer1Total": "1",
-    "answer2": "50 - 100",
-    "answer2Total": "2",
-    "answer3": "100+",
-    "answer3Total": "3"
+    "answer5Total": "26250"
   },
   {
-    "question": "What is your price range (per year)?",
-    "answer1": "Less than $300",
-    "answer1Total": "1",
-    "answer2": "$300 - $500",
-    "answer2Total": "2",
-    "answer3":
-      "Less than $600",
-    "answer3Total": "3"
+    "question": "On average, what is your monthly oil bill?",
+    "answer1": "Less than $100",
+    "answer1Total": "5650",
+    "answer2": "$100 to $300",
+    "answer2Total": "22600",
+    "answer3": "$301 to $500",
+    "answer3Total": "45200",
+    "answer4": "$501 to $800",
+    "answer4Total": "73450",
+    "answer5": "More than $800",
+    "answer5Total": "113000"
   },
   {
-    "question": "What do you hope to gain from our services?",
-    "answer1": "Better communication and connections with patients",
-    "answer1Total": "1",
-    "answer2": "Become an interactive practice to address patient needs",
-    "answer2Total": "2",
-    "answer3": "Better organization and data analysis",
-    "answer3Total": "3"
+    "question": "What is the total yearly mileage on your car?",
+    "answer1": "Less than 5000 miles",
+    "answer1Total": "3700",
+    "answer2": "5000 to 10,000 miles",
+    "answer2Total": "5550",
+    "answer3": "10,001 to 15,000 miles",
+    "answer3Total": "9250",
+    "answer4": "15,001 to 20,000 miles",
+    "answer4Total": "12950",
+    "answer5": "More than 20,000 miles",
+    "answer5Total": "18500"
+  },
+  {
+    "question": "How many short flights (4 hours or less) have you taken this year?",
+    "answer1": "0 to 5",
+    "answer1Total": "2750",
+    "answer2": "6 to 10",
+    "answer2Total": "8800",
+    "answer3": "11 to 15",
+    "answer3Total": "14300",
+    "answer4": "16 to 20",
+    "answer4Total": "19800",
+    "answer5": "More than 20",
+    "answer5Total": "27500"
+  },
+  {
+    "question": "How many long flights (more than 4 hours) have you taken this year?",
+    "answer1": "0 to 2",
+    "answer1Total": "4400",
+    "answer2": "3 to 5",
+    "answer2Total": "17600",
+    "answer3": "6 to 8",
+    "answer3Total": "30800",
+    "answer4": "9 to 10",
+    "answer4Total": "41800",
+    "answer5": "More than 10",
+    "answer5Total": "52800"
+  },
+  {
+    "question": "Do you recycle newspaper?",
+    "answer1": "Yes, I always recycle newspaper.",
+    "answer1Total": "0",
+    "answer2": "Yes, I recycle most of my newspaper.",
+    "answer2Total": "60",
+    "answer3": "Yes, I recycle a little newspaper.",
+    "answer3Total": "120",
+    "answer4": "I do not get newspaper.",
+    "answer4Total": "0",
+    "answer5": "No, I do not recycle any newspaper.",
+    "answer5Total": "184"
+  },
+  {
+    "question": "Do you recycle aluminum and tin?",
+    "answer1": "Yes, I recycle all of my aluminum and tin.",
+    "answer1Total": "0",
+    "answer2": "Yes, I recycle most of my aluminum and tin.",
+    "answer2Total": "166",
+    "answer3": "Yes, I recycle a little aluminum and ton.",
+    "answer3Total": "120",
+    "anser4": "",
+    "answer4Total": "41800",
+    "answer5": "More than 10",
+    "answer5Total": "52800"
   },
 ]
 
@@ -160,6 +209,8 @@ const questionEl = document.querySelector('.question');
 const option1 = document.querySelector('.option1');
 const option2 = document.querySelector('.option2');
 const option3 = document.querySelector('.option3');
+const option4 = document.querySelector('.option4');
+const option5 = document.querySelector('.option5');
 const nextButton = document.querySelector('.next');
 const previousButton = document.querySelector('.previous');
 const restartButton = document.querySelector('.restart');
@@ -172,14 +223,20 @@ function generateQuestions (index) {
     const option1Total = questions[index].answer1Total;
     const option2Total = questions[index].answer2Total;
     const option3Total = questions[index].answer3Total;
+    const option4Total = questions[index].answer4Total;
+    const option5Total = questions[index].answer5Total;
     //Populate html elements 
     questionEl.innerHTML = `${index + 1}. ${question.question}`
     option1.setAttribute('data-total', `${option1Total}`);
     option2.setAttribute('data-total', `${option2Total}`);
     option3.setAttribute('data-total', `${option3Total}`);
+    option4.setAttribute('data-total', `${option4Total}`);
+    option5.setAttribute('data-total', `${option5Total}`);
     option1.innerHTML = `${question.answer1}`
     option2.innerHTML = `${question.answer2}`
     option3.innerHTML = `${question.answer3}`
+    option4.innerHTML = `${question.answer4}`
+    option5.innerHTML = `${question.answer5}`
 }
 
 

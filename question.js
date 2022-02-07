@@ -96,11 +96,11 @@ const questions = [
     "question": "On average, what is your monthly electric bill?",
     "answer1": "Less than $50",
     "answer1Total": "2625",
-    "answer2": "$50 to $100",
+    "answer2": "$50 - $100",
     "answer2Total": "7875",
-    "answer3": "$101 to $150",
+    "answer3": "$101 - $150",
     "answer3Total": "13125",
-    "answer4": "$151 to 200",
+    "answer4": "$151 - 200",
     "answer4Total": "18375",
     "answer5": "More than $200",
     "answer5Total": "26250"
@@ -109,11 +109,11 @@ const questions = [
     "question": "On average, what is your monthly gas bill?",
     "answer1": "Less than $50",
     "answer1Total": "2625",
-    "answer2": "$50 to $100",
+    "answer2": "$50 - $100",
     "answer2Total": "7875",
-    "answer3": "$101 to $150",
+    "answer3": "$101 - $150",
     "answer3Total": "13125",
-    "answer4": "$151 to 200",
+    "answer4": "$151 - 200",
     "answer4Total": "18375",
     "answer5": "More than $200",
     "answer5Total": "26250"
@@ -122,11 +122,11 @@ const questions = [
     "question": "On average, what is your monthly oil bill?",
     "answer1": "Less than $100",
     "answer1Total": "5650",
-    "answer2": "$100 to $300",
+    "answer2": "$100 - $300",
     "answer2Total": "22600",
-    "answer3": "$301 to $500",
+    "answer3": "$301 - $500",
     "answer3Total": "45200",
-    "answer4": "$501 to $800",
+    "answer4": "$501 - $800",
     "answer4Total": "73450",
     "answer5": "More than $800",
     "answer5Total": "113000"
@@ -135,66 +135,66 @@ const questions = [
     "question": "What is the total yearly mileage on your car?",
     "answer1": "Less than 5000 miles",
     "answer1Total": "3700",
-    "answer2": "5000 to 10,000 miles",
+    "answer2": "5000 - 10,000 miles",
     "answer2Total": "5550",
-    "answer3": "10,001 to 15,000 miles",
+    "answer3": "10,001 - 15,000 miles",
     "answer3Total": "9250",
-    "answer4": "15,001 to 20,000 miles",
+    "answer4": "15,001 - 20,000 miles",
     "answer4Total": "12950",
     "answer5": "More than 20,000 miles",
     "answer5Total": "18500"
   },
   {
     "question": "How many short flights (4 hours or less) have you taken this year?",
-    "answer1": "0 to 5",
+    "answer1": "0 - 5 flights",
     "answer1Total": "2750",
-    "answer2": "6 to 10",
+    "answer2": "6 - 10 flights",
     "answer2Total": "8800",
-    "answer3": "11 to 15",
+    "answer3": "11 - 15 flights",
     "answer3Total": "14300",
-    "answer4": "16 to 20",
+    "answer4": "16 - 20 flights",
     "answer4Total": "19800",
-    "answer5": "More than 20",
+    "answer5": "More than 20 flights",
     "answer5Total": "27500"
   },
   {
     "question": "How many long flights (more than 4 hours) have you taken this year?",
-    "answer1": "0 to 2",
+    "answer1": "0 - 2 flights",
     "answer1Total": "4400",
-    "answer2": "3 to 5",
+    "answer2": "3 - 5 flights",
     "answer2Total": "17600",
-    "answer3": "6 to 8",
+    "answer3": "6 - 8 flights",
     "answer3Total": "30800",
-    "answer4": "9 to 10",
+    "answer4": "9 - 10 flights",
     "answer4Total": "41800",
-    "answer5": "More than 10",
+    "answer5": "More than 10 flights",
     "answer5Total": "52800"
   },
   {
     "question": "Do you recycle newspaper?",
     "answer1": "Yes, I always recycle newspaper.",
     "answer1Total": "0",
-    "answer2": "Yes, I recycle most of my newspaper.",
+    "answer2": "Yes, I recycle newspaper often.",
     "answer2Total": "60",
-    "answer3": "Yes, I recycle a little newspaper.",
+    "answer3": "No, I rarely recycle newspaper.",
     "answer3Total": "120",
-    "answer4": "I do not get newspaper.",
-    "answer4Total": "0",
-    "answer5": "No, I do not recycle any newspaper.",
-    "answer5Total": "184"
+    "answer4": "No, I do not recycle any newspaper.",
+    "answer4Total": "184",
+    "answer5": "I do not get newspaper.",
+    "answer5Total": "0"
   },
   {
     "question": "Do you recycle aluminum and tin?",
-    "answer1": "Yes, I recycle all of my aluminum and tin.",
+    "answer1": "Yes, I always recycle aluminum and tin.",
     "answer1Total": "0",
-    "answer2": "Yes, I recycle most of my aluminum and tin.",
-    "answer2Total": "166",
-    "answer3": "Yes, I recycle a little aluminum and ton.",
-    "answer3Total": "120",
-    "anser4": "",
-    "answer4Total": "41800",
-    "answer5": "More than 10",
-    "answer5Total": "52800"
+    "answer2": "Yes, I recycle aluminum and tin often.",
+    "answer2Total": "50",
+    "answer3": "No, I rarely recycle aluminum and tin.",
+    "answer3Total": "100",
+    "anser4": "No, I do not recycle aluminum and tin",
+    "answer4Total": "166",
+    "answer5": "I do not use aluminum or tin.",
+    "answer5Total": "0"
   },
 ]
 
@@ -274,10 +274,10 @@ function loadNextQuestion () {
          `<h1 class="final-score">Your Score: ${totalScore}</h1>
          <div class="summary">
             <h1>Summary</h1>
-            <p>Based on your score, this is the recommended pricing plan for your practice: </p>
-            <p>Premium: 10 - 15</p>
-            <p>Advanced: 6 - 10 </p>
-            <p>Basic: 5</p>
+            <p>Based on your score, this is how your Carbon Footprint compares to others: </p>
+            <p>Ideal (Low): 6,000 - 15,999 pounds </p>
+            <p>Average: 16,000 - 22,000 pounds </p>
+            <p>High: 22,000+ </p>
         </div>
         <button class="restart">Restart Quiz</button>
          `;

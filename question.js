@@ -191,7 +191,7 @@ const questions = [
     "answer2Total": "50",
     "answer3": "No, I rarely recycle aluminum and tin.",
     "answer3Total": "100",
-    "anser4": "No, I do not recycle aluminum and tin",
+    "answer4": "No, I do not recycle aluminum and tin",
     "answer4Total": "166",
     "answer5": "I do not use aluminum or tin.",
     "answer5Total": "0"
@@ -274,7 +274,7 @@ function loadNextQuestion () {
          `<h1 class="final-score">Your Score: ${totalScore}</h1>
          <div class="summary">
             <h1>Summary</h1>
-            <p>Based on your score, this is how your Carbon Footprint compares to others: </p>
+            <p>Above is your household Carbon Footprint, this is how individual Carbon Footprints compare: </p>
             <p>Ideal (Low): 6,000 - 15,999 pounds </p>
             <p>Average: 16,000 - 22,000 pounds </p>
             <p>High: 22,000+ </p>

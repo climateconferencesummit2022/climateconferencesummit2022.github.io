@@ -826,6 +826,9 @@ html{
     margin-bottom: 30px;
 }
 }
+
+
+
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
@@ -1145,7 +1148,19 @@ html{
 
   border: 2px solid #c9c9c9;
   border-radius: 5px;
+     display: block;
+  margin: 0 auto;
 }
+
+@media(max-width: 551px) {
+  #message{
+    width: 80%;
+  }
+
+
+}
+
+
 
 
 .form-control, 

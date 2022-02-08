@@ -9,10 +9,10 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.7rem;
-  background: #044f48;
+  background: #689689;
 }
 .quiz-container {
   padding: 3rem;
@@ -20,7 +20,7 @@ body {
   margin: 5rem auto;
   display: flex;
   flex-direction: column;
-  background: #044f48;
+  background: #689689;
   min-height: 100vh;
   
 }
@@ -77,7 +77,7 @@ button.next {
   background: #504136;
 }
 button.restart {
-  background: #0096fa;
+  background: #504136;
   color: #e1e4ed;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -107,8 +107,8 @@ button:focus {
 }
 .summary {
   font-size: 1rem;
-  color: #031b30;
-  background: linear-gradient(135deg, #6e8efb, #34aeeb);
+  color: #ffffff;
+  background: #4f8071;
   border-radius: 5px;
   display: flex;
   flex-direction: column;

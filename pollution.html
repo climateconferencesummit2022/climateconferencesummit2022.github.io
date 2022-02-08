@@ -750,10 +750,8 @@ var	testim = document.getElementById("testim"),
     testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
     testimLeftArrow = document.getElementById("left-arrow"),
     testimRightArrow = document.getElementById("right-arrow"),
-    testimSpeed = 4500,
     currentSlide = 0,
     currentActive = 0,
-    testimTimer,
 		touchStartPos,
 		touchEndPos,
 		touchPosDiff,
@@ -786,10 +784,7 @@ window.onload = function() {
 
         currentActive = currentSlide;
     
-        clearTimeout(testimTimer);
-        testimTimer = setTimeout(function() {
-            playSlide(currentSlide += 1);
-        }, testimSpeed)
+       
     }
 
     testimLeftArrow.addEventListener("click", function() {

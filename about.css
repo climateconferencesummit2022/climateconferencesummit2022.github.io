@@ -1174,6 +1174,7 @@ html {
       Footer
 ================================================== */
 
+
 .bottomfooter{
   background-color: #3d3128;
 }
@@ -1231,7 +1232,7 @@ html {
   
 	text-decoration: none;
 	font-weight: 100;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', sans-serif;'
   
 	display: block;
 	transition: all 0.3s ease;
@@ -1273,12 +1274,6 @@ html {
     width: 100%;
 }
 }
-
-
-
-
-
-
 
 
 
@@ -2271,4 +2266,8 @@ h1 {
 
 .custom-shape-divider-top-1644035655 .shape-fill {
     fill: #F0F0F0;
+}
+
+* {
+    padding: 0;
 }

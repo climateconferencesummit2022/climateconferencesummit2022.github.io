@@ -313,7 +313,7 @@ html{
 
 @media (max-width: 500px){
   #big {
-    font-size: 180px;
+    font-size: 130px;
   }
 }
 
@@ -1001,7 +1001,7 @@ flex: 2 0px;
   justify-content: center;
 }
 
-img {
+.card__header img {
   max-width: 100%;
   display: block;
   object-fit: cover;
@@ -1953,6 +1953,19 @@ img {
   }
 }
 
+
+#leftimage img{
+  width: 80% !important;
+  height: auto !important;
+  padding-top: 0 !important;
+  
+}
+
+@media screen and (max-width: 600px){
+  #leftimage{
+    padding-bottom: 50px;
+  }
+}
 
 
 #lefttext2 h2{

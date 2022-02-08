@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 html {
   box-sizing: border-box;
 }
@@ -54,7 +60,7 @@ body {
 }
 .option input:checked .option {
   background: #08038c;
-  color: #000;
+  color: #000000;
 }
 .controls > * {
   margin: 1rem;

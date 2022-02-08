@@ -133,9 +133,9 @@ const questions = [
   },
   {
     "question": "What is the total yearly mileage on your car?",
-    "answer1": "Less than 5000 miles",
+    "answer1": "Less than 5,000 miles",
     "answer1Total": "3700",
-    "answer2": "5000 - 10,000 miles",
+    "answer2": "5,000 - 10,000 miles",
     "answer2Total": "5550",
     "answer3": "10,001 - 15,000 miles",
     "answer3Total": "9250",

@@ -1142,6 +1142,23 @@ html{
   border-radius: 5px;
 }
 
+@media (max-width: 500px){
+  #email{
+  width: 70%;
+    display: block;
+    margin: 0 auto;
+
+}
+  
+  #name{
+  width: 70%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+}
+
 #message{
   width: 100%;
   background-color: #f0f0f0;
@@ -1154,9 +1171,15 @@ html{
   margin: 0 auto;
 }
 
-@media(max-width: 551px) {
+@media(max-width: 500px) {
   #message{
-    width: 80%;
+    width: 70%;
+  }
+  
+  .send-button{
+    width: 60%;
+    display: block;
+  margin-left: 20%;
   }
 
 

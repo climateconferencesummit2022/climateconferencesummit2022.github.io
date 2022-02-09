@@ -1738,7 +1738,7 @@ animation-fill-mode: forwards;
 }
 
 
-@media (max-width: 534) {
+@media (max-width: 534px) {
   .downbtn{
     display: none;
   }

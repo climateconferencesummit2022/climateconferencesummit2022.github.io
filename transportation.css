@@ -161,6 +161,11 @@ animation-fill-mode: forwards;
 
 }
 
+@media (max-width: 534px) {
+  .downbtn{
+    display: none;
+  }
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu

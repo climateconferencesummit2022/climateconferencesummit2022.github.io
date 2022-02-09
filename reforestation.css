@@ -1738,6 +1738,12 @@ animation-fill-mode: forwards;
 }
 
 
+@media (max-width: 534) {
+  .downbtn{
+    display: none;
+  }
+}
+
 
 /* slider */
 

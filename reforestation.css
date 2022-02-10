@@ -1671,7 +1671,13 @@ max-height: 460px;
 
 }
 
-
+@media (max-width: 612px){
+  .header{
+       background-image: none;
+    background-color: #38318c;
+  }
+  
+}
 
 
 .header h1{

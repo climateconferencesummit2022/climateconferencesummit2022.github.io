@@ -352,6 +352,14 @@ html{
 }
 
 
+@media (max-width: 612px){
+  .header{
+       background-image: none;
+    background-color: #38318c;
+  }
+  
+}
+
 
 
 /*========== HOME ==========*/

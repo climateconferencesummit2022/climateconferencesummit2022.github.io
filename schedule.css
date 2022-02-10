@@ -815,13 +815,14 @@ letter-spacing: 1px;
 }
 
 
-.details button{
+.button{
   border: none;
   color: white;
   background-color: black;
   letter-spacing: 2px;
   padding: 20px 20px;
   border-radius: 10px;
+  margin-top: 20px;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -920,6 +921,7 @@ letter-spacing: 1px;
   font-size: 18px;
   line-height: 30px;
   font-family: 'Mulish', sans-serif;
+  
   text-align: left;
   color: #bac0cc;
 }

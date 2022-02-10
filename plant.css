@@ -593,11 +593,17 @@ html{
 .planttypes table img{
  width: 100%;
 }
+
+@media (max-width: 696px) {
+  
+ .planttypes table {
+ display:none;
+}
+}
+
 @media (max-width: 1080px) {
   
-/*  .planttypes table img{
- display:none;
-}*/
+
   
    .planttypes table {
      width: 60%;
@@ -686,6 +692,13 @@ html{
 }
 
 
+@media (max-width: 612px){
+  .header{
+       background-image: none;
+    background-color: #38318c;
+  }
+  
+}
 
 
 .testimonials .container {

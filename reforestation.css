@@ -621,15 +621,16 @@ justify-content:center;
 #rightimage{
  text-align:center;
   margin-bottom: 20px;
-    padding-top: 40px !important;
-  padding-left: 40px;
+    padding-top: 13vh !important;
+padding-right:150px;
 
 }
 
 
 #rightimage img{
-  width: 100% !important;
+  width: 140% !important;
   height: auto !important;
+  
   
 }
 
@@ -2661,7 +2662,7 @@ display: block;
 .analytic{
   box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
   width: 85%;
-   background-color: #f0f0f0;
+   background-color: white;
    padding-left: 80px;
    padding-top: 60px;
    padding-bottom: 40px;
@@ -2683,7 +2684,8 @@ display: block;
 
 .burr{
   padding-bottom: 80px;
-  padding-top: 250px;
+padding-top: 60px;
+  margin-top: 60px;
 }
 
 .analytic .clear {

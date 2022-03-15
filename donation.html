@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="donation.css" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="schedule.html">Schedule</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Themes
+            <i class="fa fa-caret-down"></i>
+          </button>
+
+          <div class="dropdown-content">
+            <a href="reforestation.html">Reforestation</a>
+            <a href="pollution.html">Physical Pollution</a>
+            <a href="transportation.html">Transportation</a>
+            <a href="plant.html" style="padding-bottom: 20px">Sustainable Agriculture</a>
+          </div>
+        </div>
+        <a style="color: #32b3a3"href="blog.html">News Updates</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="loginstuff">
+
+          <button id="modal-btn" class="butt">Register Now &#8594;</button>
+
+          <div id="my-modal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close"
+                  ><i class="fa fa-times-circle" aria-hidden="true"></i
+                ></span>
+              </div>
+
+              <div class="modal-body">
+                <h2>Register</h2>
+                <p>
+                  Please complete the form to register for our event.
+                </p>
+                <div class="form">
+                  <form>
+                    <input
+                      type="text"
+                      name="username"
+                      placeholder="Full Name"
+                    />
+                    <input type="text" name="username" placeholder="Email" />
+                    <input
+                      type="text"
+                      name="username"
+                      placeholder="Phone Number"
+                    />
+                    <button>Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            // Get DOM Elements
+            const modal = document.querySelector("#my-modal");
+            const modalBtn = document.querySelector("#modal-btn");
+            const closeBtn = document.querySelector(".close");
+
+            // Events
+            modalBtn.addEventListener("click", openModal);
+            closeBtn.addEventListener("click", closeModal);
+            window.addEventListener("click", outsideClick);
+
+            // Open
+            function openModal() {
+              modal.style.display = "block";
+            }
+
+            // Close
+            function closeModal() {
+              modal.style.display = "none";
+            }
+
+            // Close If Outside Click
+            function outsideClick(e) {
+              if (e.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+          </script>
+        </div>
+
+        <a
+          href="javascript:void(0);"
+          style="font-size: 20px; padding-right: 20px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </nav>
+    
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="blog.css" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="schedule.html">Schedule</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Themes
+            <i class="fa fa-caret-down"></i>
+          </button>
+
+          <div class="dropdown-content">
+            <a href="reforestation.html">Reforestation</a>
+            <a href="pollution.html">Physical Pollution</a>
+            <a href="transportation.html">Transportation</a>
+            <a href="plant.html" style="padding-bottom: 20px">Sustainable Agriculture</a>
+          </div>
+        </div>
+        <a style="color: #32b3a3"href="blog.html">News Updates</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="loginstuff">
+
+          <button id="modal-btn" class="butt">Register Now &#8594;</button>
+
+          <div id="my-modal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close"
+                  ><i class="fa fa-times-circle" aria-hidden="true"></i
+                ></span>
+              </div>
+
+              <div class="modal-body">
+                <h2>Register</h2>
+                <p>
+                  Please complete the form to register for our event.
+                </p>
+                <div class="form">
+                  <form>
+                    <input
+                      type="text"
+                      name="username"
+                      placeholder="Full Name"
+                    />
+                    <input type="text" name="username" placeholder="Email" />
+                    <input
+                      type="text"
+                      name="username"
+                      placeholder="Phone Number"
+                    />
+                    <button>Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            // Get DOM Elements
+            const modal = document.querySelector("#my-modal");
+            const modalBtn = document.querySelector("#modal-btn");
+            const closeBtn = document.querySelector(".close");
+
+            // Events
+            modalBtn.addEventListener("click", openModal);
+            closeBtn.addEventListener("click", closeModal);
+            window.addEventListener("click", outsideClick);
+
+            // Open
+            function openModal() {
+              modal.style.display = "block";
+            }
+
+            // Close
+            function closeModal() {
+              modal.style.display = "none";
+            }
+
+            // Close If Outside Click
+            function outsideClick(e) {
+              if (e.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+          </script>
+        </div>
+
+        <a
+          href="javascript:void(0);"
+          style="font-size: 20px; padding-right: 20px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </nav>
+    
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+
+   <section>
+  <div class="header">
+    <h1>Donate to the Planned Parenthood Action Fund.</h1>
+      <p>Help us fight for laws and policies to protect your rights and health, and elect officials who will do so too. Make a gift today and become a member of the Planned Parenthood Action Fund.</p>
+  </div>
+  <form>
+    <div class="fast-action">Take future action with a single click.<br/>
+      <a href="">Log in</a> or <a href="">Sign Up</a> for FastAction.<br/></div>
+    <b>Gift Information</b><br/>
+    Gift Type:<br/>
+    <input type="radio" value="monthly" name="gift-type"/> <label for="gift-type">Monthly</label> 
+    <input type="radio" value="one-time" name="gift-type"/> <label for="gift-type">One-Time</label><br/>
+
+    Monthly Gift Amount <span class="minimum">($10 Min.)</span>
+    <div class="amount-options">
+      <label for="$50" class="amount"><input type="radio" name="amount" value="$50"/>$50</label>
+      <label for="$35"  class="amount"><input type="radio" name="amount" value="$25"/>$35</label>
+  <label for="$25" class="amount"><input type="radio" name="amount" value="$25"/>$25</label>
+      <label for="$15"  class="amount"><input type="radio" name="amount" value="$15"/>$15</label>
+    </div>
+    <label for="amount-undefined" class="undefined-amount"><input type="text" name="amount-undefined" placeholder="0.00"/></label>
+  </form>
+</section>
+  
+      
+ <!-- footer -->
+    <div class="bottomfooter">
+      
+      <div class="custom-shape-divider-top-1644035655">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+</div>
+      
+      
+   <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>CC22</h4>
+  	 			<ul>
+  	 				<li><a href="index.html">home</a></li>
+  	 				<li><a href="about.html">about us</a></li>
+  	 				<li><a href="blog.html">news updates</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Themes</h4>
+  	 			<ul>
+  	 				<li><a href="reforestation.html">Reforestation</a></li>
+  	 				<li><a href="pollution.html">Physical Pollution</a></li>
+  	 				<li><a href="transportation.html">Transportation</a></li>
+  	 				<li><a href="plant.html">Sustainable Agriculture</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>event details</h4>
+  	 			<ul>
+              <li><a href="schedule.html">Schedule</a></li>
+  	 				 <li><a href="contact.html">contact us</a></li>
+
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>More</h4>
+  	 			<ul>
+  	 				<li><a href="about.html">citations</a></li>
+            
+  	 			</ul>
+          
+  	 		</div>
+  	 	</div>
+  	 </div>
+  
+  </footer>
+      
+      
+      
+            
+    </div>
+    
+
+      
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
+      
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="main.js"></script>
+  </body>
+</html>

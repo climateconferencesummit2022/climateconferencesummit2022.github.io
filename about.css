@@ -1534,8 +1534,10 @@ h1 {
   padding-top: 200px;
 }
 
+
 #lefttext h2 {
   margin-left: 20%;
+  
 }
 
 #lefttext p {
@@ -1558,6 +1560,36 @@ h1 {
   line-height: 35px;
   font-family: 'Mulish', sans-serif;
 }
+
+
+
+
+#lefttext5 h2 {
+  margin-left: 20%;
+  
+}
+
+#lefttext5 p {
+  width: 70%;
+}
+
+#lefttext5 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#lefttext5 p {
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right: 300px;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  line-height: 35px;
+  font-family: 'Mulish', sans-serif;
+}
+
 
 #midtext h2 {
   margin-left: 10vw;

@@ -38,4 +38,4 @@ let timer = setInterval(function() {
   <div class=\"numbers\">" + seconds + "</div>seconds</div> \
 </div>";
 
-}, 1000);
+}, 1000); 

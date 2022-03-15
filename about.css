@@ -2105,6 +2105,8 @@ h1 {
   padding: 90px;
   margin: 0 auto;
   align-items: center;
+  margin-bottom:-130px;
+  margin-top:-30px;
 }
 
 .skills .content{

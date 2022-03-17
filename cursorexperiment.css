@@ -10,8 +10,9 @@ background: #f0f0f0;
     background: #b2e6d4;
     border: 1px solid black; 
     padding:10px;
-    box-shadow: 0 0 5px 3px #ccc;
+    box-shadow: 0 0 5px 3px #cccccc;
   }
 .info{
     font-size: 80px;
+  font-family: 'Roboto', sans-serif;
   }

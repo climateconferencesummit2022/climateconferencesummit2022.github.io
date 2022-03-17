@@ -1,30 +1,17 @@
-.counter-row { 
-display: flex; 
-justify-content: center; 
-color: white; 
-} 
-
-.counter-column { 
-float: left; 
-width: 20%; 
-padding: 10px; 
-} 
-
-.counter-row:after { 
-content: ""; 
-display: table; 
-clear: both; 
-} 
-
-@media (max-width: 600px) { 
-.counter-column { width: 100%; } 
-} 
-
-.counter-row span { display: none; font-weight: bold; }
-
-.counter-row .counter-column:nth-child(2n+1) { 
-background: pink !important; 
-} 
-.counter-row .counter-column:nth-child(2n) { 
-background: pink !important; 
-} 
+body{
+background: #f6f6f6;
+  }
+•countdownContainer{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background: #ddd;
+    border: 1px solid #999; 
+    padding:10px;
+    box-shadow: 0 0 5px 3px #ccc;
+  }
+  .info{
+    font-size: 80px;
+  }

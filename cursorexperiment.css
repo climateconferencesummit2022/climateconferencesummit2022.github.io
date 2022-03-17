@@ -1,5 +1,5 @@
 body{
-background: #f0f0f0;
+background: white;
   }
 .countdownContainer{
     position: absolute;
@@ -23,7 +23,7 @@ background: #f0f0f0;
 .analytic{
   box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
   width: 85%;
-   background-color: white;
+   color: #b2e6d4;
    padding-left: 80px;
    padding-top: 60px;
    padding-bottom: 40px;
@@ -35,14 +35,17 @@ background: #f0f0f0;
   
 }
 
-.analytic:hover{
+/*.analytic:hover{
   
   transform: scale(1.02);
   transition: 350ms all ease-in-out;
 
   
+}*/
+.tableclass{
+  
+  padding-left: -800px;
 }
-
 .burr{
   padding-bottom: 80px;
 padding-top: 60px;

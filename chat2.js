@@ -268,27 +268,27 @@ class ChatRoom extends React.Component {
     this.state = {
       messages: [{
         id: 1,
-        sender: 'You',
-        senderAvatar: 'https://i.pravatar.cc/150?img=32',
+        sender: 'Ioan',
+        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20112.png?v=1648006006029',
         message: 'Hello!'
       }, {
         id: 2,
-        sender: 'User',
+        sender: 'Sloane',
         senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20111.png?v=1648003207518',
         message: 'Hey!'
       }, {
         id: 3,
-        sender: 'You',
-        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20110.png?v=1648003015089',
+        sender: 'Ioan',
+        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20112.png?v=1648006006029',
         message: 'Are you enjoying CC22?'
       }, {
         id: 4,
-        sender: 'User',
+        sender: 'Sloane',
         senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20111.png?v=1648003207518',
         message: 'Yes! I loved attending the presentation from Ioan Magee.'
       }, {
         id: 5,
-        sender: 'User',
+        sender: 'Sloane',
         senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20111.png?v=1648003207518',
         message: 'How about you?'
       }],
@@ -350,11 +350,11 @@ class ChatRoom extends React.Component {
     /* user details - can add as many users as desired */
 
     users[0] = {
-      name: 'You',
-      avatar: 'https://i.pravatar.cc/150?img=32'
+      name: 'Ioan',
+      avatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20112.png?v=1648006006029'
     };
     users[1] = {
-      name: 'User',
+      name: 'Sloane',
       avatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20109.png?v=1648002236324'
     };
     /* test with two other users :)

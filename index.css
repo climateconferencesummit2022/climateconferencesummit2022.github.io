@@ -2123,6 +2123,7 @@ flex: 2 0px;
   margin: 10px 30px 0 30px;
   transition: 0.4s;
   transition-property: transform;
+  hyphens: auto;
 }
 
 .image .details h4 {
@@ -2907,7 +2908,7 @@ background: white;
 }
 .burr{
   padding-bottom: 60px;
-padding-top: 250px;
+padding-top: 280px;
  
 }
 

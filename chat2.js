@@ -270,27 +270,27 @@ class ChatRoom extends React.Component {
         id: 1,
         sender: 'You',
         senderAvatar: 'https://i.pravatar.cc/150?img=32',
-        message: 'Hello 👋'
+        message: 'Hello!'
       }, {
         id: 2,
         sender: 'User',
-        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20109.png?v=1648002236324',
+        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20111.png?v=1648003207518',
         message: 'Hey!'
       }, {
         id: 3,
-        sender: 'User',
-        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20109.png?v=1648002236324',
-        message: 'How are you?'
+        sender: 'You',
+        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20110.png?v=1648003015089',
+        message: 'Are you enjoying CC22?'
       }, {
         id: 4,
-        sender: 'You',
-        senderAvatar: 'https://i.pravatar.cc/150?img=32',
-        message: 'Have you been enjoying CC22?'
+        sender: 'User',
+        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20111.png?v=1648003207518',
+        message: 'Yes! I loved attending the presentation from Ioan Magee.'
       }, {
         id: 5,
         sender: 'User',
-        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20109.png?v=1648002236324',
-        message: 'Yes! I really loved attending the presentation from Ioan Magee.'
+        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20111.png?v=1648003207518',
+        message: 'How about you?'
       }],
       isTyping: []
     };

@@ -274,12 +274,12 @@ class ChatRoom extends React.Component {
       }, {
         id: 2,
         sender: 'User',
-        senderAvatar: 'https://i.pravatar.cc/150?img=56',
+        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20109.png?v=1648002236324',
         message: 'Hey!'
       }, {
         id: 3,
         sender: 'User',
-        senderAvatar: 'https://i.pravatar.cc/150?img=56',
+        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20109.png?v=1648002236324',
         message: 'How are you?'
       }, {
         id: 4,
@@ -289,8 +289,8 @@ class ChatRoom extends React.Component {
       }, {
         id: 5,
         sender: 'User',
-        senderAvatar: 'https://i.pravatar.cc/150?img=56',
-        message: 'Yes! I really loved attending the /n presentation from Ioan Magee.'
+        senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20109.png?v=1648002236324',
+        message: 'Yes! I really loved attending the presentation from Ioan Magee.'
       }],
       isTyping: []
     };
@@ -350,12 +350,12 @@ class ChatRoom extends React.Component {
     /* user details - can add as many users as desired */
 
     users[0] = {
-      name: 'Shun',
+      name: 'You',
       avatar: 'https://i.pravatar.cc/150?img=32'
     };
     users[1] = {
-      name: 'Gabe',
-      avatar: 'https://i.pravatar.cc/150?img=56'
+      name: 'User',
+      avatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20109.png?v=1648002236324'
     };
     /* test with two other users :)
     users[2] = { name: 'Kate', avatar: 'https://i.pravatar.cc/150?img=47' };

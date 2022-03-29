@@ -1859,11 +1859,14 @@ h1 {
   margin-bottom:10px;
 }
 .header {padding: 20px;}
+
 form {
   background-color: #fff;
   width: 100%;
   height: auto;
   padding: 20px;
+      font-family: 'Mulish', sans-serif;
+
   line-height: 30px;
   box-sizing: border-box;
 }
@@ -1970,7 +1973,6 @@ input[name="gift-type"] {
   form {
     width: 45%;
     float: right;
-    margin-top: 50px;
   }
   .header {
     width: 45%;

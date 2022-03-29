@@ -1914,6 +1914,30 @@ input[name="gift-type"] {
 .undefined-amount input:focus {
   outline: none;
 }
+
+
+.submit-donation {
+  display: block;
+  color: white;
+  background-color: #192b6c;
+  margin: 10px auto;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+}
+
+.submit-donation input{
+  background-color: #192b6c;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  width: 90%;
+}
+.submit-donation input:focus {
+  outline: none;
+}
+
+
 .amount:hover {
   background-color: #B50654;
 }

@@ -2716,11 +2716,17 @@ margin-top: -100px;
 
 
 
-
+#back{
+    background-color: #f0f0f0;
+}
 
 
 #pay{
-  
+  width: 60%;
+  padding-top: 200px;
+  display: block;
+
+  margin: 0 auto;
 }
 
 .row {

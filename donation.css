@@ -1463,6 +1463,7 @@ h1 {
 .textinfo{
   background-color: #f0f0f0;
   padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 #lefttext h2{
@@ -1861,15 +1862,15 @@ h1 {
 .header {padding: 20px;}
 
 form {
-  background-color: #fff;
+  background-color: #f0f0f0;
   width: 100%;
   height: auto;
   padding: 20px;
-      font-family: 'Mulish', sans-serif;
-
+  font-family: 'Mulish', sans-serif;
   line-height: 30px;
   box-sizing: border-box;
 }
+
 b {
   font-weight: 800;
 }

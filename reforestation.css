@@ -2669,7 +2669,7 @@ display: block;
   margin-right:auto;
   
   color:black;
-  border-bottom: 6px solid #2bcfc9;
+ 
 }
 
 
@@ -2695,7 +2695,7 @@ display: block;
 }
 
 #videoinfo1{
-  background-color: #a49e8d;
+  background-color: rgba(	221,	211, 	202,0.5);
   padding: 90px;
  
  
@@ -2735,8 +2735,8 @@ display: block;
   margin-left: auto;
   margin-right:auto;
   
-  color:#504136;
-  border-bottom: 6px solid #689689;
+  color:#689689;
+ 
 }
 
 

@@ -899,7 +899,8 @@ html{
 
 .send-button {
   margin-top: 15px;
-  height: 34px;
+ 
+  height: 45px;
   width: 400px;
   overflow: hidden;
   transition: all .2s ease-in-out;
@@ -908,12 +909,15 @@ html{
 .alt-send-button {
   width: 400px;
   height: 34px;
+  margin-bottom: 10px;
   transition: all .2s ease-in-out;
 }
 
 .send-text {
   display: block;
   margin-top: 10px;
+  padding-bottom: 10px;
+
   font-family: 'Mulish', sans-serif;
   letter-spacing: 2px;
 }

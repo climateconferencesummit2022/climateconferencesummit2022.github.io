@@ -2643,7 +2643,7 @@ display: block;
     	align-items: center;
     	color: white;
     	margin-top:30px;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #504136, #a49e8d);
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
   font-family: 'Rubik', sans-serif;
   transition: all ease 0.3s;
@@ -2695,7 +2695,7 @@ display: block;
 }
 
 #videoinfo1{
-  background-color: #e9f0ef;
+  background-color: #a49e8d;
   padding: 90px;
  
  
@@ -2710,9 +2710,9 @@ display: block;
     	align-items: center;
     	color: white;
     	margin-top:30px;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+   background: linear-gradient(135deg, #a49e8d, #504136);
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Mulish', sans-serif;
   transition: all ease 0.3s;
   
   margin-left: auto;
@@ -2728,21 +2728,21 @@ display: block;
   }
 
 #videoinfo1 h2{
-  font-family: 'Rubik', sans-serif;
+ font-family: 'Mulish', sans-serif;
   font-size: 50px;
   padding-bottom: 5px;
   font-weight: 800;
   margin-left: auto;
   margin-right:auto;
   
-  color:black;
-  border-bottom: 6px solid #2bcfc9;
+  color:#504136;
+  border-bottom: 6px solid #689689;
 }
 
 
 #videoinfo1 p{
   
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 20px;
   line-height: 50px;
   font-weight: 200;

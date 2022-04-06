@@ -2516,10 +2516,11 @@ flex: 2 0px;
   width: auto;
 
     	height: 80px;
-    	border-radius: 8px;
+    	border-radius: 12px;
     	display: flex;
     	justify-content: center;
     	align-items: center;
+  padding: 15px;
     	color: white;
   background-color: #504136;
   /*background: linear-gradient(135deg, #a49e82, #504136);*/

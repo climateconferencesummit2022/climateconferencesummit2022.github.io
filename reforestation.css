@@ -422,9 +422,16 @@ html{
   padding-top: 50px;
     padding-bottom: 80px;
 
+
+
   background-color: #7DB4A5;
 }
 
+
+.sounds{
+  display: block;
+  margin-left: 18%;
+}
 #lefttext4 h2{
   text-align: center;
 

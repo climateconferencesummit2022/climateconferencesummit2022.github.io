@@ -502,15 +502,18 @@ font-family: 'Roboto', sans-serif;  font-size: 40px;
     
     	border-radius: 20px;
       margin-bottom: .3vh;
+       background: #504136;
+    border: 2px solid #504136;
     	border:.15em solid #504136;
       padding: 10px 70px;
-    	color: #504136;
-   font-family: 'Mulish', sans-serif;'
+      color: white;
+    	
+   font-family: 'Mulish', sans-serif;
     }
 
 .test-btn:hover {
-    background: #504136;
-    border: 2px solid #504136;
+   color: #504136;
+  background: none;
     text-decoration: none;
   transition: all ease 0.3s;
     color: white;
@@ -2251,7 +2254,7 @@ flex: 2 0px;
   }
 }
 
-@media (max-width: 474px) {
+@media (max-width: 700px) {
   .image {
     height: 500px;
   }
@@ -2263,7 +2266,7 @@ flex: 2 0px;
     height: 450px;
   }
   .image4 {
-    height: 580px;
+    height: 600px;
   }
 }
 

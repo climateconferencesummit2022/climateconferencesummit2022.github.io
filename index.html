@@ -61,7 +61,7 @@
       <div class="topnav" id="myTopnav">
         <a style="color: #32b3a3" href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="schedule.html">Calendar</a>
+        <a href="schedule.html">Schedule</a>
         <div class="dropdown">
           <button class="dropbtn">
             Themes
@@ -72,19 +72,28 @@
             <a href="reforestation.html">Reforestation</a>
             <a href="pollution.html">Physical Pollution</a>
             <a href="transportation.html">Transportation</a>
+          <!--  <a href="cursorexperiment.html">test</a>-->
             <a href="plant.html" style="padding-bottom: 20px"
               >Sustainable Agriculture</a
             >
           </div>
         </div>
         <a href="blog.html">News Updates</a>
+        <a href="donation.html">Take Action</a>
         <a href="contact.html">Contact</a>
 
         <div class="loginstuff">
 
           <button id="modal-btn" class="butt">Register Now &#8594;</button>
+          
+          
+          
+          
 
           <div id="my-modal" class="modal">
+            
+            
+            
             <div class="modal-content">
               <div class="modal-header">
                 <span class="close"
@@ -94,8 +103,18 @@
 
               <div class="modal-body">
                 <h2>Register</h2>
+                
+                 <div id="thanks" style="display: none;">
+            <p style="font-size: 20px;">
+             Thanks for registering! See you soon!
+            </p>
+          </div>
+                
+                <div id="hide">
+                  
+              
                 <p>Please complete the form to register for our event.</p>
-                <div class="form">
+                <div class="form" >
                   <form>
                     <input
                       type="text"
@@ -108,14 +127,23 @@
                       name="username"
                       placeholder="Phone Number"
                     />
-                    <button>Submit</button>
+                    <button type='button' onclick="showDiv()">Submit</button>
                   </form>
                 </div>
+                    </div>
               </div>
             </div>
           </div>
 
           <script>
+            
+            
+          function showDiv() {
+            document.getElementById('thanks').style.display = "block";
+            document.getElementById('hide').style.display = "none";
+          }
+         
+            
             // Get DOM Elements
             const modal = document.querySelector("#my-modal");
             const modalBtn = document.querySelector("#modal-btn");
@@ -209,7 +237,35 @@
         <div class="col-lg-6"></div>
       </div>
     </div>
+    
+  <!--  <div class="burr" style="background-color: #ffffff">
+      <div class="analytic">
+   <div class="row no-gutters" id="2col">
+          
+          <table class = "tableclass">
+<tr class=" info">
+  <td colspan="4" style = "font-weight: bold;" >Conference Countdown</td>
+</tr>
+<tr class="info">
+  <td id="days">120</td>
+  <td id="hours">4</td>
+  <td id="minutes">12</td>
+  <td id="seconds">22</td>
+  </tr>
+  <tr>
+    <td>Days</td>
+  <td>Hours</td>
+  <td>Minutes</td>
+  <td>Seconds</td>
 
+  </tr>
+  </table>
+          
+
+      
+        </div>
+      </div>
+    </div>-->
     <div class="textinfo" id="scroll">
       <div class="row">
         <div class="col-lg-6" id="lefttext">
@@ -317,6 +373,10 @@
         <!--image card layout end-->
       </div>
     </section>
+    
+  
+
+
 
     <!---
          <div class="demo">
@@ -397,7 +457,7 @@
           <p style="font-size: 17px"></p>
           <a
             class="cht-btn"
-            href="chatbot.html"
+            href="chat2.html"
             target="_blank"
             onclick="window.open(this.href,'targetWindow',
                                    `toolbar=no,
@@ -406,8 +466,8 @@
                                     menubar=no,
                                     scrollbars=yes,
                                     resizable=yes,
-                                    width=550,
-                                    height=550`);
+                                    width=1500,
+                                    height=900`);
  return false;"
             >Try Out Our Interactive Demo!</a
           >
@@ -424,8 +484,7 @@
         </div>
       </div>
     </div>
-    
-    <div class="textinfo" style="padding-top: 120px !important;">
+     <div class="textinfo" style="padding-top: 120px !important;">
       <div class="row">
         <div class="col-md-6 col-md-pull-6" id="rightimage">
           <img
@@ -464,8 +523,7 @@
     <div class="test2-heading">
       <h1>Our Latest News and Updates</h1>
     </div>
-
-    <div id="blogs">
+<div id="blogs">
       <div class="container">
         <div class="card">
           <div class="card__header">
@@ -1117,8 +1175,8 @@ The scattering availability of emerging vaccines and problems concerning safety 
             >
           </div>
 
-          <div class="col-lg-5" id="righttext">
-            <h2>Contact Us</h2>
+          <div class="col-lg-5" id="lefttxt">
+            <h2 style="font-weight: 600">Contact Us</h2>
 
             <p>
               Have any questions about climate change and global warming?
@@ -1169,7 +1227,7 @@ The scattering availability of emerging vaccines and problems concerning safety 
             <div class="footer-col">
               <h4>event details</h4>
               <ul>
-                <li><a href="schedule.html">calendar</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="contact.html">contact us</a></li>
               </ul>
             </div>

@@ -2548,7 +2548,7 @@ margin-top: -200px;
   font-size: 40px;
   font-weight: 600;
   text-align: left;
-  margin-left: 20%;
+  margin-left: 10%;
   width: auto;
   border-bottom: 6px solid #689689;
 
@@ -2557,7 +2557,7 @@ margin-top: -200px;
 
 #lefttext p{
   font-size: 17px;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-right: 300px;
   justify-content:center;
   padding-bottom: 50px;

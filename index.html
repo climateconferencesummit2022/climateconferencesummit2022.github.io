@@ -104,7 +104,7 @@
               <div class="modal-body">
                 <h2>Register</h2>
                 
-                 <div id="thanks">
+                 <div id="thanks" style="display: none;">
             <p>
               thanks for registering
             </p>
@@ -112,7 +112,7 @@
                 
                 
                 <p>Please complete the form to register for our event.</p>
-                <div class="form">
+                <div class="form" id="hide">
                   <form>
                     <input
                       type="text"
@@ -125,7 +125,7 @@
                       name="username"
                       placeholder="Phone Number"
                     />
-                    <button>Submit</button>
+                    <button type='button' onclick="showDiv()">Submit</button>
                   </form>
                 </div>
               </div>
@@ -133,6 +133,14 @@
           </div>
 
           <script>
+            
+            
+          function showDiv() {
+            document.getElementById('thanks').style.display = "block";
+            document.getElementById('hide').style.display = "none";
+          }
+         
+            
             // Get DOM Elements
             const modal = document.querySelector("#my-modal");
             const modalBtn = document.querySelector("#modal-btn");

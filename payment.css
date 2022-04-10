@@ -2768,14 +2768,15 @@ margin-top: -100px;
 }
 
 .container {
-  background-color: #f2f2f2;
+ border: none;
   padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
   border-radius: 3px;
 }
 
 input[type=text] {
   width: 100%;
+    font-family: 'Mulish', sans-serif;
+
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid #ccc;
@@ -2784,6 +2785,8 @@ input[type=text] {
 
 label {
   margin-bottom: 10px;
+    font-family: 'Mulish', sans-serif;
+
   display: block;
 }
 

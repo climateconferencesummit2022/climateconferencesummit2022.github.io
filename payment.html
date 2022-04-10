@@ -198,8 +198,12 @@
   <div class="col-75">
     <div style="border: none; background-color: #f0f0f0;" class="container">
       <form action="/action_page.php">
+        
+        <div class="row" id="payment" style="display:none; text-align: center; padding-bottom: 40px;">
+           <h3>Thank you for your contribution!</h3>
+        </div>
       
-        <div class="row">
+        <div class="row" id="payed">
           <div class="col-50">
             <h3>Billing Address</h3>
             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
@@ -252,10 +256,8 @@
           
         </div>
 
-              
-              <a href="">
-        Pay Now
-      </a>
+                          <button type='button' onclick="payment()">Pay Now</button>
+
       </form>
 
     </div>
@@ -264,6 +266,14 @@
 </div>
 
       </div>
+    
+     <script>
+            
+          function payment() {
+            document.getElementById('payment').style.display = "block";
+            document.getElementById('payed').style.display = "none";
+          }
+    </script>
     
     
     <!-- footer -->

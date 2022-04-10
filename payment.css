@@ -2844,7 +2844,7 @@ span.price {
 }
 
 
-#pay a{
+#pay button{
   	display: block;
   margin: 0 auto;
   text-align: center;
@@ -2864,7 +2864,7 @@ span.price {
 
   font-size: 20px;
 }
-#pay a:hover {
+#pay button:hover {
   transform:scale(1.07);
     text-decoration: none;
   transition: all ease 0.3s;

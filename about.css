@@ -118,6 +118,8 @@ body {
   display: none;
 }
 
+
+
 .dropdown {
   float: left;
   font-family: 'Roboto', sans-serif;
@@ -738,6 +740,8 @@ html {
 .custom-shape-divider-bottom-1612574261 .shape-fill {
   fill: #f0f0f0;
 }
+
+
 
 /* ==================================================
       Services Details Section
@@ -2080,14 +2084,14 @@ h1 {
 
 @media (max-width: 474px) {
   .image {
-    height: 500px;
+    height: 550px;
   }
 
   .image2 {
-    height: 530px;
+    height: 680px;
   }
   .image3 {
-    height: 450px;
+    height: 500px;
   }
   .image4 {
     height: 450px;

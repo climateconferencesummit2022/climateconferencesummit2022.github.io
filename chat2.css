@@ -6,7 +6,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background: ##362f2a url(https://www.toptal.com/designers/subtlepatterns/patterns/nami.png);
+	background: #362f2a url(https://www.toptal.com/designers/subtlepatterns/patterns/nami.png);
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: -0.23px;
 }
@@ -89,7 +89,7 @@ html, body {
 	padding: 1rem;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
-	background-color: #fff;
+	background-color: #fafafa;
 	flex-direction: column-reverse;
 	overflow-y: auto;
 }
@@ -154,7 +154,7 @@ html, body {
 	float: right;
 	text-align: right;
 	margin: 0 1rem 0 0;
-	background-color: #fafafa;
+	background-color: #ebe5e1;
 }
 .chatApp__convMessageItem--right .chatApp__convMessageValue::after {
 	content: '';

@@ -1529,18 +1529,17 @@ h1 {
   background-color: #f0f0f0;
   padding-top: 10px;
   padding-bottom: 90px;
+   
+   
+}
+.row{
+  
+ width: auto;
+  justify-content:center;
+ 
 }
 
-#lefttext6 h2{
-  margin-left: 20%;
-    
-}
 
-
-#lefttext6 p{
-  width: 70%;
-    
-}
 
 
 
@@ -1548,18 +1547,22 @@ h1 {
    font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
+  text-align:center;
+  border-bottom: 6px solid #689689;
  
 }
 
 #lefttext6 p{
   font-size: 17px;
-  margin-left: 20%;
-  margin-right: 300px;
+ margin-left: 30px;
+  margin-right: 30px;
+ 
   justify-content:center;
   padding-bottom: 50px;
   margin-top: 20px;
   line-height:35px;
   font-family: 'Mulish', sans-serif;
+  text-align: center;
 } 
 
 

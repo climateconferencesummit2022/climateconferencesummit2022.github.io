@@ -2834,3 +2834,32 @@ span.price {
     margin-bottom: 20px;
   }
 }
+
+
+button{
+  width: 50%;
+
+    	height: 50px;
+    	border-radius: 12px;
+    	display: block;
+  margin: 0 auto;
+    	justify-content: center;
+    	align-items: center;
+  
+  padding: 15px;
+    	color: white;
+  background-color: #504136;
+  /*background: linear-gradient(135deg, #a49e82, #504136);*/
+  font-family: 'Mulish', sans-serif;
+  transition: all ease 0.3s;
+  margin-left: 60px;
+  margin-top: 30px;
+
+  font-size: 25px;
+}
+button:hover {
+  transform:scale(1.07);
+    text-decoration: none;
+  transition: all ease 0.3s;
+    color: white;
+  }

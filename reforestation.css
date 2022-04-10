@@ -445,6 +445,19 @@ html{
   
 }
 
+#lefttext4 h4{
+  text-align: center;
+
+  font-family: 'Mulish', sans-serif;
+  font-size: 25px;
+  color: white;
+  padding-bottom: 5px;
+  font-weight: 600;
+  
+  width: auto;
+  
+}
+
 #lefttext4 p{
   width: 70%;
 display: block;
@@ -2619,7 +2632,7 @@ display: block;
 }
 
 .custom-shape-divider-top-1644035655 .shape-fill {
-    fill: #7DB4A5;
+    fill: #eee9e5;
 }
 
 
@@ -2642,7 +2655,7 @@ display: block;
 }
 
 .cht-btn{
-  width: 250px;
+  width: 280px;
     	height: 80px;
     	border-radius: 15px;
     	display: flex;
@@ -2709,7 +2722,7 @@ display: block;
 }
 
 .cht-btn{
-  width: 250px;
+  width: 280px;
     	height: 80px;
     	border-radius: 15px;
     	display: flex;
@@ -2717,7 +2730,7 @@ display: block;
     	align-items: center;
     	color: white;
     	margin-top:30px;
-   background: linear-gradient(135deg, #a49e8d, #504136);
+   background: linear-gradient(135deg,#736154, #504136);
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
   font-family: 'Mulish', sans-serif;
   transition: all ease 0.3s;

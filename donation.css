@@ -1572,9 +1572,9 @@ h1 {
 
 .analytic{
   box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
-  width: 85%;
+  width: 70%;
    background-color: white;
-   
+   border-radius: 20px;
    padding-top: 60px;
    padding-bottom: 80px;
   
@@ -1587,7 +1587,7 @@ h1 {
 
 .analytic:hover{
   
-  transform: scale(1.02);
+  background-color: #f2f2f2;
   transition: 350ms all ease-in-out;
 
   
@@ -2032,7 +2032,6 @@ h1 {
 
 #donate form {
   background-color: #f0f0f0;
-  width: 100%;
   height: auto;
   padding: 20px;
   font-family: 'Mulish', sans-serif;
@@ -2121,6 +2120,11 @@ a {
 .amount:active {
   background-color: #192b6c;
 }
+
+ #donate form {
+    width: 45%;
+    float: right;
+  }
 @media screen and (min-width: 480px) {
   .amount-options {
     display: flex;
@@ -2140,10 +2144,7 @@ a {
   }
 }
 @media screen and (min-width: 940px) {
-  #donate form {
-    width: 45%;
-    float: right;
-  }
+ 
   .header {
     width: 45%;
     float: left;
@@ -2158,3 +2159,5 @@ a {
     font-size: 40px;
   }
 }
+
+

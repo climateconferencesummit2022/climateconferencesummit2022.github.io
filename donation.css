@@ -1971,7 +1971,7 @@ a {
   }
 }
 @media screen and (min-width: 940px) {
-  form {
+  #donate form {
     width: 45%;
     float: right;
   }

@@ -1489,6 +1489,7 @@ margin-top: -100px;
 
 .bottomfooter{
   background-color: #3d3128;
+
 }
 
 .bottomfooter h2{
@@ -2836,26 +2837,26 @@ span.price {
 }
 
 
-button{
+#pay button{
   	display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 40%;
 
-    	height: 50px;
     	border-radius: 12px;
     
     	
   
-  padding: 15px;
+  padding: 10px;
     	color: white;
   background-color: #504136;
   /*background: linear-gradient(135deg, #a49e82, #504136);*/
   font-family: 'Mulish', sans-serif;
   transition: all ease 0.3s;
+  margin-top: 30px;
 
-  font-size: 25px;
+  font-size: 20px;
 }
-button:hover {
+#pay button:hover {
   transform:scale(1.07);
     text-decoration: none;
   transition: all ease 0.3s;

@@ -1640,7 +1640,9 @@ text-align:center;
     
 }
 
-
+#righttext p{
+  overflow: hidden;
+}
 #righttext h2{
   text-align: center;
 

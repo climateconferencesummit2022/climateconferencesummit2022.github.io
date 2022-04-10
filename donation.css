@@ -1558,7 +1558,7 @@ h1 {
   margin-right: 30px;
  
   justify-content:center;
-  padding-bottom: 50px;
+ 
   margin-top: 20px;
   line-height:35px;
   font-family: 'Mulish', sans-serif;
@@ -1575,7 +1575,7 @@ h1 {
   width: 70%;
    background-color: white;
    border-radius: 20px;
-   padding-top: 60px;
+   padding-top: 30px;
    padding-bottom: 80px;
   
    margin: 0 auto;

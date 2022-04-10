@@ -268,7 +268,7 @@ class ChatRoom extends React.Component {
     this.state = {
       messages: [{
         id: 1,
-        sender: 'Ioan',
+        sender: 'Brian',
         senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20112.png?v=1648006006029',
         message: 'Hello!'
       }, {
@@ -278,7 +278,7 @@ class ChatRoom extends React.Component {
         message: 'Hey!'
       }, {
         id: 3,
-        sender: 'Ioan',
+        sender: 'Brian',
         senderAvatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20112.png?v=1648006006029',
         message: 'Are you enjoying CC22?'
       }, {
@@ -350,7 +350,7 @@ class ChatRoom extends React.Component {
     /* user details - can add as many users as desired */
 
     users[0] = {
-      name: 'Ioan',
+      name: 'Brian',
       avatar: 'https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20112.png?v=1648006006029'
     };
     users[1] = {

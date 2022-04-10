@@ -2201,7 +2201,7 @@ h1 {
 .skill_row{
 	background: #a49e8d;
 	height:15px;
-	border-radius: 2px;
+	border-radius: 10px;
 	position: relative;
   padding-bottom: -10px;
   padding-top: 50px;
@@ -2223,7 +2223,7 @@ h1 {
 	top: 0;
 	height: 100%;
   
-	border-radius: 2px;
+	border-radius: 10px;
 	z-index: 1;
 	/*transition: all 0.8s ease-out;
 	overflow: hidden;*/
